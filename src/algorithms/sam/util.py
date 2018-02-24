@@ -1,6 +1,4 @@
-import math.log as log
-import math.sqrt as sqrt
-import math.pi as pi
+from math import log,sqrt,pi
 
 # corresponds to avk() in original SAM code
 # not sure why they do it differently, this is what's in
