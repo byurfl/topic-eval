@@ -24,6 +24,8 @@ def bessel_approx(v, z):
 
     return -log(sqrt(2*pi*v)) + (v*eta) - (0.25*log(alpha))
 
+def avk(v,z):
+    return bessel_approx(v,z)
 
 def l2_normalize(data):
     arr_data = np.asarray(data)
