@@ -27,7 +27,6 @@ class SAM:
         self.alpha = np.random.rand(self.num_topics, self.num_docs)
         self.k0 = 50.0
         self.k = 500.0
-
         # initialize variational parameters
         self.vAlpha = np.random.rand(self.num_topics, self.num_docs)
         self.vMu = util.l2_normalize(np.random.rand(self.vocab_size, self.num_topics))
@@ -45,8 +44,40 @@ class SAM:
 
         return (A_V_xi * A_V_k0 * self.xi * vM_dot_vMu) + (self.k * sum_rhos)
 
-    def do_update_vMu(self, LAMBDA):
-        pass
+    def vMu_gradient(self, A_V_xi, A_V_k0):
+        A_V_xi_squared = A_V_xi ** 2
+        squared_norms = util.expected_squared_norms(A_V_xi, self.vMu, self.vAlpha)
+        vAlpha0s = np.sum(self.vAlpha, axis=0)
+
+        first_part = np.dot(self.documents, (self.vAlpha * A_V_xi / util.make_row_vector(vAlpha0s * np.sqrt(squared_norms))).T)
+        doc_weights = A_V_xi / vAlpha0s / (2 * squared_norms ** (3.0/2.0)) * (self.vAlpha * np.dot(self.vMu.T, self.documents)).sum(axis=0).T
+
+        second_doc_weights = 2*(1-A_V_xi_squared) / (vAlpha0s*(vAlpha0s+1.0))
+        second_part = np.sum(doc_weights * second_doc_weights) * self.vMu
+
+        third_doc_weights = doc_weights * 2*A_V_xi_squared / (vAlpha0s*(vAlpha0s+1.0))
+        third_part = np.dot(self.vMu,np.dot(self.vAlpha * util.make_row_vector(third_doc_weights), self.vAlpha.T))
+
+        document_sum = first_part - second_part - third_part
+        return util.make_col_vector(A_V_xi * A_V_k0 * self.xi * self.vM) + self.k * document_sum
+
+    def vMu_gradient_tan(self, A_V_xi, A_V_k0):
+        gradient = self.vMu_gradient(A_V_xi, A_V_k0)
+        for topic in range(self.num_topics):
+            vMu_topic = self.vMu[:,topic]
+            gradient[:,topic] = gradient[:,topic] - np.dot(vMu_topic, np.dot(vMu_topic.T, gradient[:,topic]))
+        return gradient
+
+    def do_update_vMu(self, LAMBDA, A_V_xi, A_V_k0):
+        vMu_squared = np.sum(self.vMu ** 2, axis=0)
+        def f():
+            return self.vMu_likelihood(A_V_xi, A_V_k0) - LAMBDA*np.sum((vMu_squared - 1.0) ** 2)
+
+        def f_prime():
+            return self.vMu_gradient_tan() - LAMBDA*np.sum((vMu_squared - 1.0) * (2*self.vMu))
+
+        util.optimize(f, f_prime, util.Parameter(self, 'vMu'), bounds=(-1.0,1.0))
+        self.vMu = util.l2_normalize(self.vMu)
 
 
     def update_free_params(self):
@@ -73,9 +104,10 @@ class SAM:
 
     def do_E(self):
         self.update_free_params()
-        self.update_model_params()
 
     def do_M(self):
+        self.update_model_params()
+        # TODO: return something meaningful
         return 0
 
 
