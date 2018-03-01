@@ -112,16 +112,33 @@ class SAM:
         
     def update_xi(self):
 
-    
+   
     def update_alpha(self):
         
+    def xi_likelihood(self):
+        a_xi = bessel_approx(self.vocab_size, self.xi)
+        a_k0 = bessel_approx(self.vocab_size, self.k0)
+        #sum_of_rhos = sum(self.rho_batch())
+        sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
+        
+        return a_xi*self.xi * (a_k0*np.dot(self.vM.T, np.sum(self.vMu, axis=1)) - self.T) \
+            + self.k1*sum_rhos
 
+    def xi_gradient_likelihood(self):
+        a_xi = bessel_approx(self.V, self.xi)
+        a_prime_xi = deriv_avk(self.V, self.xi)
+        a_k0 = bessel_approx(self.V, self.k0)
+
+        sum_over_documents = sum(self.deriv_rho_xi())
+        return (a_prime_xi*self.xi + a_xi) * (a_k0*np.dot(self.vm.T, np.sum(self.vmu, axis=1)) - self.T) \
+            + self.k1*sum_over_documents
+        
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', '--corpus', required=True, help='Path to the location of your corpus. ' +
                                                               'This can be either a directory or a single file.')
-    parser.add_argument('-s', '--stopwords', help='Optional path to a file containing stopwords.')
+    parser.add_argument('-s', '--stopwords', help='Optional path to a file containing stopwords.')u
     args = parser.parse_args()
 
     if args.stopwords:
