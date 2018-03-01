@@ -1,5 +1,15 @@
 from math import log,sqrt,pi
+from scipy.optimize import fmin_tnc
 import numpy as np
+
+
+class Parameter:
+    def __init__(self, model, item_name):
+        item = getattr(model, item_name)
+        self.is_scalar = np.isscalar(item)
+        self.shape = item.shape if not self.is_scalar else None
+        self.model = model
+        self.name = item_name
 
 
 # corresponds to avk() in original SAM code
@@ -39,14 +49,14 @@ def make_col_vector(matrix):
 
 def expected_squared_norms(A_V_xi, vMu, vAlpha):
     vAlpha0s = np.sum(vAlpha, axis=0)
-    vAlphas_squared = np.sum(vAlpha ** 2, axis=0)
-    A_V_xi_squared = A_V_xi ** 2
+    vAlphas_squared = np.sum(np.square(vAlpha), axis=0)
+    A_V_xi_squared = np.square(A_V_xi)
 
     vMu_squared = np.dot(vMu.T, vMu)
-    vMu_vAlpha_squared = np.sum(np.dot(vAlpha.T, vMu_squared).T * vAlpha, axis=0)
+    vMu_vAlpha_squared = np.sum(np.multiply(np.dot(vAlpha.T, vMu_squared).T, vAlpha), axis=0)
 
-    result = (vAlpha0s + (1.0 - A_V_xi_squared) * vAlphas_squared + A_V_xi_squared * vMu_vAlpha_squared) / \
-             (vAlpha0s * (vAlpha0s + 1.0))
+    result = (vAlpha0s + np.multiply((1.0 - A_V_xi_squared), vAlphas_squared) + np.multiply(A_V_xi_squared, vMu_vAlpha_squared)) / \
+             np.multiply(vAlpha0s, vAlpha0s + 1.0)
 
     return result
 
@@ -55,4 +65,34 @@ def calc_rhos(A_V_xi, vMu, vAlpha, docs):
     vAlpha0s = np.sum(vAlpha, axis=0)
     vMu_docs = vMu.T.dot(docs)
 
-    return np.sum(vAlpha * make_row_vector(1.0 / vAlpha0s / np.sqrt(expecteds)) * vMu_docs, axis=0) * A_V_xi
+    return np.multiply(np.sum(np.multiply(np.multiply(vAlpha, make_row_vector(1.0 / vAlpha0s / np.sqrt(expecteds))), vMu_docs), axis=0), A_V_xi)
+
+def ravel(matrix):
+    return np.asarray(matrix).ravel()
+
+def unravel(item):
+    # item should be an instance of the Parameter class defined above
+    if item.is_scalar:
+        return np.asarray(item).item()
+    else:
+        return np.asarray(item).reshape(item.shape)
+
+def optimize(function, func_deriv, param, bounds, disp=0, maxevals=150):
+    x0 = ravel(getattr(param.model, param.name))
+    bounds = [bounds] * len(x0)
+
+    def get_negative_func_and_func_deriv(param_list):
+        # save away current value
+        orig_value = getattr(param.model, param.name)
+        # set new value
+        setattr(param.model, param.name, unravel(param_list))
+        func_value = -function()
+        func_deriv_value = ravel(-func_deriv())
+        setattr(param.model, param.name, orig_value)
+        return func_value, func_deriv_value
+
+    old_function_value = function()
+    result,_,_ = fmin_tnc(function, x0=x0, bounds=bounds, disp=disp, maxfun=maxevals)
+    setattr(param.model, param.name, unravel(result))
+    new_function_value = function()
+    print("Optimized parameter: {} with improvement {}".format(param.name, new_function_value - old_function_value))
