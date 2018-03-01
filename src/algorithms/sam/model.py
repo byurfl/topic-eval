@@ -67,7 +67,12 @@ class SAM:
 
     def do_M(self):
         return 0
+        
+    def update_xi(self):
 
+    
+    def update_alpha(self):
+        
 
 if __name__ == "__main__":
     import argparse
