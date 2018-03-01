@@ -50,12 +50,12 @@ class Reader:
                 self.add_to_vocab(t)
 
     def convert_docs_to_matrix(self):
-        self.documents = np.zeros(shape=[len(self.doc_tokens), len(self.vocabulary)])
+        self.documents = np.zeros(shape=[len(self.vocabulary), len(self.doc_tokens)])
         doc_ids = sorted(self.doc_tokens.keys())
         doc_idx = 0
         for doc_id in doc_ids:
             for t in self.doc_tokens[doc_id]:
-                self.documents[doc_idx][self.terms_to_indices[t]] += 1
+                self.documents[self.terms_to_indices[t]][doc_idx] += 1
             doc_idx += 1
 
     def read_corpus(self, corpus):
