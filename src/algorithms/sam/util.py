@@ -26,3 +26,31 @@ def l2_normalize(data):
     else:
         raise Exception('Data may only have 1 or 2 dimensions')
 
+def make_vector(matrix):
+    return matrix.reshape(matrix.size)
+
+def make_row_vector(matrix):
+    return matrix.reshape(1, matrix.size)
+
+def make_col_vector(matrix):
+    return matrix.reshape((matrix.size, 1))
+
+def expected_squared_norms(A_V_xi, vMu, vAlpha):
+    vAlpha0s = np.sum(vAlpha, axis=0)
+    vAlphas_squared = np.sum(vAlpha ** 2, axis=0)
+    A_V_xi_squared = A_V_xi ** 2
+
+    vMu_squared = np.dot(vMu.T, vMu)
+    vMu_vAlpha_squared = np.sum(np.dot(vAlpha.T, vMu_squared).T * vAlpha, axis=0)
+
+    result = (vAlpha0s + (1.0 - A_V_xi_squared) * vAlphas_squared + A_V_xi_squared * vMu_vAlpha_squared) / \
+             (vAlpha0s * (vAlpha0s + 1.0))
+
+    return result
+
+def calc_rhos(A_V_xi, vMu, vAlpha, docs):
+    expecteds = expected_squared_norms(A_V_xi, vMu, vAlpha)
+    vAlpha0s = np.sum(vAlpha, axis=0)
+    vMu_docs = vMu.T.dot(docs)
+
+    return np.sum(vAlpha * make_row_vector(1.0 / vAlpha0s / np.sqrt(expecteds)) * vMu_docs, axis=0) * A_V_xi

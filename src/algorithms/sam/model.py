@@ -10,7 +10,6 @@ class SAM:
         # epsilon for a few iterations, stop topic discovery
         self.CONVERGENCE = False
         self.EPSILON = 0.001
-        self.LAMBDA = 0.0001
 
         self.reader = Reader(stopwords)
         self.reader.read_corpus(corpus)
@@ -40,6 +39,16 @@ class SAM:
         self.m = util.l2_normalize(np.sum(self.vMu, axis=1))
         # self.alpha =
 
+    def vMu_likelihood(self, A_V_xi, A_V_k0):
+        sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
+        vM_dot_vMu = np.dot(self.vM.T, np.sum(self.vMu, axis=1))
+
+        return (A_V_xi * A_V_k0 * self.xi * vM_dot_vMu) + (self.k * sum_rhos)
+
+    def do_update_vMu(self, LAMBDA):
+        pass
+
+
     def update_free_params(self):
         A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
         A_V_k0 = util.bessel_approx(self.vocab_size, self.k0)
@@ -47,7 +56,8 @@ class SAM:
 
         # self.vAlpha =
 
-        # self.vMu =
+        LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0)
+        self.vMu = self.do_update_vmu(LAMBDA)
 
         self.vM = util.l2_normalize(self.k0 * A_V_k0 * self.m +
                                     A_V_xi * A_V_k0 * self.xi *
