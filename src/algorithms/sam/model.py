@@ -24,7 +24,7 @@ class SAM:
 
         self.xi = 500.0
         self.m = util.l2_normalize(np.random.rand(self.vocab_size))
-        self.alpha = np.random.rand(self.num_topics, self.num_docs)
+        self.alpha = np.random.rand(self.num_topics)
         self.k0 = 50.0
         self.k = 500.0
         # initialize variational parameters
