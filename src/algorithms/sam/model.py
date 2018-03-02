@@ -126,12 +126,39 @@ class SAM:
 
     def xi_gradient_likelihood(self):
         a_xi = bessel_approx(self.V, self.xi)
-        a_prime_xi = deriv_avk(self.V, self.xi)
+        a_prime_xi = bessel_approx_derivative(self.V, self.xi)
         a_k0 = bessel_approx(self.V, self.k0)
 
         sum_over_documents = sum(self.deriv_rho_xi())
         return (a_prime_xi*self.xi + a_xi) * (a_k0*np.dot(self.vm.T, np.sum(self.vmu, axis=1)) - self.T) \
             + self.k1*sum_over_documents
+
+    """ Batch gradient of Rho_d's wrt xi. """            
+    def rho_xi_grad(self):
+        a_xi = bessel_approx(self.V, self.xi)
+        deriv_a_xi = bessel_approx_derivative(self.V, self.xi)
+        vAlpha0s = np.sum(self.vAlpha, axis=0)
+        esns = self.e_squared_norm_batch()
+        deriv_e_squared_norm_xis  = self.grad_e_squared_norm_xi()
+        
+        vMuTimesVAlphaDotDoc = np.sum(self.vAlpha * np.dot(self.vmu.T, self.v), axis=0)
+
+        deriv = deriv_a_xi * vMuTimesVAlphaDotDoc / (vAlpha0s * np.sqrt(esns)) \
+            - a_xi/2 * vMuTimesVAlphaDotDoc / (vAlpha0s * esns**1.5) * deriv_e_squared_norm_xis
+        return deriv
+
+    """ Gradient of E[norms^2] wrt xi """
+    def e_squared_norm_xi_grad(self):
+
+        a_xi = bessel_approx(self.V, self.xi)
+        deriv_a_xi = bessel_approx_derivative(self.V, self.xi)
+
+        vAlpha0s = np.sum(self.vAlpha, axis=0)
+        sum_vAlphas_squared = np.sum(self.vAlpha**2, axis=0)
+        vMuVAlphaVMuVAlpha = np.sum(np.dot(self.vAlpha.T, np.dot(self.vmu.T, self.vmu)).T * self.vAlpha, axis=0)
+        gradient = 2*a_xi*deriv_a_xi*(vMuVAlphaVMuVAlpha - sum_vAlphas_squared) / (vAlpha0s * (vAlpha0s + 1))
+        return gradient
+
         
 if __name__ == "__main__":
     import argparse
