@@ -103,14 +103,16 @@ def calc_rhos(A_V_xi, vMu, vAlpha, docs):
 def ravel(matrix):
     return np.asarray(matrix).ravel()
 
-def unravel(item):
-    # item should be an instance of the Parameter class defined above
-    if item.is_scalar:
+def unravel(param, item):
+    # param should be an instance of the Parameter class defined above
+    # item should be a new value for the param
+    if param.is_scalar:
         return np.asarray(item).item()
     else:
-        return np.asarray(item).reshape(item.shape)
+        return np.asarray(item).reshape(param.shape)
 
 def optimize(function, func_deriv, param, bounds, disp=0, maxevals=150):
+    print("Optimizing parameter: {}".format(param.name))
     x0 = ravel(getattr(param.model, param.name))
     bounds = [bounds] * len(x0)
 
@@ -118,14 +120,15 @@ def optimize(function, func_deriv, param, bounds, disp=0, maxevals=150):
         # save away current value
         orig_value = getattr(param.model, param.name)
         # set new value
-        setattr(param.model, param.name, unravel(param_list))
+        setattr(param.model, param.name, unravel(param, param_list))
         func_value = -function()
         func_deriv_value = ravel(-func_deriv())
         setattr(param.model, param.name, orig_value)
         return func_value, func_deriv_value
 
     old_function_value = function()
-    result,_,_ = fmin_tnc(function, x0=x0, bounds=bounds, disp=disp, maxfun=maxevals)
-    setattr(param.model, param.name, unravel(result))
+    result,evals,rc = fmin_tnc(get_negative_func_and_func_deriv, x0=x0, bounds=bounds, disp=disp, maxfun=maxevals)
+    setattr(param.model, param.name, unravel(param, result))
     new_function_value = function()
-    print("Optimized parameter: {} with improvement {}".format(param.name, new_function_value - old_function_value))
+    print("Optimized parameter: {} with improvement of {}".format(param.name, new_function_value - old_function_value))
+    print("Minimizer returned code {} after {} iterations".format(rc, evals))
