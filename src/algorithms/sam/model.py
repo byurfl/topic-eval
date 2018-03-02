@@ -1,6 +1,7 @@
 import src.algorithms.sam.util as util
 from src.algorithms.sam.reader import Reader
 import numpy as np
+from scipy.special import gammaln, psi, polygamma
 
 
 class SAM:
@@ -108,20 +109,41 @@ class SAM:
         self.update_model_params()
         # TODO: return something meaningful
         return 0
-           
-    def update_alpha(self):
-        pass
+
+
+    ####
+    """ Alpha """
+    ####
         
+    def update_alpha(self):
+        util.optimize(alpha_likelihood(), alpha_likelihood_gradient(), 'alpha')
+        
+    def alpha_likelihood(self):
+        alpha0 = np.sum(self.alpha)
+
+        psi_vAlpha = psi(self.vAlpha)
+        psi_vAlpha0s = psi(np.sum(self.vAlpha, axis=0))
+
+        likelihood = np.sum( ascolvector(self.alpha - 1) * psi_vAlpha ) \
+                     - (alpha0 - self.T)*np.sum(psi_vAlpha0s) \
+                     + self.num_docs*gammaln(alpha0) \
+                     - self.num_docs*np.sum(gammaln(self.alpha))
+        return likelihood
+
+    def alpha_likelihood_gradient(self):
+        alpha0 = np.sum(self.alpha)
+        valpha0s = np.sum(self.vAlpha, axis=0)
+
+        return np.sum(psi(self.vAlpha), axis=1) - np.sum(psi(valpha0s)) \
+            + self.num_docs*psi(alpha0) - self.num_docs*psi(self.alpha)
         
     ####
     """ Xi """
     ####
+    
     def update_xi(self):
         util.optimize(xi_likelihood(), xi_likelihood_gradient(), 'xi')
    
-    def update_alpha(self):
-        pass
-
     def xi_likelihood(self):
         a_xi = util.bessel_approx(self.vocab_size, self.xi)
         a_k0 = util.bessel_approx(self.vocab_size, self.k0)
@@ -131,7 +153,7 @@ class SAM:
         return a_xi*self.xi * (a_k0*np.dot(self.vM.T, np.sum(self.vMu, axis=1)) - self.T) \
             + self.k1*sum_rhos
 
-    def xi_gradient_likelihood(self):
+    def xi_likelihood_gradient(self):
         a_xi = util.bessel_approx(self.V, self.xi)
         a_prime_xi = util.bessel_approx_derivative(self.V, self.xi)
         a_k0 = util.bessel_approx(self.V, self.k0)
