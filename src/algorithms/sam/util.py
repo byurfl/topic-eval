@@ -23,10 +23,33 @@ def bessel_approx(v, z):
     eta = sqrt(alpha) + log(ratio_z_v) - log(1 + sqrt(alpha))
 
     return -log(sqrt(2*pi*v)) + (v*eta) - (0.25*log(alpha))
-
+    #return -log(sqrt(2*pi*v)) + (v*(sqrt(1 + z / v*z / v) + log(z / v) - log(1 + sqrt(1 + z / v*z / v)))) - (0.25*log(1 + z / v*z / v))
+    
 def avk(v,z):
     return bessel_approx(v,z)
+"""    
+    assert np.isscalar(v)
+    assert np.isscalar(k)
+    return (np.sqrt((v / k) ** 2 + 4) - v / k) / 2.0
+"""
 
+def bessel_approx_derivative(v,z):
+    #-log(sqrt(2*pi*v)) + (v*eta) - (0.25*log(alpha))
+    return (v * sqrt(z**2/v**2 + 1))/z - (0.5 * z)/(v**2 + z**2)
+#https://www.wolframalpha.com/input/?i=derivative+of+-log(sqrt(2*pi*v))+%2B+(v*(sqrt(1+%2B+z+%2F+v*z+%2F+v)+%2B+log(z+%2F+v)+-+log(1+%2B+sqrt(1+%2B+z+%2F+v*z+%2F+v))))+-+(0.25*log(1+%2B+z+%2F+v*z+%2F+v))+wrt+z
+
+def avk_derivative(v, k):
+    return bessel_approx_derivative(v,k)
+
+    
+"""
+    #Derivative of the VMF mean resultant length wrt kappa.    
+    #a = AvK(v,k);
+    #deriv = 1-a^2 - (v-1)/k*a;
+    #return -1/2/(v^2/k^2+4)^(1/2)*v^2/k^3+1/2*v/k^2
+    return -0.5 / (v**2/k**2+4)**0.5 * v**2/k**3 + 0.5*v/k**2
+"""
+    
 def l2_normalize(data):
     arr_data = np.asarray(data)
     if len(arr_data.shape) == 1:
