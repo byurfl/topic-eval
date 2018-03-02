@@ -121,11 +121,7 @@ class SAM:
    
     def update_alpha(self):
         pass
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> 1dcadb376598723a78e23fd451d89a1b07a26dac
     def xi_likelihood(self):
         a_xi = util.bessel_approx(self.vocab_size, self.xi)
         a_k0 = util.bessel_approx(self.vocab_size, self.k0)
