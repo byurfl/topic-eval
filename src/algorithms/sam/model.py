@@ -117,12 +117,7 @@ class SAM:
     """ Xi """
     ####
     def update_xi(self):
-<<<<<<< HEAD
         util.optimize(xi_likelihood(), xi_likelihood_gradient(), 'xi')
-
-=======
-        pass
-
    
     def update_alpha(self):
         pass
