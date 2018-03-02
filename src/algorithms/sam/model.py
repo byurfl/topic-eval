@@ -17,7 +17,7 @@ class SAM:
         self.vocabulary = self.reader.vocabulary
         self.vocab_size = len(self.vocabulary)
         self.documents = self.reader.documents
-        self.num_docs = self.documents.shape[0]
+        self.num_docs = self.documents.shape[1]
 
         # initialize model hyperparameters
         self.num_topics = topics
@@ -74,7 +74,7 @@ class SAM:
             return self.vMu_likelihood(A_V_xi, A_V_k0) - LAMBDA*np.sum((vMu_squared - 1.0) ** 2)
 
         def f_prime():
-            return self.vMu_gradient_tan() - LAMBDA*np.sum((vMu_squared - 1.0) * (2*self.vMu))
+            return self.vMu_gradient_tan(A_V_xi, A_V_k0) - LAMBDA*np.sum((vMu_squared - 1.0) * (2*self.vMu))
 
         util.optimize(f, f_prime, util.Parameter(self, 'vMu'), bounds=(-1.0,1.0))
         self.vMu = util.l2_normalize(self.vMu)
@@ -88,32 +88,31 @@ class SAM:
         # self.vAlpha =
 
         LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0)
-        self.vMu = self.do_update_vmu(LAMBDA)
+        self.vMu = self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0)
 
         self.vM = util.l2_normalize(self.k0 * A_V_k0 * self.m +
                                     A_V_xi * A_V_k0 * self.xi *
-                                    topic_mean_sum + 2 * self.LAMBDA * self.vM)
+                                    topic_mean_sum + 2 * LAMBDA * self.vM)
 
-    def do_EM(self):
-        old_result = 0
-        while not self.CONVERGENCE:
+    def do_EM(self, max_iterations=100):
+        for _ in range(max_iterations):
             self.do_E()
-            new_result = self.do_M()
-            if new_result - old_result < self.EPSILON:
-                self.CONVERGENCE = True
+            self.do_M()
 
     def do_E(self):
+        print("Doing expectation step of EM process...")
         self.update_free_params()
 
     def do_M(self):
+        print("Doing maximization step of EM process...")
         self.update_model_params()
-        # TODO: return something meaningful
-        return 0
         
     def update_xi(self):
+        pass
 
    
     def update_alpha(self):
+        pass
         
     def xi_likelihood(self):
         a_xi = bessel_approx(self.vocab_size, self.xi)
@@ -138,7 +137,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', '--corpus', required=True, help='Path to the location of your corpus. ' +
                                                               'This can be either a directory or a single file.')
-    parser.add_argument('-s', '--stopwords', help='Optional path to a file containing stopwords.')u
+    parser.add_argument('-s', '--stopwords', help='Optional path to a file containing stopwords.')
     args = parser.parse_args()
 
     if args.stopwords:
