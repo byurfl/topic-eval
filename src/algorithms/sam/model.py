@@ -88,7 +88,7 @@ class SAM:
         # self.vAlpha =
 
         LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0)
-        self.vMu = self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0)
+        self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0)
 
         self.vM = util.l2_normalize(self.k0 * A_V_k0 * self.m +
                                     A_V_xi * A_V_k0 * self.xi *
@@ -115,8 +115,8 @@ class SAM:
         pass
         
     def xi_likelihood(self):
-        a_xi = bessel_approx(self.vocab_size, self.xi)
-        a_k0 = bessel_approx(self.vocab_size, self.k0)
+        a_xi = util.bessel_approx(self.vocab_size, self.xi)
+        a_k0 = util.bessel_approx(self.vocab_size, self.k0)
         #sum_of_rhos = sum(self.rho_batch())
         sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
         
@@ -124,9 +124,9 @@ class SAM:
             + self.k1*sum_rhos
 
     def xi_gradient_likelihood(self):
-        a_xi = bessel_approx(self.V, self.xi)
-        a_prime_xi = bessel_approx_derivative(self.V, self.xi)
-        a_k0 = bessel_approx(self.V, self.k0)
+        a_xi = util.bessel_approx(self.V, self.xi)
+        a_prime_xi = util.bessel_approx_derivative(self.V, self.xi)
+        a_k0 = util.bessel_approx(self.V, self.k0)
 
         sum_over_documents = sum(self.deriv_rho_xi())
         return (a_prime_xi*self.xi + a_xi) * (a_k0*np.dot(self.vm.T, np.sum(self.vmu, axis=1)) - self.T) \
@@ -134,8 +134,8 @@ class SAM:
 
     """ Batch gradient of Rho_d's wrt xi. """            
     def rho_xi_grad(self):
-        a_xi = bessel_approx(self.V, self.xi)
-        deriv_a_xi = bessel_approx_derivative(self.V, self.xi)
+        a_xi = util.bessel_approx(self.V, self.xi)
+        deriv_a_xi = util.bessel_approx_derivative(self.V, self.xi)
         vAlpha0s = np.sum(self.vAlpha, axis=0)
         esns = self.e_squared_norm_batch()
         deriv_e_squared_norm_xis  = self.grad_e_squared_norm_xi()
@@ -149,8 +149,8 @@ class SAM:
     """ Gradient of E[norms^2] wrt xi """
     def e_squared_norm_xi_grad(self):
 
-        a_xi = bessel_approx(self.V, self.xi)
-        deriv_a_xi = bessel_approx_derivative(self.V, self.xi)
+        a_xi = util.bessel_approx(self.V, self.xi)
+        deriv_a_xi = util.bessel_approx_derivative(self.V, self.xi)
 
         vAlpha0s = np.sum(self.vAlpha, axis=0)
         sum_vAlphas_squared = np.sum(self.vAlpha**2, axis=0)
