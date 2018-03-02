@@ -111,8 +111,8 @@ def unravel(param, item):
     else:
         return np.asarray(item).reshape(param.shape)
 
-def optimize(function, func_deriv, param, bounds, disp=0, maxevals=150):
-    print("Optimizing parameter: {}".format(param.name))
+def optimize(function, func_deriv, param, bounds=[1e-4,None], disp=0, maxevals=150):
+    print("\t\tOptimizing parameter: {}".format(param.name))
     x0 = ravel(getattr(param.model, param.name))
     bounds = [bounds] * len(x0)
 
@@ -130,5 +130,5 @@ def optimize(function, func_deriv, param, bounds, disp=0, maxevals=150):
     result,evals,rc = fmin_tnc(get_negative_func_and_func_deriv, x0=x0, bounds=bounds, disp=disp, maxfun=maxevals)
     setattr(param.model, param.name, unravel(param, result))
     new_function_value = function()
-    print("Optimized parameter: {} with improvement of {}".format(param.name, new_function_value - old_function_value))
-    print("Minimizer returned code {} after {} iterations".format(rc, evals))
+    print("\t\tOptimized parameter: {} with improvement of {}".format(param.name, new_function_value - old_function_value))
+    print("\t\tMinimizer returned code {} after {} iterations".format(rc, evals))

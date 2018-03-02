@@ -39,8 +39,74 @@ class SAM:
         self.m = util.l2_normalize(np.sum(self.vMu, axis=1))
         # self.alpha =
 
-    def vMu_likelihood(self, A_V_xi, A_V_k0):
+    def vAlpha_likelihood(self):
+        alpha0 = np.sum(self.alpha)
+        psi_vAlpha = psi(self.vAlpha)
+        vAlpha0s = np.sum(self.vAlpha, axis=0)
+        psi_vAlpha0s = psi(vAlpha0s)
+
+        A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
         sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
+
+        likelihood = np.dot(util.make_row_vector(self.alpha - 1.0), psi_vAlpha).sum() \
+                    - (alpha0 - self.num_topics) * psi_vAlpha0s.sum() \
+                    + self.num_docs * gammaln(alpha0) \
+                    - self.num_docs * gammaln(self.alpha).sum() \
+                    + self.k * sum_rhos \
+                    - np.sum((self.vAlpha - 1.0) * psi_vAlpha) \
+                    + np.sum(psi_vAlpha0s * (vAlpha0s - self.num_topics)) \
+                    - np.sum(gammaln(vAlpha0s)) \
+                    + np.sum(gammaln(self.vAlpha))
+
+        return likelihood
+
+    def expected_square_norms_gradient(self, vAlpha0s, A_V_xi, square_norms):
+        A_V_xi_squared = A_V_xi ** 2
+        vMu_vAlpha_vMu = np.dot(self.vAlpha.T, np.dot(self.vMu.T, self.vMu))
+        doc_weights = 1.0 / (vAlpha0s * (vAlpha0s + 1.0))
+        gradient = 1 + 2 * (1-A_V_xi_squared) * self.vAlpha + 2 * A_V_xi_squared * vMu_vAlpha_vMu.T
+        gradient = gradient - square_norms * util.make_row_vector(2 * vAlpha0s + 1.0)
+        gradient = gradient * util.make_row_vector(doc_weights)
+
+        return gradient
+
+    def rho_vAlpha_gradient(self, vAlpha0s):
+        A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
+
+        expected_square_norms = util.expected_squared_norms(A_V_xi, self.vMu, self.vAlpha)
+        square_norms_gradient = self.expected_square_norms_gradient(vAlpha0s, A_V_xi, expected_square_norms)
+
+        vMu_docs = np.dot(self.vMu.T, self.documents)
+        vMu_vAlpha_docs = np.sum(self.vAlpha * vMu_docs, axis=0)
+
+        gradient = vMu_docs / util.make_row_vector(vAlpha0s)
+        gradient = gradient - util.make_row_vector(vMu_vAlpha_docs / vAlpha0s ** 2)
+        gradient = gradient / util.make_row_vector(np.sqrt(expected_square_norms))
+
+        S_d = vMu_vAlpha_docs / vAlpha0s / (2 * expected_square_norms ** (3.0/2.0))
+        gradient = A_V_xi * (gradient - square_norms_gradient * util.make_row_vector(S_d))
+
+        return gradient
+
+    def vAlpha_gradient(self):
+        alpha0 = np.sum(self.alpha)
+        vAlpha0s = np.sum(self.vAlpha, axis=0)
+        psi_vAlpha_gradient = polygamma(1, self.vAlpha)
+        psi_vAlpha0s_gradient = polygamma(1, vAlpha0s)
+
+        rho_gradient = self.rho_vAlpha_gradient(vAlpha0s)
+
+        gradient = util.make_col_vector(self.alpha - 1.0) * psi_vAlpha_gradient \
+                    + self.k * rho_gradient - (self.vAlpha - 1.0) * psi_vAlpha_gradient
+
+        row_constant = -psi_vAlpha0s_gradient * (alpha0 - self.num_topics) + \
+                       psi_vAlpha0s_gradient * (vAlpha0s - self.num_topics)
+
+        gradient = gradient + util.make_row_vector(row_constant)
+
+        return gradient
+
+    def vMu_likelihood(self, A_V_xi, A_V_k0, sum_rhos):
         vM_dot_vMu = np.dot(self.vM.T, np.sum(self.vMu, axis=1))
 
         return (A_V_xi * A_V_k0 * self.xi * vM_dot_vMu) + (self.k * sum_rhos)
@@ -69,10 +135,13 @@ class SAM:
             gradient[:,topic] = gradient[:,topic] - np.dot(vMu_topic, np.dot(vMu_topic.T, gradient[:,topic]))
         return gradient
 
-    def do_update_vMu(self, LAMBDA, A_V_xi, A_V_k0):
+    def do_update_vAlpha(self):
+        util.optimize(self.vAlpha_likelihood, self.vAlpha_gradient, util.Parameter(self, 'vAlpha'))
+
+    def do_update_vMu(self, LAMBDA, A_V_xi, A_V_k0, sum_rhos):
         vMu_squared = np.sum(self.vMu ** 2, axis=0)
         def f():
-            return self.vMu_likelihood(A_V_xi, A_V_k0) - LAMBDA*np.sum((vMu_squared - 1.0) ** 2)
+            return self.vMu_likelihood(A_V_xi, A_V_k0, sum_rhos) - LAMBDA*np.sum((vMu_squared - 1.0) ** 2)
 
         def f_prime():
             return self.vMu_gradient_tan(A_V_xi, A_V_k0) - LAMBDA*np.sum((vMu_squared - 1.0) * (2*self.vMu))
@@ -85,11 +154,12 @@ class SAM:
         A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
         A_V_k0 = util.bessel_approx(self.vocab_size, self.k0)
         topic_mean_sum = np.sum(self.vMu)
+        sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
 
-        # self.vAlpha =
+        self.do_update_vAlpha()
 
-        LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0)
-        self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0)
+        LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0, sum_rhos)
+        self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0, sum_rhos)
 
         self.vM = util.l2_normalize(self.k0 * A_V_k0 * self.m +
                                     A_V_xi * A_V_k0 * self.xi *
@@ -97,15 +167,16 @@ class SAM:
 
     def do_EM(self, max_iterations=100):
         for _ in range(max_iterations):
+            print("\nITERATION {}".format(_))
             self.do_E()
             self.do_M()
 
     def do_E(self):
-        print("Doing expectation step of EM process...")
+        print("\tDoing expectation step of EM process...")
         self.update_free_params()
 
     def do_M(self):
-        print("Doing maximization step of EM process...")
+        print("\tDoing maximization step of EM process...")
         self.update_model_params()
         # TODO: return something meaningful
         return 0
@@ -142,13 +213,13 @@ class SAM:
     ####
     
     def update_xi(self):
-        util.optimize(xi_likelihood(), xi_likelihood_gradient(), 'xi')
+        util.optimize(self.xi_likelihood(), self.xi_likelihood_gradient(), 'xi')
    
     def xi_likelihood(self):
         a_xi = util.bessel_approx(self.vocab_size, self.xi)
         a_k0 = util.bessel_approx(self.vocab_size, self.k0)
         #sum_of_rhos = sum(self.rho_batch())
-        sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
+        sum_rhos = sum(util.calc_rhos(a_xi, self.vMu, self.vAlpha, self.documents))
         
         return a_xi*self.xi * (a_k0*np.dot(self.vM.T, np.sum(self.vMu, axis=1)) - self.T) \
             + self.k1*sum_rhos
