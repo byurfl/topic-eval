@@ -1,7 +1,7 @@
 import src.algorithms.sam.util as util
 from src.algorithms.sam.reader import Reader
 import numpy as np
-import scipy.special as special
+from scipy.special import gammaln, psi, polygamma
 
 
 class SAM:
@@ -41,22 +41,22 @@ class SAM:
 
     def vAlpha_likelihood(self):
         alpha0 = np.sum(self.alpha)
-        psi_vAlpha = special.psi(self.vAlpha)
+        psi_vAlpha = psi(self.vAlpha)
         vAlpha0s = np.sum(self.vAlpha, axis=0)
-        psi_vAlpha0s = special.psi(vAlpha0s)
+        psi_vAlpha0s = psi(vAlpha0s)
 
         A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
         sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
 
         likelihood = np.dot(util.make_row_vector(self.alpha - 1.0), psi_vAlpha).sum() \
                     - (alpha0 - self.num_topics) * psi_vAlpha0s.sum() \
-                    + self.num_docs * special.gammaln(alpha0) \
-                    - self.num_docs * special.gammaln(self.alpha).sum() \
+                    + self.num_docs * gammaln(alpha0) \
+                    - self.num_docs * gammaln(self.alpha).sum() \
                     + self.k * sum_rhos \
                     - np.sum((self.vAlpha - 1.0) * psi_vAlpha) \
                     + np.sum(psi_vAlpha0s * (vAlpha0s - self.num_topics)) \
-                    - np.sum(special.gammaln(vAlpha0s)) \
-                    + np.sum(special.gammaln(self.vAlpha))
+                    - np.sum(gammaln(vAlpha0s)) \
+                    + np.sum(gammaln(self.vAlpha))
 
         return likelihood
 
@@ -91,8 +91,8 @@ class SAM:
     def vAlpha_gradient(self):
         alpha0 = np.sum(self.alpha)
         vAlpha0s = np.sum(self.vAlpha, axis=0)
-        psi_vAlpha_gradient = special.polygamma(1, self.vAlpha)
-        psi_vAlpha0s_gradient = special.polygamma(1, vAlpha0s)
+        psi_vAlpha_gradient = polygamma(1, self.vAlpha)
+        psi_vAlpha0s_gradient = polygamma(1, vAlpha0s)
 
         rho_gradient = self.rho_vAlpha_gradient(vAlpha0s)
 
@@ -180,20 +180,41 @@ class SAM:
         self.update_model_params()
         # TODO: return something meaningful
         return 0
-           
-    def update_alpha(self):
-        pass
+
+
+    ####
+    """ Alpha """
+    ####
         
+    def update_alpha(self):
+        util.optimize(alpha_likelihood(), alpha_likelihood_gradient(), 'alpha')
+        
+    def alpha_likelihood(self):
+        alpha0 = np.sum(self.alpha)
+
+        psi_vAlpha = psi(self.vAlpha)
+        psi_vAlpha0s = psi(np.sum(self.vAlpha, axis=0))
+
+        likelihood = np.sum( ascolvector(self.alpha - 1) * psi_vAlpha ) \
+                     - (alpha0 - self.T)*np.sum(psi_vAlpha0s) \
+                     + self.num_docs*gammaln(alpha0) \
+                     - self.num_docs*np.sum(gammaln(self.alpha))
+        return likelihood
+
+    def alpha_likelihood_gradient(self):
+        alpha0 = np.sum(self.alpha)
+        valpha0s = np.sum(self.vAlpha, axis=0)
+
+        return np.sum(psi(self.vAlpha), axis=1) - np.sum(psi(valpha0s)) \
+            + self.num_docs*psi(alpha0) - self.num_docs*psi(self.alpha)
         
     ####
     """ Xi """
     ####
+    
     def update_xi(self):
         util.optimize(self.xi_likelihood(), self.xi_likelihood_gradient(), 'xi')
    
-    def update_alpha(self):
-        pass
-
     def xi_likelihood(self):
         a_xi = util.bessel_approx(self.vocab_size, self.xi)
         a_k0 = util.bessel_approx(self.vocab_size, self.k0)
@@ -203,7 +224,7 @@ class SAM:
         return a_xi*self.xi * (a_k0*np.dot(self.vM.T, np.sum(self.vMu, axis=1)) - self.T) \
             + self.k1*sum_rhos
 
-    def xi_gradient_likelihood(self):
+    def xi_likelihood_gradient(self):
         a_xi = util.bessel_approx(self.V, self.xi)
         a_prime_xi = util.bessel_approx_derivative(self.V, self.xi)
         a_k0 = util.bessel_approx(self.V, self.k0)

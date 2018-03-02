@@ -2,7 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+*.xml
+*.iml
 # C extensions
 *.so
 
@@ -99,6 +100,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+*.xml
 
 # IDEA folder
 .idea/
