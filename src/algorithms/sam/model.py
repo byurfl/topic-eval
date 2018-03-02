@@ -106,14 +106,22 @@ class SAM:
     def do_M(self):
         print("Doing maximization step of EM process...")
         self.update_model_params()
-        
-    def update_xi(self):
-        pass
-
-   
+        # TODO: return something meaningful
+        return 0
+           
     def update_alpha(self):
         pass
         
+        
+    ####
+    """ Xi """
+    ####
+    def update_xi(self):
+        util.optimize(xi_likelihood(), xi_likelihood_gradient(), 'xi')
+   
+    def update_alpha(self):
+        pass
+
     def xi_likelihood(self):
         a_xi = util.bessel_approx(self.vocab_size, self.xi)
         a_k0 = util.bessel_approx(self.vocab_size, self.k0)
@@ -127,9 +135,8 @@ class SAM:
         a_xi = util.bessel_approx(self.V, self.xi)
         a_prime_xi = util.bessel_approx_derivative(self.V, self.xi)
         a_k0 = util.bessel_approx(self.V, self.k0)
-
         sum_over_documents = sum(self.deriv_rho_xi())
-        return (a_prime_xi*self.xi + a_xi) * (a_k0*np.dot(self.vm.T, np.sum(self.vmu, axis=1)) - self.T) \
+        return (a_prime_xi*self.xi + a_xi) * (a_k0*np.dot(self.vm.T, np.sum(self.vMu, axis=1)) - self.T) \
             + self.k1*sum_over_documents
 
     """ Batch gradient of Rho_d's wrt xi. """            
@@ -140,7 +147,7 @@ class SAM:
         esns = self.e_squared_norm_batch()
         deriv_e_squared_norm_xis  = self.grad_e_squared_norm_xi()
         
-        vMuTimesVAlphaDotDoc = np.sum(self.vAlpha * np.dot(self.vmu.T, self.v), axis=0)
+        vMuTimesVAlphaDotDoc = np.sum(self.vAlpha * np.dot(self.vMu.T, self.v), axis=0)
 
         deriv = deriv_a_xi * vMuTimesVAlphaDotDoc / (vAlpha0s * np.sqrt(esns)) \
             - a_xi/2 * vMuTimesVAlphaDotDoc / (vAlpha0s * esns**1.5) * deriv_e_squared_norm_xis
@@ -154,7 +161,7 @@ class SAM:
 
         vAlpha0s = np.sum(self.vAlpha, axis=0)
         sum_vAlphas_squared = np.sum(self.vAlpha**2, axis=0)
-        vMuVAlphaVMuVAlpha = np.sum(np.dot(self.vAlpha.T, np.dot(self.vmu.T, self.vmu)).T * self.vAlpha, axis=0)
+        vMuVAlphaVMuVAlpha = np.sum(np.dot(self.vAlpha.T, np.dot(self.vMu.T, self.vMu)).T * self.vAlpha, axis=0)
         gradient = 2*a_xi*deriv_a_xi*(vMuVAlphaVMuVAlpha - sum_vAlphas_squared) / (vAlpha0s * (vAlpha0s + 1))
         return gradient
 
