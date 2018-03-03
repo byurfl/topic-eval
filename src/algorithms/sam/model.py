@@ -201,7 +201,7 @@ class SAM:
         psi_vAlpha0s = psi(np.sum(self.vAlpha, axis=0))
 
         likelihood = np.sum( ascolvector(self.alpha - 1) * psi_vAlpha ) \
-                     - (alpha0 - self.T)*np.sum(psi_vAlpha0s) \
+                     - (alpha0 - self.num_topics)*np.sum(psi_vAlpha0s) \
                      + self.num_docs*gammaln(alpha0) \
                      - self.num_docs*np.sum(gammaln(self.alpha))
         return likelihood
@@ -226,21 +226,21 @@ class SAM:
         #sum_of_rhos = sum(self.rho_batch())
         sum_rhos = sum(util.calc_rhos(a_xi, self.vMu, self.vAlpha, self.documents))
         
-        return a_xi*self.xi * (a_k0*np.dot(self.vM.T, np.sum(self.vMu, axis=1)) - self.T) \
-            + self.k1*sum_rhos
+        return a_xi*self.xi * (a_k0*np.dot(self.vM.T, np.sum(self.vMu, axis=1)) - self.num_topics) \
+            + self.k*sum_rhos
 
     def xi_likelihood_gradient(self):
-        a_xi = util.bessel_approx(self.V, self.xi)
-        a_prime_xi = util.bessel_approx_derivative(self.V, self.xi)
-        a_k0 = util.bessel_approx(self.V, self.k0)
+        a_xi = util.bessel_approx(self.vocab_size, self.xi)
+        a_prime_xi = util.bessel_approx_derivative(self.vocab_size, self.xi)
+        a_k0 = util.bessel_approx(self.vocab_size, self.k0)
         sum_over_documents = sum(self.deriv_rho_xi())
-        return (a_prime_xi*self.xi + a_xi) * (a_k0*np.dot(self.vm.T, np.sum(self.vMu, axis=1)) - self.T) \
-            + self.k1*sum_over_documents
+        return (a_prime_xi*self.xi + a_xi) * (a_k0*np.dot(self.vm.T, np.sum(self.vMu, axis=1)) - self.num_topics) \
+            + self.k*sum_over_documents
 
     """ Batch gradient of Rho_d's wrt xi. """            
     def rho_xi_grad(self):
-        a_xi = util.bessel_approx(self.V, self.xi)
-        deriv_a_xi = util.bessel_approx_derivative(self.V, self.xi)
+        a_xi = util.bessel_approx(self.vocab_size, self.xi)
+        deriv_a_xi = util.bessel_approx_derivative(self.vocab_size, self.xi)
         vAlpha0s = np.sum(self.vAlpha, axis=0)
         esns = self.e_squared_norm_batch()
         deriv_e_squared_norm_xis  = self.grad_e_squared_norm_xi()
@@ -254,8 +254,8 @@ class SAM:
     """ Gradient of E[norms^2] wrt xi """
     def e_squared_norm_xi_grad(self):
 
-        a_xi = util.bessel_approx(self.V, self.xi)
-        deriv_a_xi = util.bessel_approx_derivative(self.V, self.xi)
+        a_xi = util.bessel_approx(self.vocab_size, self.xi)
+        deriv_a_xi = util.bessel_approx_derivative(self.vocab_size, self.xi)
 
         vAlpha0s = np.sum(self.vAlpha, axis=0)
         sum_vAlphas_squared = np.sum(self.vAlpha**2, axis=0)
