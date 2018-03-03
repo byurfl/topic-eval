@@ -2,6 +2,9 @@ import nltk.tokenize as tok
 import numpy as np
 import os.path
 
+if False:
+    import nltk
+    nltk.download('punkt')
 
 class Reader:
     def __init__(self, stopwords):

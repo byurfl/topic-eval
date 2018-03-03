@@ -54,6 +54,7 @@ class SAM:
         # self.xi =
         self.m = util.l2_normalize(np.sum(self.vMu, axis=1))
         # self.alpha =
+
         self.update_xi()
         self.update_alpha()
 
@@ -214,6 +215,8 @@ class SAM:
         psi_vAlpha = psi(self.vAlpha)
         psi_vAlpha0s = psi(np.sum(self.vAlpha, axis=0))
 
+
+        #likelihood = np.sum( ascolvector(self.alpha - 1) * psi_vAlpha ) \
         likelihood = np.sum(util.make_col_vector(self.alpha - 1) * psi_vAlpha ) \
                      - (alpha0 - self.num_topics)*np.sum(psi_vAlpha0s) \
                      + self.num_docs*gammaln(alpha0) \
@@ -247,6 +250,11 @@ class SAM:
         a_xi = util.bessel_approx(self.vocab_size, self.xi)
         a_prime_xi = util.bessel_approx_derivative(self.vocab_size, self.xi)
         a_k0 = util.bessel_approx(self.vocab_size, self.k0)
+
+        # Delete?
+        #sum_over_documents = sum(self.deriv_rho_xi())
+        #return (a_prime_xi*self.xi + a_xi) * (a_k0*np.dot(self.vm.T, np.sum(self.vMu, axis=1)) - self.num_topics) \
+
         sum_over_documents = sum(self.rho_xi_grad())
         return (a_prime_xi*self.xi + a_xi) * (a_k0*np.dot(self.vM.T, np.sum(self.vMu, axis=1)) - self.num_topics) \
             + self.k*sum_over_documents
