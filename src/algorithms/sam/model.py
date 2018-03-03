@@ -32,6 +32,15 @@ class SAM:
 
         self.vocabulary = self.reader.vocabulary
         self.vocab_size = len(self.vocabulary)
+
+        self.sorted_terms = np.asarray(['' for _ in range(self.vocab_size)], dtype=object)
+        for key, value in self.reader.terms_to_indices.items():
+            self.sorted_terms[value] = key
+
+        # with open(self.log_file, mode='w', encoding='utf-8') as log_out:
+        #     for term in self.sorted_terms:
+        #         log_out.write(term + '\n')
+
         self.documents = self.reader.documents
         self.num_docs = self.documents.shape[1]
 
@@ -185,11 +194,16 @@ class SAM:
                                     A_V_xi * A_V_k0 * self.xi *
                                     topic_mean_sum + 2 * LAMBDA * self.vM)
 
-    def do_EM(self, max_iterations=100):
-        for _ in range(max_iterations):
-            util.log_message("\nITERATION {}\n".format(_), self.log_file)
+    def do_EM(self, max_iterations=100, print_topics_every=10):
+        self.print_topics()
+        for i in range(1, max_iterations+1):
+            util.log_message("\nITERATION {}\n".format(i), self.log_file)
             self.do_E()
             self.do_M()
+
+            if i % print_topics_every == 0:
+                self.print_topics()
+
 
     def do_E(self):
         util.log_message("\tDoing expectation step of EM process...\n", self.log_file)
@@ -285,7 +299,29 @@ class SAM:
         gradient = 2*a_xi*deriv_a_xi*(vMuVAlphaVMuVAlpha - sum_vAlphas_squared) / (vAlpha0s * (vAlpha0s + 1))
         return gradient
 
-        
+    def print_topics(self, top_words=15, bottom_words=15):
+        for t in range(self.num_topics):
+            util.log_message('TOPIC {}\nTop {} words:\n---------------\n'.format(t, top_words), self.log_file)
+
+            sorted_word_indices = np.argsort(self.vMu[:, t])
+            sorted_topic_weights = self.vMu[sorted_word_indices, t]
+            sorted_topic_words = self.sorted_terms[sorted_word_indices]
+
+
+            for i in range(top_words):
+                util.log_message('{}: {:.4f}\n'.format(sorted_topic_words[i], sorted_topic_weights[i]), self.log_file)
+
+            util.log_message('\nTOPIC {}\nBottom {} words:\n---------------\n'.format(t, bottom_words), self.log_file)
+            for i in range(bottom_words):
+                util.log_message('{}: {:.4f}\n'
+                                 .format(sorted_topic_words[self.vocab_size-(i+1)],
+                                         sorted_topic_weights[self.vocab_size-(i+1)]),
+                                 self.log_file)
+            util.log_message('\n', self.log_file)
+
+        util.log_message('\n', self.log_file)
+
+
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
@@ -319,7 +355,7 @@ if __name__ == "__main__":
         model = SAM(args.corpus, args.topics, stopwords=args.stopwords, log_file=args.logfile)
 
     if args.mode == 'train':
-        model.do_EM(max_iterations=5)
+        model.do_EM(max_iterations=5, print_topics_every=1)
     # else:
     #     model.assign_topics()
 

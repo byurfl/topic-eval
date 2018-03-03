@@ -132,13 +132,26 @@ def optimize(function, func_deriv, param, bounds=[1e-4,None], disp=0, maxevals=1
     setattr(param.model, param.name, unravel(param, result))
     new_function_value = function()
 
-    if rc == 1:
-        message =  "Converged (|f_n-f_(n-1)| ~= 0)"
-    if rc ==  3:
+    if rc == -1:
+        message = "Infeasible(lower bound > upper bound)"
+    elif rc == 0:
+        message = "Local minimum reached( | pg | ~ = 0)"
+    elif rc == 1:
+        message = "Converged (|f_n-f_(n-1)| ~= 0)"
+    elif rc == 2:
+        message = "Converged( | x_n - x_(n - 1) | ~ = 0)"
+    elif rc ==  3:
         message = "Max. number of function evaluations reached"
-    if rc == 4:
+    elif rc == 4:
         message = "Linear search failed"
-    message = "Message: " + message
+    elif rc == 5:
+        message = "All lower bounds are equal to the upper bounds"
+    elif rc == 6:
+        message = "Unable to progress"
+    elif rc == 7:
+        message = "User requested end of minimization"
+
+    message = "\t\t(Message: " + message + ")\n\n"
     log_message("\t\tOptimized parameter: {} with improvement of {}\n".format(param.name, new_function_value - old_function_value), param.model.log_file)
     log_message("\t\tMinimizer returned code {} after {} iterations\n".format(rc, evals), param.model.log_file)
     log_message(message, param.model.log_file)
@@ -151,17 +164,17 @@ def log_message(message, file):
 def save_model(model, pickle_file):
     log_message('Saving model to ' + pickle_file + '\n', model.log_file)
     print('Current model state: ')
-    print('vocab size: ' + model.vocab_size)
-    print('corpus size: ' + model.num_docs)
-    print('number of topics: ' + model.num_topics)
-    print('xi: ' + model.xi)
-    print('m: ' + model.m)
-    print('alpha: ' + model.alpha)
-    print('k0: ' + model.k0)
-    print('k: ' + model.k)
-    print('vAlpha: ' + model.vAlpha)
-    print('vMu: ' + model.vMu)
-    print('vM: ' + model.vM)
+    print('vocab size: {}'.format(model.vocab_size))
+    print('corpus size: {}'.format(model.num_docs))
+    print('number of topics: {}'.format(model.num_topics))
+    print('xi: {}'.format(model.xi))
+    print('m: {}'.format(model.m))
+    print('alpha: {}'.format(model.alpha))
+    print('k0: {}'.format(model.k0))
+    print('k: {}'.format(model.k))
+    print('vAlpha: {}'.format(model.vAlpha))
+    print('vMu: {}'.format(model.vMu))
+    print('vM: {}'.format(model.vM))
     with open(pickle_file, mode='wb') as output:
         pickle.dump(model, output, pickle.HIGHEST_PROTOCOL)
 
