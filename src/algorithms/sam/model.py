@@ -1,5 +1,5 @@
-import sys
-sys.path.append(r"D:\PyCharm Projects\py-sam-master\topic-eval")
+# import sys
+# sys.path.append(r"D:\PyCharm Projects\py-sam-master\topic-eval")
 
 import src.algorithms.sam.util as util
 from src.algorithms.sam.reader import Reader
@@ -7,7 +7,12 @@ import numpy as np
 from scipy.special import gammaln, psi, polygamma
 
 class SAM:
-    def __init__(self, corpus, stopwords=None, topics=10):
+    def __init__(self, corpus, stopwords=None, log_file=None, topics=10):
+
+        if log_file == None:
+            self.log_file = open(corpus + '_log.txt', mode='w', encoding='utf-8')
+        else:
+            self.log_file = open(log_file, mode='w', encoding='utf-8')
 
         # when stopping criteria hasn't changed by more than
         # epsilon for a few iterations, stop topic discovery
@@ -172,16 +177,16 @@ class SAM:
 
     def do_EM(self, max_iterations=100):
         for _ in range(max_iterations):
-            print("\nITERATION {}".format(_))
+            util.log_message("\nITERATION {}\n".format(_), self.log_file)
             self.do_E()
             self.do_M()
 
     def do_E(self):
-        print("\tDoing expectation step of EM process...")
+        util.log_message("\tDoing expectation step of EM process...\n", self.log_file)
         self.update_free_params()
 
     def do_M(self):
-        print("\tDoing maximization step of EM process...")
+        util.log_message("\tDoing maximization step of EM process...\n", self.log_file)
         self.update_model_params()
         # TODO: return something meaningful
         return 0
@@ -192,7 +197,7 @@ class SAM:
     ####
         
     def update_alpha(self):
-        util.optimize(alpha_likelihood(), alpha_likelihood_gradient(), 'alpha')
+        util.optimize(self.alpha_likelihood, self.alpha_likelihood_gradient, util.Parameter(self, 'alpha'))
         
     def alpha_likelihood(self):
         alpha0 = np.sum(self.alpha)
@@ -200,8 +205,8 @@ class SAM:
         psi_vAlpha = psi(self.vAlpha)
         psi_vAlpha0s = psi(np.sum(self.vAlpha, axis=0))
 
-        likelihood = np.sum( ascolvector(self.alpha - 1) * psi_vAlpha ) \
-                     - (alpha0 - self.T)*np.sum(psi_vAlpha0s) \
+        likelihood = np.sum(util.make_col_vector(self.alpha - 1) * psi_vAlpha ) \
+                     - (alpha0 - self.num_topics)*np.sum(psi_vAlpha0s) \
                      + self.num_docs*gammaln(alpha0) \
                      - self.num_docs*np.sum(gammaln(self.alpha))
         return likelihood
@@ -218,7 +223,7 @@ class SAM:
     ####
     
     def update_xi(self):
-        util.optimize(self.xi_likelihood(), self.xi_likelihood_gradient(), 'xi')
+        util.optimize(self.xi_likelihood, self.xi_likelihood_gradient, util.Parameter(self, 'xi'))
    
     def xi_likelihood(self):
         a_xi = util.bessel_approx(self.vocab_size, self.xi)
@@ -226,26 +231,26 @@ class SAM:
         #sum_of_rhos = sum(self.rho_batch())
         sum_rhos = sum(util.calc_rhos(a_xi, self.vMu, self.vAlpha, self.documents))
         
-        return a_xi*self.xi * (a_k0*np.dot(self.vM.T, np.sum(self.vMu, axis=1)) - self.T) \
-            + self.k1*sum_rhos
+        return a_xi*self.xi * (a_k0*np.dot(self.vM.T, np.sum(self.vMu, axis=1)) - self.num_topics) \
+            + self.k*sum_rhos
 
     def xi_likelihood_gradient(self):
-        a_xi = util.bessel_approx(self.V, self.xi)
-        a_prime_xi = util.bessel_approx_derivative(self.V, self.xi)
-        a_k0 = util.bessel_approx(self.V, self.k0)
-        sum_over_documents = sum(self.deriv_rho_xi())
-        return (a_prime_xi*self.xi + a_xi) * (a_k0*np.dot(self.vm.T, np.sum(self.vMu, axis=1)) - self.T) \
-            + self.k1*sum_over_documents
+        a_xi = util.bessel_approx(self.vocab_size, self.xi)
+        a_prime_xi = util.bessel_approx_derivative(self.vocab_size, self.xi)
+        a_k0 = util.bessel_approx(self.vocab_size, self.k0)
+        sum_over_documents = sum(self.rho_xi_grad())
+        return (a_prime_xi*self.xi + a_xi) * (a_k0*np.dot(self.vM.T, np.sum(self.vMu, axis=1)) - self.num_topics) \
+            + self.k*sum_over_documents
 
     """ Batch gradient of Rho_d's wrt xi. """            
     def rho_xi_grad(self):
-        a_xi = util.bessel_approx(self.V, self.xi)
-        deriv_a_xi = util.bessel_approx_derivative(self.V, self.xi)
+        a_xi = util.bessel_approx(self.vocab_size, self.xi)
+        deriv_a_xi = util.bessel_approx_derivative(self.vocab_size, self.xi)
         vAlpha0s = np.sum(self.vAlpha, axis=0)
-        esns = self.e_squared_norm_batch()
-        deriv_e_squared_norm_xis  = self.grad_e_squared_norm_xi()
+        esns = util.expected_squared_norms(a_xi, self.vMu, self.vAlpha)
+        deriv_e_squared_norm_xis  = self.e_squared_norm_xi_grad()
         
-        vMuTimesVAlphaDotDoc = np.sum(self.vAlpha * np.dot(self.vMu.T, self.v), axis=0)
+        vMuTimesVAlphaDotDoc = np.sum(self.vAlpha * np.dot(self.vMu.T, self.documents), axis=0)
 
         deriv = deriv_a_xi * vMuTimesVAlphaDotDoc / (vAlpha0s * np.sqrt(esns)) \
             - a_xi/2 * vMuTimesVAlphaDotDoc / (vAlpha0s * esns**1.5) * deriv_e_squared_norm_xis
@@ -254,8 +259,8 @@ class SAM:
     """ Gradient of E[norms^2] wrt xi """
     def e_squared_norm_xi_grad(self):
 
-        a_xi = util.bessel_approx(self.V, self.xi)
-        deriv_a_xi = util.bessel_approx_derivative(self.V, self.xi)
+        a_xi = util.bessel_approx(self.vocab_size, self.xi)
+        deriv_a_xi = util.bessel_approx_derivative(self.vocab_size, self.xi)
 
         vAlpha0s = np.sum(self.vAlpha, axis=0)
         sum_vAlphas_squared = np.sum(self.vAlpha**2, axis=0)
