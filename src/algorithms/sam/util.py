@@ -1,6 +1,7 @@
 from math import log,sqrt,pi
 from scipy.optimize import fmin_tnc
 import numpy as np
+import pickle
 
 
 class Parameter:
@@ -135,4 +136,26 @@ def optimize(function, func_deriv, param, bounds=[1e-4,None], disp=0, maxevals=1
 
 def log_message(message, file):
     print(message, end='')
-    file.write(message)
+    with open(file, mode='a', encoding='utf-8') as l:
+        l.write(message)
+
+def save_model(model, pickle_file):
+    log_message('Saving model to ' + pickle_file + '\n', model.log_file)
+    print('Current model state: ')
+    print('vocab size: ' + model.vocab_size)
+    print('corpus size: ' + model.num_docs)
+    print('number of topics: ' + model.num_topics)
+    print('xi: ' + model.xi)
+    print('m: ' + model.m)
+    print('alpha: ' + model.alpha)
+    print('k0: ' + model.k0)
+    print('k: ' + model.k)
+    print('vAlpha: ' + model.vAlpha)
+    print('vMu: ' + model.vMu)
+    print('vM: ' + model.vM)
+    with open(pickle_file, mode='wb') as output:
+        pickle.dump(model, output, pickle.HIGHEST_PROTOCOL)
+
+def load_model(pickle_file):
+    print('Loading model from ' + pickle_file + '\n')
+    return pickle.load(pickle_file)

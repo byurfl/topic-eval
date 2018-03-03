@@ -1,0 +1,1600 @@
+
+ITERATION 0
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 600764.5184410093
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 21339768366895.633
+		Minimizer returned code 1 after 83 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 86495889398364.75
+		Minimizer returned code 4 after 49 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 18957.705743199534
+		Minimizer returned code 1 after 44 iterations
+
+ITERATION 1
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 19601.67550697073
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 88458974260609.1
+		Minimizer returned code 1 after 88 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 3 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3183.3211841961893
+		Minimizer returned code 1 after 25 iterations
+
+ITERATION 2
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 16027.488276910502
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 132917440319970.36
+		Minimizer returned code 2 after 85 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 6 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 793.2767413138354
+		Minimizer returned code 1 after 20 iterations
+
+ITERATION 3
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 14559.58158191567
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 63124780246659.625
+		Minimizer returned code 1 after 82 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 3 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 709.1972390472074
+		Minimizer returned code 1 after 22 iterations
+
+ITERATION 4
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 11343.767405843246
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 22723371703917.53
+		Minimizer returned code 4 after 51 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 3 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 678.2834618468478
+		Minimizer returned code 1 after 20 iterations
+
+ITERATION 5
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 8410.050643903785
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 702955978917.4688
+		Minimizer returned code 4 after 37 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 19 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4176.047267432499
+		Minimizer returned code 1 after 20 iterations
+
+ITERATION 6
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3409.324497566675
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 48845410.25
+		Minimizer returned code 4 after 36 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 6 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2278.7477407207334
+		Minimizer returned code 1 after 40 iterations
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1635.4560080779484
+		Minimizer returned code 1 after 75 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 30 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.03125
+		Minimizer returned code 1 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1459.201063330067
+		Minimizer returned code 1 after 19 iterations
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1107.1743575436994
+		Minimizer returned code 1 after 79 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1001.4720794178138
+		Minimizer returned code 1 after 25 iterations
+
+ITERATION 9
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 791.1933135513682
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 723.5909510183847
+		Minimizer returned code 0 after 15 iterations
+
+ITERATION 10
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 589.4250635452336
+		Minimizer returned code 1 after 137 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 26 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 543.9587557704363
+		Minimizer returned code 1 after 15 iterations
+
+ITERATION 11
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 453.8225525318412
+		Minimizer returned code 1 after 67 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 22 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 421.97718820068985
+		Minimizer returned code 1 after 18 iterations
+
+ITERATION 12
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 358.8589828106342
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 335.7959673254227
+		Minimizer returned code 1 after 15 iterations
+
+ITERATION 13
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 290.0706629966153
+		Minimizer returned code 1 after 50 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 272.89326124996296
+		Minimizer returned code 1 after 15 iterations
+
+ITERATION 14
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 238.81798536377028
+		Minimizer returned code 1 after 58 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of -0.03125
+		Minimizer returned code 1 after 16 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 225.7166613311856
+		Minimizer returned code 1 after 17 iterations
+
+ITERATION 15
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 199.70927742309868
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 189.51139471435454
+		Minimizer returned code 1 after 16 iterations
+
+ITERATION 16
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 169.2516301466385
+		Minimizer returned code 1 after 61 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 161.17247241182486
+		Minimizer returned code 1 after 16 iterations
+
+ITERATION 17
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 145.10887722787447
+		Minimizer returned code 1 after 69 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 138.6090571875684
+		Minimizer returned code 1 after 17 iterations
+
+ITERATION 18
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 125.67381360591389
+		Minimizer returned code 1 after 99 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 120.37357928685378
+		Minimizer returned code 1 after 17 iterations
+
+ITERATION 19
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 109.81626058672555
+		Minimizer returned code 1 after 76 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 6 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 105.44154278014321
+		Minimizer returned code 1 after 17 iterations
+
+ITERATION 20
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 96.72076746192761
+		Minimizer returned code 1 after 56 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 5 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 93.0707076669205
+		Minimizer returned code 1 after 17 iterations
+
+ITERATION 21
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 85.7897405034164
+		Minimizer returned code 1 after 51 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 82.715261084144
+		Minimizer returned code 1 after 17 iterations
+
+ITERATION 22
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 76.57733497885056
+		Minimizer returned code 1 after 45 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 73.96481524012052
+		Minimizer returned code 1 after 17 iterations
+
+ITERATION 23
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 68.7457939137239
+		Minimizer returned code 1 after 42 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 66.50812982092611
+		Minimizer returned code 1 after 17 iterations
+
+ITERATION 24
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 62.03569513140246
+		Minimizer returned code 1 after 48 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 60.105493270326406
+		Minimizer returned code 1 after 17 iterations
+
+ITERATION 25
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 56.24517490435392
+		Minimizer returned code 1 after 46 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 19 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 54.56917625898495
+		Minimizer returned code 1 after 27 iterations
+
+ITERATION 26
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 51.21617467771284
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 49.751421925844625
+		Minimizer returned code 1 after 23 iterations
+
+ITERATION 27
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 46.82120856503025
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 6 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 45.53452228894457
+		Minimizer returned code 1 after 22 iterations
+
+ITERATION 28
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 42.959536872804165
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of -0.03125
+		Minimizer returned code 1 after 5 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 41.82349849701859
+		Minimizer returned code 1 after 30 iterations
+
+ITERATION 29
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 39.549241359112784
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0625
+		Minimizer returned code 1 after 8 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 38.54148004529998
+		Minimizer returned code 1 after 23 iterations
+
+ITERATION 30
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 36.523342296946794
+		Minimizer returned code 1 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 35.625410814536735
+		Minimizer returned code 1 after 33 iterations
+
+ITERATION 31
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 33.82667102618143
+		Minimizer returned code 1 after 54 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 33.023526665288955
+		Minimizer returned code 1 after 21 iterations
+
+ITERATION 32
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 31.413860252592713
+		Minimizer returned code 1 after 27 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 30.692470569629222
+		Minimizer returned code 1 after 22 iterations
+
+ITERATION 33
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 29.246201016474515
+		Minimizer returned code 1 after 35 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 5 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 28.59604831552133
+		Minimizer returned code 0 after 12 iterations
+
+ITERATION 34
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 27.292596500832587
+		Minimizer returned code 1 after 29 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 19 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 26.704650023020804
+		Minimizer returned code 0 after 12 iterations
+
+ITERATION 35
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 25.525650087278336
+		Minimizer returned code 1 after 29 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 24.992321679834276
+		Minimizer returned code 0 after 12 iterations
+
+ITERATION 36
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 23.922602452337742
+		Minimizer returned code 1 after 23 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of -0.03125
+		Minimizer returned code 1 after 5 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 23.437300303950906
+		Minimizer returned code 0 after 12 iterations
+
+ITERATION 37
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 22.46397445583716
+		Minimizer returned code 1 after 23 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 3 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 22.0212237467058
+		Minimizer returned code 0 after 12 iterations
+
+ITERATION 38
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 21.133073263801634
+		Minimizer returned code 1 after 23 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 3 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 20.72808254370466
+		Minimizer returned code 0 after 12 iterations
+
+ITERATION 39
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 19.915537039749324
+		Minimizer returned code 1 after 23 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.03125
+		Minimizer returned code 2 after 4 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 19.544166603125632
+		Minimizer returned code 0 after 12 iterations
+
+ITERATION 40
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 18.798954708501697
+		Minimizer returned code 1 after 23 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 18.457613466773182
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 41
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 17.77255780249834
+		Minimizer returned code 1 after 28 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 6 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 17.458117777016014
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 42
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 16.8269677949138
+		Minimizer returned code 1 after 23 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 16.536698615644127
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 43
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 15.953986977692693
+		Minimizer returned code 1 after 23 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 15.685491130221635
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 44
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 15.146425477229059
+		Minimizer returned code 1 after 23 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 22 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 14.897594851441681
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 45
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 14.3979567354545
+		Minimizer returned code 1 after 27 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 14.166930491104722
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 46
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 13.702996578998864
+		Minimizer returned code 1 after 29 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 13.488129147328436
+		Minimizer returned code 1 after 18 iterations
+
+ITERATION 47
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 13.056431651115417
+		Minimizer returned code 1 after 29 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 22 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 12.856434164568782
+		Minimizer returned code 1 after 14 iterations
+
+ITERATION 48
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 12.454294081777334
+		Minimizer returned code 1 after 23 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 6 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 12.267612796276808
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 49
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 11.892440252937376
+		Minimizer returned code 1 after 23 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 5 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 11.717898553237319
+		Minimizer returned code 1 after 20 iterations
+
+ITERATION 50
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 11.3673784583807
+		Minimizer returned code 1 after 51 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 16 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 11.20394517481327
+		Minimizer returned code 1 after 17 iterations
+
+ITERATION 51
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 10.875606331042945
+		Minimizer returned code 1 after 76 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 6 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 10.722712310031056
+		Minimizer returned code 4 after 41 iterations
+
+ITERATION 52
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 10.414908779785037
+		Minimizer returned code 1 after 56 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 9 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 10.271509510464966
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 53
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 9.982868555001915
+		Minimizer returned code 1 after 76 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 16 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 9.847905475646257
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 54
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 9.576678587123752
+		Minimizer returned code 1 after 66 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.03125
+		Minimizer returned code 2 after 8 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 9.449707615189254
+		Minimizer returned code 1 after 16 iterations
+
+ITERATION 55
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 9.194403914734721
+		Minimizer returned code 1 after 65 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 16 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 9.074943821877241
+		Minimizer returned code 1 after 26 iterations
+
+ITERATION 56
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 8.834431149996817
+		Minimizer returned code 1 after 84 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 19 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 8.721822278574109
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 57
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 8.49516684282571
+		Minimizer returned code 1 after 65 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 1 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 8.38871119171381
+		Minimizer returned code 1 after 15 iterations
+
+ITERATION 58
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 8.174677171744406
+		Minimizer returned code 1 after 59 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 8.074141996912658
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 59
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 7.8719367338344455
+		Minimizer returned code 1 after 87 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 7.776772625744343
+		Minimizer returned code 1 after 25 iterations
+
+ITERATION 60
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 7.585382029414177
+		Minimizer returned code 1 after 90 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 7.495379659347236
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 61
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 7.314248624257743
+		Minimizer returned code 1 after 74 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 7.228842545300722
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 62
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 7.057164223864675
+		Minimizer returned code 1 after 85 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 6.976143035106361
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 63
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 6.813274287618697
+		Minimizer returned code 1 after 109 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 6.736343329772353
+		Minimizer returned code 1 after 14 iterations
+
+ITERATION 64
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 6.581659424118698
+		Minimizer returned code 1 after 126 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 6.508588616736233
+		Minimizer returned code 1 after 14 iterations
+
+ITERATION 65
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 6.361604723148048
+		Minimizer returned code 1 after 90 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 6.29208776075393
+		Minimizer returned code 1 after 14 iterations
+
+ITERATION 66
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 6.152256889268756
+		Minimizer returned code 1 after 92 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 6.086116766557097
+		Minimizer returned code 1 after 14 iterations
+
+ITERATION 67
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 5.9530434142798185
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 5.890036823228002
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 68
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 5.763251198455691
+		Minimizer returned code 1 after 121 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 5.703141329810023
+		Minimizer returned code 1 after 12 iterations
+
+ITERATION 69
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 5.582300208508968
+		Minimizer returned code 1 after 118 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 5.524953152984381
+		Minimizer returned code 1 after 17 iterations
+
+ITERATION 70
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 5.409619763493538
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 5.3549167942255735
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 71
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 5.244829060509801
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 5.192543249577284
+		Minimizer returned code 1 after 23 iterations
+
+ITERATION 72
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 5.0873492658138275
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 5.037374896928668
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 73
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.936854287981987
+		Minimizer returned code 3 after 150 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4.889002399519086
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 74
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.792830849066377
+		Minimizer returned code 1 after 127 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4.747056370601058
+		Minimizer returned code 1 after 20 iterations
+
+ITERATION 75
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.654968803748488
+		Minimizer returned code 1 after 25 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4.611137963831425
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 76
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.5229653008282185
+		Minimizer returned code 1 after 46 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4.480930309742689
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 77
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.396424040198326
+		Minimizer returned code 1 after 29 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4.356114575639367
+		Minimizer returned code 4 after 40 iterations
+
+ITERATION 78
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.275052238255739
+		Minimizer returned code 1 after 29 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4.236399829387665
+		Minimizer returned code 1 after 20 iterations
+
+ITERATION 79
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.158620806410909
+		Minimizer returned code 1 after 35 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4.121515225619078
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 80
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.046869903802872
+		Minimizer returned code 1 after 26 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4.011205028742552
+		Minimizer returned code 4 after 39 iterations
+
+ITERATION 81
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.9394862838089466
+		Minimizer returned code 1 after 29 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.905227717012167
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 82
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.8363230656832457
+		Minimizer returned code 1 after 26 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.803366022184491
+		Minimizer returned code 1 after 22 iterations
+
+ITERATION 83
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.7370943129062653
+		Minimizer returned code 1 after 26 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.7054053638130426
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 84
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.6416752580553293
+		Minimizer returned code 1 after 26 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.611154343932867
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 85
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.549815371632576
+		Minimizer returned code 1 after 49 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.5204255618155003
+		Minimizer returned code 1 after 22 iterations
+
+ITERATION 86
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.461340557783842
+		Minimizer returned code 1 after 26 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.43304823897779
+		Minimizer returned code 1 after 14 iterations
+
+ITERATION 87
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.376143416389823
+		Minimizer returned code 1 after 32 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.3488604445010424
+		Minimizer returned code 1 after 26 iterations
+
+ITERATION 88
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.294001432135701
+		Minimizer returned code 1 after 26 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.2677091248333454
+		Minimizer returned code 4 after 39 iterations
+
+ITERATION 89
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.2148143891245127
+		Minimizer returned code 1 after 39 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.189449777826667
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 90
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.1384522449225187
+		Minimizer returned code 1 after 26 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.1139481253921986
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 91
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.06473689340055
+		Minimizer returned code 1 after 32 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.041076686233282
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 92
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.9935713931918144
+		Minimizer returned code 1 after 28 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.9707147870212793
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 93
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.9248418882489204
+		Minimizer returned code 1 after 27 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.902749612927437
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 94
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.858422491699457
+		Minimizer returned code 1 after 35 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.8370746430009604
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 95
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.7942345701158047
+		Minimizer returned code 1 after 28 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.773586830124259
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 96
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.7321583069860935
+		Minimizer returned code 1 after 32 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.7121923826634884
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 97
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.672133894637227
+		Minimizer returned code 1 after 41 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 29 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.652751801535487
+		Minimizer returned code 1 after 19 iterations
+
+ITERATION 98
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.614000679925084
+		Minimizer returned code 1 after 31 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 23 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.5953239258378744
+		Minimizer returned code 1 after 13 iterations
+
+ITERATION 99
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.557805299758911
+		Minimizer returned code 1 after 27 iterations
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 26 iterations
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0
+		Minimizer returned code 4 after 12 iterations
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.539639826864004
+		Minimizer returned code 1 after 19 iterations

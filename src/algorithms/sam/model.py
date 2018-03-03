@@ -4,15 +4,23 @@
 import src.algorithms.sam.util as util
 from src.algorithms.sam.reader import Reader
 import numpy as np
+import os
 from scipy.special import gammaln, psi, polygamma
 
 class SAM:
-    def __init__(self, corpus, stopwords=None, log_file=None, topics=10):
+    def __init__(self, corpus, topics, stopwords=None, log_file=None):
 
         if log_file == None:
-            self.log_file = open(corpus + '_log.txt', mode='w', encoding='utf-8')
+            self.log_file = corpus + '_log.txt'
         else:
-            self.log_file = open(log_file, mode='w', encoding='utf-8')
+            self.log_file = log_file
+
+        if os.path.isdir(self.log_file):
+            self.log_file = os.path.join(self.log_file, 'log.txt')
+
+        # truncate log file if it exists, create it if it doesn't
+        with open(self.log_file, mode='w', encoding='utf-8'):
+            pass
 
         # when stopping criteria hasn't changed by more than
         # epsilon for a few iterations, stop topic discovery
@@ -39,6 +47,7 @@ class SAM:
         self.vAlpha = np.random.rand(self.num_topics, self.num_docs)
         self.vMu = util.l2_normalize(np.random.rand(self.vocab_size, self.num_topics))
         self.vM = util.l2_normalize(np.random.rand(self.vocab_size))
+
 
     def update_model_params(self):
 
@@ -272,14 +281,44 @@ class SAM:
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', '--corpus', required=True, help='Path to the location of your corpus. ' +
-                                                              'This can be either a directory or a single file.')
-    parser.add_argument('-s', '--stopwords', help='Optional path to a file containing stopwords.')
+    parser.add_argument('-c', '--corpus', required=True,
+                        help='Path to the location of your corpus. ' +
+                             'This can be either a directory or a single file.')
+
+    parser.add_argument('-t', '--topics', type=int, default=10,
+                        help='Number of topics in model. Defaults to 10.')
+
+    parser.add_argument('-s', '--stopwords',
+                        default=None,
+                        help='Optional path to a file containing stopwords.')
+
+    parser.add_argument('-m', '--mode',
+                        default='train', choices=['train', 'test'])
+
+    parser.add_argument('-l', '--logfile',
+                        default=None,
+                        help='Optional path to save log information in. ' +
+                             'If this is a directory, a file named log.txt will be created in it.')
+
+    parser.add_argument('--loadfrom', help='Optional path to a pickle file containing a pre-trained model to load.')
+    parser.add_argument('--saveto', help='Optional path to save the model to after training.')
+
     args = parser.parse_args()
 
-    if args.stopwords:
-        model = SAM(args.corpus)
+    if args.loadfrom:
+        model = util.load_model(args.loadfrom)
     else:
-        model = SAM(args.corpus, args.stopwords)
+        model = SAM(args.corpus, args.topics, stopwords=args.stopwords, log_file=args.logfile)
 
-    model.do_EM()
+    if args.mode == 'train':
+        model.do_EM(max_iterations=5)
+    # else:
+    #     model.assign_topics()
+
+    if args.saveto:
+        util.save_model(model, args.saveto)
+        new_model = util.load_model(args.saveto)
+
+        print('Saved model loaded correctly? ' + (model == new_model))
+
+
