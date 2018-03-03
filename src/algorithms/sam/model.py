@@ -45,6 +45,7 @@ class SAM:
         # self.xi =
         self.m = util.l2_normalize(np.sum(self.vMu, axis=1))
         # self.alpha =
+
         self.update_xi()
         self.update_alpha()
 

@@ -131,11 +131,13 @@ def optimize(function, func_deriv, param, bounds=[1e-4,None], disp=0, maxevals=1
     setattr(param.model, param.name, unravel(param, result))
     new_function_value = function()
 
+    if rc == 1:
+        message =  "Converged (|f_n-f_(n-1)| ~= 0)"
     if rc ==  3:
         message = "Max. number of function evaluations reached"
-    if rc == 4: "Linear search failed"
-        message = "Max. number of function evaluations reached"
-
+    if rc == 4:
+        message = "Linear search failed"
+    message = "Message: " + message
     log_message("\t\tOptimized parameter: {} with improvement of {}\n".format(param.name, new_function_value - old_function_value), param.model.log_file)
     log_message("\t\tMinimizer returned code {} after {} iterations\n".format(rc, evals), param.model.log_file)
     log_message(message)
