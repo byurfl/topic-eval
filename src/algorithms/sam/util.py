@@ -140,7 +140,7 @@ def optimize(function, func_deriv, param, bounds=[1e-4,None], disp=0, maxevals=1
     message = "Message: " + message
     log_message("\t\tOptimized parameter: {} with improvement of {}\n".format(param.name, new_function_value - old_function_value), param.model.log_file)
     log_message("\t\tMinimizer returned code {} after {} iterations\n".format(rc, evals), param.model.log_file)
-    log_message(message)
+    log_message(message, param.model.log_file)
 
 def log_message(message, file):
     print(message, end='')
