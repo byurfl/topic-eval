@@ -1,8 +1,10 @@
+import sys
+sys.path.append(r"D:\PyCharm Projects\py-sam-master\topic-eval")
+
 import src.algorithms.sam.util as util
 from src.algorithms.sam.reader import Reader
 import numpy as np
 from scipy.special import gammaln, psi, polygamma
-
 
 class SAM:
     def __init__(self, corpus, stopwords=None, topics=10):
@@ -38,6 +40,9 @@ class SAM:
         # self.xi =
         self.m = util.l2_normalize(np.sum(self.vMu, axis=1))
         # self.alpha =
+        self.update_xi()
+        self.update_alpha()
+
 
     def vAlpha_likelihood(self):
         alpha0 = np.sum(self.alpha)
