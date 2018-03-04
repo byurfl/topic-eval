@@ -292,47 +292,47 @@ class SAM:
         util.log_message('\n', self.log_file)
 
 
-""" UPDATE METHODS"""
+    """ UPDATE METHODS"""
 
 
-def update_free_params(self):
-    A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
-    A_V_k0 = util.bessel_approx(self.vocab_size, self.k0)
-    topic_mean_sum = np.sum(self.vMu)
-    sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
+    def update_free_params(self):
+        A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
+        A_V_k0 = util.bessel_approx(self.vocab_size, self.k0)
+        topic_mean_sum = np.sum(self.vMu)
+        sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
 
-    self.do_update_vAlpha()
+        self.do_update_vAlpha()
 
-    LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0, sum_rhos)
-    self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0, sum_rhos)
+        LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0, sum_rhos)
+        self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0, sum_rhos)
 
-    self.vM = util.l2_normalize(self.k0 * A_V_k0 * self.m +
-                                A_V_xi * A_V_k0 * self.xi *
-                                topic_mean_sum + 2 * LAMBDA * self.vM)
-
-
-def do_EM(self, max_iterations=100, print_topics_every=10):
-    self.print_topics()
-    for i in range(1, max_iterations + 1):
-        util.log_message("\nITERATION {}\n".format(i), self.log_file)
-        Stop
-        self.do_E()
-        self.do_M()
-
-        if i % print_topics_every == 0:
-            self.print_topics()
+        self.vM = util.l2_normalize(self.k0 * A_V_k0 * self.m +
+                                    A_V_xi * A_V_k0 * self.xi *
+                                    topic_mean_sum + 2 * LAMBDA * self.vM)
 
 
-def do_E(self):
-    util.log_message("\tDoing expectation step of EM process...\n", self.log_file)
-    self.update_free_params()
+    def do_EM(self, max_iterations=100, print_topics_every=10):
+        self.print_topics()
+        for i in range(1, max_iterations + 1):
+            util.log_message("\nITERATION {}\n".format(i), self.log_file)
+            Stop
+            self.do_E()
+            self.do_M()
 
-    
-def do_M(self):
-    util.log_message("\tDoing maximization step of EM process...\n", self.log_file)
-    self.update_model_params()
-    # TODO: return something meaningful
-    return 0
+            if i % print_topics_every == 0:
+                self.print_topics()
+
+
+    def do_E(self):
+        util.log_message("\tDoing expectation step of EM process...\n", self.log_file)
+        self.update_free_params()
+
+
+    def do_M(self):
+        util.log_message("\tDoing maximization step of EM process...\n", self.log_file)
+        self.update_model_params()
+        # TODO: return something meaningful
+        return 0
 
 
 if __name__ == "__main__":
