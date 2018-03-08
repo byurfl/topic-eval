@@ -279,14 +279,15 @@ class SAM:
 
 
             for i in range(top_words):
-                util.log_message('{}: {:.4f}\n'.format(sorted_topic_words[i], sorted_topic_weights[i]), self.log_file)
+                util.log_message('{}: {:.4f}\n'
+                                 .format(sorted_topic_words[self.vocab_size - (i + 1)],
+                                         sorted_topic_weights[self.vocab_size - (i + 1)]),
+                                 self.log_file)
 
             util.log_message('\nTOPIC {}\nBottom {} words:\n---------------\n'.format(t, bottom_words), self.log_file)
             for i in range(bottom_words):
-                util.log_message('{}: {:.4f}\n'
-                                 .format(sorted_topic_words[self.vocab_size-(i+1)],
-                                         sorted_topic_weights[self.vocab_size-(i+1)]),
-                                 self.log_file)
+                util.log_message('{}: {:.4f}\n'.format(sorted_topic_words[i], sorted_topic_weights[i]), self.log_file)
+
             util.log_message('\n', self.log_file)
 
         util.log_message('\n', self.log_file)
@@ -312,10 +313,9 @@ class SAM:
 
 
     def do_EM(self, max_iterations=100, print_topics_every=10):
-        self.print_topics()
+        self.print_topics(top_words=3, bottom_words=3 )
         for i in range(1, max_iterations + 1):
             util.log_message("\nITERATION {}\n".format(i), self.log_file)
-            Stop
             self.do_E()
             self.do_M()
 
