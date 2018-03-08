@@ -316,7 +316,6 @@ class SAM:
                                  .format(sorted_topic_words[i],
                                          sorted_topic_weights[i]),
                                  self.log_file)
-
             util.log_message('\n', self.log_file)
 
         util.log_message('\n', self.log_file)
@@ -367,7 +366,7 @@ class SAM:
 
 
     def do_EM(self, max_iterations=100, print_topics_every=10):
-        self.print_topics()
+        self.print_topics(top_words=3, bottom_words=3 )
         for i in range(1, max_iterations + 1):
             util.log_message("\nITERATION {}\n".format(i), self.log_file)
             self.do_E()
