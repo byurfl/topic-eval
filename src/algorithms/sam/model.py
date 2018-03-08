@@ -7,6 +7,7 @@ import numpy as np
 import os
 from scipy.special import gammaln, psi, polygamma
 
+
 class SAM:
     def __init__(self, corpus, topics, stopwords=None, log_file=None):
 
@@ -21,11 +22,6 @@ class SAM:
         # truncate log file if it exists, create it if it doesn't
         with open(self.log_file, mode='w', encoding='utf-8'):
             pass
-
-        # when stopping criteria hasn't changed by more than
-        # epsilon for a few iterations, stop topic discovery
-        self.CONVERGENCE = False
-        self.EPSILON = 0.001
 
         self.reader = Reader(stopwords)
         self.reader.read_corpus(corpus)
@@ -65,6 +61,40 @@ class SAM:
         for d in range(self.num_docs):
             distances_from_topics = np.abs(util.cosine_similarity(self.documents[:, d], self.vMu)) + 0.01
             self.vAlpha[:, d] = distances_from_topics / sum(distances_from_topics) * 3.0
+
+    def __eq__(self, other):
+        try:
+            if object.__eq__(self, other):
+                return True
+            if self.vocab_size != other.vocab_size:
+                return False
+            if self.vocabulary != other.vocabulary:
+                return False
+            if self.num_docs != other.num_docs:
+                return False
+            if self.documents != other.documents:
+                return False
+            if self.num_topics != other.num_topics:
+                return False
+            if self.xi != other.xi:
+                return False
+            if self.m != other.m:
+                return False
+            if self.alpha != other.alpha:
+                return False
+            if self.k0 != other.k0:
+                return False
+            if self.k != other.k:
+                return False
+            if self.vAlpha != other.vAlpha:
+                return False
+            if self.vMu != other.vMu:
+                return False
+            if self.vM != other.vM:
+                return False
+            return True
+        except:
+            return False
 
     def update_model_params(self):
 
@@ -277,20 +307,46 @@ class SAM:
             sorted_topic_weights = self.vMu[sorted_word_indices, t]
             sorted_topic_words = self.sorted_terms[sorted_word_indices]
 
-
             for i in range(top_words):
                 util.log_message('{}: {:.4f}\n'
-                                 .format(sorted_topic_words[self.vocab_size - (i + 1)],
-                                         sorted_topic_weights[self.vocab_size - (i + 1)]),
+                                 .format(sorted_topic_words[self.vocab_size-(i+1)],
+                                         sorted_topic_weights[self.vocab_size-(i+1)]),
                                  self.log_file)
 
             util.log_message('\nTOPIC {}\nBottom {} words:\n---------------\n'.format(t, bottom_words), self.log_file)
             for i in range(bottom_words):
-                util.log_message('{}: {:.4f}\n'.format(sorted_topic_words[i], sorted_topic_weights[i]), self.log_file)
-
+                util.log_message('{}: {:.4f}\n'
+                                 .format(sorted_topic_words[i],
+                                         sorted_topic_weights[i]),
+                                 self.log_file)
             util.log_message('\n', self.log_file)
 
         util.log_message('\n', self.log_file)
+
+    def run(self):
+        self.do_EM(50)
+        # self.do_EM(1)
+        import datetime
+        date = datetime.datetime.now()
+        year = date.year + 1900
+        month = date.month
+        day = date.day
+
+        util.save_model(self, './data/models/enron_{}{}{}.pickle'.format(year, month, day))
+
+    def get_topics(self):
+        topics = []
+        for t in range(self.num_topics):
+            topic = []
+            sorted_word_indices = np.argsort(self.vMu[:, t])
+            sorted_topic_weights = self.vMu[sorted_word_indices, t]
+            sorted_topic_words = self.sorted_terms[sorted_word_indices]
+            for w in range(len(sorted_topic_words)):
+                topic.append((sorted_topic_words[-w], sorted_topic_weights[-w]))
+
+            topics.append(topic)
+
+        return topics
 
 
     """ UPDATE METHODS"""
@@ -334,7 +390,6 @@ class SAM:
         # TODO: return something meaningful
         return 0
 
-
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
@@ -368,15 +423,11 @@ if __name__ == "__main__":
         model = SAM(args.corpus, args.topics, stopwords=args.stopwords, log_file=args.logfile)
 
     if args.mode == 'train':
-        model.do_EM(max_iterations=5, print_topics_every=1)
+        # model.do_EM(max_iterations=1, print_topics_every=1)
+        model.do_EM()
 
     # else:
     #     model.assign_topics()
 
     if args.saveto:
         util.save_model(model, args.saveto)
-        new_model = util.load_model(args.saveto)
-
-        print('Saved model loaded correctly? ' + (model == new_model))
-
-

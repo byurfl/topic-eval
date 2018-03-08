@@ -180,8 +180,8 @@ def save_model(model, pickle_file):
 
 def load_model(pickle_file):
     print('Loading model from ' + pickle_file + '\n')
-    return pickle.load(pickle_file)
-    
+    with open(pickle_file, mode='rb') as file:
+        return pickle.load(file)
     
 def cosine_similarity(a, b):
     """

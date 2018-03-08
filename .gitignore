@@ -107,3 +107,7 @@ ENV/
 
 # IDEA folder
 .idea/
+
+# old results
+/data/results/aw_test
+/data/results/lda_test
