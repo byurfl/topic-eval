@@ -1,6 +1,7 @@
 import nltk.tokenize as tok
 import numpy as np
 import os.path
+import src.algorithms.ankura.ankura.pipeline as pipeline
 
 if False:
     import nltk
@@ -22,7 +23,9 @@ class Reader:
         return stopwords
 
     def get_tokens(self, text):
-        return [t for t in tok.word_tokenize(text) if t not in self.stopwords]
+        tokenizer = pipeline.stopword_tokenizer(pipeline.default_tokenizer(), stopwords=self.stopwords)
+        # return [t for t in tok.word_tokenize(text) if t not in self.stopwords]
+        return [t.token for t in tokenizer(text)]
 
     def add_to_vocab(self, token):
         if token in self.vocabulary:

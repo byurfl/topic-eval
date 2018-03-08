@@ -10,24 +10,24 @@ class AlgorithmEvaluator:
 
     def select_algorithm(self, alg):
         if alg == 'lda':
-            from algorithms.lda import LDA
+            from src.algorithms.lda import LDA
             self.algorithm = LDA(self.input_path, self.output_path, reference_path=self.reference_path)
 
         elif alg == 'lda_sup':
-            from algorithms.sup_lda import SupervisedLDA
+            from src.algorithms.sup_lda import SupervisedLDA
             self.algorithm = SupervisedLDA(self.input_path, self.output_path)
 
         elif alg == 'anchors':
-            from algorithms.anchor_words import AnchorWords
-            self.algorithm = AnchorWords(self.input_path, self.output_path, self.reference_path, self.filter_string)
+            from src.algorithms.anchor_words import AnchorWords
+            self.algorithm = AnchorWords(self.input_path, self.output_path, reference_path=self.reference_path, filter_string=self.filter_string)
 
         elif alg == 'anchors_sup':
-            from algorithms.anchor_words import SupervisedAnchorWords
+            from src.algorithms.anchor_words import SupervisedAnchorWords
             self.algorithm = SupervisedAnchorWords(self.input_path, self.output_path)
 
         elif alg == 'sam':
-            from algorithms.spherical_admixture import SAM
-            self.algorithm = SAM(self.input_path, self.output_path)
+            from src.algorithms.spherical_admixture import SphericalAdmixture
+            self.algorithm = SphericalAdmixture(self.input_path, self.output_path, reference_path=self.reference_path)
 
     def run_algorithm(self):
         self.algorithm.run()

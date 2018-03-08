@@ -7,6 +7,7 @@ import numpy as np
 import os
 from scipy.special import gammaln, psi, polygamma
 
+
 class SAM:
     def __init__(self, corpus, topics, stopwords=None, log_file=None):
 
@@ -21,11 +22,6 @@ class SAM:
         # truncate log file if it exists, create it if it doesn't
         with open(self.log_file, mode='w', encoding='utf-8'):
             pass
-
-        # when stopping criteria hasn't changed by more than
-        # epsilon for a few iterations, stop topic discovery
-        self.CONVERGENCE = False
-        self.EPSILON = 0.001
 
         self.reader = Reader(stopwords)
         self.reader.read_corpus(corpus)
@@ -47,16 +43,58 @@ class SAM:
         # initialize model hyperparameters
         self.num_topics = topics
 
-        self.xi = 500.0
-        self.m = util.l2_normalize(np.random.rand(self.vocab_size))
-        self.alpha = np.random.rand(self.num_topics)
-        self.k0 = 50.0
-        self.k = 500.0
+        self.xi = 5000.0
+        #self.m = util.l2_normalize(np.random.rand(self.vocab_size))
+        self.m = util.l2_normalize(np.ones(self.vocab_size))  # Parameter to p(mu)
+
+        #self.alpha = np.random.rand(self.num_topics)
+        self.alpha = np.ones(self.num_topics) * 1.0 + 1.0
+
+        self.k0 = 10.0
+        self.k = 5000.0
         # initialize variational parameters
-        self.vAlpha = np.random.rand(self.num_topics, self.num_docs)
         self.vMu = util.l2_normalize(np.random.rand(self.vocab_size, self.num_topics))
         self.vM = util.l2_normalize(np.random.rand(self.vocab_size))
 
+        # self.vAlpha = np.random.rand(self.num_topics, self.num_docs)
+        self.vAlpha = np.empty((self.num_topics, self.num_docs))
+        for d in range(self.num_docs):
+            distances_from_topics = np.abs(util.cosine_similarity(self.documents[:, d], self.vMu)) + 0.01
+            self.vAlpha[:, d] = distances_from_topics / sum(distances_from_topics) * 3.0
+
+    def __eq__(self, other):
+        try:
+            if object.__eq__(self, other):
+                return True
+            if self.vocab_size != other.vocab_size:
+                return False
+            if self.vocabulary != other.vocabulary:
+                return False
+            if self.num_docs != other.num_docs:
+                return False
+            if self.documents != other.documents:
+                return False
+            if self.num_topics != other.num_topics:
+                return False
+            if self.xi != other.xi:
+                return False
+            if self.m != other.m:
+                return False
+            if self.alpha != other.alpha:
+                return False
+            if self.k0 != other.k0:
+                return False
+            if self.k != other.k:
+                return False
+            if self.vAlpha != other.vAlpha:
+                return False
+            if self.vMu != other.vMu:
+                return False
+            if self.vM != other.vM:
+                return False
+            return True
+        except:
+            return False
 
     def update_model_params(self):
 
@@ -178,44 +216,6 @@ class SAM:
         util.optimize(f, f_prime, util.Parameter(self, 'vMu'), bounds=(-1.0,1.0))
         self.vMu = util.l2_normalize(self.vMu)
 
-
-    def update_free_params(self):
-        A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
-        A_V_k0 = util.bessel_approx(self.vocab_size, self.k0)
-        topic_mean_sum = np.sum(self.vMu)
-        sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
-
-        self.do_update_vAlpha()
-
-        LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0, sum_rhos)
-        self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0, sum_rhos)
-
-        self.vM = util.l2_normalize(self.k0 * A_V_k0 * self.m +
-                                    A_V_xi * A_V_k0 * self.xi *
-                                    topic_mean_sum + 2 * LAMBDA * self.vM)
-
-    def do_EM(self, max_iterations=100, print_topics_every=10):
-        self.print_topics()
-        for i in range(1, max_iterations+1):
-            util.log_message("\nITERATION {}\n".format(i), self.log_file)
-            self.do_E()
-            self.do_M()
-
-            if i % print_topics_every == 0:
-                self.print_topics()
-
-
-    def do_E(self):
-        util.log_message("\tDoing expectation step of EM process...\n", self.log_file)
-        self.update_free_params()
-
-    def do_M(self):
-        util.log_message("\tDoing maximization step of EM process...\n", self.log_file)
-        self.update_model_params()
-        # TODO: return something meaningful
-        return 0
-
-
     ####
     """ Alpha """
     ####
@@ -307,19 +307,89 @@ class SAM:
             sorted_topic_weights = self.vMu[sorted_word_indices, t]
             sorted_topic_words = self.sorted_terms[sorted_word_indices]
 
-
             for i in range(top_words):
-                util.log_message('{}: {:.4f}\n'.format(sorted_topic_words[i], sorted_topic_weights[i]), self.log_file)
-
-            util.log_message('\nTOPIC {}\nBottom {} words:\n---------------\n'.format(t, bottom_words), self.log_file)
-            for i in range(bottom_words):
                 util.log_message('{}: {:.4f}\n'
                                  .format(sorted_topic_words[self.vocab_size-(i+1)],
                                          sorted_topic_weights[self.vocab_size-(i+1)]),
                                  self.log_file)
+
+            util.log_message('\nTOPIC {}\nBottom {} words:\n---------------\n'.format(t, bottom_words), self.log_file)
+            for i in range(bottom_words):
+                util.log_message('{}: {:.4f}\n'
+                                 .format(sorted_topic_words[i],
+                                         sorted_topic_weights[i]),
+                                 self.log_file)
+
             util.log_message('\n', self.log_file)
 
         util.log_message('\n', self.log_file)
+
+    def run(self):
+        self.do_EM(50)
+        # self.do_EM(1)
+        import datetime
+        date = datetime.datetime.now()
+        year = date.year + 1900
+        month = date.month
+        day = date.day
+
+        util.save_model(self, './data/models/enron_{}{}{}.pickle'.format(year, month, day))
+
+    def get_topics(self):
+        topics = []
+        for t in range(self.num_topics):
+            topic = []
+            sorted_word_indices = np.argsort(self.vMu[:, t])
+            sorted_topic_weights = self.vMu[sorted_word_indices, t]
+            sorted_topic_words = self.sorted_terms[sorted_word_indices]
+            for w in range(len(sorted_topic_words)):
+                topic.append((sorted_topic_words[-w], sorted_topic_weights[-w]))
+
+            topics.append(topic)
+
+        return topics
+
+
+    """ UPDATE METHODS"""
+
+
+    def update_free_params(self):
+        A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
+        A_V_k0 = util.bessel_approx(self.vocab_size, self.k0)
+        topic_mean_sum = np.sum(self.vMu)
+        sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
+
+        self.do_update_vAlpha()
+
+        LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0, sum_rhos)
+        self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0, sum_rhos)
+
+        self.vM = util.l2_normalize(self.k0 * A_V_k0 * self.m +
+                                    A_V_xi * A_V_k0 * self.xi *
+                                    topic_mean_sum + 2 * LAMBDA * self.vM)
+
+
+    def do_EM(self, max_iterations=100, print_topics_every=10):
+        self.print_topics()
+        for i in range(1, max_iterations + 1):
+            util.log_message("\nITERATION {}\n".format(i), self.log_file)
+            self.do_E()
+            self.do_M()
+
+            if i % print_topics_every == 0:
+                self.print_topics()
+
+
+    def do_E(self):
+        util.log_message("\tDoing expectation step of EM process...\n", self.log_file)
+        self.update_free_params()
+
+
+    def do_M(self):
+        util.log_message("\tDoing maximization step of EM process...\n", self.log_file)
+        self.update_model_params()
+        # TODO: return something meaningful
+        return 0
 
 
 if __name__ == "__main__":
@@ -355,14 +425,11 @@ if __name__ == "__main__":
         model = SAM(args.corpus, args.topics, stopwords=args.stopwords, log_file=args.logfile)
 
     if args.mode == 'train':
-        model.do_EM(max_iterations=5, print_topics_every=1)
+        # model.do_EM(max_iterations=1, print_topics_every=1)
+        model.do_EM()
+
     # else:
     #     model.assign_topics()
 
     if args.saveto:
         util.save_model(model, args.saveto)
-        new_model = util.load_model(args.saveto)
-
-        print('Saved model loaded correctly? ' + (model == new_model))
-
-

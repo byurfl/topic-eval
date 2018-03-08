@@ -3,12 +3,13 @@ from sklearn.decomposition import LatentDirichletAllocation as lda
 import sklearn.feature_extraction.text as skfet
 from sklearn.linear_model import LogisticRegression as lr
 import os, random
-import algorithms.ankura.ankura.validate as validate
-from algorithms import anchor_words
+import src.algorithms.ankura.ankura.validate as validate
+from src.algorithms import anchor_words
 import numpy as np
 import gensim
 
-from algorithms.algorithm import Algorithm
+from src.algorithms.algorithm import Algorithm
+
 
 class LDA(Algorithm):
     def load_input(self):
@@ -43,7 +44,7 @@ class LDA(Algorithm):
 
     def write_output(self, iteration_counter=None):
         output_file = os.path.join(self.output_path, 'topics.txt') \
-            if iteration_counter == None \
+            if iteration_counter is None \
             else os.path.join(self.output_path, 'topics_' + str(iteration_counter) + '.txt')
 
         with open(output_file, 'w', encoding='utf-8') as output:
@@ -77,14 +78,14 @@ class LDA(Algorithm):
             scores = validate.coherence(aw.corpus, topic_summary)
 
             scores_file = os.path.join(self.output_path, 'coherence.txt') \
-                if iteration_counter == None \
+                if iteration_counter is None \
                 else os.path.join(self.output_path, 'coherence_' + str(iteration_counter) + '.txt')
 
             with open(scores_file, mode='w', encoding='utf-8') as output:
                 output.write(str(scores))
                 output.write('\n')
 
-            if score_file != None:
+            if score_file is not None:
                 score_file.write(str(np.average(scores)))
                 score_file.write('\n')
 
@@ -162,9 +163,9 @@ class LDA(Algorithm):
 
             acc = correct / len(predictions)
 
-            if (score_file == None):
+            if score_file is None:
                 output_file = os.path.join(self.output_path, 'acc.txt') \
-                    if iteration_counter == None \
+                    if iteration_counter is None \
                     else os.path.join(self.output_path, 'acc_' + str(iteration_counter) + '.txt')
 
                 with open(output_file, 'w', encoding='utf-8') as output:

@@ -19,7 +19,7 @@ class Algorithm:
     def eval_methods(self):
         return []
 
-    def evaluate(self, scores, iteration_counter=None):
+    def evaluate(self, method, score_file, iteration_counter=None):
         pass
 
     def get_files(self, path):

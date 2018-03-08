@@ -1,14 +1,15 @@
-import algorithms.ankura.ankura.pipeline as pipeline
-import algorithms.ankura.ankura.anchor as anchor
-import algorithms.ankura.ankura.corpus as corpus
-import algorithms.ankura.ankura.validate as validate
-import algorithms.ankura.ankura.topic as topics
+import src.algorithms.ankura.ankura.pipeline as pipeline
+import src.algorithms.ankura.ankura.anchor as anchor
+import src.algorithms.ankura.ankura.corpus as corpus
+import src.algorithms.ankura.ankura.validate as validate
+import src.algorithms.ankura.ankura.topic as topics
 
 from sklearn.linear_model import LogisticRegression as lr
 import os,regex,gensim,random, operator
 import numpy as np
 
-from algorithms.algorithm import Algorithm
+from src.algorithms.algorithm import Algorithm
+
 
 class AnchorWords(Algorithm):
     def load_input(self):
