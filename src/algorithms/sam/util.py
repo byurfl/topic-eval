@@ -54,7 +54,7 @@ def avk_derivative(v, k):
 def l2_normalize(data):
     arr_data = np.asarray(data)
     if len(arr_data.shape) == 1:
-        l2_norm = np.fmax(np.sqrt(np.sum(arr_data * arr_data)), 10*EPS)
+        l2_norm = np.fmax(np.sqrt(np.sum(arr_data ** 2)), 10*EPS)
         return data / l2_norm
 
     elif len(arr_data.shape) == 2:
@@ -182,7 +182,7 @@ def load_model(pickle_file):
     print('Loading model from ' + pickle_file + '\n')
     with open(pickle_file, mode='rb') as file:
         return pickle.load(file)
-    
+
 def cosine_similarity(a, b):
     """
     Computes the cosine similarity of the columns of A with the columns of B.

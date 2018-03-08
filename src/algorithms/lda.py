@@ -3,7 +3,7 @@ from sklearn.decomposition import LatentDirichletAllocation as lda
 import sklearn.feature_extraction.text as skfet
 from sklearn.linear_model import LogisticRegression as lr
 import os, random
-import src.algorithms.ankura.ankura.validate as validate
+import src.algorithms.ankura.validate as validate
 from src.algorithms import anchor_words
 import numpy as np
 import gensim

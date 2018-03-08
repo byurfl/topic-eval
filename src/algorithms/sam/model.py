@@ -97,11 +97,7 @@ class SAM:
             return False
 
     def update_model_params(self):
-
-        # self.xi =
         self.m = util.l2_normalize(np.sum(self.vMu, axis=1))
-        # self.alpha =
-
         self.update_xi()
         self.update_alpha()
 
@@ -206,12 +202,13 @@ class SAM:
         util.optimize(self.vAlpha_likelihood, self.vAlpha_gradient, util.Parameter(self, 'vAlpha'))
 
     def do_update_vMu(self, LAMBDA, A_V_xi, A_V_k0, sum_rhos):
-        vMu_squared = np.sum(self.vMu ** 2, axis=0)
         def f():
+            vMu_squared = np.sum(self.vMu ** 2, axis=0)
             return self.vMu_likelihood(A_V_xi, A_V_k0, sum_rhos) - LAMBDA*np.sum((vMu_squared - 1.0) ** 2)
 
         def f_prime():
-            return self.vMu_gradient_tan(A_V_xi, A_V_k0) - LAMBDA*np.sum((vMu_squared - 1.0) * (2*self.vMu))
+            vMu_squared = np.sum(self.vMu ** 2, axis=0)
+            return self.vMu_gradient_tan(A_V_xi, A_V_k0) - LAMBDA*2.0*np.sum((vMu_squared - 1.0) * (2*self.vMu))
 
         util.optimize(f, f_prime, util.Parameter(self, 'vMu'), bounds=(-1.0,1.0))
         self.vMu = util.l2_normalize(self.vMu)
