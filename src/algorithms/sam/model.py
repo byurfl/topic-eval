@@ -391,7 +391,6 @@ class SAM:
         # TODO: return something meaningful
         return 0
 
-
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
