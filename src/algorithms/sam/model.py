@@ -221,8 +221,9 @@ class SAM:
         def f_prime():
             return self.vMu_gradient_tan(A_V_xi, A_V_k0) - LAMBDA*np.sum((vMu_squared - 1.0) * (2*self.vMu))
 
-        util.optimize(f, f_prime, util.Parameter(self, 'vMu'), bounds=(-1.0,1.0))
+        util.optimize(f, f_prime, util.Parameter(self, 'vMu'), bounds=(-1.0,1.0), verbose = False)
         self.vMu = util.l2_normalize(self.vMu)
+        print(self.vMu)
 
     ####
     """ Alpha """

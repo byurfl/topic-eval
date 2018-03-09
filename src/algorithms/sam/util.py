@@ -52,6 +52,9 @@ def avk_derivative(v, k):
     return -0.5 / (v**2/k**2+4)**0.5 * v**2/k**3 + 0.5*v/k**2
 
 def l2_normalize(data):
+    return l2_normalize_ours(data)
+
+def l2_normalize_ours(data):
     arr_data = np.asarray(data)
     if len(arr_data.shape) == 1:
         l2_norm = np.fmax(np.sqrt(np.sum(arr_data * arr_data)), 10*EPS)
@@ -63,6 +66,21 @@ def l2_normalize(data):
 
     else:
         raise Exception('Data may only have 1 or 2 dimensions')
+
+def l2_normalize_his(x):
+    """
+    Returns an L2-normalized version of the data in x.  If x is two-dimensional, each column of x is normalized.
+    """
+    x = np.asarray(x, dtype='float64')
+    if x.ndim == 1:
+        norm_ = np.fmax(norm(x), 100 * EPS)
+        return x / norm_
+    elif x.ndim == 2:
+        norms = np.fmax(column_norms(x), 100 * EPS)
+        return x / asrowvector(norms)
+    else:
+        raise ValueError('x should have one or two dimensions')
+
 
 def make_vector(matrix):
     return matrix.reshape(matrix.size)
@@ -112,7 +130,7 @@ def unravel(param, item):
     else:
         return np.asarray(item).reshape(param.shape)
 
-def optimize(function, func_deriv, param, bounds=[1e-4,None], disp=0, maxevals=150):
+def optimize(function, func_deriv, param, bounds=[1e-4,None], disp=0, maxevals=150, verbose = True):
     log_message("\t\tOptimizing parameter: {}\n".format(param.name), param.model.log_file)
     x0 = ravel(getattr(param.model, param.name))
     bounds = [bounds] * len(x0)
@@ -129,6 +147,7 @@ def optimize(function, func_deriv, param, bounds=[1e-4,None], disp=0, maxevals=1
 
     old_function_value = function()
     result,evals,rc = fmin_tnc(get_negative_func_and_func_deriv, x0=x0, bounds=bounds, disp=disp, maxfun=maxevals)
+    print(result)
     setattr(param.model, param.name, unravel(param, result))
     new_function_value = function()
 
@@ -151,10 +170,11 @@ def optimize(function, func_deriv, param, bounds=[1e-4,None], disp=0, maxevals=1
     elif rc == 7:
         message = "User requested end of minimization"
 
-    message = "\t\t(Message: " + message + ")\n\n"
-    log_message("\t\tOptimized parameter: {} with improvement of {}\n".format(param.name, new_function_value - old_function_value), param.model.log_file)
-    log_message("\t\tMinimizer returned code {} after {} iterations\n".format(rc, evals), param.model.log_file)
-    log_message(message, param.model.log_file)
+    if verbose:
+        message = "\t\t(Message: " + message + ")\n\n"
+        log_message("\t\tOptimized parameter: {} with improvement of {}\n".format(param.name, new_function_value - old_function_value), param.model.log_file)
+        log_message("\t\tMinimizer returned code {} after {} iterations\n".format(rc, evals), param.model.log_file)
+        log_message(message, param.model.log_file)
 
 def log_message(message, file):
     print(message, end='')

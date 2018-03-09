@@ -1,7 +1,7 @@
 import nltk.tokenize as tok
 import numpy as np
 import os.path
-import src.algorithms.ankura.ankura.pipeline as pipeline
+import src.algorithms.ankura.pipeline as pipeline
 
 if False:
     import nltk
