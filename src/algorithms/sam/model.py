@@ -1,11 +1,19 @@
 # import sys
 # sys.path.append(r"D:\PyCharm Projects\py-sam-master\topic-eval")
 
+# Anchor words needs a home!
+import os
+
+if os.environ["COMPUTERNAME"] == 'DALAILAMA':
+    os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
+    #print(os.getenv("HOME"))
+
+
 import src.algorithms.sam.util as util
 from src.algorithms.sam.reader import Reader
 import numpy as np
-import os
 from scipy.special import gammaln, psi, polygamma
+
 
 
 class SAM:
