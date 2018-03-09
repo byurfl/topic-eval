@@ -58,6 +58,7 @@ call
 can
 cannot
 cant
+cc
 co
 computer
 con
@@ -81,6 +82,7 @@ else
 elsewhere
 empty
 enough
+enron
 etc
 even
 ever
@@ -232,6 +234,7 @@ sometime
 sometimes
 somewhere
 still
+subject
 such
 system
 take
