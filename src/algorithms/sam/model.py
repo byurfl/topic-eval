@@ -221,7 +221,6 @@ class SAM:
 
         util.optimize(f, f_prime, util.Parameter(self, 'vMu'), bounds=(-1.0,1.0), verbose = False)
         self.vMu = util.l2_normalize(self.vMu)
-        print(self.vMu)
 
     ####
     """ Alpha """

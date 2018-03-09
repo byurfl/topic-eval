@@ -1,0 +1,539 @@
+TOPIC 0
+Top 3 words:
+---------------
+congress: 0.1133
+rationalizing: 0.1096
+play: 0.1094
+
+TOPIC 0
+Bottom 3 words:
+---------------
+tennis: 0.0001
+plus: 0.0017
+statement: 0.0021
+
+TOPIC 1
+Top 3 words:
+---------------
+couple: 0.1203
+lodged: 0.1173
+meant: 0.1172
+
+TOPIC 1
+Bottom 3 words:
+---------------
+35539: 0.0011
+changed: 0.0026
+moment: 0.0032
+
+TOPIC 2
+Top 3 words:
+---------------
+couple: 0.1147
+rewards: 0.1145
+plus: 0.1140
+
+TOPIC 2
+Bottom 3 words:
+---------------
+break: 0.0004
+ken: 0.0006
+hollis: 0.0006
+
+TOPIC 3
+Top 3 words:
+---------------
+asking: 0.1171
+opportunity: 0.1167
+emailcalendar: 0.1156
+
+TOPIC 3
+Bottom 3 words:
+---------------
+baker: 0.0004
+anyones: 0.0026
+affect: 0.0030
+
+TOPIC 4
+Top 3 words:
+---------------
+asking: 0.1161
+hollis: 0.1147
+power: 0.1141
+
+TOPIC 4
+Bottom 3 words:
+---------------
+cost: 0.0000
+ive: 0.0001
+people: 0.0003
+
+TOPIC 5
+Top 3 words:
+---------------
+revelation: 0.1126
+nice: 0.1113
+betsie: 0.1102
+
+TOPIC 5
+Bottom 3 words:
+---------------
+pattern: 0.0001
+mercy: 0.0002
+shared: 0.0009
+
+TOPIC 6
+Top 3 words:
+---------------
+grace: 0.1192
+highest: 0.1185
+information: 0.1184
+
+TOPIC 6
+Bottom 3 words:
+---------------
+couple: 0.0001
+prayer: 0.0008
+blessed: 0.0010
+
+TOPIC 7
+Top 3 words:
+---------------
+hi: 0.1116
+years: 0.1113
+wanted: 0.1110
+
+TOPIC 7
+Bottom 3 words:
+---------------
+played: 0.0000
+support: 0.0022
+react: 0.0024
+
+TOPIC 8
+Top 3 words:
+---------------
+continue: 0.1167
+laptop: 0.1165
+legislation: 0.1165
+
+TOPIC 8
+Bottom 3 words:
+---------------
+situation: 0.0003
+react: 0.0012
+send: 0.0014
+
+TOPIC 9
+Top 3 words:
+---------------
+did: 0.1124
+betsie: 0.1122
+games: 0.1115
+
+TOPIC 9
+Bottom 3 words:
+---------------
+hurt: 0.0001
+cut: 0.0011
+combest: 0.0011
+
+
+
+ITERATION 1
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 385.8350139464619
+		Minimizer returned code 1 after 125 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 43851.47265182706
+		Minimizer returned code 4 after 15 iterations
+		(Message: Linear search failed)
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 20.5110761658285
+		Minimizer returned code 1 after 25 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 2
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 85.69091218064932
+		Minimizer returned code 1 after 147 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 33.954920033143935
+		Minimizer returned code 1 after 9 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 6.814004591130114
+		Minimizer returned code 1 after 24 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 3
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 106.68603232265377
+		Minimizer returned code 1 after 147 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 34.288386993748645
+		Minimizer returned code 1 after 9 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 7.367550160333224
+		Minimizer returned code 1 after 24 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 4
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 37.12580358494233
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 23.248072048772883
+		Minimizer returned code 1 after 9 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.8840963200778162
+		Minimizer returned code 1 after 28 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 5
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 28.700863223573833
+		Minimizer returned code 1 after 127 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 4.817373325078734
+		Minimizer returned code 0 after 7 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1.2986217273866032
+		Minimizer returned code 1 after 26 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 6
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 6.0501601264950295
+		Minimizer returned code 1 after 128 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.4474290844373172
+		Minimizer returned code 1 after 7 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.7322957123155902
+		Minimizer returned code 1 after 27 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 6.4558228977439285
+		Minimizer returned code 1 after 75 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.06441737810018822
+		Minimizer returned code 4 after 36 iterations
+		(Message: Linear search failed)
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.29166043358634397
+		Minimizer returned code 1 after 27 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 35.937333779540495
+		Minimizer returned code 1 after 118 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.7056623058670084
+		Minimizer returned code 1 after 7 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.12200175987572948
+		Minimizer returned code 1 after 21 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 9
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.932272921749245
+		Minimizer returned code 1 after 71 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0985445296173566
+		Minimizer returned code 1 after 10 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.06164727854530838
+		Minimizer returned code 1 after 24 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 10
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.931115584571671
+		Minimizer returned code 1 after 60 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.26686087222697097
+		Minimizer returned code 1 after 7 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.031629167170024175
+		Minimizer returned code 1 after 21 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+TOPIC 0
+Top 15 words:
+---------------
+access: 0.2490
+yes: 0.2426
+calendar: 0.2349
+release: 0.2247
+press: 0.1710
+senate: 0.1708
+provisions: 0.1703
+type: 0.1684
+address: 0.1673
+enron: 0.1651
+book: 0.1639
+shared: 0.1613
+responsible: 0.1602
+desktop: 0.1524
+emailcalendar: 0.1521
+
+TOPIC 0
+Bottom 15 words:
+---------------
+god: -0.0189
+friends: -0.0174
+playoff: -0.0145
+afterthefact: -0.0139
+minister: -0.0139
+team: -0.0133
+moment: -0.0131
+new: -0.0129
+nice: -0.0127
+protestis: -0.0126
+hurt: -0.0120
+receive: -0.0116
+day: -0.0110
+mercy: -0.0104
+happened: -0.0104
+
+TOPIC 1
+Top 15 words:
+---------------
+team: 0.3933
+email: 0.2918
+ive: 0.1977
+cheryl: 0.1968
+know: 0.1964
+shes: 0.1959
+make: 0.1132
+called: 0.1126
+meant: 0.1020
+playoff: 0.1014
+burning: 0.1009
+hollis: 0.1005
+season: 0.1005
+ears: 0.1002
+hurt: 0.0997
+
+TOPIC 1
+Bottom 15 words:
+---------------
+bless: -0.0581
+god: -0.0438
+prayer: -0.0415
+spirit: -0.0411
+ask: -0.0398
+people: -0.0380
+picked: -0.0240
+continue: -0.0235
+self: -0.0233
+rewards: -0.0230
+mercy: -0.0229
+gifts: -0.0229
+power: -0.0229
+lot: -0.0226
+blessed: -0.0223
+
+TOPIC 2
+Top 15 words:
+---------------
+bless: 0.3401
+people: 0.2290
+ask: 0.2289
+god: 0.2229
+spirit: 0.2227
+prayer: 0.2224
+revelation: 0.1164
+minister: 0.1158
+relatives: 0.1156
+day: 0.1145
+powerful: 0.1141
+want: 0.1134
+rewards: 0.1130
+send: 0.1126
+love: 0.1125
+
+TOPIC 2
+Bottom 15 words:
+---------------
+team: -0.0847
+know: -0.0481
+ive: -0.0475
+cheryl: -0.0475
+shes: -0.0432
+games: -0.0304
+ago: -0.0301
+evidently: -0.0299
+protest: -0.0290
+determined: -0.0286
+dont: -0.0285
+originated: -0.0279
+make: -0.0274
+hunts: -0.0274
+did: -0.0270
+
+TOPIC 3
+Top 15 words:
+---------------
+release: 0.3574
+senate: 0.2617
+provisions: 0.2595
+enron: 0.2594
+press: 0.2558
+changes: 0.1735
+member: 0.1723
+house: 0.1720
+legislation: 0.1685
+attached: 0.0961
+mark: 0.0894
+asking: 0.0893
+ken: 0.0876
+statement: 0.0876
+highest: 0.0875
+
+TOPIC 3
+Bottom 15 words:
+---------------
+access: -0.0466
+team: -0.0444
+calendar: -0.0409
+yes: -0.0406
+type: -0.0348
+address: -0.0316
+responsible: -0.0312
+desktop: -0.0300
+permission: -0.0294
+book: -0.0289
+updating: -0.0261
+shared: -0.0259
+ive: -0.0251
+emailcalendar: -0.0243
+know: -0.0236
+
+TOPIC 4
+Top 15 words:
+---------------
+calendar: 0.3157
+access: 0.3130
+yes: 0.3111
+emailcalendar: 0.2137
+desktop: 0.2118
+updating: 0.2078
+address: 0.2077
+permission: 0.2074
+type: 0.2070
+book: 0.2050
+responsible: 0.2037
+shared: 0.2027
+desk: 0.1086
+does: 0.1074
+west: 0.1048
+
+TOPIC 4
+Bottom 15 words:
+---------------
+release: -0.0490
+press: -0.0420
+enron: -0.0398
+senate: -0.0383
+provisions: -0.0380
+changes: -0.0304
+house: -0.0254
+legislation: -0.0250
+member: -0.0212
+occur: -0.0204
+senator: -0.0201
+congress: -0.0196
+energy: -0.0190
+information: -0.0184
+negotiated: -0.0180
+
+TOPIC 5
+Top 15 words:
+---------------
+release: 0.3413
+press: 0.2603
+enron: 0.2601
+provisions: 0.2578
+senate: 0.2561
