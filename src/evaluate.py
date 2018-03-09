@@ -59,6 +59,7 @@ if __name__ == '__main__':
     parser.add_argument('--output', required=True, help='Path to a folder to receive output documents')
     parser.add_argument('--reference', required=False, help='Path to a folder containing reference documents, or to a single document containing an entire reference corpus.')
     parser.add_argument('--evaluation', required=True, choices=['accuracy', 'fmeasure', 'coherence'], help='Method for evaluating results. Options are accuracy, fmeasure, coherence. Accuracy and F-measure are for supervised approches, coherence is for unsupervised approaches.')
+    #parser.add_argument('--corpus_codec', required=False, help='Codec for corpus.')
     args = parser.parse_args()
 
     eval = AlgorithmEvaluator(args.algorithm, args.input, args.output, args.reference, args.filter)

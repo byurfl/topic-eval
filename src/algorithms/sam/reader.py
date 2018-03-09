@@ -3,19 +3,20 @@ import numpy as np
 import os.path
 import src.algorithms.ankura.pipeline as pipeline
 import src.algorithms.sam.util as util
+import traceback
 
 if False:
     import nltk
     nltk.download('punkt')
 
 class Reader:
-    def __init__(self, stopwords):
+    def __init__(self, stopwords, corpus_encoding = 'utf-8'):
         self.doc_tokens = {}
         self.term_idx = 0
         self.terms_to_indices = {}
         self.vocabulary = {}
         self.documents = None
-
+        self.corpus_encoding = corpus_encoding
         self.stopwords = self.get_stopwords(stopwords if stopwords is not None else './data/english_stopwords.txt')
 
     def get_stopwords(self, stopwords_file):
@@ -36,16 +37,31 @@ class Reader:
             self.terms_to_indices[token] = self.term_idx
             self.term_idx += 1
 
-    def get_doc_tokens(self, corpus):
+    def get_doc_tokens(self, corpus, recursive = True, encoding = 'utf-8'):
+        n = 0
         if os.path.isdir(corpus):
-            for f in os.listdir(corpus):
-                with open(os.path.join(corpus, f), mode='r', encoding='utf-8') as file:
-                    text = file.read()
-                tokens = self.get_tokens(text)
-                self.doc_tokens[f] = tokens
+            if recursive:
+                for dir, paths, files in (os.walk(corpus)):
+                    for f in files:
+                        full_path = os.path.join(dir, f)
+
+                        if n == 0:
+                            encoding = self.get_codec(full_path)
+                            print(encoding)
+                        with open(full_path, mode='r', encoding=encoding) as file:
+                            text = file.read()
+                        tokens = self.get_tokens(text)
+                        self.doc_tokens[f] = tokens
+                        n +=1
+            else:
+                for f in os.listdir(corpus):
+                    with open(os.path.join(corpus, f), mode='r', encoding=encoding) as file:
+                        text = file.read()
+                    tokens = self.get_tokens(text)
+                    self.doc_tokens[f] = tokens
 
         elif os.path.isfile(corpus):
-            with open(corpus, mode='r', encoding='utf-8') as file:
+            with open(corpus, mode='r', encoding=encoding) as file:
                 for line in file:
                     id,doc = line.split('\t')
                     tokens = self.get_tokens(doc)
@@ -73,3 +89,33 @@ class Reader:
         self.build_vocab()
         self.convert_docs_to_matrix()
 
+    def get_codec(self, f):
+        for codec in ["utf-8", "ansi"]:
+            try:
+                with open(f, mode='r', encoding=codec) as file_obj:
+                    text = file_obj.read()
+                print("Codec is " + codec)
+                return codec
+            except:
+                print("Codec " + codec + " didn't work")
+                traceback.print_exc()
+
+        import sys
+        print("No codec found")
+        STOP
+
+    def open_file(self, file, encoding='utf-8'):
+        for codec in [encoding, "utf-8", "ansi"]:
+            try:
+                with open(file, mode='r', encoding=codec) as file:
+                    text = file.read()
+                return text
+            except UnicodeDecodeError:
+                pass
+
+    f = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus\20_newsgroups\alt.atheism\49960"
+    def test(file, codec = 'utf-8'):
+        with open(file, mode='r', encoding=codec) as file:
+            text = file.read()
+        print(text)
+    #test(f, "ansi")
