@@ -1,0 +1,1433 @@
+TOPIC 0
+Top 3 words:
+---------------
+letter: 0.1248
+day: 0.1239
+statement: 0.1228
+
+TOPIC 0
+Bottom 3 words:
+---------------
+trying: 0.0002
+member: 0.0005
+inquiry: 0.0009
+
+TOPIC 1
+Top 3 words:
+---------------
+relatives: 0.1142
+protestis: 0.1134
+mass: 0.1128
+
+TOPIC 1
+Bottom 3 words:
+---------------
+want: 0.0014
+house: 0.0015
+react: 0.0015
+
+TOPIC 2
+Top 3 words:
+---------------
+highest: 0.1161
+access: 0.1157
+elses: 0.1153
+
+TOPIC 2
+Bottom 3 words:
+---------------
+nymerx: 0.0001
+protest: 0.0016
+week: 0.0025
+
+TOPIC 3
+Top 3 words:
+---------------
+release: 0.1167
+powerful: 0.1165
+negotiated: 0.1164
+
+TOPIC 3
+Bottom 3 words:
+---------------
+sent: 0.0000
+did: 0.0014
+shared: 0.0014
+
+TOPIC 4
+Top 3 words:
+---------------
+office: 0.1170
+want: 0.1166
+time: 0.1159
+
+TOPIC 4
+Bottom 3 words:
+---------------
+oppose: 0.0010
+affect: 0.0011
+shared: 0.0014
+
+TOPIC 5
+Top 3 words:
+---------------
+senator: 0.1141
+confidence: 0.1135
+let: 0.1125
+
+TOPIC 5
+Bottom 3 words:
+---------------
+strongly: 0.0001
+mailings: 0.0005
+friends: 0.0015
+
+TOPIC 6
+Top 3 words:
+---------------
+points: 0.1153
+revelation: 0.1148
+love: 0.1138
+
+TOPIC 6
+Bottom 3 words:
+---------------
+marie: 0.0010
+releases: 0.0023
+pda: 0.0035
+
+TOPIC 7
+Top 3 words:
+---------------
+mercy: 0.1152
+changes: 0.1151
+god: 0.1143
+
+TOPIC 7
+Bottom 3 words:
+---------------
+real: 0.0014
+dont: 0.0015
+support: 0.0027
+
+TOPIC 8
+Top 3 words:
+---------------
+bet: 0.1115
+pilot: 0.1109
+break: 0.1096
+
+TOPIC 8
+Bottom 3 words:
+---------------
+ipaq: 0.0004
+grace: 0.0006
+hunts: 0.0016
+
+TOPIC 9
+Top 3 words:
+---------------
+ask: 0.1179
+enactment: 0.1164
+numbers: 0.1164
+
+TOPIC 9
+Bottom 3 words:
+---------------
+know: 0.0008
+cheryl: 0.0012
+opportunity: 0.0015
+
+
+
+ITERATION 1
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 2
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 3
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 4
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 5
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 6
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 9
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 10
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 15 words:
+---------------
+bless: 0.3358
+god: 0.2260
+prayer: 0.2238
+spirit: 0.2101
+people: 0.2091
+ask: 0.2084
+day: 0.1299
+gifts: 0.1297
+instructions: 0.1296
+grace: 0.1296
+power: 0.1283
+self: 0.1280
+peace: 0.1271
+best: 0.1261
+cost: 0.1251
+
+TOPIC 0
+Bottom 15 words:
+---------------
+press: -0.0497
+enron: -0.0418
+provisions: -0.0387
+member: -0.0382
+house: -0.0361
+shes: -0.0335
+contrary: -0.0286
+senate: -0.0262
+legislation: -0.0253
+make: -0.0246
+team: -0.0244
+numbers: -0.0238
+protestis: -0.0225
+mark: -0.0218
+situation: -0.0216
+
+TOPIC 1
+Top 15 words:
+---------------
+yes: 0.3069
+access: 0.2994
+calendar: 0.2972
+desktop: 0.2157
+book: 0.2109
+updating: 0.2081
+shared: 0.2075
+responsible: 0.2036
+permission: 0.2029
+emailcalendar: 0.2019
+type: 0.1998
+address: 0.1985
+office: 0.1113
+desk: 0.1111
+west: 0.1109
+
+TOPIC 1
+Bottom 15 words:
+---------------
+enron: -0.0660
+release: -0.0568
+press: -0.0565
+senate: -0.0465
+provisions: -0.0459
+house: -0.0446
+information: -0.0371
+react: -0.0367
+changes: -0.0350
+overwhelming: -0.0325
+highest: -0.0311
+energy: -0.0298
+needs: -0.0286
+enactment: -0.0283
+points: -0.0283
+
+TOPIC 2
+Top 15 words:
+---------------
+calendar: 0.2883
+access: 0.2703
+yes: 0.2641
+permission: 0.1896
+responsible: 0.1855
+address: 0.1823
+emailcalendar: 0.1765
+desktop: 0.1720
+shared: 0.1712
+type: 0.1679
+book: 0.1664
+updating: 0.1562
+enron: 0.1558
+press: 0.1354
+release: 0.1344
+
+TOPIC 2
+Bottom 15 words:
+---------------
+team: -0.0538
+prayer: -0.0472
+know: -0.0443
+captain: -0.0371
+pattern: -0.0370
+conversations: -0.0367
+time: -0.0362
+caroli: -0.0350
+relatives: -0.0344
+spirit: -0.0341
+afterthefact: -0.0333
+ears: -0.0331
+tennis: -0.0330
+numerous: -0.0328
+precious: -0.0311
+
+TOPIC 3
+Top 15 words:
+---------------
+release: 0.3005
+press: 0.2355
+provisions: 0.2310
+senate: 0.2195
+enron: 0.1918
+legislation: 0.1405
+house: 0.1371
+changes: 0.1337
+negotiated: 0.1244
+directly: 0.1199
+member: 0.1161
+votecongressman: 0.1112
+react: 0.1094
+week: 0.1086
+3774: 0.1081
+
+TOPIC 3
+Bottom 15 words:
+---------------
+did: -0.0335
+pass: -0.0328
+minister: -0.0291
+lets: -0.0281
+friends: -0.0255
+sent: -0.0240
+cost: -0.0232
+hurting: -0.0207
+hultquist: -0.0206
+instructions: -0.0206
+reading: -0.0194
+god: -0.0172
+father: -0.0147
+carpet: -0.0144
+revelation: -0.0142
+
+TOPIC 4
+Top 15 words:
+---------------
+team: 0.2928
+email: 0.2807
+bless: 0.2183
+people: 0.1799
+cheryl: 0.1747
+prayer: 0.1638
+ask: 0.1632
+shes: 0.1550
+know: 0.1482
+person: 0.1449
+spirit: 0.1336
+ive: 0.1329
+god: 0.1325
+wanted: 0.1005
+jesus: 0.0992
+
+TOPIC 4
+Bottom 15 words:
+---------------
+letter: -0.0520
+hour: -0.0482
+shared: -0.0480
+votecongressman: -0.0462
+access: -0.0418
+enactment: -0.0409
+information: -0.0404
+heads: -0.0399
+elses: -0.0394
+anyones: -0.0389
+provisions: -0.0388
+directly: -0.0376
+didnt: -0.0375
+address: -0.0357
+oppose: -0.0357
+
+TOPIC 5
+Top 15 words:
+---------------
+team: 0.2297
+yes: 0.1819
+access: 0.1792
+email: 0.1595
+know: 0.1452
+shared: 0.1445
+updating: 0.1442
+type: 0.1319
+ive: 0.1310
+calendar: 0.1295
+emailcalendar: 0.1230
+caroli: 0.1205
+address: 0.1181
+evidently: 0.1177
+let: 0.1172
+
+TOPIC 5
+Bottom 15 words:
+---------------
+strongly: -0.0231
+friends: -0.0222
+opportunity: -0.0206
+obstacle: -0.0197
+legislation: -0.0188
+member: -0.0164
+contrary: -0.0151
+affect: -0.0134
+combest: -0.0119
+mercy: -0.0084
+continue: -0.0082
+expresses: -0.0078
+doubt: -0.0078
+just: -0.0071
+overwhelming: -0.0064
+
+TOPIC 6
+Top 15 words:
+---------------
+release: 0.3689
+senate: 0.2670
+press: 0.2520
+enron: 0.2496
+provisions: 0.2459
+changes: 0.1785
+member: 0.1711
+house: 0.1653
+legislation: 0.1557
+attached: 0.1016
+speak: 0.1008
+supports: 0.0988
+needs: 0.0940
+chairman: 0.0939
+enact: 0.0925
+
+TOPIC 6
+Bottom 15 words:
+---------------
+calendar: -0.0643
+yes: -0.0544
+access: -0.0528
+responsible: -0.0510
+team: -0.0494
+tholt: -0.0454
+address: -0.0446
+login: -0.0435
+book: -0.0430
+35539: -0.0417
+pilot: -0.0389
+type: -0.0361
+maintains: -0.0360
+pda: -0.0344
+emailcalendar: -0.0342
+
+TOPIC 7
+Top 15 words:
+---------------
+team: 0.3031
+email: 0.2208
+shes: 0.1790
+know: 0.1501
+afterthefact: 0.1333
+determined: 0.1315
+trying: 0.1307
+make: 0.1245
+cheryl: 0.1238
+did: 0.1237
+forfeit: 0.1231
+45: 0.1218
+concerns: 0.1210
+let: 0.1187
+situation: 0.1174
+
+TOPIC 7
+Bottom 15 words:
+---------------
+prayer: -0.0396
+people: -0.0321
+bless: -0.0312
+address: -0.0301
+maintains: -0.0278
+type: -0.0270
+laptop: -0.0269
+wanted: -0.0243
+best: -0.0226
+mailings: -0.0214
+nice: -0.0200
+jesus: -0.0194
+ask: -0.0169
+responsible: -0.0169
+pda: -0.0164
+
+TOPIC 8
+Top 15 words:
+---------------
+team: 0.3867
+email: 0.2948
+ive: 0.2181
+shes: 0.1983
+cheryl: 0.1974
+know: 0.1916
+captain: 0.1248
+happened: 0.1222
+thisand: 0.1212
+bet: 0.1208
+betsie: 0.1203
+games: 0.1163
+protest: 0.1155
+dont: 0.1138
+tennis: 0.1127
+
+TOPIC 8
+Bottom 15 words:
+---------------
+god: -0.0432
+bless: -0.0407
+calendar: -0.0379
+updating: -0.0325
+mercy: -0.0313
+attached: -0.0311
+confidence: -0.0284
+father: -0.0277
+people: -0.0269
+ipaq: -0.0263
+yes: -0.0259
+rewards: -0.0258
+grace: -0.0256
+picked: -0.0244
+want: -0.0244
+
+TOPIC 9
+Top 15 words:
+---------------
+bless: 0.2808
+release: 0.2523
+ask: 0.2063
+spirit: 0.2044
+prayer: 0.1671
+god: 0.1659
+people: 0.1625
+provisions: 0.1393
+blessed: 0.1326
+press: 0.1295
+receive: 0.1226
+break: 0.1212
+moment: 0.1206
+precious: 0.1186
+house: 0.1160
+
+TOPIC 9
+Bottom 15 words:
+---------------
+know: -0.0414
+ive: -0.0405
+hollis: -0.0378
+anyones: -0.0325
+cheryl: -0.0315
+numerous: -0.0311
+evidently: -0.0304
+original: -0.0285
+responsible: -0.0283
+originated: -0.0274
+permission: -0.0273
+team: -0.0264
+hurting: -0.0262
+hultquist: -0.0256
+ears: -0.0214
+
+
+
+ITERATION 11
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 12
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 13
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 14
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 15
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 16
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 17
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 18
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 19
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 20
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 15 words:
+---------------
+bless: 0.3386
+god: 0.2260
+spirit: 0.2259
+people: 0.2259
+prayer: 0.2259
+ask: 0.2258
+lets: 0.1134
+pattern: 0.1134
+love: 0.1134
+reading: 0.1134
+new: 0.1134
+gifts: 0.1134
+mercy: 0.1134
+precious: 0.1134
+minister: 0.1133
+
+TOPIC 0
+Bottom 15 words:
+---------------
+team: -0.0531
+shes: -0.0263
+cheryl: -0.0262
+know: -0.0261
+ive: -0.0261
+make: -0.0194
+called: -0.0192
+senate: -0.0188
+enron: -0.0188
+provisions: -0.0187
+press: -0.0187
+hurt: -0.0130
+conversations: -0.0129
+burning: -0.0129
+situation: -0.0129
+
+TOPIC 1
+Top 15 words:
+---------------
+calendar: 0.3112
+access: 0.3112
+yes: 0.3111
+desktop: 0.2078
+book: 0.2078
+emailcalendar: 0.2076
+responsible: 0.2076
+permission: 0.2075
+updating: 0.2075
+type: 0.2075
+address: 0.2075
+shared: 0.2074
+does: 0.1042
+palm: 0.1042
+mass: 0.1041
+
+TOPIC 1
+Bottom 15 words:
+---------------
+team: -0.0544
+email: -0.0411
+shes: -0.0269
+know: -0.0269
+ive: -0.0269
+cheryl: -0.0268
+make: -0.0160
+called: -0.0159
+hunts: -0.0134
+time: -0.0134
+carpet: -0.0133
+determined: -0.0133
+inquiry: -0.0133
+tennis: -0.0133
+ears: -0.0133
+
+TOPIC 2
+Top 15 words:
+---------------
+calendar: 0.3089
+access: 0.3088
+yes: 0.3087
+desktop: 0.2061
+book: 0.2061
+responsible: 0.2060
+emailcalendar: 0.2060
+permission: 0.2059
+address: 0.2059
+updating: 0.2059
+type: 0.2058
+shared: 0.2058
+does: 0.1033
+groups: 0.1033
+35539: 0.1033
+
+TOPIC 2
+Bottom 15 words:
+---------------
+team: -0.0586
+email: -0.0321
+know: -0.0291
+shes: -0.0290
+ive: -0.0290
+cheryl: -0.0289
+time: -0.0145
+hunts: -0.0145
+carpet: -0.0145
+tennis: -0.0145
+ears: -0.0145
+playoff: -0.0145
+caroli: -0.0144
+determined: -0.0144
+inquiry: -0.0144
+
+TOPIC 3
+Top 15 words:
+---------------
+release: 0.3433
+press: 0.2634
+provisions: 0.2633
+enron: 0.2633
+senate: 0.2633
+house: 0.1757
+changes: 0.1757
+legislation: 0.1756
+member: 0.1756
+releases: 0.0881
+evening: 0.0881
+ken: 0.0881
+just: 0.0881
+occur: 0.0881
+passed: 0.0881
+
+TOPIC 3
+Bottom 15 words:
+---------------
+team: -0.0273
+bless: -0.0225
+ask: -0.0149
+spirit: -0.0149
+prayer: -0.0148
+people: -0.0148
+god: -0.0148
+person: -0.0142
+shes: -0.0135
+know: -0.0134
+cheryl: -0.0134
+ive: -0.0133
+calendar: -0.0084
+yes: -0.0084
+access: -0.0083
+
+TOPIC 4
+Top 15 words:
+---------------
+bless: 0.2784
+email: 0.2448
+team: 0.2165
+prayer: 0.1859
+people: 0.1858
+ask: 0.1858
+god: 0.1856
+spirit: 0.1856
+person: 0.1471
+cheryl: 0.1087
+know: 0.1085
+ive: 0.1085
+shes: 0.1084
+mercy: 0.0932
+minister: 0.0932
+
+TOPIC 4
+Bottom 15 words:
+---------------
+provisions: -0.0310
+senate: -0.0310
+enron: -0.0309
+press: -0.0308
+changes: -0.0206
+house: -0.0205
+legislation: -0.0205
+member: -0.0205
+yes: -0.0204
+access: -0.0204
+calendar: -0.0202
+shared: -0.0137
+address: -0.0136
+updating: -0.0135
+type: -0.0134
+
+TOPIC 5
+Top 15 words:
+---------------
+access: 0.2579
+yes: 0.2578
+calendar: 0.2573
+team: 0.2298
+updating: 0.1722
+shared: 0.1721
+type: 0.1721
+emailcalendar: 0.1720
+address: 0.1720
+desktop: 0.1717
+responsible: 0.1717
+book: 0.1717
+permission: 0.1717
+email: 0.1574
+know: 0.1154
+
+TOPIC 5
+Bottom 15 words:
+---------------
+release: -0.0364
+bless: -0.0222
+senate: -0.0219
+provisions: -0.0218
+press: -0.0216
+enron: -0.0214
+prayer: -0.0149
+ask: -0.0149
+member: -0.0147
+legislation: -0.0146
+attached: -0.0146
+spirit: -0.0144
+people: -0.0144
+god: -0.0144
+changes: -0.0144
+
+TOPIC 6
+Top 15 words:
+---------------
+release: 0.3433
+press: 0.2634
+provisions: 0.2633
+enron: 0.2633
+senate: 0.2633
+house: 0.1757
+changes: 0.1757
+legislation: 0.1756
+member: 0.1756
+evening: 0.0881
+releases: 0.0881
+ken: 0.0881
+just: 0.0881
+passed: 0.0881
+occur: 0.0881
+
+TOPIC 6
+Bottom 15 words:
+---------------
+team: -0.0273
+bless: -0.0225
+ask: -0.0149
+prayer: -0.0148
+spirit: -0.0148
+people: -0.0148
+god: -0.0148
+person: -0.0142
+shes: -0.0135
+know: -0.0134
+cheryl: -0.0134
+ive: -0.0133
+calendar: -0.0085
+yes: -0.0084
+access: -0.0083
+
+TOPIC 7
+Top 15 words:
+---------------
+team: 0.3813
+email: 0.2935
+shes: 0.1909
+cheryl: 0.1909
+know: 0.1908
+ive: 0.1908
+called: 0.1191
+make: 0.1191
+did: 0.0957
+trying: 0.0957
+rationalizing: 0.0957
+years: 0.0957
+really: 0.0957
+days: 0.0957
+lodged: 0.0957
+
+TOPIC 7
+Bottom 15 words:
+---------------
+bless: -0.0483
+yes: -0.0411
+access: -0.0411
+calendar: -0.0411
+people: -0.0322
+spirit: -0.0321
+prayer: -0.0321
+ask: -0.0321
+god: -0.0320
+type: -0.0274
+address: -0.0274
+permission: -0.0274
+emailcalendar: -0.0274
+responsible: -0.0274
+updating: -0.0274
+
+TOPIC 8
+Top 15 words:
+---------------
+team: 0.4014
+email: 0.2807
+cheryl: 0.2011
+ive: 0.2011
+know: 0.2010
+shes: 0.2009
+lodged: 0.1009
+captain: 0.1009
+days: 0.1009
+season: 0.1009
+did: 0.1008
+years: 0.1008
+happened: 0.1008
+thisand: 0.1008
+womens: 0.1008
+
+TOPIC 8
+Bottom 15 words:
+---------------
+bless: -0.0415
+release: -0.0406
+yes: -0.0391
+calendar: -0.0391
+access: -0.0389
+people: -0.0275
+spirit: -0.0275
+god: -0.0275
+ask: -0.0275
+prayer: -0.0274
+shared: -0.0260
+type: -0.0260
+updating: -0.0260
+permission: -0.0259
+address: -0.0259
+
+TOPIC 9
+Top 15 words:
+---------------
+bless: 0.3224
+god: 0.2151
+spirit: 0.2151
+ask: 0.2150
+people: 0.2150
+prayer: 0.2150
+release: 0.1946
+attached: 0.1293
+lets: 0.1079
+pattern: 0.1078
+new: 0.1078
+precious: 0.1078
+reading: 0.1078
+love: 0.1078
+moment: 0.1078
+
+TOPIC 9
+Bottom 15 words:
+---------------
+team: -0.0607
+cheryl: -0.0302
+shes: -0.0302
+know: -0.0301
+ive: -0.0301
+conversations: -0.0150
+hultquist: -0.0150
+personthat: -0.0150
+hurt: -0.0150
+hurting: -0.0149
+ears: -0.0149
+determined: -0.0149
+inquiry: -0.0149
+original: -0.0149
+hunts: -0.0149
+
+
+
+ITERATION 21
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 22
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 23
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 24
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 25
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 26
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 27
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 28
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 29
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 30
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 15 words:
+---------------
+bless: 0.3389
+god: 0.2262
+people: 0.2261
+spirit: 0.2261
+prayer: 0.2261
+ask: 0.2261
+lets: 0.1135
+reading: 0.1135
+pattern: 0.1135
+mercy: 0.1135
+love: 0.1135
+new: 0.1135
+minister: 0.1135
+precious: 0.1134
+gifts: 0.1134
+
+TOPIC 0
+Bottom 15 words:
+---------------
+team: -0.0477
+shes: -0.0236
+know: -0.0235
+cheryl: -0.0234
+ive: -0.0234
+senate: -0.0219
+enron: -0.0218
+provisions: -0.0218
+press: -0.0217
+make: -0.0190
+called: -0.0189
+member: -0.0144
+legislation: -0.0144
+changes: -0.0143
+house: -0.0143
+
+TOPIC 1
+Top 15 words:
+---------------
+access: 0.3119
+yes: 0.3118
+calendar: 0.3118
+desktop: 0.2081
+book: 0.2081
+emailcalendar: 0.2080
+updating: 0.2080
+responsible: 0.2080
+type: 0.2080
+address: 0.2079
+shared: 0.2079
+permission: 0.2079
+eb3209c: 0.1044
+palm: 0.1044
+elses: 0.1044
+
+TOPIC 1
+Bottom 15 words:
+---------------
+team: -0.0497
+email: -0.0357
+shes: -0.0246
+know: -0.0245
+cheryl: -0.0245
+ive: -0.0245
+make: -0.0122
+hurt: -0.0121
+determined: -0.0121
+burning: -0.0121
+situation: -0.0121
+hurting: -0.0121
+carpet: -0.0121
+inquiry: -0.0121
+tennis: -0.0121
+
+TOPIC 2
+Top 15 words:
+---------------
+access: 0.3118
+yes: 0.3117
+calendar: 0.3117
+desktop: 0.2081
+book: 0.2081
+emailcalendar: 0.2080
+updating: 0.2080
+responsible: 0.2079
+type: 0.2079
+address: 0.2079
+shared: 0.2079
+permission: 0.2079
+eb3209c: 0.1044
+palm: 0.1043
+elses: 0.1043
+
+TOPIC 2
+Bottom 15 words:
+---------------
+team: -0.0499
+email: -0.0345
+shes: -0.0248
+know: -0.0246
+cheryl: -0.0246
+ive: -0.0246
+hurt: -0.0122
+determined: -0.0122
+burning: -0.0122
+situation: -0.0122
+hurting: -0.0122
+carpet: -0.0122
+inquiry: -0.0121
+tennis: -0.0121
+personthat: -0.0121
+
+TOPIC 3
+Top 15 words:
+---------------
+release: 0.3430
+press: 0.2635
+provisions: 0.2635
+enron: 0.2634
+senate: 0.2634
+house: 0.1758
+changes: 0.1758
+legislation: 0.1757
+member: 0.1757
+ken: 0.0882
+releases: 0.0882
+evening: 0.0882
+gramm: 0.0882
+passed: 0.0882
+just: 0.0881
+
+TOPIC 3
+Bottom 15 words:
+---------------
+bless: -0.0239
+ask: -0.0158
+prayer: -0.0158
+spirit: -0.0158
+people: -0.0158
+god: -0.0157
+team: -0.0139
+person: -0.0113
+doubt: -0.0077
+powerful: -0.0077
+send: -0.0077
+day: -0.0077
+right: -0.0077
+sent: -0.0077
+renewed: -0.0077
+
+TOPIC 4
+Top 15 words:
+---------------
+bless: 0.3030
+email: 0.2176
+god: 0.2022
+people: 0.2021
+spirit: 0.2021
+prayer: 0.2021
+ask: 0.2021
+team: 0.1672
+person: 0.1429
+lets: 0.1013
+reading: 0.1013
+pattern: 0.1013
+mercy: 0.1013
+love: 0.1013
+new: 0.1013
+
+TOPIC 4
+Bottom 15 words:
+---------------
+senate: -0.0261
+enron: -0.0261
+provisions: -0.0261
+press: -0.0260
+member: -0.0173
+legislation: -0.0173
+changes: -0.0173
+house: -0.0172
+calendar: -0.0136
+yes: -0.0136
+access: -0.0136
+permission: -0.0090
+shared: -0.0090
+address: -0.0090
+type: -0.0090
+
+TOPIC 5
+Top 15 words:
+---------------
+access: 0.2816
+yes: 0.2816
+calendar: 0.2816
+desktop: 0.1879
+book: 0.1879
+emailcalendar: 0.1879
+updating: 0.1878
+responsible: 0.1878
+type: 0.1878
+address: 0.1878
+shared: 0.1878
+permission: 0.1878
+team: 0.1795
+email: 0.1276
+eb3209c: 0.0942
+
+TOPIC 5
+Bottom 15 words:
+---------------
+bless: -0.0151
+release: -0.0131
+ask: -0.0100
+prayer: -0.0099
+spirit: -0.0099
+people: -0.0099
+god: -0.0099
+attached: -0.0069
+senate: -0.0059
+enron: -0.0059
+provisions: -0.0058
+press: -0.0058
+doubt: -0.0048
+powerful: -0.0048
+send: -0.0048
+
+TOPIC 6
+Top 15 words:
+---------------
+release: 0.3430
+press: 0.2635
+provisions: 0.2635
+enron: 0.2634
+senate: 0.2634
+house: 0.1758
+changes: 0.1758
+legislation: 0.1757
+member: 0.1757
+ken: 0.0882
+releases: 0.0882
+evening: 0.0882
+gramm: 0.0882
+passed: 0.0882
+just: 0.0881
+
+TOPIC 6
+Bottom 15 words:
+---------------
+bless: -0.0239
+ask: -0.0158
+prayer: -0.0158
+spirit: -0.0158
+people: -0.0158
+god: -0.0157
+team: -0.0139
+person: -0.0113
+doubt: -0.0077
+powerful: -0.0077
+send: -0.0077
+day: -0.0077
+right: -0.0077
+sent: -0.0077
+renewed: -0.0077
+
+TOPIC 7
+Top 15 words:
+---------------
+team: 0.3980
+email: 0.2964
+ive: 0.1992
+cheryl: 0.1992
+know: 0.1992
+shes: 0.1992
+called: 0.1103
+make: 0.1102
+did: 0.0998
+lodged: 0.0998
+season: 0.0998
+years: 0.0998
+let: 0.0998
+protestis: 0.0998
+caroli: 0.0998
+
+TOPIC 7
+Bottom 15 words:
+---------------
+bless: -0.0379
+calendar: -0.0325

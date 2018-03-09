@@ -7,7 +7,13 @@ import os
 if os.environ["COMPUTERNAME"] == 'DALAILAMA':
     os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
     #print(os.getenv("HOME"))
-
+    VERBOSE = False
+    TOP =3
+    BOTTOM =3
+else:
+    TOP = 15
+    BOTTOM = 15
+    VERBOSE = True
 
 import src.algorithms.sam.util as util
 from src.algorithms.sam.reader import Reader
@@ -208,7 +214,7 @@ class SAM:
         return gradient
 
     def do_update_vAlpha(self):
-        util.optimize(self.vAlpha_likelihood, self.vAlpha_gradient, util.Parameter(self, 'vAlpha'))
+        util.optimize(self.vAlpha_likelihood, self.vAlpha_gradient, util.Parameter(self, 'vAlpha'), verbose = VERBOSE)
 
     def do_update_vMu(self, LAMBDA, A_V_xi, A_V_k0):
         def f():
@@ -219,16 +225,15 @@ class SAM:
             vMu_squared = np.sum(self.vMu ** 2, axis=0)
             return self.vMu_gradient_tan(A_V_xi, A_V_k0) - LAMBDA*2.0*np.sum((vMu_squared - 1.0) * (2*self.vMu))
 
-        util.optimize(f, f_prime, util.Parameter(self, 'vMu'), bounds=(-1.0,1.0), verbose = False)
+        util.optimize(f, f_prime, util.Parameter(self, 'vMu'), bounds=(-1.0,1.0), verbose = VERBOSE)
         self.vMu = util.l2_normalize(self.vMu)
-        print(self.vMu)
 
     ####
     """ Alpha """
     ####
         
     def update_alpha(self):
-        util.optimize(self.alpha_likelihood, self.alpha_likelihood_gradient, util.Parameter(self, 'alpha'))
+        util.optimize(self.alpha_likelihood, self.alpha_likelihood_gradient, util.Parameter(self, 'alpha'), verbose = VERBOSE)
         
     def alpha_likelihood(self):
         alpha0 = np.sum(self.alpha)
@@ -256,7 +261,7 @@ class SAM:
     ####
     
     def update_xi(self):
-        util.optimize(self.xi_likelihood, self.xi_likelihood_gradient, util.Parameter(self, 'xi'))
+        util.optimize(self.xi_likelihood, self.xi_likelihood_gradient, util.Parameter(self, 'xi'), verbose = VERBOSE)
    
     def xi_likelihood(self):
         a_xi = util.bessel_approx(self.vocab_size, self.xi)
@@ -376,14 +381,14 @@ class SAM:
 
 
     def do_EM(self, max_iterations=100, print_topics_every=10):
-        self.print_topics(top_words=3, bottom_words=3 )
+        self.print_topics(top_words=TOP, bottom_words=BOTTOM )
         for i in range(1, max_iterations + 1):
             util.log_message("\nITERATION {}\n".format(i), self.log_file)
             self.do_E()
             self.do_M()
 
             if i % print_topics_every == 0:
-                self.print_topics()
+                self.print_topics(top_words=TOP, bottom_words=BOTTOM )
 
 
     def do_E(self):

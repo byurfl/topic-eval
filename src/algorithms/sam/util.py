@@ -151,7 +151,6 @@ def optimize(function, func_deriv, param, bounds=[1e-4,None], disp=0, maxevals=1
 
     old_function_value = function()
     result,evals,rc = fmin_tnc(get_negative_func_and_func_deriv, x0=x0, bounds=bounds, disp=disp, maxfun=maxevals)
-    print(result)
     setattr(param.model, param.name, unravel(param, result))
     new_function_value = function()
 
