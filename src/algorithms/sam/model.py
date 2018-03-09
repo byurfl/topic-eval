@@ -105,11 +105,7 @@ class SAM:
             return False
 
     def update_model_params(self):
-
-        # self.xi =
         self.m = util.l2_normalize(np.sum(self.vMu, axis=1))
-        # self.alpha =
-
         self.update_xi()
         self.update_alpha()
 
@@ -181,8 +177,9 @@ class SAM:
 
         return gradient
 
-    def vMu_likelihood(self, A_V_xi, A_V_k0, sum_rhos):
+    def vMu_likelihood(self, A_V_xi, A_V_k0):
         vM_dot_vMu = np.dot(self.vM.T, np.sum(self.vMu, axis=1))
+        sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
 
         return (A_V_xi * A_V_k0 * self.xi * vM_dot_vMu) + (self.k * sum_rhos)
 
@@ -213,13 +210,14 @@ class SAM:
     def do_update_vAlpha(self):
         util.optimize(self.vAlpha_likelihood, self.vAlpha_gradient, util.Parameter(self, 'vAlpha'))
 
-    def do_update_vMu(self, LAMBDA, A_V_xi, A_V_k0, sum_rhos):
-        vMu_squared = np.sum(self.vMu ** 2, axis=0)
+    def do_update_vMu(self, LAMBDA, A_V_xi, A_V_k0):
         def f():
-            return self.vMu_likelihood(A_V_xi, A_V_k0, sum_rhos) - LAMBDA*np.sum((vMu_squared - 1.0) ** 2)
+            vMu_squared = np.sum(self.vMu ** 2, axis=0)
+            return self.vMu_likelihood(A_V_xi, A_V_k0) - LAMBDA*np.sum((vMu_squared - 1.0) ** 2)
 
         def f_prime():
-            return self.vMu_gradient_tan(A_V_xi, A_V_k0) - LAMBDA*np.sum((vMu_squared - 1.0) * (2*self.vMu))
+            vMu_squared = np.sum(self.vMu ** 2, axis=0)
+            return self.vMu_gradient_tan(A_V_xi, A_V_k0) - LAMBDA*2.0*np.sum((vMu_squared - 1.0) * (2*self.vMu))
 
         util.optimize(f, f_prime, util.Parameter(self, 'vMu'), bounds=(-1.0,1.0), verbose = False)
         self.vMu = util.l2_normalize(self.vMu)
@@ -365,12 +363,12 @@ class SAM:
         A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
         A_V_k0 = util.bessel_approx(self.vocab_size, self.k0)
         topic_mean_sum = np.sum(self.vMu)
-        sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
+        # sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
 
         self.do_update_vAlpha()
 
-        LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0, sum_rhos)
-        self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0, sum_rhos)
+        LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0)
+        self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0)
 
         self.vM = util.l2_normalize(self.k0 * A_V_k0 * self.m +
                                     A_V_xi * A_V_k0 * self.xi *

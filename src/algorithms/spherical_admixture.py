@@ -1,7 +1,7 @@
 from src.algorithms.sam.model import SAM
 from src.algorithms.algorithm import Algorithm
 from src.algorithms import anchor_words
-import src.algorithms.ankura.ankura.validate as validate
+import src.algorithms.ankura.validate as validate
 from sklearn.linear_model import LogisticRegression as lr
 import os, random
 import numpy as np

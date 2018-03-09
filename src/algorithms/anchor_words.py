@@ -1,8 +1,8 @@
-import src.algorithms.ankura.ankura.pipeline as pipeline
-import src.algorithms.ankura.ankura.anchor as anchor
-import src.algorithms.ankura.ankura.corpus as corpus
-import src.algorithms.ankura.ankura.validate as validate
-import src.algorithms.ankura.ankura.topic as topics
+import src.algorithms.ankura.pipeline as pipeline
+import src.algorithms.ankura.anchor as anchor
+import src.algorithms.ankura.corpus as corpus
+import src.algorithms.ankura.validate as validate
+import src.algorithms.ankura.topic as topics
 
 from sklearn.linear_model import LogisticRegression as lr
 import os,regex,gensim,random, operator

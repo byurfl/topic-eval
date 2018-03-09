@@ -2,6 +2,7 @@ import nltk.tokenize as tok
 import numpy as np
 import os.path
 import src.algorithms.ankura.pipeline as pipeline
+import src.algorithms.sam.util as util
 
 if False:
     import nltk
@@ -63,6 +64,9 @@ class Reader:
             for t in self.doc_tokens[doc_id]:
                 self.documents[self.terms_to_indices[t]][doc_idx] += 1
             doc_idx += 1
+
+        for d in range(doc_idx):
+            self.documents[:,d] = util.l2_normalize(self.documents[:,d])
 
     def read_corpus(self, corpus):
         self.get_doc_tokens(corpus)

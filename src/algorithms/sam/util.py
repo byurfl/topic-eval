@@ -1,5 +1,6 @@
 from math import log,sqrt,pi
 from scipy.optimize import fmin_tnc
+from scipy.linalg import norm
 import numpy as np
 import pickle
 
@@ -63,9 +64,12 @@ def l2_normalize_ours(data):
     elif len(arr_data.shape) == 2:
         col_norms = np.fmax(np.sqrt(np.sum(arr_data ** 2, axis=0)), 10*EPS)
         return data / make_row_vector(col_norms)
-
     else:
-        raise Exception('Data may only have 1 or 2 dimensions')
+        raise ValueError('x should have one or two dimensions')
+
+def column_norms(x):
+    return np.sqrt(np.add.reduce((x * x), axis=0))
+
 
 def l2_normalize_his(x):
     """
@@ -202,7 +206,7 @@ def load_model(pickle_file):
     print('Loading model from ' + pickle_file + '\n')
     with open(pickle_file, mode='rb') as file:
         return pickle.load(file)
-    
+
 def cosine_similarity(a, b):
     """
     Computes the cosine similarity of the columns of A with the columns of B.
