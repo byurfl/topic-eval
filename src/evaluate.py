@@ -1,5 +1,13 @@
 import argparse, os
 
+if os.environ["COMPUTERNAME"] == 'DALAILAMA':
+    import sys
+    path = r"D:\PyCharm Projects\py-sam-master\topic-eval"
+    os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
+    sys.path.append(path)
+    os.chdir(path)
+
+
 class AlgorithmEvaluator:
     def __init__(self, algorithm, input_path, output_path, reference_path=None, filter_string=r'_sentences\.txt$'):
         self.input_path = input_path

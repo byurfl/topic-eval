@@ -38,21 +38,23 @@ class Reader:
             self.term_idx += 1
 
     def get_doc_tokens(self, corpus, recursive = True, encoding = 'utf-8'):
-        n = 0
+        #n = 0
+        #if n == 0:
+        #encoding = self.get_codec(full_path)
+        if corpus.find("news"):
+            encoding = 'ansi'
+
         if os.path.isdir(corpus):
             if recursive:
                 for dir, paths, files in (os.walk(corpus)):
                     for f in files:
                         full_path = os.path.join(dir, f)
 
-                        if n == 0:
-                            encoding = self.get_codec(full_path)
-                            print(encoding)
                         with open(full_path, mode='r', encoding=encoding) as file:
                             text = file.read()
                         tokens = self.get_tokens(text)
                         self.doc_tokens[f] = tokens
-                        n +=1
+
             else:
                 for f in os.listdir(corpus):
                     with open(os.path.join(corpus, f), mode='r', encoding=encoding) as file:

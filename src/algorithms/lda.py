@@ -10,6 +10,11 @@ import gensim
 
 from src.algorithms.algorithm import Algorithm
 
+if os.environ["COMPUTERNAME"] == 'DALAILAMA':
+    import sys
+    path = r"D:\PyCharm Projects\py-sam-master\topic-eval\src"
+    os.chdir(path)
+
 
 class LDA(Algorithm):
     def load_input(self):

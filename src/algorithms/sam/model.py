@@ -2,21 +2,22 @@
 # Anchor words needs a home!
 import os
 
+TOP = 15
+BOTTOM = 15
+VERBOSE = True
+
+
 if os.environ["COMPUTERNAME"] == 'DALAILAMA':
     import sys
     path = r"D:\PyCharm Projects\py-sam-master\topic-eval"
     os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
     #print(os.getenv("HOME"))
-    VERBOSE = False
-    TOP =3
-    BOTTOM =3
+    if False:
+        VERBOSE = FALSE
+        TOP = 3
+        BOTTOM = 3
     sys.path.append(path)
     os.chdir(path)
-
-else:
-    TOP = 15
-    BOTTOM = 15
-    VERBOSE = True
 
 import src.algorithms.sam.util as util
 from src.algorithms.sam.reader import Reader
@@ -27,7 +28,7 @@ from scipy.special import gammaln, psi, polygamma
 
 class SAM:
     def __init__(self, corpus, topics, stopwords=None, log_file=None, corpus_encoding = 'utf-8'):
-
+        self.corpus = corpus
         if log_file == None:
             self.log_file = corpus + '_log.txt'
         else:
@@ -339,15 +340,15 @@ class SAM:
         util.log_message('\n', self.log_file)
 
     def run(self):
-        self.do_EM(25)
+        self.do_EM(10)
         # self.do_EM(1)
         import datetime
-        date = datetime.datetime.now()
-        year = date.year
-        month = date.month
-        day = date.day
-
-        util.save_model(self, './data/models/enron_{}{<02}{<02}.pickle'.format(year, month, day))
+        date = datetime.date.today()
+        #year = date.year
+        #month = date.month
+        #day = date.day
+        corpus_name = os.path.split(self.corpus)[1][0:5]
+        util.save_model(self, './data/models/{}_{}.pickle'.format(corpus_name, date))
 
     def get_topics(self):
         topics = []

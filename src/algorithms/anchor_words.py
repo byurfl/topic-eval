@@ -10,13 +10,17 @@ import numpy as np
 
 from src.algorithms.algorithm import Algorithm
 
+#r'C:\Users\leer1\Documents\aaPERSONAL\School\CS698R (F2017)\data\corpora\ohsumed-all\ohsumed.pickle', docs_path=r'C:\Users\leer1\Documents\aaPERSONAL\School\CS698R (F2017)\data\corpora\ohsumed-all\ohsumed.str'
+
+stop_word_path = r"./data/english_stopwords.txt"
+pickle_path = ""
 
 class AnchorWords(Algorithm):
     def load_input(self):
         pipe = None
         input = self.get_files(self.input_path)
 
-        stopwords = [w.strip() for w in open(r'C:\Users\leer1\Documents\aaPERSONAL\School\CS698R (F2017)\data\english_stopwords.txt', 'r', encoding='utf-8')]
+        stopwords = [w.strip() for w in open(stop_word_path , 'r', encoding='utf-8')]
 
         inputter = pipeline.file_inputer(*input)
         extractor = pipeline.whole_extractor() if os.path.isdir(self.input_path) else pipeline.line_extractor(delim='\t')
@@ -51,7 +55,7 @@ class AnchorWords(Algorithm):
                 pipeline.noop_labeler(),
                 pipeline.keep_filterer()
             )
-            self.reference = p2.run(pickle_path=r'C:\Users\leer1\Documents\aaPERSONAL\School\CS698R (F2017)\data\corpora\ohsumed-all\ohsumed.pickle', docs_path=r'C:\Users\leer1\Documents\aaPERSONAL\School\CS698R (F2017)\data\corpora\ohsumed-all\ohsumed.str')
+            self.reference = p2.run(pickle_path=pickle_path)
 
     def run(self):
         self.topics = anchor.anchor_algorithm(self.corpus, 100, doc_threshold=10)

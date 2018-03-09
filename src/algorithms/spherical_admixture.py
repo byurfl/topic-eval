@@ -153,3 +153,10 @@ class SphericalAdmixture(Algorithm):
             print(acc)
 
 
+def delete():
+    for d,s,fs in os.walk(r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus\very_mini_news"):
+        for f in fs:
+            path = os.path.join(d,f)
+            os.rename(path, path+".txt")
+            #os.remove(path)
+#delete()
