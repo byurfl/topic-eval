@@ -1,5 +1,6 @@
 from math import log,sqrt,pi
 from scipy.optimize import fmin_tnc
+from scipy.linalg import norm
 import numpy as np
 import pickle
 
@@ -51,18 +52,30 @@ def avk_derivative(v, k):
     #return -1/2/(v^2/k^2+4)^(1/2)*v^2/k^3+1/2*v/k^2
     return -0.5 / (v**2/k**2+4)**0.5 * v**2/k**3 + 0.5*v/k**2
 
-def l2_normalize(data):
-    arr_data = np.asarray(data)
-    if len(arr_data.shape) == 1:
-        l2_norm = np.fmax(np.sqrt(np.sum(arr_data ** 2)), 10*EPS)
-        return data / l2_norm
+def column_norms(x):
+    return np.sqrt(np.add.reduce((x * x), axis=0))
 
-    elif len(arr_data.shape) == 2:
-        col_norms = np.fmax(np.sqrt(np.sum(arr_data ** 2, axis=0)), 10*EPS)
-        return data / make_row_vector(col_norms)
-
+def l2_normalize(x):
+    # arr_data = np.asarray(data)
+    # if len(arr_data.shape) == 1:
+    #     l2_norm = np.fmax(np.sqrt(np.sum(arr_data ** 2)), 10*EPS)
+    #     return data / l2_norm
+    #
+    # elif len(arr_data.shape) == 2:
+    #     col_norms = np.fmax(np.sqrt(np.sum(arr_data ** 2, axis=0)), 10*EPS)
+    #     return data / make_row_vector(col_norms)
+    #
+    # else:
+    #     raise Exception('Data may only have 1 or 2 dimensions')
+    x = np.asarray(x, dtype='float64')
+    if x.ndim == 1:
+        norm_ = np.fmax(norm(x), 100 * EPS)
+        return x / norm_
+    elif x.ndim == 2:
+        norms = np.fmax(column_norms(x), 100 * EPS)
+        return x / make_row_vector(norms)
     else:
-        raise Exception('Data may only have 1 or 2 dimensions')
+        raise ValueError('x should have one or two dimensions')
 
 def make_vector(matrix):
     return matrix.reshape(matrix.size)
