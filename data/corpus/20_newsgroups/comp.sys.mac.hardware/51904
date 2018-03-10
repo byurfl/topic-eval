@@ -21,7 +21,7 @@ Lines: 28
 To the best of my knowledge there aren't any problems with Quadras and
 blind transfers.  Trouble with blind transfers usually means the programmer
 screwed up the TIBs or didn't test their driver with the device in question.
-Well designed TIBs poll or loop at every point where delays of >16µsec occur.
+Well designed TIBs poll or loop at every point where delays of >16Âµsec occur.
 This usually occurs at the first byte of each block of a transfer but some
 devices can "hiccup" in the middle of blocks.  If this happens in the middle
 of a blind transfer there is the possibility of losing or gaining a byte
