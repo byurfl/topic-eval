@@ -1,12 +1,14 @@
 import argparse, os
 
+ITERATIONS = 30
+
 if os.environ["COMPUTERNAME"] == 'DALAILAMA':
     import sys
     path = r"D:\PyCharm Projects\py-sam-master\topic-eval"
     os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
     sys.path.append(path)
     os.chdir(path)
-
+    ITERATIONS = 1
 
 class AlgorithmEvaluator:
     def __init__(self, algorithm, input_path, output_path, reference_path=None, filter_string=r'_sentences\.txt$'):
@@ -76,7 +78,7 @@ if __name__ == '__main__':
     print('done.')
 
     with open(os.path.join(args.output, 'avg_coherences.txt'), 'w', encoding='utf-8') as score_file:
-        for i in range(30):
+        for i in range(ITERATIONS):
             print('Iteration ' + str(i) + ': Recovering topics...', end='')
             eval.run_algorithm()
             print('done.')

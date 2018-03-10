@@ -6,23 +6,24 @@ from sklearn.linear_model import LogisticRegression as lr
 import os, random
 import numpy as np
 import gensim
-
+import csv
 
 class SphericalAdmixture(Algorithm):
-    def load_input(self):
+    def load_input(self, num_of_topics = 10):
         # input is loaded as part of model initialization
-        self.model = SAM(self.input_path, 10)
-
+        self.model = SAM(self.input_path, num_of_topics)
+        self.num_of_topics = num_of_topics
     def run(self):
         self.model.run()
         self.topics = self.model.get_topics()
 
-    def write_output(self, iteration_counter=None):
+    def write_output_old(self, iteration_counter=None, as_row = True):
         output_file = os.path.join(self.output_path, 'topics.txt') \
             if iteration_counter is None \
             else os.path.join(self.output_path, 'topics_' + str(iteration_counter) + '.txt')
 
         with open(output_file, 'w', encoding='utf-8') as output:
+
             for row in self.topics:
                 output.write('[')
                 output.write("'" + str(row[0]) + "'")
@@ -31,6 +32,34 @@ class SphericalAdmixture(Algorithm):
                     output.write(str(row[i]))
                     output.write("'")
                 output.write(']\n')
+
+    def write_output(self, iteration_counter=None):
+        self.write_topics(iteration_counter=None)
+
+    def write_topics(self, iteration_counter=None, pivot_table = False):
+        #print(self.topics)
+        output_file = os.path.join(self.output_path, 'topics.csv') \
+            if iteration_counter is None \
+            else os.path.join(self.output_path, 'topics_' + str(iteration_counter) + '.txt')
+
+        with open(output_file, 'w', newline='') as out:
+            csv_out = csv.writer(out)
+            if pivot_table:
+                csv_out.writerow(['topic', 'name', 'num'])
+                for t, topic in enumerate(self.topics):
+                    for word in topic:
+                        csv_out.writerow(["TOPIC " + str(t)] + list(word))
+            else:
+                csv_out.writerow(['name', 'num'] * self.num_of_topics)
+                output_topics = self.topics[:]
+
+                # Verify sort
+                for topic in output_topics:
+                    topic.sort(key=lambda x: -x[1])
+
+                output = zip(*output_topics)
+                for word_row in output:
+                    csv_out.writerow([i for sub in word_row for i in sub])
 
     def eval_methods(self):
         return ['coherence', 'accuracy']
