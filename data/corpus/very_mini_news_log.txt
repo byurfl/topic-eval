@@ -396,3 +396,852 @@ ITERATION 14
 ITERATION 15
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 16
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 17
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 18
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 19
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 20
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+apr: 0.2693
+newsgroups: 0.2508
+date: 0.2485
+
+TOPIC 0
+Bottom 3 words:
+---------------
+decrement: 0.0001
+xtownselectionincremental: 0.0001
+fills: 0.0001
+
+TOPIC 1
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 1
+Bottom 3 words:
+---------------
+chasing: 0.0001
+interviews: 0.0001
+removing: 0.0001
+
+TOPIC 2
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 2
+Bottom 3 words:
+---------------
+falls: 0.0001
+5639033: 0.0001
+xtnargc: 0.0001
+
+TOPIC 3
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 3
+Bottom 3 words:
+---------------
+ignoring: 0.0001
+mapnotify: 0.0001
+menupopupaction: 0.0001
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 4
+Bottom 3 words:
+---------------
+0139721916: 0.0001
+chasing: 0.0001
+xy: 0.0001
+
+TOPIC 5
+Top 3 words:
+---------------
+apr: 0.2693
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 5
+Bottom 3 words:
+---------------
+frowned: 0.0001
+ignoring: 0.0001
+cpcahilvirtechvticom: 0.0001
+
+TOPIC 6
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 6
+Bottom 3 words:
+---------------
+wildly: 0.0001
+ignores: 0.0001
+menupopupaction: 0.0001
+
+TOPIC 7
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 7
+Bottom 3 words:
+---------------
+mapnotify: 0.0001
+ignoring: 0.0001
+menupopupaction: 0.0001
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 8
+Bottom 3 words:
+---------------
+51092: 0.0001
+temporary: 0.0001
+visualc: 0.0001
+
+TOPIC 9
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 9
+Bottom 3 words:
+---------------
+wildly: 0.0001
+menupopupaction: 0.0001
+mitlibxtconvertersc: 0.0001
+
+
+
+ITERATION 21
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 22
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 23
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 24
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 25
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 26
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 27
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 28
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 29
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 30
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2484
+
+TOPIC 0
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 1
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 1
+Bottom 3 words:
+---------------
+matchs: 0.0001
+contrib: 0.0001
+1800digital: 0.0001
+
+TOPIC 2
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 2
+Bottom 3 words:
+---------------
+matchs: 0.0001
+xtappgeterrordatabase: 0.0001
+addr: 0.0001
+
+TOPIC 3
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 3
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 4
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 5
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 5
+Bottom 3 words:
+---------------
+matchs: 0.0001
+contrib: 0.0001
+1800digital: 0.0001
+
+TOPIC 6
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 6
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 7
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 7
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 8
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 9
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 9
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+xtappgeterrordatabase: 0.0001
+
+
+
+ITERATION 31
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 32
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 33
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 34
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 35
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 36
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 37
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 38
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 39
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 40
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 0
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 1
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 1
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 2
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 2
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 3
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 3
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 4
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 5
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 5
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 6
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 6
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 7
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2484
+
+TOPIC 7
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 8
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 9
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 9
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+
+
+ITERATION 41
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 42
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 43
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 44
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 45
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 46
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 47
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 48
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 49
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 50
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+apr: 0.2690
+newsgroups: 0.2505
+date: 0.2483
+
+TOPIC 0
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+xtappgeterrordatabase: 0.0001
+
+TOPIC 1
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 1
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 2
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 2
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+contrib: 0.0001
+
+TOPIC 3
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 3
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 4
+Bottom 3 words:
+---------------
+matchs: 0.0001
+contrib: 0.0001
+addr: 0.0001
+
+TOPIC 5
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 5
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+xtappgeterrordatabase: 0.0001
+
+TOPIC 6
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 6
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 7
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 7
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 8
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+TOPIC 9
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 9
+Bottom 3 words:
+---------------
+matchs: 0.0001
+1800digital: 0.0001
+addr: 0.0001
+
+
+Saving model to ./data/models/very__2018-03-10.pickle

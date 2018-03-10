@@ -390,7 +390,7 @@ class SAM:
 
         self.do_update_vAlpha()
 
-        LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0)
+        LAMBDA = 10.0 * self.vMu_likelihood(A_V_xi, A_V_k0)
         self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0)
 
         self.vM = util.l2_normalize(self.k0 * self.m + A_V_xi * self.xi * np.sum(self.vMu, axis=1))
@@ -431,7 +431,6 @@ class SAM:
     def do_M(self):
         util.log_message("\tDoing maximization step of EM process...\n", self.log_file)
         self.update_model_params()
-        # TODO: return something meaningful
         return 0
 
 
