@@ -1,433 +1,385 @@
 TOPIC 0
 Top 15 words:
 ---------------
-andrew: 0.0060
-missiles: 0.0060
-talkpoliticsmideast76263: 0.0060
-ooo: 0.0060
-m1jys1qtfa3hvfut3: 0.0060
-tooling: 0.0060
-usual: 0.0060
-tested: 0.0060
-wasted: 0.0060
-altbinariespictureseroticad15193: 0.0060
-markktcscom: 0.0060
-bets: 0.0060
-whiteaustin: 0.0060
-obstetric: 0.0060
-mkjiadczpwu4rkh9wvu8paxaxaxaxaxi76: 0.0060
+172958: 0.0060
+socculturejewish65405: 0.0060
+70ns: 0.0060
+eeb1midwayuchicagoedu: 0.0060
+berry: 0.0060
+espoused: 0.0060
+msfqlqlqlp05llovovovov6nqlquio5koh: 0.0060
+cg132sadicogsci7ucsdedu: 0.0060
+unravel: 0.0060
+300120024009600v32: 0.0060
+fuessllnlgov: 0.0060
+monotype: 0.0060
+dfs735878203kehleyr: 0.0060
+talkabortion120722: 0.0060
+182123: 0.0060
 
 TOPIC 0
 Bottom 15 words:
 ---------------
-15minute: 0.0000
-scotts: 0.0000
-1qugvuai8quadwfunetwfuedu: 0.0000
-untangling: 0.0000
-rotations: 0.0000
-ipvr: 0.0000
-newssetiinriafr: 0.0000
-suffers: 0.0000
-ae2000: 0.0000
-1993apr2222130713259sunovasscgov: 0.0000
-compwindowsopenlook8596: 0.0000
-next4csumredu: 0.0000
-usrbintraffic: 0.0000
-231540: 0.0000
-8hz12fk: 0.0000
+handset: 0.0000
+ln: 0.0000
+digital: 0.0000
+c4sg6os06watsonibmcom: 0.0000
+kbyte: 0.0000
+0246: 0.0000
+cantaloupesrvcscmuedumagnesiumclubcccmuedunewsseicmueducisohiostateeduzaphodmpsohiostateedumoeksuksueduosuunxuccokstateeduconstellationuokmaxecnuoknoreducallison: 0.0000
+mri1993apr90117431903: 0.0000
+talkabortion120535: 0.0000
+cantaloupesrvcscmuedurochestercornellbatcomputercaenuunetmdiseamothostdnbf01bramcdxmotcomdnbf01jloong: 0.0000
+ppmgiftarga: 0.0000
+connotations: 0.0000
+21n7m: 0.0000
+spanning: 0.0000
+freenet: 0.0000
 
 TOPIC 1
 Top 15 words:
 ---------------
-exagerate: 0.0060
-breakthroughs: 0.0060
-201721: 0.0060
-sundance: 0.0060
-66018mimsyumdedu: 0.0060
-15578optilinkcom: 0.0060
-vault: 0.0060
-163643: 0.0060
-rcandersnyxcsduedu: 0.0060
-talkreligionmisc83693: 0.0060
-f6us382sld: 0.0060
-keybo: 0.0060
-9305131725aa06518expolcsmitedu: 0.0060
-reverence: 0.0060
-antidemocratic: 0.0060
+entry: 0.0060
+vertices: 0.0060
+altpagan29685: 0.0060
+blake: 0.0060
+lofasotsdarlututexasedu: 0.0060
+v9: 0.0060
+mawh: 0.0060
+ja6x4: 0.0060
+toroknynexstcom9146442378fax9146442404: 0.0060
+1993apr2311080023337micuclaedu: 0.0060
+oakley: 0.0060
+cantaloupesrvcscmuedudasnewsharvardedunocnearnethowlandrestonansnetux1csouiucedunewscsouiucedualexiacobb: 0.0060
+lorenzo: 0.0060
+nc9: 0.0060
+upshift: 0.0060
 
 TOPIC 1
 Bottom 15 words:
 ---------------
-briefing: 0.0000
-riskaverse: 0.0000
-1993apr2110050625844aragornunibech: 0.0000
-fripp: 0.0000
-washer: 0.0000
-cctutfi: 0.0000
-pirates: 0.0000
-soaking: 0.0000
-0125: 0.0000
-030854: 0.0000
-eskimos: 0.0000
-181909: 0.0000
-c5uphygh7dcsedacuk: 0.0000
-sharply: 0.0000
-attackee: 0.0000
+1993apr1415261219076unocalcom: 0.0000
+paly: 0.0000
+hammers: 0.0000
+initialdisplaytype: 0.0000
+trashes: 0.0000
+metzger: 0.0000
+rogerdaqmcom: 0.0000
+cantaloupesrvcscmuedudasnewsharvardedunocnearnethowlandrestonansnetzaphodmpsohiostateedusaimiriprimatewisceduusenetcoemontanaedunewsuwashingtonedustalfoseliot: 0.0000
+caramelizing: 0.0000
+candidly: 0.0000
+achengncsauiucedu: 0.0000
+callsignve7gda: 0.0000
+jeffnsrhpcom: 0.0000
+specimen: 0.0000
+governmentrun: 0.0000
 
 TOPIC 2
 Top 15 words:
 ---------------
-c5qtqh6joeiscalstateedu: 0.0060
-3its: 0.0060
-mpalmerencorecom: 0.0060
-massager: 0.0060
-splitw: 0.0060
-014: 0.0060
-rumorsome: 0.0060
-cipr: 0.0060
-itti: 0.0060
-truevision: 0.0060
-compgraphics38982: 0.0060
-implemen: 0.0060
-given: 0.0060
-altconspiracyaltatheismaltpagantalkreligionmiscaltpoliticshomosexuality: 0.0060
-nazism: 0.0060
+sedans: 0.0060
+altitudes: 0.0060
+cantaloupesrvcscmuedumagnesiumclubcccmuedunewsseicmueducisohiostateeduzaphodmpsohiostateedudarwinsuranetauroralatecheduvmcclatecheduopdbs: 0.0060
+fulfillment: 0.0060
+precedent: 0.0060
+1648: 0.0060
+xsetregionxtdisplayofobjectpw: 0.0060
+fuse: 0.0060
+1r9ojve2rfunierlangende: 0.0060
+655360: 0.0060
+1qg8bukl5fidoasdsgicom: 0.0060
+sciimageprocessing2764: 0.0060
+cnty: 0.0060
+templars: 0.0060
+150k: 0.0060
 
 TOPIC 2
 Bottom 15 words:
 ---------------
-shortreal: 0.0000
-holdover: 0.0000
-freeswinger: 0.0000
-cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomhowlandrestonansnetspoolmueduagateheadwallstanfordeducsdnewshoststanfordeduxenonstanfordedugregg: 0.0000
-seeds: 0.0000
-talkpoliticsguns54612: 0.0000
-soccultureusa13519: 0.0000
-0r: 0.0000
-costly: 0.0000
-dwindle: 0.0000
-m4hho0spqw4k3qe01dzjt: 0.0000
-crank: 0.0000
-1k82: 0.0000
-dinoinqmindbisonmbca: 0.0000
-plug: 0.0000
+obcountersteer: 0.0000
+ngreated: 0.0000
+221421: 0.0000
+nonflammable: 0.0000
+davececstcsuchicoedu: 0.0000
+leesqsqcom: 0.0000
+lennane: 0.0000
+smilor: 0.0000
+treason: 0.0000
+kalkis: 0.0000
+fischer: 0.0000
+lightweight: 0.0000
+eantc: 0.0000
+142534: 0.0000
+960: 0.0000
 
 TOPIC 3
 Top 15 words:
 ---------------
-slapped: 0.0060
-atheistsagnostics: 0.0060
-completedly: 0.0060
-1956: 0.0060
-gepeinigt: 0.0060
-overlooking: 0.0060
-134246: 0.0060
-soccultureiranian23556: 0.0060
-docwebridercentralsuncom: 0.0060
-underway: 0.0060
-talkreligionmisc83683: 0.0060
-fee: 0.0060
-comprising: 0.0060
-205236: 0.0060
-21416: 0.0060
+portacio: 0.0060
+narrowing: 0.0060
+mn12: 0.0060
+excursion: 0.0060
+zhitnik: 0.0060
+bucs: 0.0060
+bunkeretc: 0.0060
+2334: 0.0060
+moslems: 0.0060
+dispatch: 0.0060
+edgetriggered: 0.0060
+tdunbarvtaixccvtedu: 0.0060
+mt8vp8w: 0.0060
+solbourne: 0.0060
+curse: 0.0060
 
 TOPIC 3
 Bottom 15 words:
 ---------------
-sppzabriskieberkeleyedu: 0.0000
-loni14i2: 0.0000
-schenectady: 0.0000
-soami: 0.0000
-dewey: 0.0000
-proisraeli: 0.0000
-characterized: 0.0000
-mouseware: 0.0000
-dhartungchinetchiilus: 0.0000
-6yll: 0.0000
-geoff: 0.0000
-mikestarburstumdedu: 0.0000
-ccuumanitobaca: 0.0000
-decapods: 0.0000
-nasser: 0.0000
+mevumzz18tmbnf7rudf5hv03i: 0.0000
+5128348770: 0.0000
+perl: 0.0000
+rogerhautodeskcom: 0.0000
+356: 0.0000
+streamflow: 0.0000
+minimumloss: 0.0000
+0523: 0.0000
+antigay: 0.0000
+ira4naawni: 0.0000
+vesikalarla: 0.0000
+chung: 0.0000
+spriteberkeleyedu: 0.0000
+vorobyev: 0.0000
+uzi: 0.0000
 
 TOPIC 4
 Top 15 words:
 ---------------
-blowing: 0.0060
-muscls: 0.0060
-resale: 0.0060
-meec3: 0.0060
-walveranta: 0.0060
-1qih539housenetinscwruedu: 0.0060
-headings: 0.0060
-feustelc5tw497p5netcomcom: 0.0060
-deathstalker: 0.0060
-19425pittuucp: 0.0060
-apostles: 0.0060
-talkpoliticsmisc178662: 0.0060
-americanoccupied: 0.0060
-4378creaturescsvtedu: 0.0060
-2174: 0.0060
+shade: 0.0060
+everpresent: 0.0060
+1993apr1617372019151scicintelcom: 0.0060
+001833: 0.0060
+rodeo: 0.0060
+lanph872uidahoedu: 0.0060
+steppers: 0.0060
+34664oasysdtnavymil: 0.0060
+gehrels3: 0.0060
+mft1r4h: 0.0060
+1993apr61810589103olecdaccom: 0.0060
+davebingrescom: 0.0060
+mystery: 0.0060
+sharesrc: 0.0060
+cantaloupesrvcscmuedurochesterudeldarwinsuranetknuthmtsueduraidertheporchgene: 0.0060
 
 TOPIC 4
 Bottom 15 words:
 ---------------
-codecountry: 0.0000
-discalimer: 0.0000
-apologized: 0.0000
-nfotis735934093theseas: 0.0000
-lautrec: 0.0000
-xtcachenone: 0.0000
-donemi: 0.0000
-tribulation: 0.0000
-capability: 0.0000
-1338: 0.0000
-jimmy: 0.0000
-socculturejewish63156: 0.0000
-alumni: 0.0000
-mogg: 0.0000
-sandvik170493161548sandvikkentapplecom: 0.0000
+1993apr6011605909cisuabedu: 0.0000
+116m: 0.0000
+1r1vofinn871usenetpadeccom: 0.0000
+apocalypse: 0.0000
+purdue: 0.0000
+schooling: 0.0000
+usenetnewsacnsnwuedu: 0.0000
+storefront: 0.0000
+xauthsrc: 0.0000
+lmannjjmhomeuucp: 0.0000
+segmentings: 0.0000
+srgxnbsgracecrinz: 0.0000
+sure: 0.0000
+115449: 0.0000
+munns: 0.0000
 
 TOPIC 5
 Top 15 words:
 ---------------
-talkpoliticsguns53352: 0.0060
-m40jm6: 0.0060
-cantaloupesrvcscmuedudasnewsharvardedunocnearnetuunetthinkcompaperboyosforghsdndevcfa203borden: 0.0060
-died: 0.0060
-socculturegreek22326: 0.0060
-helser: 0.0060
-khz: 0.0060
-hyer: 0.0060
-m1fz6e1twwwzbhjnm7eypyf9f9dp7ey7ez: 0.0060
-ifb80owll: 0.0060
-avoidable: 0.0060
-cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomgatechnntpmsstateeduramsstateeduwgs1: 0.0060
-miscforsalecomputerspcclone8587: 0.0060
-poisons: 0.0060
-regather: 0.0060
+hitching: 0.0060
+6026219615: 0.0060
+shrapnel: 0.0060
+261492yr: 0.0060
+kerry: 0.0060
+cantaloupesrvcscmuedudasnewsharvardedunocnearnethowlandrestonansnetnewsansnetcmcl2panixhardwick: 0.0060
+univ: 0.0060
+muchado: 0.0060
+exportlcsmitedu1824012: 0.0060
+41zvhb9bk: 0.0060
+286: 0.0060
+offhand: 0.0060
+odorless: 0.0060
+talkpoliticsmideast76013: 0.0060
+cretaceoustertiary: 0.0060
 
 TOPIC 5
 Bottom 15 words:
 ---------------
-yagi: 0.0000
-refreshing: 0.0000
-sunf37: 0.0000
-42793105: 0.0000
-ftpmathpsuedu: 0.0000
-mu3vne0zm0itv6ovag8esbu: 0.0000
-healthy: 0.0000
-talkpoliticsmideasttalkpoliticssovietsocculturegreeksoccultureeuropesocculturesoviettalkpoliticsmiscsocculturebosnaherzgvnasoccultureturkishsoccultureyugoslavia: 0.0000
-120m: 0.0000
-clintonites: 0.0000
-targas: 0.0000
-xsoftware: 0.0000
-feild: 0.0000
-c5jp0k4p5cscolumbiaedu: 0.0000
-warlockeeceunmedu: 0.0000
+cots: 0.0000
+stifle: 0.0000
+1993apr152319034045cscornelledu: 0.0000
+091018: 0.0000
+ballantyne: 0.0000
+earles: 0.0000
+twombly: 0.0000
+belmonte: 0.0000
+ad735831059cat: 0.0000
+compsysibmpchardware60492: 0.0000
+smoggyggcaltechedu: 0.0000
+sandvik210493011931sandvikkentapplecom: 0.0000
+curfew: 0.0000
+toplevelshellpart: 0.0000
+cantaloupesrvcscmuedudasnewsharvardedunocnearnetuunetgatekeeperusoraclecomdecwrlnetcomsvnetcomcomerics: 0.0000
 
 TOPIC 6
 Top 15 words:
 ---------------
-5h: 0.0060
-wouldbe: 0.0060
-imprisoned: 0.0060
-659304050538560005111312na1emmcimailcom: 0.0060
-concertina: 0.0060
-sacrament: 0.0060
-hsinchu: 0.0060
-163: 0.0060
-theanthropic: 0.0060
-temper: 0.0060
-1993apr2617404125444daffycswiscedu: 0.0060
-1r8qroho6rachelstorconcom: 0.0060
-convolu: 0.0060
-mycotic: 0.0060
-bristol: 0.0060
+cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomemoryswrindezaphodmpsohiostateedusaimiriprimatewisceduameshavenumdeduuunetbtrbtrcompublicbtrcomcar: 0.0060
+ire: 0.0060
+maxaxaxaxaxaxaxaxaxaypu1828chvioq: 0.0060
+gerco: 0.0060
+abominations: 0.0060
+trapdoorspidercouk: 0.0060
+parkinengsuncom: 0.0060
+9460tekig7pentekcom: 0.0060
+comporgieee1637: 0.0060
+4500: 0.0060
+multiplexing: 0.0060
+220103: 0.0060
+methods: 0.0060
+c5slmb9w6cuphpcom: 0.0060
+chattering: 0.0060
 
 TOPIC 6
 Bottom 15 words:
 ---------------
-nfotis735934128theseas: 0.0000
-xinstallman: 0.0000
-confederation: 0.0000
-talkpoliticsmideast76118: 0.0000
-deuterocanon: 0.0000
-booker: 0.0000
-895: 0.0000
-agrgbasuacadbitnet: 0.0000
-cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomemoryswrindezaphodmpsohiostateeduuwmeducsutexaseduutnuttornnewshostuwocavalveheartrriuwocawlsmith: 0.0000
-mccullousnake2cswiscedu: 0.0000
-m1t1twwwwwt1tei6ei6ei0lplplpnei6e: 0.0000
-20454k: 0.0000
-autoimmune: 0.0000
-o: 0.0000
-195929: 0.0000
+england: 0.0000
+3pohddhpdma: 0.0000
+droplets: 0.0000
+socculturejewish64055: 0.0000
+gnugcchelp4786: 0.0000
+keithradionlnuwcnavymil: 0.0000
+panws: 0.0000
+bruceswellsfcaus: 0.0000
+neisseria: 0.0000
+platformda: 0.0000
+platforms: 0.0000
+1993apr1414382513476stortekcom: 0.0000
+grooming: 0.0000
+n: 0.0000
+c5v12m2wocbfsbcbattcom: 0.0000
 
 TOPIC 7
 Top 15 words:
 ---------------
-underwent: 0.0060
-whoaoddstogovau: 0.0060
-cantaloupesrvcscmueducrabapplesrvcscmuedubb3andrewcmuedunewsseicmueducisohiostateeduzaphodmpsohiostateeducsutexasedutamsuntamueduzeustamuedudjh4484: 0.0060
-stephanopoulos: 0.0060
-attraction: 0.0060
-2552552540: 0.0060
-3lq: 0.0060
-graficsformat: 0.0060
-commoninteractii: 0.0060
-wbt: 0.0060
-thief: 0.0060
-kensibcary112itsrpiedu: 0.0060
-434359: 0.0060
-contribxsat10tarz: 0.0060
-41293: 0.0060
+907: 0.0060
+3060: 0.0060
+batten: 0.0060
+basetranslation: 0.0060
+oppressoror: 0.0060
+propriety: 0.0060
+kjabonesfishkillibmcom: 0.0060
+qsgvgqtckw0kuumf: 0.0060
+1141: 0.0060
+171130: 0.0060
+conjectured: 0.0060
+slitely: 0.0060
+mankind: 0.0060
+lintlibdirlliblxmuln: 0.0060
+merit: 0.0060
 
 TOPIC 7
 Bottom 15 words:
 ---------------
-talkpoliticsmisc178426: 0.0000
-assassinated: 0.0000
-encampments: 0.0000
-micromho: 0.0000
-xavier: 0.0000
-21627ousrvroulufi: 0.0000
-diagonal: 0.0000
-jpeggif: 0.0000
-localtalk: 0.0000
-cantaloupesrvcscmuedudasnewsharvardedunocnearnethowlandrestonansneteuropaenggtefsdcomfs7ececmuedunewsseicmuedubb3andrewcmueduandrewcmuedupostman: 0.0000
-vesselin: 0.0000
-tottycsuiucedu: 0.0000
-adultreported: 0.0000
-1993apr1413042721349porthosccbellcorecom: 0.0000
-rkba002: 0.0000
+nhfozsrgmlryxrorrze: 0.0000
+yemen: 0.0000
+menchetti: 0.0000
+lonestarutsaedu: 0.0000
+389: 0.0000
+lbl: 0.0000
+islugapuccl: 0.0000
+altprivacyclipper80: 0.0000
+fugitives: 0.0000
+czechoslovakia: 0.0000
+reg: 0.0000
+introductions: 0.0000
+talkpoliticsguns55236: 0.0000
+ax2: 0.0000
+053bb: 0.0000
 
 TOPIC 8
 Top 15 words:
 ---------------
-mcrhais84p93l39elaj1dt11hddn2vbh09d: 0.0060
-1ql0kminnntishelleyuwashingtonedu: 0.0060
-gordons: 0.0060
-mx22lq145wo7u1kt4e27f2tm2r54mnnm34u34: 0.0060
-tonymorgandemoncouk: 0.0060
-elvolvilo: 0.0060
-sscsasupennedu: 0.0060
-curves: 0.0060
-arky: 0.0060
-313030: 0.0060
-garym: 0.0060
-lc6paowlgj3pqovlc3ny: 0.0060
-mfmkshempx9yx81xj75u75u75uj9zgiyu75ul4ql: 0.0060
-windlet: 0.0060
-usrx11localbin: 0.0060
+122066netnewsupennedu: 0.0060
+sandvik140493185248sandvikkentapplecom: 0.0060
+c6xqjzb6onewscsouiucedu: 0.0060
+miscreants: 0.0060
+thatll: 0.0060
+kmitchelc5kdxplofnetcomcom: 0.0060
+distortion: 0.0060
+reinnoculate: 0.0060
+545: 0.0060
+5225499: 0.0060
+261496a: 0.0060
+hcbnetcomcom: 0.0060
+433c: 0.0060
+detachable: 0.0060
+thinner: 0.0060
 
 TOPIC 8
 Bottom 15 words:
 ---------------
-cantaloupesrvcscmuedudasnewsharvardedunocnearnethowlandrestonansnetuscsddhpcomux1csouiucedunewscsouiucedualexiacobb: 0.0000
-identity: 0.0000
-buys: 0.0000
-cantaloupesrvcscmuedurochesterudelwupostuscnewsserviceucieduorionoacuciedutclock: 0.0000
-kathleen: 0.0000
-miscinvest42441: 0.0000
-nasalarcabs: 0.0000
-relieved: 0.0000
-blair: 0.0000
-tgardnerathenamitedu: 0.0000
-resoltuion: 0.0000
-negiotiate: 0.0000
-m3qpp9vgq7q6g9vgp3q3q3qb8fb8fb8fb8f: 0.0000
-xepocsd4csduwmedu: 0.0000
-cantaloupesrvcscmuedurochestercornellbatcomputercaenuwmedurutgersigorrutgersedugenevarutgerseduchristian: 0.0000
+starving: 0.0000
+sociologist: 0.0000
+listservtamvm1bitnet: 0.0000
+caltech: 0.0000
+fibrillation: 0.0000
+traveled: 0.0000
+dazzler: 0.0000
+newsspacephysicsuiowaedu: 0.0000
+6g5yccpyx08: 0.0000
+scicrypt15583: 0.0000
+mgbm0k68vmkp1lan5jiqhhhaxaxaxaxax: 0.0000
+dumped: 0.0000
+metaexistent: 0.0000
+xtappgeterrordatabase: 0.0000
+enjoys: 0.0000
 
 TOPIC 9
 Top 15 words:
 ---------------
-164428: 0.0060
-utc: 0.0060
-midsized: 0.0060
-composmswindowsmisc10123: 0.0060
-1ij8lgj911bgjvawwmrbaxbw1p3hscr: 0.0060
-oneand: 0.0060
-rasterizing: 0.0060
-gain: 0.0060
-hens: 0.0060
-1275: 0.0060
-1993apr231232081teslanjitedu: 0.0060
-cgfxvpic46readme1st: 0.0060
-pitbell: 0.0060
-das: 0.0060
-gt: 0.0060
+pressure: 0.0060
+newssun0urzuniheidelbergde: 0.0060
+ucsucoloradoedu: 0.0060
+nop: 0.0060
+nonbegotten: 0.0060
+fbx: 0.0060
+mulroney: 0.0060
+destroy: 0.0060
+projects: 0.0060
+overdrive: 0.0060
+compsecuritymisc: 0.0060
+mailinglist: 0.0060
+031154: 0.0060
+f5124625155: 0.0060
+pzfz: 0.0060
 
 TOPIC 9
 Bottom 15 words:
 ---------------
-leukotriene: 0.0000
-m4u34u34u34u34u3wmwm8nbxlt79vg9vg9vgp3q: 0.0000
-192438: 0.0000
-1029: 0.0000
-defeat: 0.0000
-1993apr241812389398raroyalroadsca: 0.0000
-sterotypical: 0.0000
-bookstore: 0.0000
-truthfully: 0.0000
-hivtransgenic: 0.0000
-h9: 0.0000
-geoffveritascom: 0.0000
-freaked: 0.0000
-greeks: 0.0000
-02g6980: 0.0000
+gemimgimg: 0.0000
+135: 0.0000
+talkreligionmisc83666: 0.0000
+bugfix: 0.0000
+30893: 0.0000
+copperuds: 0.0000
+rigth: 0.0000
+ml1mr50cgqr1gxhbh: 0.0000
+easiercheapermore: 0.0000
+7042: 0.0000
+aurora1993apr262221171: 0.0000
+homertriposcom: 0.0000
+robertson: 0.0000
+earns: 0.0000
+1993apr211315103215memexcouk: 0.0000
 
 
 
 ITERATION 1
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 429.0760892495018
-		Minimizer returned code 1 after 80 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
-
-		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 139332.9903696808
-		Minimizer returned code 4 after 60 iterations
-		(Message: Linear search failed)
-
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 754205.6688855945
-		Minimizer returned code 1 after 37 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
-
-		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 2211.143349708451
-		Minimizer returned code 1 after 21 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
-
-
-ITERATION 2
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 26877.311250536703
-		Minimizer returned code 1 after 136 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
-
-		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 533862.8179455504
-		Minimizer returned code 4 after 63 iterations
-		(Message: Linear search failed)
-
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 15076.890260592103
-		Minimizer returned code 1 after 22 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
-
-		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 10541.393195415643
-		Minimizer returned code 1 after 18 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
-
-
-ITERATION 3
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
