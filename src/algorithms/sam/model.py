@@ -25,7 +25,6 @@ import numpy as np
 from scipy.special import gammaln, psi, polygamma
 
 
-
 class SAM:
     def __init__(self, corpus, topics, stopwords=None, log_file=None, corpus_encoding = 'utf-8'):
         self.corpus = corpus

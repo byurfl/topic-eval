@@ -1,0 +1,558 @@
+TOPIC 0
+Top 15 words:
+---------------
+rembrandt: 0.0046
+01783482: 0.0046
+55301180: 0.0046
+21695741: 0.0046
+64117289: 0.0046
+609050403: 0.0046
+04097299: 0.0046
+13537510: 0.0046
+50383286: 0.0046
+63868002: 0.0046
+59779657: 0.0046
+17478327: 0.0046
+lh2484: 0.0046
+63739201: 0.0046
+71209001: 0.0046
+
+TOPIC 0
+Bottom 15 words:
+---------------
+29033018: 0.0000
+rootsilicon: 0.0000
+35000086: 0.0000
+548684358: 0.0000
+548685629: 0.0000
+61786795: 0.0000
+06035335: 0.0000
+627424030: 0.0000
+00492760: 0.0000
+syagrus: 0.0000
+grasses: 0.0000
+55289048: 0.0000
+37808530: 0.0000
+605121030: 0.0000
+55315103: 0.0000
+
+TOPIC 1
+Top 15 words:
+---------------
+61314014: 0.0046
+687886776: 0.0046
+492880279: 0.0046
+339928882: 0.0046
+21695175: 0.0046
+hip: 0.0046
+687880839: 0.0046
+68645541: 0.0046
+51660036: 0.0046
+507307503: 0.0046
+713350251: 0.0046
+65923344: 0.0046
+636293390: 0.0046
+46987328: 0.0046
+04562202: 0.0046
+
+TOPIC 1
+Bottom 15 words:
+---------------
+71200605: 0.0000
+43598655: 0.0000
+63187851: 0.0000
+101911246: 0.0000
+50390113: 0.0000
+69026280: 0.0000
+70933080: 0.0000
+538080408: 0.0000
+46122223: 0.0000
+caladrox: 0.0000
+504364600: 0.0000
+66343024: 0.0000
+680714052: 0.0000
+54458879: 0.0000
+438530010: 0.0000
+
+TOPIC 2
+Top 15 words:
+---------------
+62107027: 0.0046
+43538901: 0.0046
+43353223: 0.0046
+43353083: 0.0046
+softner: 0.0046
+681510136: 0.0046
+693580011: 0.0046
+64092200: 0.0046
+69795006: 0.0046
+61786625: 0.0046
+65862127: 0.0046
+41250855: 0.0046
+687888985: 0.0046
+42829406: 0.0046
+tcp: 0.0046
+
+TOPIC 2
+Bottom 15 words:
+---------------
+578843091: 0.0000
+66267430: 0.0000
+rheumatone: 0.0000
+636292882: 0.0000
+ty2: 0.0000
+156310667: 0.0000
+551548298: 0.0000
+63187893: 0.0000
+65862104: 0.0000
+71220040: 0.0000
+41520383: 0.0000
+21695140: 0.0000
+575200702: 0.0000
+115237371: 0.0000
+66993894: 0.0000
+
+TOPIC 3
+Top 15 words:
+---------------
+64980375: 0.0046
+43353278: 0.0046
+71919481: 0.0046
+69842342: 0.0046
+339927995: 0.0046
+64980387: 0.0046
+00690086: 0.0046
+437420133: 0.0046
+369872625: 0.0046
+55700294: 0.0046
+43419373: 0.0046
+04091467: 0.0046
+60533009: 0.0046
+369872116: 0.0046
+07131044: 0.0046
+
+TOPIC 3
+Bottom 15 words:
+---------------
+07813094: 0.0000
+29300316: 0.0000
+54092385: 0.0000
+706940090: 0.0000
+68382106: 0.0000
+maraviroc: 0.0000
+37808412: 0.0000
+71497020: 0.0000
+551545483: 0.0000
+sunstation: 0.0000
+49358543: 0.0000
+69256277: 0.0000
+71472230: 0.0000
+sisleya: 0.0000
+11673604: 0.0000
+
+TOPIC 4
+Top 15 words:
+---------------
+64117151: 0.0046
+10544267: 0.0046
+557146417: 0.0046
+49371047: 0.0046
+30142114: 0.0046
+al0043700: 0.0046
+josie: 0.0046
+572402010: 0.0046
+650445033: 0.0046
+37808422: 0.0046
+52584648: 0.0046
+59779419: 0.0046
+118225826: 0.0046
+21130000: 0.0046
+atacand: 0.0046
+
+TOPIC 4
+Bottom 15 words:
+---------------
+66758205: 0.0000
+21695461: 0.0000
+619572221: 0.0000
+33261105: 0.0000
+713350121: 0.0000
+eloxatin: 0.0000
+69049012: 0.0000
+55289704: 0.0000
+55681216: 0.0000
+unspecifiedhamamelis: 0.0000
+cough: 0.0000
+40032550: 0.0000
+71974020: 0.0000
+449110311: 0.0000
+758473001: 0.0000
+
+TOPIC 5
+Top 15 words:
+---------------
+43078001: 0.0046
+489518089: 0.0046
+07813150: 0.0046
+nera: 0.0046
+67414729: 0.0046
+62007051: 0.0046
+membrane: 0.0046
+369872839: 0.0046
+60846810: 0.0046
+68391141: 0.0046
+700000312: 0.0046
+680713196: 0.0046
+492880048: 0.0046
+655171009: 0.0046
+59779169: 0.0046
+
+TOPIC 5
+Bottom 15 words:
+---------------
+52125814: 0.0000
+12634416: 0.0000
+538080762: 0.0000
+69842079: 0.0000
+667155760: 0.0000
+muriatiucm: 0.0000
+ekeith: 0.0000
+growths: 0.0000
+369872227: 0.0000
+daratumumab: 0.0000
+705180256: 0.0000
+593510323: 0.0000
+36800317: 0.0000
+52685428: 0.0000
+687451022: 0.0000
+
+TOPIC 6
+Top 15 words:
+---------------
+118220065: 0.0046
+423527001: 0.0046
+620110248: 0.0046
+68113114: 0.0046
+42254124: 0.0046
+118220368: 0.0046
+perfringens: 0.0046
+68084055: 0.0046
+butylene: 0.0046
+118220121: 0.0046
+33342111: 0.0046
+66078503: 0.0046
+548685538: 0.0046
+testred: 0.0046
+673450786: 0.0046
+
+TOPIC 6
+Bottom 15 words:
+---------------
+08690722: 0.0000
+52000026: 0.0000
+spinach: 0.0000
+63304549: 0.0000
+enditch: 0.0000
+71490026: 0.0000
+695252001: 0.0000
+13537708: 0.0000
+43419727: 0.0000
+aceticum: 0.0000
+04094168: 0.0000
+156310607: 0.0000
+69424380: 0.0000
+68428259: 0.0000
+13537673: 0.0000
+
+TOPIC 7
+Top 15 words:
+---------------
+620110068: 0.0046
+438570377: 0.0046
+49972006: 0.0046
+53187470: 0.0046
+rovectin: 0.0046
+41163320: 0.0046
+521241154: 0.0046
+156312498: 0.0046
+31722225: 0.0046
+650441298: 0.0046
+01860016: 0.0046
+98132736: 0.0046
+50804180: 0.0046
+00540272: 0.0046
+07130536: 0.0046
+
+TOPIC 7
+Bottom 15 words:
+---------------
+76282310: 0.0000
+00780647: 0.0000
+13537963: 0.0000
+berley: 0.0000
+killer: 0.0000
+57896951: 0.0000
+69424570: 0.0000
+687476029: 0.0000
+492880369: 0.0000
+dipsacus: 0.0000
+syfungin: 0.0000
+helenium: 0.0000
+62756521: 0.0000
+579555120: 0.0000
+00233615: 0.0000
+
+TOPIC 8
+Top 15 words:
+---------------
+56136009: 0.0046
+46708449: 0.0046
+66993726: 0.0046
+3: 0.0046
+13913005: 0.0046
+693273001: 0.0046
+52915050: 0.0046
+inflammatone: 0.0046
+500900746: 0.0046
+05559123: 0.0046
+68001339: 0.0046
+68180611: 0.0046
+52642025: 0.0046
+42292026: 0.0046
+763696001: 0.0046
+
+TOPIC 8
+Bottom 15 words:
+---------------
+10237826: 0.0000
+118222461: 0.0000
+50804163: 0.0000
+68428685: 0.0000
+42479212: 0.0000
+70356201: 0.0000
+43353607: 0.0000
+71559202: 0.0000
+41250183: 0.0000
+706770035: 0.0000
+sato: 0.0000
+115237197: 0.0000
+645780141: 0.0000
+04401617: 0.0000
+55648171: 0.0000
+
+TOPIC 9
+Top 15 words:
+---------------
+52343162: 0.0046
+681514071: 0.0046
+500900199: 0.0046
+64980397: 0.0046
+76351100: 0.0046
+61919445: 0.0046
+polishing: 0.0046
+09410475: 0.0046
+501841028: 0.0046
+619410401: 0.0046
+694632001: 0.0046
+690084054: 0.0046
+115237258: 0.0046
+00093359: 0.0046
+morovis: 0.0046
+
+TOPIC 9
+Bottom 15 words:
+---------------
+52544255: 0.0000
+55695010: 0.0000
+r044: 0.0000
+axillaris: 0.0000
+49371043: 0.0000
+03630299: 0.0000
+605050268: 0.0000
+lynparza: 0.0000
+59779354: 0.0000
+605052795: 0.0000
+687889500: 0.0000
+55910799: 0.0000
+14783091: 0.0000
+68382411: 0.0000
+lidoplus: 0.0000
+
+
+
+ITERATION 1
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 37.33362074739199
+		Minimizer returned code 1 after 87 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 210.92326089207626
+		Minimizer returned code 4 after 61 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 1073.1441668397067
+		Minimizer returned code 0 after 7 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.8130574156232626
+		Minimizer returned code 1 after 19 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 2
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.771482993532999
+		Minimizer returned code 1 after 82 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 39.73390680263577
+		Minimizer returned code 4 after 60 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 8.15254154102837
+		Minimizer returned code 0 after 5 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1.4844415314155128
+		Minimizer returned code 1 after 16 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 3
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.107240732296532
+		Minimizer returned code 1 after 47 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 41.50873250968226
+		Minimizer returned code 4 after 60 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 9.02239325078861
+		Minimizer returned code 0 after 5 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.5082604365593966
+		Minimizer returned code 1 after 19 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 4
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 5.659127518806827
+		Minimizer returned code 1 after 63 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 37.91258202430481
+		Minimizer returned code 4 after 55 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 7.0861656308958345
+		Minimizer returned code 0 after 5 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4.547776852700338
+		Minimizer returned code 1 after 27 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 5
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 5.128834071652818
+		Minimizer returned code 1 after 88 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 21.316174019614323
+		Minimizer returned code 4 after 60 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 5.1290889293591135
+		Minimizer returned code 0 after 5 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4.031152756602751
+		Minimizer returned code 1 after 25 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 6
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.8901794492403496
+		Minimizer returned code 1 after 94 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 33.94591445161768
+		Minimizer returned code 4 after 63 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 1.4400698996983579
+		Minimizer returned code 0 after 5 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.077760451994436
+		Minimizer returned code 1 after 27 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.451204297257391
+		Minimizer returned code 1 after 79 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 27.148622653631833
+		Minimizer returned code 4 after 59 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.7678142014163996
+		Minimizer returned code 1 after 5 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.0128928624535547
+		Minimizer returned code 1 after 20 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1.6202656737877987
+		Minimizer returned code 1 after 76 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
