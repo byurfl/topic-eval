@@ -230,8 +230,17 @@ def ascolvector(x):
 
 
 def write_dictionary(d, filename):
+    from itertools import zip_longest
+    import csv
+
     print(d)
-    with open(filename, "w") as outfile:
+
+    # replace space string values with empty lists
+    for key, value in d.items():
+        if value == ' ':
+            d[key] = []
+
+    with open(filename, "w", newline='') as outfile:
         writer = csv.writer(outfile)
         writer.writerow(d.keys())
-        writer.writerows(zip(*d.values()))
+        writer.writerows(zip_longest(*d.values()))

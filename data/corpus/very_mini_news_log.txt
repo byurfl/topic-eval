@@ -1,505 +1,1744 @@
 TOPIC 0
 Top 15 words:
 ---------------
-newsencorecom: 0.0194
-rebuilt: 0.0194
-truecolor: 0.0194
-ideology: 0.0194
-specialists: 0.0194
-scimed58052: 0.0194
-line: 0.0194
-hst: 0.0194
-14: 0.0194
-cosmic: 0.0194
-usenetdsdescom: 0.0194
-indiscreet: 0.0194
-spectrograph: 0.0194
-sl: 0.0194
-traps: 0.0193
+pray: 0.0194
+altanswers132: 0.0194
+accessed: 0.0194
+floating: 0.0194
+talkpoliticsmisc176863: 0.0194
+1993apr31824521ulkyvxlouisvilleedu: 0.0194
+los: 0.0194
+mouse: 0.0194
+hawaii: 0.0194
+exist: 0.0194
+1993mar31145157530nntpdlkgdeccom: 0.0194
+contributors: 0.0194
+dynamically: 0.0194
+productions: 0.0194
+branch: 0.0194
 
 TOPIC 0
 Bottom 15 words:
 ---------------
-compunixwizards34618: 0.0000
-obsolete: 0.0000
-135x180: 0.0000
-parallax: 0.0000
-populations: 0.0000
-dig: 0.0000
-canucks: 0.0000
-translation: 0.0000
-chop: 0.0000
-kings: 0.0000
-linked: 0.0000
-1993apr518324825040lelandstanfordedu: 0.0000
-agenda: 0.0000
-isy: 0.0000
-invocation: 0.0000
+errant: 0.0000
+altmythologytalkreligionmiscaltpaganaltslackaltdiscordia: 0.0000
+3rd: 0.0000
+advocate: 0.0000
+enquiries: 0.0000
+places: 0.0000
+lest: 0.0000
+stack00: 0.0000
+gods: 0.0000
+xtparent: 0.0000
+unipolar: 0.0000
+13kbyte: 0.0000
+xtgetconstraintresourcelist: 0.0000
+xtargval: 0.0000
+winner: 0.0000
 
 TOPIC 1
 Top 15 words:
 ---------------
-reference: 0.0196
-gods: 0.0196
-bombardment: 0.0196
-spacetechrequestcscmuedu: 0.0196
-longer: 0.0196
-cratering: 0.0196
-reach: 0.0196
-verses: 0.0196
-condemnation: 0.0196
-aarseth: 0.0196
-restore: 0.0196
-fortun: 0.0196
-depends: 0.0196
-pearson: 0.0196
-programming: 0.0196
+526175: 0.0196
+carrier: 0.0196
+floor: 0.0196
+sockets: 0.0196
+ordering: 0.0196
+arrows: 0.0196
+wcl: 0.0196
+gabe: 0.0196
+subtle: 0.0196
+dept: 0.0196
+store: 0.0196
+300120024009600v32: 0.0196
+spacegif: 0.0196
+10k: 0.0196
+osf: 0.0196
 
 TOPIC 1
 Bottom 15 words:
 ---------------
-scicrypt14832: 0.0000
-expo: 0.0000
-sdio: 0.0000
-1pmfs43e7cctutfi: 0.0000
-personal: 0.0000
-1pqf9oinn88efmsrl7srlfordcom: 0.0000
-288: 0.0000
-viruses: 0.0000
-895: 0.0000
-tremaine: 0.0000
-unfortunate: 0.0000
-mail: 0.0000
-im: 0.0000
-government: 0.0000
-altatheism: 0.0000
-
-TOPIC 2
-Top 15 words:
----------------
-lights: 0.0194
-hera: 0.0194
-xtappseterrormsghandler: 0.0194
-areas: 0.0194
-assign: 0.0194
-ashishandrewcmuedu: 0.0194
-cephalopods: 0.0194
-free: 0.0194
-xtappcreateshell: 0.0194
-3040: 0.0194
-anybody: 0.0193
-buttons: 0.0193
-richman: 0.0193
-verses: 0.0193
-half: 0.0193
-
-TOPIC 2
-Bottom 15 words:
----------------
-sucked: 0.0000
-imprision: 0.0000
-nights: 0.0000
-odeastsciedu: 0.0000
-xtpending: 0.0000
-daughters: 0.0000
-183248: 0.0000
-thornes: 0.0000
-conscious: 0.0000
-706: 0.0000
-ok: 0.0000
-telescopes: 0.0000
-tampere: 0.0000
-largely: 0.0000
-language: 0.0000
-
-TOPIC 3
-Top 15 words:
----------------
-mcdonaldariesscsuiucedu: 0.0193
-containing: 0.0193
-xtappgeterrordatabase: 0.0193
-pie: 0.0193
-prior: 0.0193
-x11r3: 0.0193
-pamelor: 0.0193
-money: 0.0193
-listened: 0.0193
-lp: 0.0193
-rowlands: 0.0193
-pleasant: 0.0193
-baseball: 0.0193
-payload: 0.0193
-survey: 0.0193
-
-TOPIC 3
-Bottom 15 words:
----------------
-1824012: 0.0000
-cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomemorywupostuscnewshubsdsueduucssun1sdsuedusdsueduweston: 0.0000
-bmtoao: 0.0000
-previous: 0.0000
-processors: 0.0000
-documentation: 0.0000
-contribxsat10tarz: 0.0000
-1pmfs43e7cctutfi: 0.0000
-disappointed: 0.0000
-reachable: 0.0000
-tapes: 0.0000
-suspected: 0.0000
-treatable: 0.0000
-68disk: 0.0000
-big: 0.0000
-
-TOPIC 4
-Top 15 words:
----------------
-industry: 0.0194
-95602cv3dtx01jutscccamdahlcom: 0.0194
-altdiscordia1122: 0.0194
-constantly: 0.0194
-apr: 0.0194
-abiogenesis: 0.0194
-0908: 0.0194
-subdirectory: 0.0194
-ephmeris: 0.0194
-obviously: 0.0194
-attorney: 0.0194
-blue: 0.0194
-nearby: 0.0194
-165: 0.0194
-kill: 0.0194
-
-TOPIC 4
-Bottom 15 words:
----------------
-intrinsic: 0.0000
-nimrodsuitecom: 0.0000
-wollman: 0.0000
-apr5233136199323919athosrutgersedu: 0.0000
-jeff: 0.0000
-lift: 0.0000
-characteristics: 0.0000
-prospect: 0.0000
-forwarded: 0.0000
-cold: 0.0000
-manages: 0.0000
-preformatted: 0.0000
-feldstein: 0.0000
-likely: 0.0001
-creation: 0.0001
-
-TOPIC 5
-Top 15 words:
----------------
-description: 0.0195
-swiss: 0.0195
-uit: 0.0195
-cm: 0.0194
-kind: 0.0194
-april: 0.0194
-hernquist: 0.0194
-ultraviolet: 0.0194
-bodnar: 0.0194
-magnitude: 0.0194
-medium: 0.0194
-acknowledge: 0.0194
-entries: 0.0194
-islams: 0.0194
-miya: 0.0194
-
-TOPIC 5
-Bottom 15 words:
----------------
-inertial: 0.0000
-c3jvk9ey1usenetucsindianaedu: 0.0000
-posted: 0.0000
-looks: 0.0000
-pb93500163hdv: 0.0000
-stowell: 0.0000
-rick: 0.0000
-struct: 0.0000
-drug: 0.0000
-aspect: 0.0000
-affairs: 0.0000
-spread: 0.0000
-334: 0.0000
-joint: 0.0000
-rootwindowofscreen: 0.0000
-
-TOPIC 6
-Top 15 words:
----------------
-improperly: 0.0195
-scans: 0.0194
-interviews: 0.0194
-sciaeronautics5970: 0.0194
-breakfasts: 0.0194
-scispace60103: 0.0194
-sterling: 0.0194
-questions: 0.0194
-51020: 0.0194
-avleak: 0.0194
-radioactive: 0.0194
-signing: 0.0194
-ef: 0.0194
-benefits: 0.0194
-serbians: 0.0194
-
-TOPIC 6
-Bottom 15 words:
----------------
-usenetnntpdlkgdeccom: 0.0000
-submit: 0.0000
-chair: 0.0000
-compsysibmpchardwaremiscforsalewanteduswantedmiscmiscforsalecomputerspcclone: 0.0000
-populations: 0.0000
-nasm: 0.0000
-garrett: 0.0000
-revenue: 0.0000
-newsgroup: 0.0000
-directory: 0.0000
-exterior: 0.0000
-pantheism: 0.0000
-nonmuslim: 0.0000
+sciastro33955: 0.0000
+arrowheads: 0.0000
+obviously: 0.0000
+vanheyningen: 0.0000
 bar: 0.0000
-caller: 0.0000
+designers: 0.0000
+xtremoveactiohhook: 0.0000
+interested: 0.0000
+scriptures: 0.0000
+newsanswers7285: 0.0000
+probable: 0.0000
+understand: 0.0000
+edowneytashaccacrrockwellcom: 0.0000
+325i: 0.0000
+munnscaewiscedu: 0.0000
 
-TOPIC 7
+TOPIC 2
 Top 15 words:
 ---------------
-24hours: 0.0195
-lethargic: 0.0195
-society: 0.0195
-iraf: 0.0195
-broadcast: 0.0195
-1pq4t7k5iagateberkeleyedu: 0.0195
-pitching: 0.0195
-arromdee: 0.0195
-abbreviation: 0.0195
-rowlands: 0.0195
-tax: 0.0195
-karen: 0.0195
-king: 0.0195
-magazine: 0.0195
-echo: 0.0195
+connects: 0.0194
+slows: 0.0194
+hmmm: 0.0194
+defragment: 0.0194
+exceeds: 0.0194
+teel: 0.0194
+poverty: 0.0194
+tavares: 0.0194
+xtaddworkproc: 0.0194
+realy: 0.0194
+parallelized: 0.0194
+disgust: 0.0194
+adfrf: 0.0194
+risk: 0.0194
+homercsberkeleyedu: 0.0194
 
-TOPIC 7
+TOPIC 2
 Bottom 15 words:
 ---------------
-unsolicited: 0.0000
-nucleus: 0.0000
-300120024009600v32: 0.0000
-motorcyclists: 0.0000
-gnbbbyozau: 0.0000
-enemy: 0.0000
-wrote: 0.0000
-intrinsic: 0.0000
-catalogs: 0.0000
-execute: 0.0000
-ashton: 0.0000
-talkpoliticsmisc176914: 0.0000
-trace: 0.0000
-owning: 0.0000
-ascii: 0.0000
-
-TOPIC 8
-Top 15 words:
----------------
-record: 0.0195
-ddcu: 0.0194
-listed: 0.0194
-soundedit: 0.0194
-capita: 0.0194
-makefiles: 0.0194
-widget: 0.0194
-xtresource: 0.0194
-nonetheless: 0.0194
-otoole: 0.0194
-xtnallowshellresize: 0.0194
-specify: 0.0194
-ellul: 0.0194
-mounted: 0.0194
-ecliptic: 0.0194
-
-TOPIC 8
-Bottom 15 words:
----------------
-kstepurccvmbitnet: 0.0000
-lunar: 0.0000
-changes: 0.0000
-smythe: 0.0000
+tampere: 0.0000
+szasz: 0.0000
+c3pkw6j3pjavelinsimescom: 0.0000
+mischeadlines41568: 0.0000
+deserved: 0.0000
+basetranslation: 0.0000
+fail: 0.0000
+nutshell: 0.0000
 martin: 0.0000
-capabilities: 0.0000
-macro: 0.0000
-initialize: 0.0000
-054624: 0.0000
-xtsetwarninghandler: 0.0000
-abortion: 0.0000
-encourage: 0.0000
-83s: 0.0000
-apollo: 0.0000
-xtopendisplay: 0.0000
+cantaloupesrvcscmuedudasnewsharvardeduogicsedecwrlsddhpcomnigelmsencomfmsrl7glang: 0.0000
+relays: 0.0000
+185700: 0.0000
+xtappcontext: 0.0000
+discounts: 0.0000
+conditional: 0.0000
+
+TOPIC 3
+Top 15 words:
+---------------
+dynamics: 0.0195
+dodgers: 0.0195
+pitching: 0.0195
+compinations: 0.0195
+treated: 0.0195
+krisfs2assistuciedu: 0.0195
+keeping: 0.0195
+francescas: 0.0195
+190921: 0.0195
+marriott: 0.0195
+pointer: 0.0195
+frames: 0.0195
+xtapppeekevent: 0.0195
+128: 0.0195
+anondir000000activespx: 0.0195
+
+TOPIC 3
+Bottom 15 words:
+---------------
+bodnar: 0.0000
+goals: 0.0000
+cantaloupesrvcscmuedurochestercornellbatcomputercaenzaphodmpsohiostateeduwupostudelgatechusenetinscwrueduagatehomercsberkeleyedudowney: 0.0000
+weeks: 0.0000
+arbitrary: 0.0000
+destructor: 0.0000
+xtkeysymtokeycodelist: 0.0000
+signs: 0.0000
+supports: 0.0000
+displaying: 0.0000
+1993apr300524510615michaelapplecom: 0.0000
+customer: 0.0000
+biggest: 0.0000
+poses: 0.0000
+excited: 0.0000
+
+TOPIC 4
+Top 15 words:
+---------------
+csm: 0.0195
+altsecurityripem212: 0.0195
+filled: 0.0195
+ivancvaxpsich: 0.0195
+pmirr: 0.0195
+usrlibx11appdefaultsmytermcolor: 0.0195
+examples: 0.0195
+interpretergraphical: 0.0195
+spaceacronyms: 0.0195
+anomalous: 0.0195
+jhunixhcfjhuedu: 0.0195
+thornes: 0.0195
+privacy: 0.0195
+22: 0.0195
+medium: 0.0195
+
+TOPIC 4
+Bottom 15 words:
+---------------
+suspect: 0.0000
+app: 0.0000
+volumes: 0.0000
+inches: 0.0000
+feldstein: 0.0000
+imaging: 0.0000
+sciastro34084: 0.0000
+genuious: 0.0000
+gdb: 0.0000
+ceremony: 0.0000
+wait: 0.0000
+veikko: 0.0000
+composmswindowsprogrammermisc8270: 0.0000
+3034695022: 0.0000
+weekends: 0.0000
+
+TOPIC 5
+Top 15 words:
+---------------
+primitive: 0.0193
+rocknroll: 0.0193
+amesarcnasagov: 0.0193
+8015310800: 0.0193
+veega: 0.0193
+total: 0.0193
+airborne: 0.0193
+smartdrive: 0.0193
+price: 0.0193
+shuttle: 0.0193
+anomaly: 0.0193
+coordinated: 0.0193
+typically: 0.0193
+username: 0.0193
+uunetdsdescomrthomson: 0.0193
+
+TOPIC 5
+Bottom 15 words:
+---------------
+recmotorcyclesracing1931: 0.0000
+czcs: 0.0000
+login: 0.0000
+gnbbbyozau: 0.0000
+draft: 0.0000
+code: 0.0000
+politics: 0.0000
+specification: 0.0000
+document: 0.0000
+attribute: 0.0000
+unlike: 0.0000
+advantage: 0.0000
+800x600: 0.0000
+calloc: 0.0000
+missions: 0.0000
+
+TOPIC 6
+Top 15 words:
+---------------
+jg: 0.0195
+exercise: 0.0195
+evening: 0.0195
+penguins: 0.0195
+known: 0.0195
+units: 0.0195
+swaim: 0.0195
+aug: 0.0195
+20: 0.0195
+splitw: 0.0195
+xtdisplayofobject: 0.0195
+grab: 0.0195
+sixth: 0.0195
+cincy: 0.0195
+2407tekgenbvtekcom: 0.0195
+
+TOPIC 6
+Bottom 15 words:
+---------------
+sf: 0.0000
+policy: 0.0000
+xtdisplayinitialize: 0.0000
+technology: 0.0000
+26: 0.0000
+cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomgatechudelwupostzaphodmpsohiostateeduuwmedulinacattattoutcbfsbcbnewsgcbattcomrmm: 0.0000
+groundbased: 0.0000
+tethered: 0.0000
+mcdonaldariesscsuiucedu: 0.0000
+optimization: 0.0000
+downside: 0.0000
+operations: 0.0000
+applicationshellwidgetclass: 0.0000
+range: 0.0000
+unsolicited: 0.0000
+
+TOPIC 7
+Top 15 words:
+---------------
+times: 0.0193
+seconds: 0.0193
+334: 0.0192
+welcome: 0.0192
+richard: 0.0192
+width: 0.0192
+sixth: 0.0192
+convention: 0.0192
+girlfriends: 0.0192
+usrlibx11tnopenwinhomelibtn: 0.0192
+nasalarcabs: 0.0192
+xtappaddtimeout: 0.0192
+gajarskypilotnjinnet: 0.0192
+landsmanstarsgsfcnasagov: 0.0192
+intensity: 0.0192
+
+TOPIC 7
+Bottom 15 words:
+---------------
+king: 0.0000
+giles: 0.0000
+multiple: 0.0000
+missouri: 0.0000
+lfsa: 0.0000
+compsysibmpchardware58842: 0.0000
+highly: 0.0000
+merely: 0.0000
+caveats: 0.0000
+foreign: 0.0000
+vote: 0.0000
+sync: 0.0000
+altpoliticsmedia323: 0.0000
+bodenteich: 0.0000
+interior: 0.0000
+
+TOPIC 8
+Top 15 words:
+---------------
+bankstkaurivuwacnz: 0.0193
+c50wxy5oxucdavisedu: 0.0193
+yfk4urc00wb54bnvqandrewcmuedu: 0.0193
+indicated: 0.0193
+064829: 0.0193
+xtelephone: 0.0193
+affiliated: 0.0193
+vinfo: 0.0193
+daughters: 0.0193
+ida: 0.0193
+package: 0.0193
+081605: 0.0192
+carriage: 0.0192
+friday: 0.0192
+defensemen: 0.0192
+
+TOPIC 8
+Bottom 15 words:
+---------------
+central: 0.0000
+reads: 0.0000
+socbi22961: 0.0000
+defunct: 0.0000
+xtrealloc: 0.0000
+ftppubtexbib: 0.0000
+etr: 0.0000
+mks: 0.0000
+lesbian: 0.0000
+stand: 0.0000
+messes: 0.0000
+32849: 0.0000
+cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomgatechwillis1cisuabedusloan: 0.0000
+alternative: 0.0000
+aspect: 0.0000
 
 TOPIC 9
 Top 15 words:
 ---------------
-opportunities: 0.0196
-stacked: 0.0196
-merely: 0.0196
-titus: 0.0196
-aj: 0.0196
-soil: 0.0196
-crres: 0.0196
-cantaloupesrvcscmuedurochesterudeldarwinsuranetwupostuunetmurphyjpradleymagpiemanes: 0.0196
-life: 0.0196
-thread: 0.0196
-hri: 0.0196
-rowlandspocomoco: 0.0196
-controllers: 0.0196
-trailer: 0.0196
-happens: 0.0196
+blametheyve: 0.0194
+ov: 0.0194
+vinfovisualid: 0.0194
+c5115s5fymurdochaccvirginiaedu: 0.0194
+default: 0.0194
+argvalue: 0.0194
+photomosaic: 0.0194
+significantly: 0.0194
+antifederalist: 0.0194
+dsp: 0.0194
+hiding: 0.0194
+19: 0.0194
+xtappgetselectiontimeout: 0.0194
+evalulated: 0.0194
+explained: 0.0194
 
 TOPIC 9
 Bottom 15 words:
 ---------------
-witnesses: 0.0000
-2585: 0.0000
-caller: 0.0000
-locally: 0.0000
-acrv: 0.0000
-counting: 0.0000
-pa: 0.0000
-imho: 0.0000
-writer: 0.0000
-la: 0.0000
-drives: 0.0000
-code: 0.0000
-leads: 0.0000
-vertical: 0.0000
-generator: 0.0000
+exceptional: 0.0000
+sdio: 0.0000
+periodically: 0.0000
+loosely: 0.0000
+observation: 0.0000
+craig: 0.0000
+glennccssfuca: 0.0000
+27: 0.0000
+lobservation: 0.0000
+02138: 0.0000
+previous: 0.0000
+prevented: 0.0000
+author: 0.0000
+spacelab: 0.0000
+dangling: 0.0000
 
 
 
 ITERATION 1
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 1061.8509797577062
-		Minimizer returned code 3 after 150 iterations
-		(Message: Max. number of function evaluations reached)
+		Optimized parameter: vAlpha with improvement of 1028.7402486872306
+		Minimizer returned code 1 after 150 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 15631.300463844476
+		Optimized parameter: vMu with improvement of 15605.72971295091
 		Minimizer returned code 4 after 69 iterations
 		(Message: Linear search failed)
 
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 4883.291535490254
-		Minimizer returned code 1 after 10 iterations
+		Optimized parameter: xi with improvement of 5012.11574692115
+		Minimizer returned code 1 after 21 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 336.2019639536675
-		Minimizer returned code 1 after 21 iterations
+		Optimized parameter: alpha with improvement of 330.61582575540206
+		Minimizer returned code 1 after 27 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 
 ITERATION 2
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 363.5207363369045
+		Optimized parameter: vAlpha with improvement of 366.1707242722332
 		Minimizer returned code 3 after 150 iterations
 		(Message: Max. number of function evaluations reached)
 
 		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 11353.680406922598
-		Minimizer returned code 4 after 69 iterations
+		Optimized parameter: vMu with improvement of 1994.1092745550268
+		Minimizer returned code 4 after 66 iterations
 		(Message: Linear search failed)
 
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 271.045436982291
-		Minimizer returned code 1 after 10 iterations
+		Optimized parameter: xi with improvement of 604.1428438482035
+		Minimizer returned code 1 after 9 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 178.62291795336023
-		Minimizer returned code 1 after 31 iterations
+		Optimized parameter: alpha with improvement of 179.07553082461163
+		Minimizer returned code 1 after 26 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 
 ITERATION 3
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 95.34255226928508
+		Optimized parameter: vAlpha with improvement of 111.3297525831149
 		Minimizer returned code 3 after 150 iterations
 		(Message: Max. number of function evaluations reached)
 
 		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 7699.704727908887
-		Minimizer returned code 4 after 66 iterations
+		Optimized parameter: vMu with improvement of 7648.792620956985
+		Minimizer returned code 4 after 67 iterations
 		(Message: Linear search failed)
 
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 182.19983128244348
-		Minimizer returned code 1 after 12 iterations
+		Optimized parameter: xi with improvement of 103.71436529495986
+		Minimizer returned code 1 after 18 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 61.29404609301855
-		Minimizer returned code 1 after 25 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+		Optimized parameter: alpha with improvement of 68.99254490219028
+		Minimizer returned code 4 after 48 iterations
+		(Message: Linear search failed)
 
 
 ITERATION 4
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 43.859822014463134
-		Minimizer returned code 1 after 150 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+		Optimized parameter: vAlpha with improvement of 42.94250018434832
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
 
 		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 7024.705082725544
-		Minimizer returned code 4 after 66 iterations
+		Optimized parameter: vMu with improvement of 3200.4979068879184
+		Minimizer returned code 4 after 65 iterations
 		(Message: Linear search failed)
 
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 47.254622092616046
+		Optimized parameter: xi with improvement of 58.67178354240605
 		Minimizer returned code 0 after 7 iterations
 		(Message: Local minimum reached( | pg | ~ = 0))
 
 		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 31.657464360061567
-		Minimizer returned code 1 after 34 iterations
+		Optimized parameter: alpha with improvement of 31.63457588374149
+		Minimizer returned code 1 after 27 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 
 ITERATION 5
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 22.04374589060899
-		Minimizer returned code 3 after 150 iterations
-		(Message: Max. number of function evaluations reached)
+		Optimized parameter: vAlpha with improvement of 22.37864482263103
+		Minimizer returned code 1 after 68 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 5426.04988073952
-		Minimizer returned code 4 after 83 iterations
+		Optimized parameter: vMu with improvement of 3386.482973002916
+		Minimizer returned code 4 after 85 iterations
 		(Message: Linear search failed)
 
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 24.617795226484304
-		Minimizer returned code 0 after 7 iterations
-		(Message: Local minimum reached( | pg | ~ = 0))
+		Optimized parameter: xi with improvement of 15.585815953003475
+		Minimizer returned code 1 after 7 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 17.52713671157835
-		Minimizer returned code 1 after 27 iterations
+		Optimized parameter: alpha with improvement of 17.838905084616272
+		Minimizer returned code 1 after 22 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 
 ITERATION 6
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 13.738679928297643
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 440.50623186749
+		Minimizer returned code 4 after 66 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 5.35745204090199
+		Minimizer returned code 1 after 7 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 11.50101739022648
+		Minimizer returned code 1 after 37 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 11.404509364860132
+		Minimizer returned code 1 after 150 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 1667.5092675593623
+		Minimizer returned code 4 after 69 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.211615872773109
+		Minimizer returned code 1 after 40 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 9.595681080594659
+		Minimizer returned code 1 after 40 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 9.914083408541046
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 1088.7450302285724
+		Minimizer returned code 4 after 74 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.008204622616176493
+		Minimizer returned code 1 after 5 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 8.45542310050223
+		Minimizer returned code 1 after 47 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 9
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 9.017513206112199
+		Minimizer returned code 1 after 81 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 519.3393218442798
+		Minimizer returned code 4 after 90 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.2868492867128225
+		Minimizer returned code 1 after 15 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 7.7638589579146355
+		Minimizer returned code 1 after 52 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 10
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 8.840856265975162
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 339.4542249264341
+		Minimizer returned code 4 after 72 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.37894897456862964
+		Minimizer returned code 1 after 20 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 7.607209692476317
+		Minimizer returned code 1 after 47 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+TOPIC 0
+Top 15 words:
+---------------
+apr: 0.2625
+newsgroups: 0.2459
+organization: 0.2448
+date: 0.2409
+path: 0.2385
+messageid: 0.2384
+lines: 0.2352
+gmt: 0.2208
+5: 0.1805
+writes: 0.1690
+93: 0.1561
+references: 0.1559
+1993: 0.1502
+nntppostinghost: 0.1270
+sender: 0.1239
+
+TOPIC 0
+Bottom 15 words:
+---------------
+caller: -0.0043
+mmh: -0.0037
+xtncolormap: -0.0035
+wcl: -0.0035
+saa: -0.0035
+allard: -0.0035
+usrlibx11appdefaultsmyterm: -0.0034
+xtgetselectionvaluesincremental: -0.0034
+continental: -0.0034
+128: -0.0034
+unlimited: -0.0033
+authors: -0.0033
+menu: -0.0032
+forebodingly: -0.0032
+intrinsic: -0.0032
+
+TOPIC 1
+Top 15 words:
+---------------
+apr: 0.2706
+newsgroups: 0.2523
+date: 0.2507
+organization: 0.2477
+messageid: 0.2460
+path: 0.2455
+lines: 0.2380
+gmt: 0.2293
+5: 0.1800
+writes: 0.1693
+93: 0.1626
+references: 0.1584
+1993: 0.1508
+nntppostinghost: 0.1282
+sender: 0.1274
+
+TOPIC 1
+Bottom 15 words:
+---------------
+reynolds: -0.0043
+defaultvisualofscreen: -0.0041
+friendly: -0.0037
+5639033: -0.0037
+selects: -0.0037
+newsanswers7285: -0.0036
+xvisualidfromvisual: -0.0036
+hlv: -0.0035
+handy: -0.0035
+msfc: -0.0035
+0486600610: -0.0034
+attention: -0.0034
+scimisc8088: -0.0034
+bankstkaurivuwacnz: -0.0034
+anytime: -0.0034
+
+TOPIC 2
+Top 15 words:
+---------------
+apr: 0.2620
+newsgroups: 0.2457
+messageid: 0.2419
+path: 0.2405
+date: 0.2398
+organization: 0.2387
+lines: 0.2327
+gmt: 0.2255
+5: 0.1777
+writes: 0.1609
+93: 0.1550
+references: 0.1508
+1993: 0.1464
+sender: 0.1264
+nntppostinghost: 0.1248
+
+TOPIC 2
+Bottom 15 words:
+---------------
+visualidmask: -0.0037
+debris: -0.0036
+unlike: -0.0036
+continuetodispatch: -0.0035
+deadlock: -0.0035
+bnsc: -0.0034
+301: -0.0034
+magellanic: -0.0034
+igy: -0.0033
+martin: -0.0033
+xtdisplayofobject: -0.0033
+retrieved: -0.0033
+xmstringfree: -0.0032
+tabular: -0.0032
+scianswers106: -0.0032
+
+TOPIC 3
+Top 15 words:
+---------------
+apr: 0.2674
+organization: 0.2466
+date: 0.2460
+newsgroups: 0.2459
+messageid: 0.2449
+path: 0.2416
+lines: 0.2366
+gmt: 0.2257
+5: 0.1806
+writes: 0.1682
+references: 0.1559
+93: 0.1540
+1993: 0.1508
+nntppostinghost: 0.1245
+article: 0.1232
+
+TOPIC 3
+Bottom 15 words:
+---------------
+arbitrary: -0.0040
+popup: -0.0039
+ham: -0.0036
+toplevelshellpart: -0.0036
+supports: -0.0035
+chasing: -0.0035
+contexts: -0.0035
+initialization: -0.0034
+ordering: -0.0034
+compiled: -0.0034
+lfsa: -0.0034
+sl: -0.0034
+committees: -0.0033
+cno: -0.0033
+xtappsetwarningmsghandler: -0.0032
+
+TOPIC 4
+Top 15 words:
+---------------
+apr: 0.2577
+date: 0.2388
+organization: 0.2385
+newsgroups: 0.2377
+path: 0.2327
+messageid: 0.2323
+lines: 0.2311
+gmt: 0.2149
+5: 0.1735
+writes: 0.1627
+93: 0.1526
+references: 0.1489
+1993: 0.1443
+nntppostinghost: 0.1263
+sender: 0.1208
+
+TOPIC 4
+Bottom 15 words:
+---------------
+lox: -0.0041
+sciastro34084: -0.0037
+readily: -0.0036
+menudriven: -0.0036
+acts: -0.0036
+lsr: -0.0034
+transparencies: -0.0034
+attempts: -0.0033
+xslmsfcnasagov: -0.0033
+flyer: -0.0033
+xtcacheall: -0.0032
+solarprobe: -0.0032
+jupiter: -0.0032
+compsourcesunix: -0.0032
+vinfovisualid: -0.0031
+
+TOPIC 5
+Top 15 words:
+---------------
+apr: 0.2733
+organization: 0.2506
+newsgroups: 0.2505
+messageid: 0.2492
+path: 0.2481
+date: 0.2475
+lines: 0.2400
+gmt: 0.2321
+5: 0.1849
+writes: 0.1666
+93: 0.1595
+references: 0.1561
+1993: 0.1532
+nntppostinghost: 0.1286
+sender: 0.1285
+
+TOPIC 5
+Bottom 15 words:
+---------------
+welcome: -0.0039
+operated: -0.0038
+unlike: -0.0038
+1500: -0.0037
+czcs: -0.0037
+bitftppuccprincetonedu: -0.0037
+xwininfo: -0.0036
+q19: -0.0036
+exitworkproc: -0.0036
+pp: -0.0035
+8009989938: -0.0035
+xtra: -0.0035
+8087: -0.0035
+safely: -0.0034
+idlastrogsfcnasagov: -0.0034
+
+TOPIC 6
+Top 15 words:
+---------------
+apr: 0.2656
+newsgroups: 0.2470
+date: 0.2411
+messageid: 0.2404
+path: 0.2396
+organization: 0.2390
+lines: 0.2347
+gmt: 0.2194
+5: 0.1749
+writes: 0.1700
+references: 0.1581
+93: 0.1521
+1993: 0.1440
+nntppostinghost: 0.1264
+sender: 0.1227
+
+TOPIC 6
+Bottom 15 words:
+---------------
+removing: -0.0040
+dark: -0.0036
+xtappnextevent: -0.0036
+pds: -0.0036
+chasing: -0.0036
+300120024009600v32: -0.0035
+nearly: -0.0034
+ugly: -0.0034
+corecompressexposure: -0.0033
+knows: -0.0033
+mammoth: -0.0033
+imake: -0.0033
+xtidentifywindows: -0.0033
+creates: -0.0032
+waynecsriutorontoca: -0.0032
+
+TOPIC 7
+Top 15 words:
+---------------
+apr: 0.2623
+newsgroups: 0.2458
+date: 0.2435
+organization: 0.2427
+messageid: 0.2397
+path: 0.2393
+lines: 0.2374
+gmt: 0.2219
+5: 0.1766
+writes: 0.1710
+references: 0.1579
+93: 0.1551
+1993: 0.1447
+sender: 0.1264
+nntppostinghost: 0.1225
+
+TOPIC 7
+Bottom 15 words:
+---------------
+rectobj: -0.0037
+lfsa: -0.0036
+odeastsciedu: -0.0035
+pmc: -0.0035
+rfi: -0.0034
+improvements: -0.0034
+moo: -0.0034
+broadband: -0.0034
+xtownselectionincremental: -0.0034
+ugly: -0.0034
+sl: -0.0033
+1800digital: -0.0033
+handy: -0.0033
+bbss: -0.0033
+8183541333: -0.0033
+
+TOPIC 8
+Top 15 words:
+---------------
+apr: 0.2548
+newsgroups: 0.2405
+date: 0.2374
+organization: 0.2368
+path: 0.2366
+messageid: 0.2328
+lines: 0.2278
+gmt: 0.2159
+5: 0.1787
+writes: 0.1633
+references: 0.1557
+93: 0.1543
+1993: 0.1466
+nntppostinghost: 0.1272
+sender: 0.1239
+
+TOPIC 8
+Bottom 15 words:
+---------------
+category: -0.0043
+dscs: -0.0038
+carbonnitrogenoxygen: -0.0037
+8009989938: -0.0034
+1555580513: -0.0033
+aiaa: -0.0033
+arm: -0.0033
+costar: -0.0032
+jupiter: -0.0032
+appel: -0.0031
+faqxt728840923oboecisohiostateedu: -0.0031
+landsman: -0.0031
+dmsp: -0.0031
+ham: -0.0031
+xtseterrormsghandler: -0.0030
+
+TOPIC 9
+Top 15 words:
+---------------
+apr: 0.2557
+date: 0.2447
+newsgroups: 0.2402
+messageid: 0.2392
+organization: 0.2379
+path: 0.2343
+lines: 0.2305
+gmt: 0.2232
+5: 0.1715
+writes: 0.1637
+references: 0.1565
+93: 0.1511
+1993: 0.1458
+sender: 0.1265
+nntppostinghost: 0.1254
+
+TOPIC 9
+Bottom 15 words:
+---------------
+hydrogen: -0.0036
+visualidmask: -0.0035
+sciastro34084: -0.0035
+iii: -0.0035
+proposers: -0.0033
+deadlock: -0.0032
+ers1: -0.0032
+mutual: -0.0032
+badfont: -0.0032
+xrmpermstringtoquark: -0.0032
+brevity: -0.0032
+xtidentifywindows: -0.0032
+managers: -0.0032
+pext: -0.0032
+flightreadiness: -0.0031
+
+
+
+ITERATION 11
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 7.42185966973193
+		Minimizer returned code 1 after 102 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 63.89073265588377
+		Minimizer returned code 4 after 68 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.5999704384885263
+		Minimizer returned code 1 after 12 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 6.484011958818883
+		Minimizer returned code 1 after 37 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 12
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 6.457878058543429
+		Minimizer returned code 1 after 61 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 118.67407749088306
+		Minimizer returned code 4 after 67 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.10429697774816304
+		Minimizer returned code 0 after 5 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 5.487386878114194
+		Minimizer returned code 1 after 25 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 13
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.810340366791934
+		Minimizer returned code 1 after 130 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 69.38663511048071
+		Minimizer returned code 4 after 67 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.03510022700356785
+		Minimizer returned code 0 after 5 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4.260322694433853
+		Minimizer returned code 1 after 23 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 14
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.8121879817917943
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 28.16938301391201
+		Minimizer returned code 4 after 69 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.005231245115282945
+		Minimizer returned code 1 after 5 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.399634236469865
+		Minimizer returned code 1 after 21 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 15
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.9947172291576862
+		Minimizer returned code 1 after 150 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 14.936707808243227
+		Minimizer returned code 1 after 71 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0014651656529167667
+		Minimizer returned code 1 after 5 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.7410863148979843
+		Minimizer returned code 1 after 25 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 16
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.47542380169034
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.4035136040474754
+		Minimizer returned code 1 after 76 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 9.883326129056513e-05
+		Minimizer returned code 1 after 8 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.242648975457996
+		Minimizer returned code 1 after 23 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 17
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.010648065712303
+		Minimizer returned code 1 after 131 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.13739942702522967
+		Minimizer returned code 1 after 75 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.00012190171401016414
+		Minimizer returned code 1 after 11 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1.856415934395045
+		Minimizer returned code 1 after 61 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 18
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1.6851155860349536
+		Minimizer returned code 1 after 40 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 2.787033101922134
+		Minimizer returned code 1 after 75 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 3.8823214708827436e-05
+		Minimizer returned code 1 after 8 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1.5710144932381809
+		Minimizer returned code 1 after 66 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 19
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1.411055305507034
+		Minimizer returned code 1 after 91 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.3691130984661868
+		Minimizer returned code 1 after 61 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 4.0509519749321043e-05
+		Minimizer returned code 1 after 8 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1.3399223750457168
+		Minimizer returned code 1 after 27 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 20
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1.2128336080349982
+		Minimizer returned code 1 after 84 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.21853404310240876
+		Minimizer returned code 1 after 52 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 2.8148540877737105e-05
+		Minimizer returned code 1 after 11 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1.1557236234657466
+		Minimizer returned code 1 after 27 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+TOPIC 0
+Top 15 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+organization: 0.2478
+messageid: 0.2459
+path: 0.2451
+lines: 0.2396
+gmt: 0.2279
+5: 0.1818
+writes: 0.1701
+references: 0.1587
+93: 0.1586
+1993: 0.1509
+nntppostinghost: 0.1286
+sender: 0.1273
+
+TOPIC 0
+Bottom 15 words:
+---------------
+caller: 0.0001
+intrinsic: 0.0001
+xtncolormap: 0.0001
+xtgetselectionvaluesincremental: 0.0001
+wcl: 0.0001
+xtgetconstraintresourcelist: 0.0001
+usrlibx11appdefaultsmyterm: 0.0001
+menu: 0.0001
+faqxtv: 0.0001
+initializing: 0.0001
+xmstringfree: 0.0001
+varags: 0.0001
+128: 0.0001
+entering: 0.0001
+xrmstringtoquark: 0.0001
+
+TOPIC 1
+Top 15 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+organization: 0.2477
+messageid: 0.2459
+path: 0.2450
+lines: 0.2395
+gmt: 0.2278
+5: 0.1817
+writes: 0.1701
+references: 0.1587
+93: 0.1586
+1993: 0.1509
+nntppostinghost: 0.1286
+sender: 0.1272
+
+TOPIC 1
+Bottom 15 words:
+---------------
+selects: 0.0001
+reynolds: 0.0001
+felt: 0.0001
+5639033: 0.0001
+xtpeekevent: 0.0001
+uunetcraftfaq: 0.0001
+faqxt728840923oboecisohiostateedu: 0.0001
+openwinhome: 0.0001
+unrealizecallback: 0.0001
+xtremoveactiohhook: 0.0001
+copied: 0.0001
+handy: 0.0001
+xtgeterrordatabasetext: 0.0001
+keysym: 0.0001
+xvisualidfromvisual: 0.0001
+
+TOPIC 2
+Top 15 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+organization: 0.2478
+messageid: 0.2459
+path: 0.2451
+lines: 0.2396
+gmt: 0.2279
+5: 0.1818
+writes: 0.1700
+references: 0.1587
+93: 0.1587
+1993: 0.1509
+nntppostinghost: 0.1287
+sender: 0.1273
+
+TOPIC 2
+Bottom 15 words:
+---------------
+visualidmask: 0.0001
+retrieved: 0.0001
+xmstringfree: 0.0001
+deadlock: 0.0001
+continuetodispatch: 0.0001
+netcomcom: 0.0001
+gnbbbyozau: 0.0001
+xtownselectionincremental: 0.0001
+xtsetfloatargarg: 0.0001
+basetranslation: 0.0001
+nested: 0.0001
+xtdisplayofobject: 0.0001
+homeappdefaultsmyterm: 0.0001
+category: 0.0001
+placed: 0.0001
+
+TOPIC 3
+Top 15 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+organization: 0.2478
+messageid: 0.2459
+path: 0.2451
+lines: 0.2396
+gmt: 0.2278
+5: 0.1817
+writes: 0.1701
+references: 0.1587
+93: 0.1586
+1993: 0.1509
+nntppostinghost: 0.1286
+sender: 0.1272
+
+TOPIC 3
+Bottom 15 words:
+---------------
+arbitrary: 0.0001
+popup: 0.0001
+slows: 0.0001
+aix: 0.0001
+toplevelshellpart: 0.0001
+chasing: 0.0001
+ordering: 0.0001
+internals: 0.0001
+composite: 0.0001
+xtappsetwarningmsghandler: 0.0001
+xtkeysymtokeycodelist: 0.0001
+xtremoveactiohhook: 0.0001
+tail: 0.0001
+rag: 0.0001
+rumored: 0.0001
+
+TOPIC 4
+Top 15 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+organization: 0.2478
+messageid: 0.2460
+path: 0.2451
+lines: 0.2396
+gmt: 0.2279
+5: 0.1818
+writes: 0.1700
+93: 0.1587
+references: 0.1587
+1993: 0.1509
+nntppostinghost: 0.1287
+sender: 0.1273
+
+TOPIC 4
+Bottom 15 words:
+---------------
+readily: 0.0001
+acts: 0.0001
+cathyroracom: 0.0001
+vinfovisualid: 0.0001
+xtcacheall: 0.0001
+verifies: 0.0001
+xrdb: 0.0001
+addr: 0.0001
+fills: 0.0001
+scheifler: 0.0001
+xtsetwarningmsghandler: 0.0001
+evalulated: 0.0001
+reflecting: 0.0001
+395: 0.0001
+leaks: 0.0001
+
+TOPIC 5
+Top 15 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+organization: 0.2477
+messageid: 0.2459
+path: 0.2450
+lines: 0.2395
+gmt: 0.2278
+5: 0.1817
+writes: 0.1701
+references: 0.1587
+93: 0.1586
+1993: 0.1509
+nntppostinghost: 0.1286
+sender: 0.1272
+
+TOPIC 5
+Bottom 15 words:
+---------------
+unrealizecallback: 0.0001
+iriss: 0.0001
+slows: 0.0001
+xwininfo: 0.0001
+q19: 0.0001
+coresetvaluesalmost: 0.0001
+uunetcraftfaq: 0.0001
+twophase: 0.0001
+xtisrectobj: 0.0001
+assumed: 0.0001
+safely: 0.0001
+entering: 0.0001
+yellow: 0.0001
+tries: 0.0001
+8009989938: 0.0001
+
+TOPIC 6
+Top 15 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+organization: 0.2478
+messageid: 0.2459
+path: 0.2451
+lines: 0.2396
+gmt: 0.2279
+5: 0.1818
+writes: 0.1701
+references: 0.1587
+93: 0.1586
+1993: 0.1509
+nntppostinghost: 0.1287
+sender: 0.1273
+
+TOPIC 6
+Bottom 15 words:
+---------------
+removing: 0.0001
+xtappnextevent: 0.0001
+chasing: 0.0001
+knows: 0.0001
+nearly: 0.0001
+detect: 0.0001
+imake: 0.0001
+corecompressexposure: 0.0001
+ugly: 0.0001
+rag: 0.0001
+unfamiliar: 0.0001
+basically: 0.0001
+springloaded: 0.0001
+creates: 0.0001
+yellow: 0.0001
+
+TOPIC 7
+Top 15 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+organization: 0.2478
+messageid: 0.2459
+path: 0.2451
+lines: 0.2396
+gmt: 0.2279
+5: 0.1818
+writes: 0.1701
+references: 0.1587
+93: 0.1586
+1993: 0.1509
+nntppostinghost: 0.1286
+sender: 0.1273
+
+TOPIC 7
+Bottom 15 words:
+---------------
+felt: 0.0001
+twophase: 0.0001
+handy: 0.0001
+admire: 0.0001
+xwininfo: 0.0001
+xtownselectionincremental: 0.0001
+faqxt728840923oboecisohiostateedu: 0.0001
+composite: 0.0001
+1800digital: 0.0001
+xtcallconverter: 0.0001
+visualc: 0.0001
+keysym: 0.0001
+interpretergraphical: 0.0001
+testprogram: 0.0001
+tail: 0.0001
+
+TOPIC 8
+Top 15 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2484
+organization: 0.2478
+messageid: 0.2459
+path: 0.2451
+lines: 0.2396
+gmt: 0.2279
+5: 0.1818
+writes: 0.1700
+references: 0.1587
+93: 0.1587
+1993: 0.1509
+nntppostinghost: 0.1287
+sender: 0.1273
+
+TOPIC 8
+Bottom 15 words:
+---------------
+category: 0.0001
+8009989938: 0.0001
+faqxt728840923oboecisohiostateedu: 0.0001
+1555580513: 0.0001
+translations: 0.0001
+xtseterrormsghandler: 0.0001
+adaption: 0.0001
+ftppubtexbib: 0.0001
+faqxt733772513oboecisohiostateedu: 0.0001
+cleanup: 0.0001
+perror: 0.0001
+mess: 0.0001
+eye757edp: 0.0001
+anytime: 0.0001
+xtappreleasecacherefs: 0.0001
+
+TOPIC 9
+Top 15 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2485
+organization: 0.2478
+messageid: 0.2460
+path: 0.2451
+lines: 0.2396
+gmt: 0.2279
+5: 0.1818
+writes: 0.1700
+references: 0.1587
+93: 0.1587
+1993: 0.1509
+nntppostinghost: 0.1287
+sender: 0.1273
+
+TOPIC 9
+Bottom 15 words:
+---------------
+mutual: 0.0001
+managers: 0.0001
+iii: 0.0001
+badfont: 0.0001
+visualidmask: 0.0001
+xrmpermstringtoquark: 0.0001
+deadlock: 0.0001
+brevity: 0.0001
+930402: 0.0001
+lxaw: 0.0001
+handling: 0.0001
+corecompressexposure: 0.0001
+nadhomeappdefaultsn: 0.0001
+disconnect: 0.0001
+behaviour: 0.0001
+
+
+
+ITERATION 21
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1.0527526359073818
+		Minimizer returned code 1 after 101 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 2.15705170428555
+		Minimizer returned code 4 after 66 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 4.67356585431844e-06
+		Minimizer returned code 1 after 11 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1.0061991047114134
+		Minimizer returned code 1 after 27 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 22
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.934517624322325
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 1.879732315777801
+		Minimizer returned code 1 after 75 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 4.9476337153464556e-05
+		Minimizer returned code 4 after 31 iterations
+		(Message: Linear search failed)
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.8815264333970845
+		Minimizer returned code 1 after 27 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 23
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.8202762482687831
+		Minimizer returned code 1 after 102 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 1.2021924773289356
+		Minimizer returned code 1 after 66 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 1.167994923889637e-05
+		Minimizer returned code 1 after 10 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.7818504394963384
+		Minimizer returned code 1 after 28 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 24
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.7229766938835382
+		Minimizer returned code 1 after 138 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.29791461963031907
+		Minimizer returned code 4 after 56 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 9.872688679024577e-06
+		Minimizer returned code 1 after 11 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.6958890608511865
+		Minimizer returned code 1 after 21 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 25
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.6460477663204074
+		Minimizer returned code 1 after 129 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.013241389926406555
+		Minimizer returned code 4 after 62 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 8.655129931867123e-06
+		Minimizer returned code 1 after 14 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.6233350215479732
+		Minimizer returned code 1 after 23 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+Saving model to ./data/models/very__2018-03-10.pickle

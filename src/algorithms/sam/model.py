@@ -67,7 +67,7 @@ class SAM:
         self.xi = 5000.0
         #self.m = util.l2_normalize(np.random.rand(self.vocab_size))
         self.m = util.l2_normalize(np.ones(self.vocab_size))  # Parameter to p(mu)
-        self.loss_updates["m"].append(self.m)
+        #self.loss_updates["m"].append(self.m)
 
         #self.alpha = np.random.rand(self.num_topics)
         self.alpha = np.ones(self.num_topics) * 1.0 + 1.0
@@ -347,7 +347,7 @@ class SAM:
         util.log_message('\n', self.log_file)
 
     def run(self):
-        self.do_EM(10)
+        self.do_EM(25   )
         # self.do_EM(1)
         import datetime
         date = datetime.date.today()
@@ -378,7 +378,10 @@ class SAM:
     def update_free_params(self):
         A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
         A_V_k0 = util.bessel_approx(self.vocab_size, self.k0)
-        topic_mean_sum = np.sum(self.vMu)
+
+        #topic_mean_sum = np.sum(self.vMu, axis =1 )
+        #topic_mean_sum = np.sum(self.vMu)
+
         # sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
 
         self.do_update_vAlpha()
@@ -386,9 +389,12 @@ class SAM:
         LAMBDA = 15.0 * self.vMu_likelihood(A_V_xi, A_V_k0)
         self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0)
 
-        self.vM = util.l2_normalize(self.k0 * A_V_k0 * self.m +
+        self.vM = util.l2_normalize(self.k0 * self.m + A_V_xi * self.xi * np.sum(self.vMu, axis=1))
+
+        """self.vM = util.l2_normalize(self.k0 * A_V_k0 * self.m +
                                     A_V_xi * A_V_k0 * self.xi *
                                     topic_mean_sum + 2 * LAMBDA * self.vM)
+        """
         # Record vM update
         #self.loss_updates["vM"].append(self.vM)
 
