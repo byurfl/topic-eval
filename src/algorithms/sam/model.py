@@ -138,7 +138,7 @@ class SAM:
         psi_vAlpha0s = psi(vAlpha0s)
 
         A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
-        sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
+        sum_rhos = sum(self.calc_rhos())
 
         likelihood = np.dot(util.make_row_vector(self.alpha - 1.0), psi_vAlpha).sum() \
                     - (alpha0 - self.num_topics) * psi_vAlpha0s.sum() \
@@ -152,9 +152,26 @@ class SAM:
 
         return likelihood
 
-    def expected_square_norms_gradient(self, A_V_xi):
+    def expected_squared_norms(self):
+        A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
         vAlpha0s = np.sum(self.vAlpha, axis=0)
-        square_norms = util.expected_squared_norms(A_V_xi, self.vMu, self.vAlpha)
+        vAlphas_squared = np.sum(self.vAlpha ** 2, axis=0)
+        A_V_xi_squared = A_V_xi ** 2
+
+        vMu_squared = np.dot(self.vMu.T, self.vMu)
+        vMu_vAlpha_squared_1 = np.dot(self.vAlpha.T, vMu_squared)
+        vMu_vAlpha_squared_2 = vMu_vAlpha_squared_1.T * self.vAlpha
+        vMu_vAlpha_squared = np.sum(vMu_vAlpha_squared_2, axis=0)
+
+        result = (vAlpha0s + (1.0 - A_V_xi_squared) * vAlphas_squared + A_V_xi_squared * vMu_vAlpha_squared) / \
+                 (vAlpha0s * (vAlpha0s + 1.0))
+
+        return result
+
+    def expected_square_norms_gradient(self):
+        A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
+        vAlpha0s = np.sum(self.vAlpha, axis=0)
+        square_norms = self.expected_squared_norms()
 
         A_V_xi_squared = A_V_xi ** 2
         vMu_vAlpha_vMu = np.dot(self.vAlpha.T, np.dot(self.vMu.T, self.vMu))
@@ -165,12 +182,26 @@ class SAM:
 
         return gradient
 
+    def calc_rhos(self):
+        A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
+        expecteds = self.expected_squared_norms()
+        vAlpha0s = np.sum(self.vAlpha, axis=0)
+        vMu_docs = self.vMu.T.dot(self.documents)
+
+        result_1 = util.make_row_vector(1.0 / vAlpha0s / np.sqrt(expecteds))
+        result_2 = self.vAlpha * result_1
+        result_3 = result_2 * vMu_docs
+        result_4 = np.sum(result_3, axis=0)
+        result = result_4 * A_V_xi
+
+        return result
+
     def rho_vAlpha_gradient(self):
         A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
         vAlpha0s = np.sum(self.vAlpha, axis=0)
 
-        expected_square_norms = util.expected_squared_norms(A_V_xi, self.vMu, self.vAlpha)
-        square_norms_gradient = self.expected_square_norms_gradient(A_V_xi)
+        expected_square_norms = self.expected_squared_norms()
+        square_norms_gradient = self.expected_square_norms_gradient()
 
         vMu_docs = np.dot(self.vMu.T, self.documents)
         vMu_vAlpha_docs = np.sum(self.vAlpha * vMu_docs, axis=0)
@@ -202,15 +233,19 @@ class SAM:
 
         return gradient
 
-    def vMu_likelihood(self, A_V_xi, A_V_k0):
+    def vMu_likelihood(self):
+        A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
+        A_V_k0 = util.bessel_approx(self.vocab_size, self.k0)
         vM_dot_vMu = np.dot(self.vM.T, np.sum(self.vMu, axis=1))
-        sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
+        sum_rhos = sum(self.calc_rhos())
 
         return (A_V_xi * A_V_k0 * self.xi * vM_dot_vMu) + (self.k * sum_rhos)
 
-    def vMu_gradient(self, A_V_xi, A_V_k0):
+    def vMu_gradient(self):
+        A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
+        A_V_k0 = util.bessel_approx(self.vocab_size, self.k0)
         A_V_xi_squared = A_V_xi ** 2
-        squared_norms = util.expected_squared_norms(A_V_xi, self.vMu, self.vAlpha)
+        squared_norms = self.expected_squared_norms()
         vAlpha0s = np.sum(self.vAlpha, axis=0)
 
         first_part = np.dot(self.documents, (self.vAlpha * A_V_xi / util.make_row_vector(vAlpha0s * np.sqrt(squared_norms))).T)
@@ -225,8 +260,10 @@ class SAM:
         document_sum = first_part - second_part - third_part
         return util.make_col_vector(A_V_xi * A_V_k0 * self.xi * self.vM) + self.k * document_sum
 
-    def vMu_gradient_tan(self, A_V_xi, A_V_k0):
-        gradient = self.vMu_gradient(A_V_xi, A_V_k0)
+    def vMu_gradient_tan(self):
+        A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
+        A_V_k0 = util.bessel_approx(self.vocab_size, self.k0)
+        gradient = self.vMu_gradient()
         for topic in range(self.num_topics):
             vMu_topic = self.vMu[:,topic]
             gradient[:,topic] = gradient[:,topic] - np.dot(vMu_topic, np.dot(vMu_topic.T, gradient[:,topic]))
@@ -235,14 +272,14 @@ class SAM:
     def do_update_vAlpha(self):
         util.optimize(self.vAlpha_likelihood, self.vAlpha_gradient, util.Parameter(self, 'vAlpha'), verbose = VERBOSE)
 
-    def do_update_vMu(self, LAMBDA, A_V_xi, A_V_k0):
+    def do_update_vMu(self, LAMBDA):
         def f():
             vMu_squared = np.sum(self.vMu ** 2, axis=0)
-            return self.vMu_likelihood(A_V_xi, A_V_k0) - LAMBDA*np.sum((vMu_squared - 1.0) ** 2)
+            return self.vMu_likelihood() - LAMBDA*np.sum((vMu_squared - 1.0) ** 2)
 
         def f_prime():
             vMu_squared = np.sum(self.vMu ** 2, axis=0)
-            return self.vMu_gradient_tan(A_V_xi, A_V_k0) - LAMBDA*2.0*np.sum((vMu_squared - 1.0) * (2*self.vMu))
+            return self.vMu_gradient_tan() - LAMBDA*2.0*np.sum((vMu_squared - 1.0) * (2*self.vMu))
 
         util.optimize(f, f_prime, util.Parameter(self, 'vMu'), bounds=(-1.0,1.0), verbose = VERBOSE)
         self.vMu = util.l2_normalize(self.vMu)
@@ -286,7 +323,7 @@ class SAM:
         a_xi = util.bessel_approx(self.vocab_size, self.xi)
         a_k0 = util.bessel_approx(self.vocab_size, self.k0)
         #sum_of_rhos = sum(self.rho_batch())
-        sum_rhos = sum(util.calc_rhos(a_xi, self.vMu, self.vAlpha, self.documents))
+        sum_rhos = sum(self.calc_rhos())
         
         return a_xi*self.xi * (a_k0*np.dot(self.vM.T, np.sum(self.vMu, axis=1)) - self.num_topics) \
             + self.k*sum_rhos
@@ -309,7 +346,7 @@ class SAM:
         a_xi = util.bessel_approx(self.vocab_size, self.xi)
         deriv_a_xi = util.bessel_approx_derivative(self.vocab_size, self.xi)
         vAlpha0s = np.sum(self.vAlpha, axis=0)
-        esns = util.expected_squared_norms(a_xi, self.vMu, self.vAlpha)
+        esns = self.expected_squared_norms()
         deriv_e_squared_norm_xis  = self.e_squared_norm_xi_grad()
         
         vMuTimesVAlphaDotDoc = np.sum(self.vAlpha * np.dot(self.vMu.T, self.documents), axis=0)
@@ -383,17 +420,16 @@ class SAM:
 
     def update_free_params(self):
         A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
-        A_V_k0 = util.bessel_approx(self.vocab_size, self.k0)
 
         #topic_mean_sum = np.sum(self.vMu, axis =1 )
         #topic_mean_sum = np.sum(self.vMu)
 
-        # sum_rhos = sum(util.calc_rhos(A_V_xi, self.vMu, self.vAlpha, self.documents))
+        # sum_rhos = sum(self.calc_rhos())
 
         self.do_update_vAlpha()
 
-        LAMBDA = 10.0 * self.vMu_likelihood(A_V_xi, A_V_k0)
-        self.do_update_vMu(LAMBDA, A_V_xi, A_V_k0)
+        LAMBDA = 10.0 * self.vMu_likelihood()
+        self.do_update_vMu(LAMBDA)
 
         self.vM = util.l2_normalize(self.k0 * self.m + A_V_xi * self.xi * np.sum(self.vMu, axis=1))
 

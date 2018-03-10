@@ -96,34 +96,6 @@ def make_row_vector(matrix):
 def make_col_vector(matrix):
     return matrix.reshape((matrix.size, 1))
 
-def expected_squared_norms(A_V_xi, vMu, vAlpha):
-    vAlpha0s = np.sum(vAlpha, axis=0)
-    vAlphas_squared = np.sum(vAlpha ** 2, axis=0)
-    A_V_xi_squared = A_V_xi ** 2
-
-    vMu_squared = np.dot(vMu.T, vMu)
-    vMu_vAlpha_squared_1 = np.dot(vAlpha.T, vMu_squared)
-    vMu_vAlpha_squared_2 = vMu_vAlpha_squared_1.T * vAlpha
-    vMu_vAlpha_squared = np.sum(vMu_vAlpha_squared_2, axis=0)
-
-    result = (vAlpha0s + (1.0 - A_V_xi_squared) * vAlphas_squared + A_V_xi_squared * vMu_vAlpha_squared) / \
-             (vAlpha0s * (vAlpha0s + 1.0))
-
-    return result
-
-def calc_rhos(A_V_xi, vMu, vAlpha, docs):
-    expecteds = expected_squared_norms(A_V_xi, vMu, vAlpha)
-    vAlpha0s = np.sum(vAlpha, axis=0)
-    vMu_docs = vMu.T.dot(docs)
-
-    result_1 = make_row_vector(1.0 / vAlpha0s / np.sqrt(expecteds))
-    result_2 = vAlpha * result_1
-    result_3 = result_2 * vMu_docs
-    result_4 = np.sum(result_3, axis=0)
-    result = result_4 * A_V_xi
-
-    return result
-
 def ravel(matrix):
     return np.asarray(matrix).ravel()
 
