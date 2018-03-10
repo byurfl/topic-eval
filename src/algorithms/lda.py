@@ -20,7 +20,7 @@ class LDA(Algorithm):
 
     def load_input(self):
         input = self.get_files(self.input_path)
-        stopwords = [w.strip() for w in open(r'..\data\english_stopwords.txt', 'r', encoding='utf-8')]
+        stopwords = [w.strip() for w in open(r'.\data\english_stopwords.txt', 'r', encoding='utf-8')]
         self.cv = skfet.CountVectorizer(input='content', stop_words=stopwords, tokenizer=self.get_tokenizer())
 
         lines = []
