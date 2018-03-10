@@ -63,7 +63,7 @@ if __name__ == '__main__':
     #####
     parser.add_argument('--algorithm', required=True, choices=['lda', 'lda_sup', 'anchors', 'anchors_sup', 'sam'], help='Algorithm to use. Options are lda, lda_sup, anchors, anchors_sup, sam. **Note that SAM is still unimplemented.')
     parser.add_argument('--input', required=True, help='Path to folder containing input documents, or to a single document containing an entire corpus.')
-    parser.add_argument('--filter', required=False, default=r'_sentences\.txt', help=r'Regular expression to filter input files with. Defaults to "_sentences\.txt$".')
+    parser.add_argument('--filter', required=False, help=r'Regular expression to filter input files with. By default, no filter is used.')
     parser.add_argument('--output', required=True, help='Path to a folder to receive output documents')
     parser.add_argument('--reference', required=False, help='Path to a folder containing reference documents, or to a single document containing an entire reference corpus.')
     parser.add_argument('--evaluation', required=True, choices=['accuracy', 'fmeasure', 'coherence'], help='Method for evaluating results. Options are accuracy, fmeasure, coherence. Accuracy and F-measure are for supervised approches, coherence is for unsupervised approaches.')

@@ -1,7 +1,7 @@
 import os, regex, string
 
 class Algorithm:
-    def __init__(self, input_path, output_path, reference_path=None, filter_string=r'_sentences\.txt$'):
+    def __init__(self, input_path, output_path, reference_path=None, filter_string=None):
         self.input_path = input_path
         self.output_path = output_path
         self.reference_path = reference_path
@@ -25,9 +25,9 @@ class Algorithm:
     def get_files(self, path):
         if os.path.isdir(path):
             corpus_files = []
-            filter_regex = regex.compile(self.filter_string, flags=regex.UNICODE)
+            filter_regex = regex.compile(self.filter_string, flags=regex.UNICODE) if self.filter_string is not None else ''
             for root,dirs,files in os.walk(path):
-                corpus_files.extend([os.path.join(root,f) for f in files if filter_regex.search(f)])
+                corpus_files.extend([os.path.join(root,f) for f in files if self.filter_string is not None and filter_regex.search(f)])
             return corpus_files
 
         elif os.path.isfile(path):
