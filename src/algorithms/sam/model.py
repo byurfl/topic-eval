@@ -5,15 +5,16 @@ import os
 TOP = 15
 BOTTOM = 15
 VERBOSE = True
-
+ITERATIONS = 10
 
 if os.environ["COMPUTERNAME"] == 'DALAILAMA':
     import sys
+    ITERATIONS = 50
     path = r"D:\PyCharm Projects\py-sam-master\topic-eval"
     os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
     #print(os.getenv("HOME"))
-    if False:
-        VERBOSE = FALSE
+    if True:
+        VERBOSE = False
         TOP = 3
         BOTTOM = 3
     sys.path.append(path)
@@ -67,7 +68,6 @@ class SAM:
         self.xi = 5000.0
         #self.m = util.l2_normalize(np.random.rand(self.vocab_size))
         self.m = util.l2_normalize(np.ones(self.vocab_size))  # Parameter to p(mu)
-        #self.loss_updates["m"].append(self.m)
 
         #self.alpha = np.random.rand(self.num_topics)
         self.alpha = np.ones(self.num_topics) * 1.0 + 1.0
@@ -77,13 +77,17 @@ class SAM:
         # initialize variational parameters
         self.vMu = util.l2_normalize(np.random.rand(self.vocab_size, self.num_topics))
         self.vM = util.l2_normalize(np.random.rand(self.vocab_size))
-        #self.loss_updates["vM"].append(self.vM)
 
         # self.vAlpha = np.random.rand(self.num_topics, self.num_docs)
         self.vAlpha = np.empty((self.num_topics, self.num_docs))
         for d in range(self.num_docs):
             distances_from_topics = np.abs(util.cosine_similarity(self.documents[:, d], self.vMu)) + 0.01
             self.vAlpha[:, d] = distances_from_topics / sum(distances_from_topics) * 3.0
+
+        # Record vectors
+        self.loss_updates["vM"].append(self.vM)
+        self.loss_updates["m"].append(self.m)
+
 
     def __eq__(self, other):
         try:
@@ -121,7 +125,7 @@ class SAM:
 
     def update_model_params(self):
         self.m = util.l2_normalize(np.sum(self.vMu, axis=1))
-        #self.loss_updates["m"].append(self.m)
+        self.loss_updates["m"].append(self.m)
 
         self.update_xi()
         self.update_alpha()
@@ -347,7 +351,7 @@ class SAM:
         util.log_message('\n', self.log_file)
 
     def run(self):
-        self.do_EM(25   )
+        self.do_EM(ITERATIONS)
         # self.do_EM(1)
         import datetime
         date = datetime.date.today()
@@ -395,8 +399,9 @@ class SAM:
                                     A_V_xi * A_V_k0 * self.xi *
                                     topic_mean_sum + 2 * LAMBDA * self.vM)
         """
+
         # Record vM update
-        #self.loss_updates["vM"].append(self.vM)
+        self.loss_updates["vM"].append(self.vM)
 
     def do_EM(self, max_iterations=100, print_topics_every=10):
         self.print_topics(top_words=TOP, bottom_words=BOTTOM )
@@ -407,7 +412,14 @@ class SAM:
 
             if i % print_topics_every == 0:
                 self.print_topics(top_words=TOP, bottom_words=BOTTOM )
-        #OUTPUT
+        # OUTPUT
+        # Calculate euclidean distances for m and vM
+        #self.loss_updates["vM_raw"] = self.loss_updates["vM"][:]
+        #self.loss_updates["m_raw"] = self.loss_updates["m"][:]
+
+        calc_distance(self.loss_updates["vM"])
+        calc_distance(self.loss_updates["m"])
+
         util.write_dictionary(self.loss_updates, self.loss_file)
 
 
@@ -423,6 +435,16 @@ class SAM:
         return 0
 
 
+def calc_distance(l, distance = "euclidean"):
+    for n in range(0, len(l)):
+        if n < len(l)-1:
+            if distance == "euclidean":
+                l[n] = np.linalg.norm(l[n]-l[n+1])
+            else:
+                l[n] = util.cosine_similarity(l[n], l[n+1])[0][0]
+
+    # Delete the last item
+    del l[-1]
 
 
 if __name__ == "__main__":
