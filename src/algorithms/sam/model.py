@@ -1,15 +1,18 @@
-# import sys
-# sys.path.append(r"D:\PyCharm Projects\py-sam-master\topic-eval")
 
 # Anchor words needs a home!
 import os
 
 if os.environ["COMPUTERNAME"] == 'DALAILAMA':
+    import sys
+    path = r"D:\PyCharm Projects\py-sam-master\topic-eval"
     os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
     #print(os.getenv("HOME"))
     VERBOSE = False
     TOP =3
     BOTTOM =3
+    sys.path.append(path)
+    os.chdir(path)
+
 else:
     TOP = 15
     BOTTOM = 15
@@ -23,7 +26,7 @@ from scipy.special import gammaln, psi, polygamma
 
 
 class SAM:
-    def __init__(self, corpus, topics, stopwords=None, log_file=None):
+    def __init__(self, corpus, topics, stopwords=None, log_file=None, corpus_encoding = 'utf-8'):
 
         if log_file == None:
             self.log_file = corpus + '_log.txt'
@@ -37,7 +40,7 @@ class SAM:
         with open(self.log_file, mode='w', encoding='utf-8'):
             pass
 
-        self.reader = Reader(stopwords)
+        self.reader = Reader(stopwords, corpus_encoding=corpus_encoding)
         self.reader.read_corpus(corpus)
 
         self.vocabulary = self.reader.vocabulary
@@ -409,6 +412,9 @@ if __name__ == "__main__":
                         help='Path to the location of your corpus. ' +
                              'This can be either a directory or a single file.')
 
+    parser.add_argument('-C', '--corpus_codec', required=False,
+                        help='utf-8, ansi, etc.')
+
     parser.add_argument('-t', '--topics', type=int, default=10,
                         help='Number of topics in model. Defaults to 10.')
 
@@ -432,7 +438,7 @@ if __name__ == "__main__":
     if args.loadfrom:
         model = util.load_model(args.loadfrom)
     else:
-        model = SAM(args.corpus, args.topics, stopwords=args.stopwords, log_file=args.logfile)
+        model = SAM(args.corpus, args.topics, stopwords=args.stopwords, log_file=args.logfile, corpus_encoding=args.corpus_codec)
 
     if args.mode == 'train':
         # model.do_EM(max_iterations=1, print_topics_every=1)
