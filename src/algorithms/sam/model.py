@@ -148,7 +148,10 @@ class SAM:
 
         return likelihood
 
-    def expected_square_norms_gradient(self, vAlpha0s, A_V_xi, square_norms):
+    def expected_square_norms_gradient(self, A_V_xi):
+        vAlpha0s = np.sum(self.vAlpha, axis=0)
+        square_norms = util.expected_squared_norms(A_V_xi, self.vMu, self.vAlpha)
+
         A_V_xi_squared = A_V_xi ** 2
         vMu_vAlpha_vMu = np.dot(self.vAlpha.T, np.dot(self.vMu.T, self.vMu))
         doc_weights = 1.0 / (vAlpha0s * (vAlpha0s + 1.0))
@@ -158,11 +161,12 @@ class SAM:
 
         return gradient
 
-    def rho_vAlpha_gradient(self, vAlpha0s):
+    def rho_vAlpha_gradient(self):
         A_V_xi = util.bessel_approx(self.vocab_size, self.xi)
+        vAlpha0s = np.sum(self.vAlpha, axis=0)
 
         expected_square_norms = util.expected_squared_norms(A_V_xi, self.vMu, self.vAlpha)
-        square_norms_gradient = self.expected_square_norms_gradient(vAlpha0s, A_V_xi, expected_square_norms)
+        square_norms_gradient = self.expected_square_norms_gradient(A_V_xi)
 
         vMu_docs = np.dot(self.vMu.T, self.documents)
         vMu_vAlpha_docs = np.sum(self.vAlpha * vMu_docs, axis=0)
@@ -182,7 +186,7 @@ class SAM:
         psi_vAlpha_gradient = polygamma(1, self.vAlpha)
         psi_vAlpha0s_gradient = polygamma(1, vAlpha0s)
 
-        rho_gradient = self.rho_vAlpha_gradient(vAlpha0s)
+        rho_gradient = self.rho_vAlpha_gradient()
 
         gradient = util.make_col_vector(self.alpha - 1.0) * psi_vAlpha_gradient \
                     + self.k * rho_gradient - (self.vAlpha - 1.0) * psi_vAlpha_gradient
@@ -347,13 +351,10 @@ class SAM:
         util.log_message('\n', self.log_file)
 
     def run(self):
-        self.do_EM(5)
-        # self.do_EM(1)
+        # self.do_EM(5)
+        self.do_EM(1)
         import datetime
         date = datetime.date.today()
-        #year = date.year
-        #month = date.month
-        #day = date.day
         corpus_name = os.path.split(self.corpus)[1][0:5]
         util.save_model(self, './data/models/{}_{}.pickle'.format(corpus_name, date))
 
@@ -399,14 +400,14 @@ class SAM:
         #self.loss_updates["vM"].append(self.vM)
 
     def do_EM(self, max_iterations=100, print_topics_every=10):
-        self.print_topics(top_words=TOP, bottom_words=BOTTOM )
+        self.print_topics(top_words=TOP, bottom_words=BOTTOM)
         for i in range(1, max_iterations + 1):
             util.log_message("\nITERATION {}\n".format(i), self.log_file)
             self.do_E()
             self.do_M()
 
             if i % print_topics_every == 0:
-                self.print_topics(top_words=TOP, bottom_words=BOTTOM )
+                self.print_topics(top_words=TOP, bottom_words=BOTTOM)
         #OUTPUT
         util.write_dictionary(self.loss_updates, self.loss_file)
 
@@ -420,8 +421,6 @@ class SAM:
         util.log_message("\tDoing maximization step of EM process...\n", self.log_file)
         self.update_model_params()
         return 0
-
-
 
 
 if __name__ == "__main__":

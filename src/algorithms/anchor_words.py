@@ -20,7 +20,7 @@ class AnchorWords(Algorithm):
         pipe = None
         input = self.get_files(self.input_path)
 
-        stopwords = [w.strip() for w in open(stop_word_path , 'r', encoding='utf-8')]
+        stopwords = [w.strip() for w in open(stop_word_path, 'r', encoding='utf-8')]
 
         inputter = pipeline.file_inputer(*input)
         extractor = pipeline.whole_extractor() if os.path.isdir(self.input_path) else pipeline.line_extractor(delim='\t')

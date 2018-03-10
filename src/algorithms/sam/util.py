@@ -53,7 +53,8 @@ def avk_derivative(v, k):
     return -0.5 / (v**2/k**2+4)**0.5 * v**2/k**3 + 0.5*v/k**2
 
 def l2_normalize(data):
-    return l2_normalize_ours(data)
+    # return l2_normalize_ours(data)
+    return l2_normalize_his(data)
 
 def l2_normalize_ours(data):
     arr_data = np.asarray(data)
@@ -81,7 +82,7 @@ def l2_normalize_his(x):
         return x / norm_
     elif x.ndim == 2:
         norms = np.fmax(column_norms(x), 100 * EPS)
-        return x / asrowvector(norms)
+        return x / make_row_vector(norms)
     else:
         raise ValueError('x should have one or two dimensions')
 
