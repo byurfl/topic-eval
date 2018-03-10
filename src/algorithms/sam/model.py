@@ -24,14 +24,18 @@ from src.algorithms.sam.reader import Reader
 import numpy as np
 from scipy.special import gammaln, psi, polygamma
 
-
+#"k":[],"k0":[],
 class SAM:
     def __init__(self, corpus, topics, stopwords=None, log_file=None, corpus_encoding = 'utf-8'):
+        self.loss_updates = {"xi":[],"m":[],"alpha":[],"vMu":[],"vAlpha":[],"vM":[]}
+
         self.corpus = corpus
         if log_file == None:
             self.log_file = corpus + '_log.txt'
         else:
             self.log_file = log_file
+
+        self.loss_file = corpus + '_loss.csv'
 
         if os.path.isdir(self.log_file):
             self.log_file = os.path.join(self.log_file, 'log.txt')
@@ -63,6 +67,7 @@ class SAM:
         self.xi = 5000.0
         #self.m = util.l2_normalize(np.random.rand(self.vocab_size))
         self.m = util.l2_normalize(np.ones(self.vocab_size))  # Parameter to p(mu)
+        self.loss_updates["m"].append(self.m)
 
         #self.alpha = np.random.rand(self.num_topics)
         self.alpha = np.ones(self.num_topics) * 1.0 + 1.0
@@ -72,6 +77,7 @@ class SAM:
         # initialize variational parameters
         self.vMu = util.l2_normalize(np.random.rand(self.vocab_size, self.num_topics))
         self.vM = util.l2_normalize(np.random.rand(self.vocab_size))
+        #self.loss_updates["vM"].append(self.vM)
 
         # self.vAlpha = np.random.rand(self.num_topics, self.num_docs)
         self.vAlpha = np.empty((self.num_topics, self.num_docs))
@@ -115,6 +121,8 @@ class SAM:
 
     def update_model_params(self):
         self.m = util.l2_normalize(np.sum(self.vMu, axis=1))
+        #self.loss_updates["m"].append(self.m)
+
         self.update_xi()
         self.update_alpha()
 
@@ -381,7 +389,8 @@ class SAM:
         self.vM = util.l2_normalize(self.k0 * A_V_k0 * self.m +
                                     A_V_xi * A_V_k0 * self.xi *
                                     topic_mean_sum + 2 * LAMBDA * self.vM)
-
+        # Record vM update
+        #self.loss_updates["vM"].append(self.vM)
 
     def do_EM(self, max_iterations=100, print_topics_every=10):
         self.print_topics(top_words=TOP, bottom_words=BOTTOM )
@@ -392,6 +401,8 @@ class SAM:
 
             if i % print_topics_every == 0:
                 self.print_topics(top_words=TOP, bottom_words=BOTTOM )
+        #OUTPUT
+        util.write_dictionary(self.loss_updates, self.loss_file)
 
 
     def do_E(self):
@@ -404,6 +415,9 @@ class SAM:
         self.update_model_params()
         # TODO: return something meaningful
         return 0
+
+
+
 
 if __name__ == "__main__":
     import argparse

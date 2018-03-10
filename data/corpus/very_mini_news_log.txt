@@ -1,502 +1,502 @@
 TOPIC 0
 Top 15 words:
 ---------------
-sport: 0.0195
-wmdeletewindow: 0.0195
-malloc: 0.0195
-bushcongress: 0.0195
-industrial: 0.0195
-wollmangriffinuvmedu: 0.0195
-abcdef: 0.0195
-sei: 0.0195
-cantaloupesrvcscmuedudasnewsharvardeduogicsedecwrloliveauunetnewsclaremontedupomonaclaremontedujaufrecht: 0.0195
-discount: 0.0195
-ksc: 0.0194
-inner: 0.0194
-doe: 0.0194
-north: 0.0194
-sc: 0.0194
+newsencorecom: 0.0194
+rebuilt: 0.0194
+truecolor: 0.0194
+ideology: 0.0194
+specialists: 0.0194
+scimed58052: 0.0194
+line: 0.0194
+hst: 0.0194
+14: 0.0194
+cosmic: 0.0194
+usenetdsdescom: 0.0194
+indiscreet: 0.0194
+spectrograph: 0.0194
+sl: 0.0194
+traps: 0.0193
 
 TOPIC 0
 Bottom 15 words:
 ---------------
-4089739111: 0.0000
-enemy: 0.0000
-langunbca: 0.0000
-spot: 0.0000
-delegate: 0.0000
-altsecurityripem: 0.0000
-intel: 0.0000
-item: 0.0000
-newscbfsbcbattcom: 0.0000
-auroral: 0.0000
-baud: 0.0000
-descriptors: 0.0000
-kiseok: 0.0000
-mctaggart: 0.0000
-conceivable: 0.0000
-
-TOPIC 1
-Top 15 words:
----------------
-2036: 0.0195
-ok: 0.0195
-kill: 0.0195
-163224: 0.0195
-budget: 0.0195
-getting: 0.0195
-xtbased: 0.0195
-lines: 0.0195
-134: 0.0194
-magnitude: 0.0194
-set: 0.0194
-ensure: 0.0194
-radzysradzyjacksnscom: 0.0194
-starbasespdlouisvilleedu: 0.0194
-175: 0.0194
-
-TOPIC 1
-Bottom 15 words:
----------------
-government: 0.0000
-cantaloupesrvcscmuedudasnewsharvardeduogicsedecwrluunetddsw1notformail: 0.0000
-owen: 0.0000
-pay: 0.0000
-lunar: 0.0000
-determination: 0.0000
-winning: 0.0000
-beating: 0.0000
-aaron: 0.0000
-simulation: 0.0000
-bbss: 0.0000
-proper: 0.0000
-imo: 0.0000
-width: 0.0000
-attention: 0.0000
-
-TOPIC 2
-Top 15 words:
----------------
-bretagnon: 0.0195
-viruses: 0.0195
-xtopendisplay: 0.0195
-shouldnt: 0.0195
-combined: 0.0195
-revised: 0.0195
-try: 0.0195
-sting: 0.0195
-busy: 0.0195
-data733694135csuncedu: 0.0195
-amesarcnasagov: 0.0195
-restored: 0.0195
-pot: 0.0195
-starts: 0.0195
-ts: 0.0195
-
-TOPIC 2
-Bottom 15 words:
----------------
-corporation: 0.0000
-hung: 0.0000
-detailed: 0.0000
-apr5233138199323923athosrutgersedu: 0.0000
-religion: 0.0000
-202228: 0.0000
-sciengrbiomed868: 0.0000
-palace: 0.0000
-tkelsoblackbirdafitafmil: 0.0000
-presumably: 0.0000
-died: 0.0000
-resends: 0.0000
-archive: 0.0000
-ax2: 0.0000
-778: 0.0000
-
-TOPIC 3
-Top 15 words:
----------------
-thornes: 0.0193
-imho: 0.0193
-125: 0.0193
-example: 0.0193
-vinfo: 0.0193
-paragraphs: 0.0193
-sphere: 0.0193
-attribute: 0.0193
-utilities: 0.0193
-missed: 0.0193
-stopping: 0.0193
-desc: 0.0193
-sat: 0.0193
-cdtswstratuscom: 0.0193
-dr: 0.0193
-
-TOPIC 3
-Bottom 15 words:
----------------
-xskytarz: 0.0000
-archivecisohiostateedupubxo: 0.0000
-cloud: 0.0000
-states: 0.0000
-described: 0.0000
-ladder: 0.0000
-aw: 0.0000
-v31c: 0.0000
-believers: 0.0000
-condition: 0.0000
-mars: 0.0000
-800x600: 0.0000
-235511: 0.0000
-winstead: 0.0000
-talkpoliticsmisc176853: 0.0000
-
-TOPIC 4
-Top 15 words:
----------------
-allard: 0.0196
-baden: 0.0196
-sst: 0.0196
-v421: 0.0196
-topics: 0.0196
-c3pkw6j3pjavelinsimescom: 0.0196
-1pkuesinnsntcrcnis1unledu: 0.0196
-c50wjjj4rnewsflashconcordiaca: 0.0196
-czcs: 0.0196
-computerized: 0.0196
-setup: 0.0196
-232752: 0.0196
-orbiting: 0.0196
-acker: 0.0196
-rocket: 0.0196
-
-TOPIC 4
-Bottom 15 words:
----------------
-ucseeberkeleyedu: 0.0000
-leon: 0.0000
-prices: 0.0000
-humbio: 0.0000
-subdirectory: 0.0000
-char: 0.0000
-11: 0.0000
-1993apr603263921073spdcccom: 0.0000
-internals: 0.0000
-female: 0.0000
-trace: 0.0000
-elbo: 0.0000
-compunixdosunderunix428: 0.0000
-newsgroups: 0.0000
-controllers: 0.0000
-
-TOPIC 5
-Top 15 words:
----------------
-mayans: 0.0193
-periodically: 0.0192
-hertzsprungrussell: 0.0192
-72: 0.0192
-austin: 0.0192
-movies: 0.0192
-stratospheric: 0.0192
-looking: 0.0192
-closedloop: 0.0192
-string: 0.0192
-frg58243197: 0.0192
-localletter: 0.0192
-broadest: 0.0192
-housing: 0.0192
-segment: 0.0192
-
-TOPIC 5
-Bottom 15 words:
----------------
-relatively: 0.0000
-definitional: 0.0000
-hearing: 0.0000
-mozart: 0.0000
-dan: 0.0000
-baden: 0.0000
-khansen15734037238stafftcumnedu: 0.0000
-1981: 0.0000
-hoping: 0.0000
-bureau: 0.0000
-drwxrxrx: 0.0000
-xtgetselectionrequest: 0.0000
-stlucas: 0.0000
-mask: 0.0000
-openlook: 0.0000
-
-TOPIC 6
-Top 15 words:
----------------
-dirtbike: 0.0193
-chmod: 0.0193
-211: 0.0193
-wfpcii: 0.0193
-compgraphics37923: 0.0193
-intend: 0.0193
-dragndrop: 0.0193
-idlastrogsfcnasagov: 0.0193
-unitialized: 0.0193
-pitching: 0.0193
-exploration: 0.0193
-went: 0.0193
-disinterested: 0.0193
-regularily: 0.0193
-damn: 0.0193
-
-TOPIC 6
-Bottom 15 words:
----------------
-snapshot: 0.0000
-broadway: 0.0000
-xtdebug: 0.0000
-deciding: 0.0000
-members: 0.0000
-918: 0.0000
-610: 0.0000
-newsanswers7208: 0.0000
-siam: 0.0000
-reward: 0.0000
-consider: 0.0000
-lm: 0.0000
-collect: 0.0000
-monochrome: 0.0000
-hope: 0.0000
-
-TOPIC 7
-Top 15 words:
----------------
-officers: 0.0193
-aix: 0.0193
-930401: 0.0193
-115313: 0.0193
-passphrase: 0.0193
-ity: 0.0193
-suggestions: 0.0193
-brain: 0.0193
-squeaky: 0.0193
-ronnieciscocom: 0.0193
-xtappmainloop: 0.0193
-richard: 0.0193
-strictly: 0.0192
-jan: 0.0192
-prohibit: 0.0192
-
-TOPIC 7
-Bottom 15 words:
----------------
-obtaining: 0.0000
-son: 0.0000
-longjmp: 0.0000
-police: 0.0000
-800x600: 0.0000
-poole: 0.0000
-monitor: 0.0000
-leon: 0.0000
-dates: 0.0000
-sheet: 0.0000
-stage: 0.0000
-ultraviolet: 0.0000
-blank: 0.0000
-atmospheric: 0.0000
-derivative: 0.0000
-
-TOPIC 8
-Top 15 words:
----------------
-infer: 0.0196
-cantaloupesrvcscmuedudasnewsharvardeduogicseuwmeduzaphodmpsohiostateedunewsacnsnwueduuicvmuiceduu16028: 0.0196
-drwxrwxrwx: 0.0196
-galileo: 0.0196
-wrong: 0.0196
-condition: 0.0196
-automotive: 0.0196
-17: 0.0196
-approaching: 0.0196
-restored: 0.0196
-201100: 0.0196
-xtresource: 0.0196
-francisco: 0.0196
-z: 0.0196
-titus: 0.0196
-
-TOPIC 8
-Bottom 15 words:
----------------
-tells: 0.0000
-arent: 0.0000
-mossad: 0.0000
-liddelow: 0.0000
-fts: 0.0000
-killclient: 0.0000
-elbo: 0.0000
-monthly: 0.0000
-reflecting: 0.0000
-altsecurity9770: 0.0000
-changed: 0.0000
-default: 0.0000
-compgraphicsvisualization3293: 0.0000
-deletions: 0.0000
-important: 0.0000
-
-TOPIC 9
-Top 15 words:
----------------
-unsymmetrical: 0.0195
-gailileo: 0.0195
-amesarcnasagov: 0.0195
-cratering: 0.0195
-310: 0.0195
-gods: 0.0195
-warrent: 0.0195
-dennings: 0.0195
-useful: 0.0194
-miscforsaleusenet: 0.0194
-1993apr51317503897ccsvaxsfasuedu: 0.0194
-different: 0.0194
-actions: 0.0194
-swaraj: 0.0194
-aside: 0.0194
-
-TOPIC 9
-Bottom 15 words:
----------------
-rich: 0.0000
-attempts: 0.0000
-141: 0.0000
-mgps: 0.0000
+compunixwizards34618: 0.0000
 obsolete: 0.0000
-short: 0.0000
-results: 0.0000
-capitals: 0.0000
-quote: 0.0000
-200k: 0.0000
-800: 0.0000
-archiveserveramesarcnasagov: 0.0000
-nsf: 0.0000
-finnally: 0.0001
-xtgetvalues: 0.0001
+135x180: 0.0000
+parallax: 0.0000
+populations: 0.0000
+dig: 0.0000
+canucks: 0.0000
+translation: 0.0000
+chop: 0.0000
+kings: 0.0000
+linked: 0.0000
+1993apr518324825040lelandstanfordedu: 0.0000
+agenda: 0.0000
+isy: 0.0000
+invocation: 0.0000
+
+TOPIC 1
+Top 15 words:
+---------------
+reference: 0.0196
+gods: 0.0196
+bombardment: 0.0196
+spacetechrequestcscmuedu: 0.0196
+longer: 0.0196
+cratering: 0.0196
+reach: 0.0196
+verses: 0.0196
+condemnation: 0.0196
+aarseth: 0.0196
+restore: 0.0196
+fortun: 0.0196
+depends: 0.0196
+pearson: 0.0196
+programming: 0.0196
+
+TOPIC 1
+Bottom 15 words:
+---------------
+scicrypt14832: 0.0000
+expo: 0.0000
+sdio: 0.0000
+1pmfs43e7cctutfi: 0.0000
+personal: 0.0000
+1pqf9oinn88efmsrl7srlfordcom: 0.0000
+288: 0.0000
+viruses: 0.0000
+895: 0.0000
+tremaine: 0.0000
+unfortunate: 0.0000
+mail: 0.0000
+im: 0.0000
+government: 0.0000
+altatheism: 0.0000
+
+TOPIC 2
+Top 15 words:
+---------------
+lights: 0.0194
+hera: 0.0194
+xtappseterrormsghandler: 0.0194
+areas: 0.0194
+assign: 0.0194
+ashishandrewcmuedu: 0.0194
+cephalopods: 0.0194
+free: 0.0194
+xtappcreateshell: 0.0194
+3040: 0.0194
+anybody: 0.0193
+buttons: 0.0193
+richman: 0.0193
+verses: 0.0193
+half: 0.0193
+
+TOPIC 2
+Bottom 15 words:
+---------------
+sucked: 0.0000
+imprision: 0.0000
+nights: 0.0000
+odeastsciedu: 0.0000
+xtpending: 0.0000
+daughters: 0.0000
+183248: 0.0000
+thornes: 0.0000
+conscious: 0.0000
+706: 0.0000
+ok: 0.0000
+telescopes: 0.0000
+tampere: 0.0000
+largely: 0.0000
+language: 0.0000
+
+TOPIC 3
+Top 15 words:
+---------------
+mcdonaldariesscsuiucedu: 0.0193
+containing: 0.0193
+xtappgeterrordatabase: 0.0193
+pie: 0.0193
+prior: 0.0193
+x11r3: 0.0193
+pamelor: 0.0193
+money: 0.0193
+listened: 0.0193
+lp: 0.0193
+rowlands: 0.0193
+pleasant: 0.0193
+baseball: 0.0193
+payload: 0.0193
+survey: 0.0193
+
+TOPIC 3
+Bottom 15 words:
+---------------
+1824012: 0.0000
+cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomemorywupostuscnewshubsdsueduucssun1sdsuedusdsueduweston: 0.0000
+bmtoao: 0.0000
+previous: 0.0000
+processors: 0.0000
+documentation: 0.0000
+contribxsat10tarz: 0.0000
+1pmfs43e7cctutfi: 0.0000
+disappointed: 0.0000
+reachable: 0.0000
+tapes: 0.0000
+suspected: 0.0000
+treatable: 0.0000
+68disk: 0.0000
+big: 0.0000
+
+TOPIC 4
+Top 15 words:
+---------------
+industry: 0.0194
+95602cv3dtx01jutscccamdahlcom: 0.0194
+altdiscordia1122: 0.0194
+constantly: 0.0194
+apr: 0.0194
+abiogenesis: 0.0194
+0908: 0.0194
+subdirectory: 0.0194
+ephmeris: 0.0194
+obviously: 0.0194
+attorney: 0.0194
+blue: 0.0194
+nearby: 0.0194
+165: 0.0194
+kill: 0.0194
+
+TOPIC 4
+Bottom 15 words:
+---------------
+intrinsic: 0.0000
+nimrodsuitecom: 0.0000
+wollman: 0.0000
+apr5233136199323919athosrutgersedu: 0.0000
+jeff: 0.0000
+lift: 0.0000
+characteristics: 0.0000
+prospect: 0.0000
+forwarded: 0.0000
+cold: 0.0000
+manages: 0.0000
+preformatted: 0.0000
+feldstein: 0.0000
+likely: 0.0001
+creation: 0.0001
+
+TOPIC 5
+Top 15 words:
+---------------
+description: 0.0195
+swiss: 0.0195
+uit: 0.0195
+cm: 0.0194
+kind: 0.0194
+april: 0.0194
+hernquist: 0.0194
+ultraviolet: 0.0194
+bodnar: 0.0194
+magnitude: 0.0194
+medium: 0.0194
+acknowledge: 0.0194
+entries: 0.0194
+islams: 0.0194
+miya: 0.0194
+
+TOPIC 5
+Bottom 15 words:
+---------------
+inertial: 0.0000
+c3jvk9ey1usenetucsindianaedu: 0.0000
+posted: 0.0000
+looks: 0.0000
+pb93500163hdv: 0.0000
+stowell: 0.0000
+rick: 0.0000
+struct: 0.0000
+drug: 0.0000
+aspect: 0.0000
+affairs: 0.0000
+spread: 0.0000
+334: 0.0000
+joint: 0.0000
+rootwindowofscreen: 0.0000
+
+TOPIC 6
+Top 15 words:
+---------------
+improperly: 0.0195
+scans: 0.0194
+interviews: 0.0194
+sciaeronautics5970: 0.0194
+breakfasts: 0.0194
+scispace60103: 0.0194
+sterling: 0.0194
+questions: 0.0194
+51020: 0.0194
+avleak: 0.0194
+radioactive: 0.0194
+signing: 0.0194
+ef: 0.0194
+benefits: 0.0194
+serbians: 0.0194
+
+TOPIC 6
+Bottom 15 words:
+---------------
+usenetnntpdlkgdeccom: 0.0000
+submit: 0.0000
+chair: 0.0000
+compsysibmpchardwaremiscforsalewanteduswantedmiscmiscforsalecomputerspcclone: 0.0000
+populations: 0.0000
+nasm: 0.0000
+garrett: 0.0000
+revenue: 0.0000
+newsgroup: 0.0000
+directory: 0.0000
+exterior: 0.0000
+pantheism: 0.0000
+nonmuslim: 0.0000
+bar: 0.0000
+caller: 0.0000
+
+TOPIC 7
+Top 15 words:
+---------------
+24hours: 0.0195
+lethargic: 0.0195
+society: 0.0195
+iraf: 0.0195
+broadcast: 0.0195
+1pq4t7k5iagateberkeleyedu: 0.0195
+pitching: 0.0195
+arromdee: 0.0195
+abbreviation: 0.0195
+rowlands: 0.0195
+tax: 0.0195
+karen: 0.0195
+king: 0.0195
+magazine: 0.0195
+echo: 0.0195
+
+TOPIC 7
+Bottom 15 words:
+---------------
+unsolicited: 0.0000
+nucleus: 0.0000
+300120024009600v32: 0.0000
+motorcyclists: 0.0000
+gnbbbyozau: 0.0000
+enemy: 0.0000
+wrote: 0.0000
+intrinsic: 0.0000
+catalogs: 0.0000
+execute: 0.0000
+ashton: 0.0000
+talkpoliticsmisc176914: 0.0000
+trace: 0.0000
+owning: 0.0000
+ascii: 0.0000
+
+TOPIC 8
+Top 15 words:
+---------------
+record: 0.0195
+ddcu: 0.0194
+listed: 0.0194
+soundedit: 0.0194
+capita: 0.0194
+makefiles: 0.0194
+widget: 0.0194
+xtresource: 0.0194
+nonetheless: 0.0194
+otoole: 0.0194
+xtnallowshellresize: 0.0194
+specify: 0.0194
+ellul: 0.0194
+mounted: 0.0194
+ecliptic: 0.0194
+
+TOPIC 8
+Bottom 15 words:
+---------------
+kstepurccvmbitnet: 0.0000
+lunar: 0.0000
+changes: 0.0000
+smythe: 0.0000
+martin: 0.0000
+capabilities: 0.0000
+macro: 0.0000
+initialize: 0.0000
+054624: 0.0000
+xtsetwarninghandler: 0.0000
+abortion: 0.0000
+encourage: 0.0000
+83s: 0.0000
+apollo: 0.0000
+xtopendisplay: 0.0000
+
+TOPIC 9
+Top 15 words:
+---------------
+opportunities: 0.0196
+stacked: 0.0196
+merely: 0.0196
+titus: 0.0196
+aj: 0.0196
+soil: 0.0196
+crres: 0.0196
+cantaloupesrvcscmuedurochesterudeldarwinsuranetwupostuunetmurphyjpradleymagpiemanes: 0.0196
+life: 0.0196
+thread: 0.0196
+hri: 0.0196
+rowlandspocomoco: 0.0196
+controllers: 0.0196
+trailer: 0.0196
+happens: 0.0196
+
+TOPIC 9
+Bottom 15 words:
+---------------
+witnesses: 0.0000
+2585: 0.0000
+caller: 0.0000
+locally: 0.0000
+acrv: 0.0000
+counting: 0.0000
+pa: 0.0000
+imho: 0.0000
+writer: 0.0000
+la: 0.0000
+drives: 0.0000
+code: 0.0000
+leads: 0.0000
+vertical: 0.0000
+generator: 0.0000
 
 
 
 ITERATION 1
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 1045.1016142068984
+		Optimized parameter: vAlpha with improvement of 1061.8509797577062
 		Minimizer returned code 3 after 150 iterations
 		(Message: Max. number of function evaluations reached)
 
 		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 15629.471451594225
+		Optimized parameter: vMu with improvement of 15631.300463844476
 		Minimizer returned code 4 after 69 iterations
 		(Message: Linear search failed)
 
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 4949.978956428626
-		Minimizer returned code 0 after 10 iterations
-		(Message: Local minimum reached( | pg | ~ = 0))
+		Optimized parameter: xi with improvement of 4883.291535490254
+		Minimizer returned code 1 after 10 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 334.890327474674
-		Minimizer returned code 1 after 29 iterations
+		Optimized parameter: alpha with improvement of 336.2019639536675
+		Minimizer returned code 1 after 21 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 
 ITERATION 2
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 364.4171158603931
+		Optimized parameter: vAlpha with improvement of 363.5207363369045
 		Minimizer returned code 3 after 150 iterations
 		(Message: Max. number of function evaluations reached)
 
 		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 1028.6903951677232
-		Minimizer returned code 4 after 66 iterations
+		Optimized parameter: vMu with improvement of 11353.680406922598
+		Minimizer returned code 4 after 69 iterations
 		(Message: Linear search failed)
 
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 603.7811791321728
-		Minimizer returned code 1 after 9 iterations
+		Optimized parameter: xi with improvement of 271.045436982291
+		Minimizer returned code 1 after 10 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 178.62598904251718
-		Minimizer returned code 1 after 19 iterations
+		Optimized parameter: alpha with improvement of 178.62291795336023
+		Minimizer returned code 1 after 31 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 
 ITERATION 3
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 111.96446118268068
-		Minimizer returned code 1 after 143 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+		Optimized parameter: vAlpha with improvement of 95.34255226928508
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
 
 		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 6538.999867659542
-		Minimizer returned code 4 after 64 iterations
+		Optimized parameter: vMu with improvement of 7699.704727908887
+		Minimizer returned code 4 after 66 iterations
 		(Message: Linear search failed)
 
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 115.51960577514546
-		Minimizer returned code 1 after 18 iterations
+		Optimized parameter: xi with improvement of 182.19983128244348
+		Minimizer returned code 1 after 12 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 69.25421329031087
-		Minimizer returned code 1 after 32 iterations
+		Optimized parameter: alpha with improvement of 61.29404609301855
+		Minimizer returned code 1 after 25 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 
 ITERATION 4
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 43.7065803547157
-		Minimizer returned code 3 after 150 iterations
-		(Message: Max. number of function evaluations reached)
+		Optimized parameter: vAlpha with improvement of 43.859822014463134
+		Minimizer returned code 1 after 150 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 4290.547034533607
-		Minimizer returned code 4 after 64 iterations
+		Optimized parameter: vMu with improvement of 7024.705082725544
+		Minimizer returned code 4 after 66 iterations
 		(Message: Linear search failed)
 
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 46.723927485378226
+		Optimized parameter: xi with improvement of 47.254622092616046
 		Minimizer returned code 0 after 7 iterations
 		(Message: Local minimum reached( | pg | ~ = 0))
 
 		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 32.04756840967457
-		Minimizer returned code 1 after 36 iterations
+		Optimized parameter: alpha with improvement of 31.657464360061567
+		Minimizer returned code 1 after 34 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 
 ITERATION 5
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 22.116999331861734
-		Minimizer returned code 1 after 78 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+		Optimized parameter: vAlpha with improvement of 22.04374589060899
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
 
 		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 1985.0167919644737
-		Minimizer returned code 4 after 64 iterations
+		Optimized parameter: vMu with improvement of 5426.04988073952
+		Minimizer returned code 4 after 83 iterations
 		(Message: Linear search failed)
 
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 17.37765529117314
-		Minimizer returned code 1 after 7 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+		Optimized parameter: xi with improvement of 24.617795226484304
+		Minimizer returned code 0 after 7 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
 
 		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 17.64991944527719
-		Minimizer returned code 1 after 22 iterations
+		Optimized parameter: alpha with improvement of 17.52713671157835
+		Minimizer returned code 1 after 27 iterations
 		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
 

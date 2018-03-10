@@ -3,7 +3,7 @@ from scipy.optimize import fmin_tnc
 from scipy.linalg import norm
 import numpy as np
 import pickle
-
+import csv
 
 class Parameter:
     def __init__(self, model, item_name):
@@ -154,6 +154,9 @@ def optimize(function, func_deriv, param, bounds=[1e-4,None], disp=0, maxevals=1
     setattr(param.model, param.name, unravel(param, result))
     new_function_value = function()
 
+    # Record updates
+    param.model.loss_updates[param.name].append(new_function_value - old_function_value)
+
     if rc == -1:
         message = "Infeasible(lower bound > upper bound)"
     elif rc == 0:
@@ -224,3 +227,11 @@ def cosine_similarity(a, b):
 
 def ascolvector(x):
     return x.reshape(x.size, 1)
+
+
+def write_dictionary(d, filename):
+    print(d)
+    with open(filename, "w") as outfile:
+        writer = csv.writer(outfile)
+        writer.writerow(d.keys())
+        writer.writerows(zip(*d.values()))
