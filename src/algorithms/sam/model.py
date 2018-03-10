@@ -25,6 +25,8 @@ from src.algorithms.sam.reader import Reader
 import numpy as np
 from scipy.special import gammaln, psi, polygamma
 
+from src.algorithms.sam.corpus.corpus import CorpusReader, CorpusWriter
+
 #"k":[],"k0":[],
 class SAM:
     def __init__(self, corpus, topics, stopwords=None, log_file=None, corpus_encoding = 'utf-8'):
@@ -45,22 +47,31 @@ class SAM:
         with open(self.log_file, mode='w', encoding='utf-8'):
             pass
 
-        self.reader = Reader(stopwords, corpus_encoding=corpus_encoding)
-        self.reader.read_corpus(corpus)
+        # self.reader = Reader(stopwords, corpus_encoding=corpus_encoding)
+        # self.reader.read_corpus(corpus)
 
-        self.vocabulary = self.reader.vocabulary
-        self.vocab_size = len(self.vocabulary)
+        # self.vocabulary = self.reader.vocabulary
+        # self.vocab_size = len(self.vocabulary)
 
-        self.sorted_terms = np.asarray(['' for _ in range(self.vocab_size)], dtype=object)
-        for key, value in self.reader.terms_to_indices.items():
-            self.sorted_terms[value] = key
+        # self.sorted_terms = np.asarray(['' for _ in range(self.vocab_size)], dtype=object)
+        # for key, value in self.reader.terms_to_indices.items():
+        #     self.sorted_terms[value] = key
 
         # with open(self.log_file, mode='w', encoding='utf-8') as log_out:
         #     for term in self.sorted_terms:
         #         log_out.write(term + '\n')
 
-        self.documents = self.reader.documents
-        self.num_docs = self.documents.shape[1]
+        # self.documents = self.reader.documents
+        # self.num_docs = self.documents.shape[1]
+
+        self.reader = CorpusReader(corpus, data_series='sam')
+        self.vocab_size = self.reader.dim
+        self.num_docs = self.reader.num_docs
+        self.documents = np.empty((self.vocab_size, self.num_docs))
+        for d in range(self.reader.num_docs):
+            self.documents[:,d] = self.reader.read_doc(d).T
+
+        self.sorted_terms = np.array([line.strip() for line in open(self.reader.filename + '.wordlist')], str)
 
         # initialize model hyperparameters
         self.num_topics = topics
