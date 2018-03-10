@@ -336,7 +336,7 @@ class SAM:
         util.log_message('\n', self.log_file)
 
     def run(self):
-        self.do_EM(25)
+        self.do_EM(5)
         # self.do_EM(1)
         import datetime
         date = datetime.datetime.now()
@@ -344,7 +344,7 @@ class SAM:
         month = date.month
         day = date.day
 
-        util.save_model(self, './data/models/enron_{}{<02}{<02}.pickle'.format(year, month, day))
+        util.save_model(self, './data/models/enron_{}{:>02}{:>02}.pickle'.format(year, month, day))
 
     def get_topics(self):
         topics = []
