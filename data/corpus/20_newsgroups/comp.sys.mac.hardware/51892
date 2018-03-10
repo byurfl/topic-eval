@@ -404,7 +404,7 @@ like SIMM memory check}, or a dozen or so different types of memory boards.
 
 HD Interfaces {limited to hard drives by design or lack of development}: 
 MFM:  Modified Frequency Modulation, RLL:  Run Length Limited
- only used with smaller [² 60mb] hard drives.
+ only used with smaller [Â² 60mb] hard drives.
 IDE:  Integrated Device Electronics 
  Asynchronous {~5MB/s max} and synchronous {8.3MB/s max} transfer.
  currently the most common standard, and is mainly used for medium sized 

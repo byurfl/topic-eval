@@ -27,7 +27,10 @@ class Algorithm:
             corpus_files = []
             filter_regex = regex.compile(self.filter_string, flags=regex.UNICODE) if self.filter_string is not None else ''
             for root,dirs,files in os.walk(path):
-                corpus_files.extend([os.path.join(root,f) for f in files if self.filter_string is not None and filter_regex.search(f)])
+                if self.filter_string is not None:
+                    corpus_files.extend([os.path.join(root,f) for f in files if filter_regex.search(f)])
+                else:
+                    corpus_files.extend([os.path.join(root,f) for f in files])
             return corpus_files
 
         elif os.path.isfile(path):

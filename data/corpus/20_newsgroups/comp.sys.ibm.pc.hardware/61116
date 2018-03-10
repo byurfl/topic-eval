@@ -22,7 +22,7 @@ it is tested under coretest with 2.000 kb/s using a cheap Seagate 3196 and nearl
 4000 kb/s using a WD-Caviar 2340, you have figure out the jumper setting on the
 controller to get reliable diskaccess, fastest setting gets 4600 kb/s under Coretest
 but does not work reliable. You have to shadow the adapter BIOS to get the fast
-speed. I haven´t used a VL-IDE-Cache controller yet, but it might speed up twice.
+speed. I havenÂ´t used a VL-IDE-Cache controller yet, but it might speed up twice.
 
 						dieter
 
