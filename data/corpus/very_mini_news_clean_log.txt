@@ -9239,3 +9239,2282 @@ ITERATION 9
 		Optimizing parameter: vAlpha
 		Optimizing parameter: vMu
 		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 5
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 10
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 6
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+christian: 0.3088
+apr: 0.2152
+god: 0.2119
+
+TOPIC 0
+Bottom 3 words:
+---------------
+data: -0.0407
+windows: -0.0340
+problem: -0.0304
+
+TOPIC 1
+Top 3 words:
+---------------
+news: 0.4666
+sender: 0.2771
+usenet: 0.2142
+
+TOPIC 1
+Bottom 3 words:
+---------------
+data: -0.0339
+technology: -0.0337
+world: -0.0330
+
+TOPIC 2
+Top 3 words:
+---------------
+space: 0.3460
+data: 0.2541
+list: 0.2281
+
+TOPIC 2
+Bottom 3 words:
+---------------
+writes: -0.0379
+windows: -0.0297
+god: -0.0148
+
+TOPIC 3
+Top 3 words:
+---------------
+newsgroups: 0.2817
+path: 0.2586
+organization: 0.2574
+
+TOPIC 3
+Bottom 3 words:
+---------------
+data: -0.0435
+mon: -0.0364
+id: -0.0314
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.4453
+mon: 0.2663
+newsgroups: 0.2476
+
+TOPIC 4
+Bottom 3 words:
+---------------
+university: -0.0462
+data: -0.0451
+people: -0.0353
+
+TOPIC 5
+Top 3 words:
+---------------
+people: 0.3045
+keith: 0.2658
+references: 0.2133
+
+TOPIC 5
+Bottom 3 words:
+---------------
+screen: -0.0302
+windows: -0.0296
+problem: -0.0246
+
+TOPIC 6
+Top 3 words:
+---------------
+writes: 0.4952
+article: 0.2857
+references: 0.2162
+
+TOPIC 6
+Bottom 3 words:
+---------------
+screen: -0.0424
+phone: -0.0329
+problem: -0.0298
+
+TOPIC 7
+Top 3 words:
+---------------
+data: 0.3391
+apr: 0.2286
+brain: 0.2240
+
+TOPIC 7
+Bottom 3 words:
+---------------
+list: -0.0434
+said: -0.0268
+space: -0.0254
+
+TOPIC 8
+Top 3 words:
+---------------
+screen: 0.3506
+writes: 0.2120
+time: 0.2082
+
+TOPIC 8
+Bottom 3 words:
+---------------
+god: -0.0205
+weston: -0.0170
+rate: -0.0159
+
+TOPIC 9
+Top 3 words:
+---------------
+windows: 0.2548
+unix: 0.2116
+good: 0.1908
+
+TOPIC 9
+Bottom 3 words:
+---------------
+thanks: -0.0376
+dyer: -0.0258
+gcc: -0.0257
+
+
+
+ITERATION 11
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 12
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 13
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: vMu
+		Optimizing parameter: alpha
+
+ITERATION 14
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 9
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 15
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 10
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 16
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+data: 0.4053
+brain: 0.2406
+project: 0.2400
+
+TOPIC 0
+Bottom 3 words:
+---------------
+keith: -0.0224
+did: -0.0216
+person: -0.0183
+
+TOPIC 1
+Top 3 words:
+---------------
+christian: 0.2860
+god: 0.2476
+organization: 0.1946
+
+TOPIC 1
+Bottom 3 words:
+---------------
+windows: -0.0441
+data: -0.0357
+dyer: -0.0291
+
+TOPIC 2
+Top 3 words:
+---------------
+writes: 0.4572
+apr: 0.2474
+article: 0.2395
+
+TOPIC 2
+Bottom 3 words:
+---------------
+screen: -0.0397
+problem: -0.0320
+christian: -0.0298
+
+TOPIC 3
+Top 3 words:
+---------------
+newsgroups: 0.2751
+apr: 0.2649
+date: 0.2547
+
+TOPIC 3
+Bottom 3 words:
+---------------
+data: -0.0431
+way: -0.0395
+andy: -0.0350
+
+TOPIC 4
+Top 3 words:
+---------------
+windows: 0.2457
+people: 0.2201
+unix: 0.1965
+
+TOPIC 4
+Bottom 3 words:
+---------------
+thanks: -0.0392
+steve: -0.0227
+dyer: -0.0212
+
+TOPIC 5
+Top 3 words:
+---------------
+news: 0.4906
+sender: 0.2809
+usenet: 0.2119
+
+TOPIC 5
+Bottom 3 words:
+---------------
+california: -0.0409
+technology: -0.0305
+code: -0.0290
+
+TOPIC 6
+Top 3 words:
+---------------
+space: 0.3647
+list: 0.2360
+nasa: 0.2067
+
+TOPIC 6
+Bottom 3 words:
+---------------
+windows: -0.0275
+christian: -0.0199
+god: -0.0142
+
+TOPIC 7
+Top 3 words:
+---------------
+writes: 0.2529
+keith: 0.2317
+people: 0.2256
+
+TOPIC 7
+Bottom 3 words:
+---------------
+windows: -0.0502
+christian: -0.0457
+screen: -0.0439
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.4239
+newsgroups: 0.2641
+date: 0.2527
+
+TOPIC 8
+Bottom 3 words:
+---------------
+data: -0.0510
+writes: -0.0472
+steve: -0.0313
+
+TOPIC 9
+Top 3 words:
+---------------
+screen: 0.3442
+writes: 0.2337
+time: 0.1997
+
+TOPIC 9
+Bottom 3 words:
+---------------
+keith: -0.0195
+anonymous: -0.0183
+college: -0.0175
+
+
+
+ITERATION 11
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 12
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 17
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 13
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 18
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 14
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 19
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 15
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+		Optimizing parameter: vMu
+
+ITERATION 20
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 16
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+christian: 0.3073
+apr: 0.2186
+gmt: 0.2081
+
+TOPIC 0
+Bottom 3 words:
+---------------
+data: -0.0414
+windows: -0.0342
+problem: -0.0305
+
+TOPIC 1
+Top 3 words:
+---------------
+news: 0.4669
+sender: 0.2769
+usenet: 0.2137
+
+TOPIC 1
+Bottom 3 words:
+---------------
+data: -0.0340
+technology: -0.0340
+world: -0.0329
+
+TOPIC 2
+Top 3 words:
+---------------
+space: 0.3458
+data: 0.2502
+list: 0.2277
+
+TOPIC 2
+Bottom 3 words:
+---------------
+writes: -0.0381
+windows: -0.0284
+god: -0.0141
+
+TOPIC 3
+Top 3 words:
+---------------
+newsgroups: 0.2814
+path: 0.2582
+organization: 0.2571
+
+TOPIC 3
+Bottom 3 words:
+---------------
+data: -0.0435
+mon: -0.0369
+id: -0.0315
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.4442
+mon: 0.2658
+newsgroups: 0.2476
+
+TOPIC 4
+Bottom 3 words:
+---------------
+university: -0.0472
+data: -0.0451
+people: -0.0358
+
+TOPIC 5
+Top 3 words:
+---------------
+people: 0.3052
+keith: 0.2641
+references: 0.2114
+
+TOPIC 5
+Bottom 3 words:
+---------------
+screen: -0.0305
+windows: -0.0266
+problem: -0.0254
+
+TOPIC 6
+Top 3 words:
+---------------
+writes: 0.4957
+article: 0.2856
+references: 0.2165
+
+TOPIC 6
+Bottom 3 words:
+---------------
+screen: -0.0424
+phone: -0.0326
+problem: -0.0300
+
+TOPIC 7
+Top 3 words:
+---------------
+data: 0.3434
+apr: 0.2286
+brain: 0.2255
+
+TOPIC 7
+Bottom 3 words:
+---------------
+list: -0.0424
+said: -0.0264
+space: -0.0249
+
+TOPIC 8
+Top 3 words:
+---------------
+screen: 0.3503
+writes: 0.2115
+time: 0.2079
+
+TOPIC 8
+Bottom 3 words:
+---------------
+god: -0.0214
+weston: -0.0172
+rate: -0.0158
+
+TOPIC 9
+Top 3 words:
+---------------
+windows: 0.2550
+unix: 0.2118
+good: 0.1923
+
+TOPIC 9
+Bottom 3 words:
+---------------
+thanks: -0.0359
+dyer: -0.0261
+gcc: -0.0255
+
+
+
+ITERATION 21
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 17
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 22
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 18
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 23
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 19
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 24
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 25
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 20
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 26
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+data: 0.4040
+brain: 0.2402
+project: 0.2399
+
+TOPIC 0
+Bottom 3 words:
+---------------
+did: -0.0223
+keith: -0.0214
+turkey: -0.0182
+
+TOPIC 1
+Top 3 words:
+---------------
+christian: 0.2882
+god: 0.2476
+organization: 0.1951
+
+TOPIC 1
+Bottom 3 words:
+---------------
+windows: -0.0437
+data: -0.0357
+dyer: -0.0290
+
+TOPIC 2
+Top 3 words:
+---------------
+writes: 0.4653
+article: 0.2462
+apr: 0.2374
+
+TOPIC 2
+Bottom 3 words:
+---------------
+screen: -0.0406
+problem: -0.0309
+christian: -0.0295
+
+TOPIC 3
+Top 3 words:
+---------------
+newsgroups: 0.2747
+apr: 0.2654
+date: 0.2546
+
+TOPIC 3
+Bottom 3 words:
+---------------
+data: -0.0425
+way: -0.0392
+andy: -0.0351
+
+TOPIC 4
+Top 3 words:
+---------------
+windows: 0.2511
+people: 0.2141
+unix: 0.2010
+
+TOPIC 4
+Bottom 3 words:
+---------------
+thanks: -0.0388
+steve: -0.0220
+dyer: -0.0208
+
+TOPIC 5
+Top 3 words:
+---------------
+news: 0.4907
+sender: 0.2807
+usenet: 0.2122
+
+TOPIC 5
+Bottom 3 words:
+---------------
+california: -0.0407
+technology: -0.0300
+code: -0.0290
+
+TOPIC 6
+Top 3 words:
+---------------
+space: 0.3651
+list: 0.2367
+nasa: 0.2067
+
+TOPIC 6
+Bottom 3 words:
+---------------
+windows: -0.0281
+christian: -0.0197
+god: -0.0144
+
+TOPIC 7
+Top 3 words:
+---------------
+writes: 0.2433
+keith: 0.2366
+people: 0.2300
+
+TOPIC 7
+Bottom 3 words:
+---------------
+windows: -0.0488
+screen: -0.0430
+christian: -0.0424
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.4267
+newsgroups: 0.2636
+date: 0.2524
+
+TOPIC 8
+Bottom 3 words:
+---------------
+data: -0.0506
+writes: -0.0394
+kings: -0.0312
+
+TOPIC 9
+Top 3 words:
+---------------
+screen: 0.3437
+writes: 0.2312
+time: 0.1990
+
+TOPIC 9
+Bottom 3 words:
+---------------
+keith: -0.0184
+anonymous: -0.0177
+college: -0.0173
+
+
+
+ITERATION 21
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 27
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 22
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 28
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 23
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+		Optimizing parameter: vMu
+
+ITERATION 29
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 24
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 30
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 25
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+christian: 0.3063
+apr: 0.2209
+gmt: 0.2093
+
+TOPIC 0
+Bottom 3 words:
+---------------
+data: -0.0417
+windows: -0.0342
+problem: -0.0302
+
+TOPIC 1
+Top 3 words:
+---------------
+news: 0.4668
+sender: 0.2768
+usenet: 0.2136
+
+TOPIC 1
+Bottom 3 words:
+---------------
+technology: -0.0341
+data: -0.0341
+world: -0.0328
+
+TOPIC 2
+Top 3 words:
+---------------
+space: 0.3463
+data: 0.2464
+list: 0.2282
+
+TOPIC 2
+Bottom 3 words:
+---------------
+writes: -0.0381
+windows: -0.0277
+god: -0.0137
+
+TOPIC 3
+Top 3 words:
+---------------
+newsgroups: 0.2813
+path: 0.2582
+organization: 0.2571
+
+TOPIC 3
+Bottom 3 words:
+---------------
+data: -0.0436
+mon: -0.0372
+id: -0.0316
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.4435
+mon: 0.2650
+newsgroups: 0.2479
+
+TOPIC 4
+Bottom 3 words:
+---------------
+university: -0.0477
+data: -0.0453
+people: -0.0356
+
+TOPIC 5
+Top 3 words:
+---------------
+people: 0.3067
+keith: 0.2633
+references: 0.2102
+
+TOPIC 5
+Bottom 3 words:
+---------------
+screen: -0.0305
+problem: -0.0265
+windows: -0.0244
+
+TOPIC 6
+Top 3 words:
+---------------
+writes: 0.4956
+article: 0.2852
+references: 0.2165
+
+TOPIC 6
+Bottom 3 words:
+---------------
+screen: -0.0424
+phone: -0.0326
+problem: -0.0299
+
+TOPIC 7
+Top 3 words:
+---------------
+data: 0.3481
+apr: 0.2274
+brain: 0.2270
+
+TOPIC 7
+Bottom 3 words:
+---------------
+list: -0.0412
+said: -0.0258
+space: -0.0243
+
+TOPIC 8
+Top 3 words:
+---------------
+screen: 0.3497
+writes: 0.2110
+time: 0.2071
+
+TOPIC 8
+Bottom 3 words:
+---------------
+god: -0.0221
+weston: -0.0175
+rate: -0.0156
+
+TOPIC 9
+Top 3 words:
+---------------
+windows: 0.2545
+unix: 0.2117
+good: 0.1937
+
+TOPIC 9
+Bottom 3 words:
+---------------
+thanks: -0.0338
+dyer: -0.0261
+gcc: -0.0255
+
+
+Saving model to ./data/models/very__2018-03-10.pickle
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 26
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+TOPIC 0
+Top 3 words:
+---------------
+christian: 0.3063
+apr: 0.2209
+gmt: 0.2093
+
+TOPIC 0
+Bottom 3 words:
+---------------
+data: -0.0417
+windows: -0.0342
+problem: -0.0302
+
+TOPIC 1
+Top 3 words:
+---------------
+news: 0.4668
+sender: 0.2768
+usenet: 0.2136
+
+TOPIC 1
+Bottom 3 words:
+---------------
+technology: -0.0341
+data: -0.0341
+world: -0.0328
+
+TOPIC 2
+Top 3 words:
+---------------
+space: 0.3463
+data: 0.2464
+list: 0.2282
+
+TOPIC 2
+Bottom 3 words:
+---------------
+writes: -0.0381
+windows: -0.0277
+god: -0.0137
+
+TOPIC 3
+Top 3 words:
+---------------
+newsgroups: 0.2813
+path: 0.2582
+organization: 0.2571
+
+TOPIC 3
+Bottom 3 words:
+---------------
+data: -0.0436
+mon: -0.0372
+id: -0.0316
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.4435
+mon: 0.2650
+newsgroups: 0.2479
+
+TOPIC 4
+Bottom 3 words:
+---------------
+university: -0.0477
+data: -0.0453
+people: -0.0356
+
+TOPIC 5
+Top 3 words:
+---------------
+people: 0.3067
+keith: 0.2633
+references: 0.2102
+
+TOPIC 5
+Bottom 3 words:
+---------------
+screen: -0.0305
+problem: -0.0265
+windows: -0.0244
+
+TOPIC 6
+Top 3 words:
+---------------
+writes: 0.4956
+article: 0.2852
+references: 0.2165
+
+TOPIC 6
+Bottom 3 words:
+---------------
+screen: -0.0424
+phone: -0.0326
+problem: -0.0299
+
+TOPIC 7
+Top 3 words:
+---------------
+data: 0.3481
+apr: 0.2274
+brain: 0.2270
+
+TOPIC 7
+Bottom 3 words:
+---------------
+list: -0.0412
+said: -0.0258
+space: -0.0243
+
+TOPIC 8
+Top 3 words:
+---------------
+screen: 0.3497
+writes: 0.2110
+time: 0.2071
+
+TOPIC 8
+Bottom 3 words:
+---------------
+god: -0.0221
+weston: -0.0175
+rate: -0.0156
+
+TOPIC 9
+Top 3 words:
+---------------
+windows: 0.2545
+unix: 0.2117
+good: 0.1937
+
+TOPIC 9
+Bottom 3 words:
+---------------
+thanks: -0.0338
+dyer: -0.0261
+gcc: -0.0255
+
+
+
+ITERATION 1
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 27
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 2
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 3
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 28
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 4
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 29
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 5
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 30
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 6
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+data: 0.4027
+brain: 0.2399
+project: 0.2396
+
+TOPIC 0
+Bottom 3 words:
+---------------
+did: -0.0227
+keith: -0.0207
+turkey: -0.0183
+
+TOPIC 1
+Top 3 words:
+---------------
+christian: 0.2898
+god: 0.2464
+organization: 0.1968
+
+TOPIC 1
+Bottom 3 words:
+---------------
+windows: -0.0437
+data: -0.0362
+dyer: -0.0291
+
+TOPIC 2
+Top 3 words:
+---------------
+writes: 0.4736
+article: 0.2535
+apr: 0.2264
+
+TOPIC 2
+Bottom 3 words:
+---------------
+screen: -0.0412
+problem: -0.0303
+christian: -0.0291
+
+TOPIC 3
+Top 3 words:
+---------------
+newsgroups: 0.2744
+apr: 0.2671
+date: 0.2544
+
+TOPIC 3
+Bottom 3 words:
+---------------
+data: -0.0420
+way: -0.0391
+andy: -0.0353
+
+TOPIC 4
+Top 3 words:
+---------------
+windows: 0.2547
+people: 0.2093
+unix: 0.2045
+
+TOPIC 4
+Bottom 3 words:
+---------------
+thanks: -0.0386
+steve: -0.0215
+dyer: -0.0204
+
+TOPIC 5
+Top 3 words:
+---------------
+news: 0.4905
+sender: 0.2807
+usenet: 0.2126
+
+TOPIC 5
+Bottom 3 words:
+---------------
+california: -0.0407
+technology: -0.0298
+code: -0.0290
+
+TOPIC 6
+Top 3 words:
+---------------
+space: 0.3652
+list: 0.2367
+nasa: 0.2065
+
+TOPIC 6
+Bottom 3 words:
+---------------
+windows: -0.0284
+christian: -0.0194
+writes: -0.0152
+
+TOPIC 7
+Top 3 words:
+---------------
+keith: 0.2414
+people: 0.2325
+writes: 0.2323
+
+TOPIC 7
+Bottom 3 words:
+---------------
+windows: -0.0466
+screen: -0.0419
+christian: -0.0398
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.4292
+newsgroups: 0.2623
+date: 0.2515
+
+TOPIC 8
+Bottom 3 words:
+---------------
+data: -0.0504
+writes: -0.0322
+people: -0.0319
+
+TOPIC 9
+Top 3 words:
+---------------
+screen: 0.3436
+writes: 0.2281
+time: 0.1989
+
+TOPIC 9
+Bottom 3 words:
+---------------
+anonymous: -0.0171
+college: -0.0171
+keith: -0.0169
+
+
+Saving model to ./data/models/very__2018-03-10.pickle
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+TOPIC 0
+Top 3 words:
+---------------
+data: 0.4027
+brain: 0.2399
+project: 0.2396
+
+TOPIC 0
+Bottom 3 words:
+---------------
+did: -0.0227
+keith: -0.0207
+turkey: -0.0183
+
+TOPIC 1
+Top 3 words:
+---------------
+christian: 0.2898
+god: 0.2464
+organization: 0.1968
+
+TOPIC 1
+Bottom 3 words:
+---------------
+windows: -0.0437
+data: -0.0362
+dyer: -0.0291
+
+TOPIC 2
+Top 3 words:
+---------------
+writes: 0.4736
+article: 0.2535
+apr: 0.2264
+
+TOPIC 2
+Bottom 3 words:
+---------------
+screen: -0.0412
+problem: -0.0303
+christian: -0.0291
+
+TOPIC 3
+Top 3 words:
+---------------
+newsgroups: 0.2744
+apr: 0.2671
+date: 0.2544
+
+TOPIC 3
+Bottom 3 words:
+---------------
+data: -0.0420
+way: -0.0391
+andy: -0.0353
+
+TOPIC 4
+Top 3 words:
+---------------
+windows: 0.2547
+people: 0.2093
+unix: 0.2045
+
+TOPIC 4
+Bottom 3 words:
+---------------
+thanks: -0.0386
+steve: -0.0215
+dyer: -0.0204
+
+TOPIC 5
+Top 3 words:
+---------------
+news: 0.4905
+sender: 0.2807
+usenet: 0.2126
+
+TOPIC 5
+Bottom 3 words:
+---------------
+california: -0.0407
+technology: -0.0298
+code: -0.0290
+
+TOPIC 6
+Top 3 words:
+---------------
+space: 0.3652
+list: 0.2367
+nasa: 0.2065
+
+TOPIC 6
+Bottom 3 words:
+---------------
+windows: -0.0284
+christian: -0.0194
+writes: -0.0152
+
+TOPIC 7
+Top 3 words:
+---------------
+keith: 0.2414
+people: 0.2325
+writes: 0.2323
+
+TOPIC 7
+Bottom 3 words:
+---------------
+windows: -0.0466
+screen: -0.0419
+christian: -0.0398
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.4292
+newsgroups: 0.2623
+date: 0.2515
+
+TOPIC 8
+Bottom 3 words:
+---------------
+data: -0.0504
+writes: -0.0322
+people: -0.0319
+
+TOPIC 9
+Top 3 words:
+---------------
+screen: 0.3436
+writes: 0.2281
+time: 0.1989
+
+TOPIC 9
+Bottom 3 words:
+---------------
+anonymous: -0.0171
+college: -0.0171
+keith: -0.0169
+
+
+
+ITERATION 1
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 2
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 9
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 3
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 10
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 4
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+christian: 0.3059
+apr: 0.2220
+gmt: 0.2098
+
+TOPIC 0
+Bottom 3 words:
+---------------
+data: -0.0416
+windows: -0.0341
+problem: -0.0301
+
+TOPIC 1
+Top 3 words:
+---------------
+news: 0.4668
+sender: 0.2767
+usenet: 0.2136
+
+TOPIC 1
+Bottom 3 words:
+---------------
+technology: -0.0342
+data: -0.0341
+world: -0.0328
+
+TOPIC 2
+Top 3 words:
+---------------
+space: 0.3466
+data: 0.2443
+list: 0.2285
+
+TOPIC 2
+Bottom 3 words:
+---------------
+writes: -0.0381
+windows: -0.0276
+god: -0.0136
+
+TOPIC 3
+Top 3 words:
+---------------
+newsgroups: 0.2813
+path: 0.2582
+organization: 0.2571
+
+TOPIC 3
+Bottom 3 words:
+---------------
+data: -0.0436
+mon: -0.0373
+id: -0.0316
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.4433
+mon: 0.2646
+newsgroups: 0.2481
+
+TOPIC 4
+Bottom 3 words:
+---------------
+university: -0.0477
+data: -0.0454
+people: -0.0353
+
+TOPIC 5
+Top 3 words:
+---------------
+people: 0.3075
+keith: 0.2630
+references: 0.2098
+
+TOPIC 5
+Bottom 3 words:
+---------------
+screen: -0.0305
+problem: -0.0270
+windows: -0.0240
+
+TOPIC 6
+Top 3 words:
+---------------
+writes: 0.4954
+article: 0.2850
+references: 0.2165
+
+TOPIC 6
+Bottom 3 words:
+---------------
+screen: -0.0424
+phone: -0.0326
+problem: -0.0298
+
+TOPIC 7
+Top 3 words:
+---------------
+data: 0.3508
+brain: 0.2278
+apr: 0.2266
+
+TOPIC 7
+Bottom 3 words:
+---------------
+list: -0.0405
+said: -0.0255
+space: -0.0238
+
+TOPIC 8
+Top 3 words:
+---------------
+screen: 0.3495
+writes: 0.2109
+time: 0.2067
+
+TOPIC 8
+Bottom 3 words:
+---------------
+god: -0.0224
+weston: -0.0176
+rate: -0.0155
+
+TOPIC 9
+Top 3 words:
+---------------
+windows: 0.2543
+unix: 0.2116
+good: 0.1946
+
+TOPIC 9
+Bottom 3 words:
+---------------
+thanks: -0.0329
+dyer: -0.0262
+gcc: -0.0255
+
+
+
+ITERATION 11
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 5
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 12
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 6
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 13
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 14
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 15
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 9
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 16
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 10
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 17
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+data: 0.4022
+brain: 0.2398
+project: 0.2395
+
+TOPIC 0
+Bottom 3 words:
+---------------
+did: -0.0230
+keith: -0.0204
+turkey: -0.0183
+
+TOPIC 1
+Top 3 words:
+---------------
+christian: 0.2910
+god: 0.2444
+organization: 0.1986
+
+TOPIC 1
+Bottom 3 words:
+---------------
+windows: -0.0438
+data: -0.0366
+dyer: -0.0292
+
+TOPIC 2
+Top 3 words:
+---------------
+writes: 0.4797
+article: 0.2589
+apr: 0.2183
+
+TOPIC 2
+Bottom 3 words:
+---------------
+screen: -0.0418
+problem: -0.0304
+christian: -0.0284
+
+TOPIC 3
+Top 3 words:
+---------------
+newsgroups: 0.2737
+apr: 0.2691
+date: 0.2540
+
+TOPIC 3
+Bottom 3 words:
+---------------
+data: -0.0413
+way: -0.0391
+andy: -0.0355
+
+TOPIC 4
+Top 3 words:
+---------------
+windows: 0.2575
+unix: 0.2070
+people: 0.2053
+
+TOPIC 4
+Bottom 3 words:
+---------------
+thanks: -0.0381
+steve: -0.0212
+california: -0.0207
+
+TOPIC 5
+Top 3 words:
+---------------
+news: 0.4904
+sender: 0.2810
+usenet: 0.2128
+
+TOPIC 5
+Bottom 3 words:
+---------------
+california: -0.0406
+technology: -0.0297
+code: -0.0290
+
+TOPIC 6
+Top 3 words:
+---------------
+space: 0.3652
+list: 0.2365
+nasa: 0.2062
+
+TOPIC 6
+Bottom 3 words:
+---------------
+windows: -0.0285
+christian: -0.0189
+writes: -0.0166
+
+TOPIC 7
+Top 3 words:
+---------------
+keith: 0.2447
+people: 0.2347
+writes: 0.2229
+
+TOPIC 7
+Bottom 3 words:
+---------------
+windows: -0.0450
+screen: -0.0412
+christian: -0.0382
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.4305
+newsgroups: 0.2612
+date: 0.2507
+
+TOPIC 8
+Bottom 3 words:
+---------------
+data: -0.0503
+people: -0.0336
+god: -0.0312
+
+TOPIC 9
+Top 3 words:
+---------------
+screen: 0.3435
+writes: 0.2257
+time: 0.1988
+
+TOPIC 9
+Bottom 3 words:
+---------------
+college: -0.0169
+dyer: -0.0169
+person: -0.0167
+
+
+
+ITERATION 11
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 18
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 12
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 19
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 13
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 20
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 14
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+christian: 0.3055
+apr: 0.2239
+gmt: 0.2109
+
+TOPIC 0
+Bottom 3 words:
+---------------
+data: -0.0422
+windows: -0.0349
+problem: -0.0299
+
+TOPIC 1
+Top 3 words:
+---------------
+news: 0.4666
+sender: 0.2767
+usenet: 0.2136
+
+TOPIC 1
+Bottom 3 words:
+---------------
+data: -0.0351
+technology: -0.0342
+world: -0.0328
+
+TOPIC 2
+Top 3 words:
+---------------
+space: 0.3475
+data: 0.2395
+list: 0.2293
+
+TOPIC 2
+Bottom 3 words:
+---------------
+writes: -0.0382
+windows: -0.0277
+god: -0.0134
+
+TOPIC 3
+Top 3 words:
+---------------
+newsgroups: 0.2812
+path: 0.2581
+organization: 0.2571
+
+TOPIC 3
+Bottom 3 words:
+---------------
+data: -0.0446
+mon: -0.0375
+id: -0.0316
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.4430
+mon: 0.2638
+newsgroups: 0.2485
+
+TOPIC 4
+Bottom 3 words:
+---------------
+university: -0.0472
+data: -0.0466
+people: -0.0353
+
+TOPIC 5
+Top 3 words:
+---------------
+people: 0.3086
+keith: 0.2623
+references: 0.2093
+
+TOPIC 5
+Bottom 3 words:
+---------------
+screen: -0.0304
+problem: -0.0278
+windows: -0.0244
+
+TOPIC 6
+Top 3 words:
+---------------
+writes: 0.4947
+article: 0.2847
+references: 0.2165
+
+TOPIC 6
+Bottom 3 words:
+---------------
+screen: -0.0424
+phone: -0.0327
+problem: -0.0295
+
+TOPIC 7
+Top 3 words:
+---------------
+data: 0.3564
+brain: 0.2294
+apr: 0.2252
+
+TOPIC 7
+Bottom 3 words:
+---------------
+list: -0.0388
+said: -0.0247
+space: -0.0221
+
+TOPIC 8
+Top 3 words:
+---------------
+screen: 0.3489
+writes: 0.2111
+time: 0.2057
+
+TOPIC 8
+Bottom 3 words:
+---------------
+god: -0.0229
+weston: -0.0177
+rate: -0.0155
+
+TOPIC 9
+Top 3 words:
+---------------
+windows: 0.2529
+unix: 0.2111
+good: 0.1967
+
+TOPIC 9
+Bottom 3 words:
+---------------
+thanks: -0.0316
+dyer: -0.0262
+gcc: -0.0257
+
+
+
+ITERATION 21
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 15
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 22
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 16
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 23
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 17
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 24
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 18
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+
+ITERATION 25
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: alpha
+
+ITERATION 19
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
