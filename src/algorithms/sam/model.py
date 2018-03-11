@@ -9,7 +9,7 @@ ITERATIONS = 10
 
 if os.environ["COMPUTERNAME"] == 'DALAILAMA':
     import sys
-    ITERATIONS = 50
+    ITERATIONS = 40
     path = r"D:\PyCharm Projects\py-sam-master\topic-eval"
     os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
     #print(os.getenv("HOME"))

@@ -77,6 +77,10 @@ if __name__ == '__main__':
     eval.load_inputs()
     print('done.')
 
+    # Create output if needed
+    if not os.path.isdir(args.output):
+        os.mkdir(args.output)
+
     with open(os.path.join(args.output, 'avg_coherences.txt'), 'w', encoding='utf-8') as score_file:
         for i in range(ITERATIONS):
             print('Iteration ' + str(i) + ': Recovering topics...', end='')

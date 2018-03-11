@@ -1,405 +1,1026 @@
 TOPIC 0
-Top 15 words:
+Top 3 words:
 ---------------
-49348574: 0.0046
-504361070: 0.0046
-13537418: 0.0046
-101470922: 0.0046
-548685581: 0.0046
-aspidosperma: 0.0046
-serovar: 0.0046
-babson: 0.0046
-tibetree: 0.0046
-sorrelyellow: 0.0046
-42291627: 0.0046
-37000761: 0.0046
-763401301: 0.0046
-68196073: 0.0046
-536451290: 0.0046
+ddavp: 0.0240
+magesium: 0.0240
+zontivity: 0.0240
 
 TOPIC 0
-Bottom 15 words:
+Bottom 3 words:
 ---------------
-705180191: 0.0000
-489513008: 0.0000
-713420006: 0.0000
-582320327: 0.0000
-551545444: 0.0000
-68428616: 0.0000
-156310053: 0.0000
-platina: 0.0000
-449110197: 0.0000
-00935732: 0.0000
-01790018: 0.0000
-10578024: 0.0000
-55700037: 0.0000
-63783016: 0.0000
-68084683: 0.0000
+cyclomydril: 0.0000
+diazoxide: 0.0000
+olmesartan: 0.0000
 
 TOPIC 1
-Top 15 words:
+Top 3 words:
 ---------------
-69779016: 0.0046
-13533685: 0.0046
-67979001: 0.0046
-68982623: 0.0046
-621067736: 0.0046
-11673857: 0.0046
-pip: 0.0046
-enchanted: 0.0046
-66116413: 0.0046
-oxygennitrogen: 0.0046
-504360262: 0.0046
-groveland: 0.0046
-50458585: 0.0046
-67046644: 0.0046
-63323311: 0.0046
+sensitive: 0.0240
+codeine: 0.0240
+ropivacaine: 0.0239
 
 TOPIC 1
-Bottom 15 words:
+Bottom 3 words:
 ---------------
-619952390: 0.0000
-02647388: 0.0000
-61509104: 0.0000
-bishala: 0.0000
-jar: 0.0000
-60429018: 0.0000
-59779264: 0.0000
-70758030: 0.0000
-54575132: 0.0000
-605052581: 0.0000
-650441516: 0.0000
-548684354: 0.0000
-00023229: 0.0000
-636294725: 0.0000
-720010002: 0.0000
+miglustat: 0.0000
+lumigan: 0.0000
+solubilis: 0.0000
 
 TOPIC 2
-Top 15 words:
+Top 3 words:
 ---------------
-71947020: 0.0046
-aspartamemsg: 0.0046
-579556286: 0.0046
-56131759: 0.0046
-763293015: 0.0046
-59898730: 0.0046
-507301450: 0.0046
-senticosus: 0.0046
-jianze: 0.0046
-carbkali: 0.0046
-ts350094: 0.0046
-sthetic: 0.0046
-37000877: 0.0046
-437420199: 0.0046
-23667807: 0.0046
+nimodipine: 0.0239
+dover: 0.0239
+cyanocobalamin: 0.0239
 
 TOPIC 2
-Bottom 15 words:
+Bottom 3 words:
 ---------------
-31645170: 0.0000
-53041126: 0.0000
-58805006: 0.0000
-41250613: 0.0000
-drfresh: 0.0000
-vitalba: 0.0000
-67172707: 0.0000
-176302029: 0.0000
-548681234: 0.0000
-lab1796: 0.0000
-548684413: 0.0000
-sulfadiazene: 0.0000
-13537208: 0.0000
-67542040: 0.0000
-05731769: 0.0000
+epicoccum: 0.0000
+jamestown: 0.0000
+groveland: 0.0000
 
 TOPIC 3
-Top 15 words:
+Top 3 words:
 ---------------
-57237108: 0.0046
-64380793: 0.0046
-62257606: 0.0046
-68382093: 0.0046
-49999839: 0.0046
-10631332: 0.0046
-67777419: 0.0046
-65133190: 0.0046
-41163025: 0.0046
-620110218: 0.0046
-681511923: 0.0046
-41250109: 0.0046
-37205610: 0.0046
-69842224: 0.0046
-369872398: 0.0046
+00023004: 0.0240
+fluorouracil: 0.0240
+vfend: 0.0240
 
 TOPIC 3
-Bottom 15 words:
+Bottom 3 words:
 ---------------
-mirvaso: 0.0000
-156310232: 0.0000
-369872641: 0.0000
-toasted: 0.0000
-55315375: 0.0000
-68345874: 0.0000
-63323305: 0.0000
-00096582: 0.0000
-02686316: 0.0000
-699680046: 0.0000
-rimabotulinumtoxinb: 0.0000
-monosulfide: 0.0000
-43538130: 0.0000
-35356743: 0.0000
-582320528: 0.0000
+diethylpropion: 0.0000
+urocitk: 0.0000
+lixisenatide: 0.0000
 
 TOPIC 4
-Top 15 words:
+Top 3 words:
 ---------------
-71104807: 0.0046
-00540251: 0.0046
-pronto: 0.0046
-61919528: 0.0046
-69777070: 0.0046
-69656101: 0.0046
-50111647: 0.0046
-492880755: 0.0046
-551544778: 0.0046
-52959132: 0.0046
-49781063: 0.0046
-00040260: 0.0046
-41250604: 0.0046
-156310525: 0.0046
-681513110: 0.0046
+durvalumab: 0.0241
+fortical: 0.0241
+broccoli: 0.0241
 
 TOPIC 4
-Bottom 15 words:
+Bottom 3 words:
 ---------------
-asparto: 0.0000
-557141716: 0.0000
-00937620: 0.0000
-71186002: 0.0000
-50484308: 0.0000
-onosmodium: 0.0000
-605050752: 0.0000
-687889928: 0.0000
-63667957: 0.0000
-circulation: 0.0000
-pregressive: 0.0000
-04040741: 0.0000
-03110714: 0.0000
-46122166: 0.0000
-548684677: 0.0000
+anhydrous: 0.0000
+evista: 0.0000
+ddavp: 0.0000
 
 TOPIC 5
-Top 15 words:
+Top 3 words:
 ---------------
-41520418: 0.0046
-681512299: 0.0046
-dibasicsilicon: 0.0046
-438460055: 0.0046
-691521168: 0.0046
-70818019: 0.0046
-680711786: 0.0046
-05732869: 0.0046
-16714727: 0.0046
-63323180: 0.0046
-52682047: 0.0046
-45802109: 0.0046
-687887071: 0.0046
-69176300: 0.0046
-548685869: 0.0046
+ambrosia: 0.0240
+generess: 0.0240
+blephamide: 0.0240
 
 TOPIC 5
-Bottom 15 words:
+Bottom 3 words:
 ---------------
-581180924: 0.0000
-11084100: 0.0000
-03630952: 0.0000
-60760090: 0.0000
-63029444: 0.0000
-mezereumphosphorus: 0.0000
-713350129: 0.0000
-68828205: 0.0000
-67877211: 0.0000
-489514108: 0.0000
-vincasar: 0.0000
-pearson: 0.0000
-369873136: 0.0000
-41250092: 0.0000
-candid: 0.0000
+amaryl: 0.0000
+nicotrol: 0.0000
+marks: 0.0000
 
 TOPIC 6
-Top 15 words:
+Top 3 words:
 ---------------
-71610024: 0.0046
-628391137: 0.0046
-47781591: 0.0046
-69315130: 0.0046
-67777226: 0.0046
-49348135: 0.0046
-47469200: 0.0046
-00694004: 0.0046
-369873092: 0.0046
-495801417: 0.0046
-05915695: 0.0046
-650441703: 0.0046
-369872757: 0.0046
-13537273: 0.0046
-59746529: 0.0046
+fulvestrant: 0.0242
+artemisiifolia: 0.0242
+cetirizine: 0.0242
 
 TOPIC 6
-Bottom 15 words:
+Bottom 3 words:
 ---------------
-52686293: 0.0000
-636297037: 0.0000
-43063573: 0.0000
-06416067: 0.0000
-36800059: 0.0000
-606811274: 0.0000
-02807190: 0.0000
-ketalar: 0.0000
-369871431: 0.0000
-49967800: 0.0000
-49035911: 0.0000
-deadly: 0.0000
-538080829: 0.0000
-45167040: 0.0000
-707869056: 0.0000
+abington: 0.0000
+idarubicin: 0.0000
+marblehead: 0.0000
 
 TOPIC 7
-Top 15 words:
+Top 3 words:
 ---------------
-43353793: 0.0046
-64205130: 0.0046
-492880457: 0.0046
-06033741: 0.0046
-fab2: 0.0046
-48201007: 0.0046
-neopolycin: 0.0046
-548681073: 0.0046
-02283507: 0.0046
-70417001: 0.0046
-ciclopirox: 0.0046
-14783824: 0.0046
-isonarif: 0.0046
-02738008: 0.0046
-65785034: 0.0046
+vimpat: 0.0241
+methyltestosterone: 0.0241
+lopressor: 0.0241
 
 TOPIC 7
-Bottom 15 words:
+Bottom 3 words:
 ---------------
-63187449: 0.0000
-584430100: 0.0000
-55289903: 0.0000
-00743043: 0.0000
-61919281: 0.0000
-538080799: 0.0000
-nitro: 0.0000
-59779392: 0.0000
-21695554: 0.0000
-01350475: 0.0000
-68682993: 0.0000
-09045523: 0.0000
-fagopyrum: 0.0000
-13537345: 0.0000
-aphedrid: 0.0000
+axiron: 0.0000
+intermedia: 0.0000
+enteric: 0.0000
 
 TOPIC 8
-Top 15 words:
+Top 3 words:
 ---------------
-51523033: 0.0046
-body: 0.0046
-capex: 0.0046
-05363603: 0.0046
-61786894: 0.0046
-71055100: 0.0046
-49035774: 0.0046
-37205617: 0.0046
-51060024: 0.0046
-53746077: 0.0046
-47335892: 0.0046
-606812901: 0.0046
-636292953: 0.0046
-mud: 0.0046
-49035118: 0.0046
+sinecatechins: 0.0239
+sulfatepolymyxin: 0.0239
+asparagus: 0.0239
 
 TOPIC 8
-Bottom 15 words:
+Bottom 3 words:
 ---------------
-58411178: 0.0000
-13734129: 0.0000
-584430242: 0.0000
-21749548: 0.0000
-43386680: 0.0000
-21749368: 0.0000
-07130679: 0.0000
-535670723: 0.0000
-118220672: 0.0000
-00231145: 0.0000
-aurophen: 0.0000
-33261773: 0.0000
-69049013: 0.0000
-dhs: 0.0000
-531441001: 0.0000
+pediatric: 0.0000
+janumet: 0.0000
+leucine: 0.0000
 
 TOPIC 9
-Top 15 words:
+Top 3 words:
 ---------------
-enthol: 0.0046
-guiaicum: 0.0046
-672261020: 0.0046
-ainnara: 0.0046
-06157904: 0.0046
-00933107: 0.0046
-21130278: 0.0046
-16729170: 0.0046
-584430179: 0.0046
-62175471: 0.0046
-42291195: 0.0046
-16714703: 0.0046
-70445239: 0.0046
-55315337: 0.0046
-metastron: 0.0046
+00027511: 0.0239
+indapamide: 0.0239
+willow: 0.0239
 
 TOPIC 9
-Bottom 15 words:
+Bottom 3 words:
 ---------------
-vbeaute: 0.0000
-71384513: 0.0000
-68428135: 0.0000
-cheon: 0.0000
-chrysanthellum: 0.0000
-681511980: 0.0000
-callous: 0.0000
-620110201: 0.0000
-115237020: 0.0000
-49967444: 0.0000
-69842753: 0.0000
-10356100: 0.0000
-69423164: 0.0000
-bictegravir: 0.0000
-60760223: 0.0000
+avare: 0.0000
+meglumine: 0.0000
+tru: 0.0000
 
 
 
 ITERATION 1
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
-		Optimized parameter: vAlpha with improvement of 37.37356999157424
-		Minimizer returned code 1 after 87 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
-
 		Optimizing parameter: vMu
-		Optimized parameter: vMu with improvement of 210.66604416357558
-		Minimizer returned code 4 after 61 iterations
-		(Message: Linear search failed)
-
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
-		Optimized parameter: xi with improvement of 1075.584075264374
-		Minimizer returned code 0 after 7 iterations
-		(Message: Local minimum reached( | pg | ~ = 0))
-
 		Optimizing parameter: alpha
-		Optimized parameter: alpha with improvement of 2.7224287019290045
-		Minimizer returned code 1 after 19 iterations
-		(Message: Converged (|f_n-f_(n-1)| ~= 0))
 
+ITERATION 2
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 3
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 4
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 5
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 6
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 9
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 10
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+hydrochloride: 0.3039
+north: 0.2534
+west: 0.2021
+
+TOPIC 0
+Bottom 3 words:
+---------------
+clav: -0.0019
+8020: -0.0017
+testred: -0.0017
+
+TOPIC 1
+Top 3 words:
+---------------
+hydrochloride: 0.7253
+pollen: 0.2473
+olanzapine: 0.2446
+
+TOPIC 1
+Bottom 3 words:
+---------------
+rifater: -0.0016
+medicine: -0.0014
+breathing: -0.0014
+
+TOPIC 2
+Top 3 words:
+---------------
+hydrochloride: 0.6192
+pollen: 0.2154
+olanzapine: 0.2027
+
+TOPIC 2
+Bottom 3 words:
+---------------
+brown: -0.0017
+bimatoprost: -0.0016
+stromectol: -0.0016
+
+TOPIC 3
+Top 3 words:
+---------------
+hydrochloride: 0.4834
+north: 0.2101
+pollen: 0.1944
+
+TOPIC 3
+Bottom 3 words:
+---------------
+sponge: -0.0021
+tranylcypromine: -0.0019
+honeybee: -0.0019
+
+TOPIC 4
+Top 3 words:
+---------------
+hydrochloride: 0.3673
+orange: 0.2757
+banana: 0.2719
+
+TOPIC 4
+Bottom 3 words:
+---------------
+lenscale: -0.0018
+marianus: -0.0016
+gentian: -0.0016
+
+TOPIC 5
+Top 3 words:
+---------------
+hydrochloride: 0.3790
+beans: 0.2088
+north: 0.1817
+
+TOPIC 5
+Bottom 3 words:
+---------------
+11: -0.0020
+alphalipoic: -0.0017
+cilastatin: -0.0016
+
+TOPIC 6
+Top 3 words:
+---------------
+hydrochloride: 0.3606
+beans: 0.2784
+pollen: 0.1508
+
+TOPIC 6
+Bottom 3 words:
+---------------
+allergyd: -0.0019
+daikon: -0.0017
+drospirenoneethinyl: -0.0017
+
+TOPIC 7
+Top 3 words:
+---------------
+north: 0.2969
+west: 0.2348
+south: 0.2230
+
+TOPIC 7
+Bottom 3 words:
+---------------
+norelgestromin: -0.0015
+biotin: -0.0014
+meththyl: -0.0014
+
+TOPIC 8
+Top 3 words:
+---------------
+hydrochloride: 0.7368
+olanzapine: 0.2546
+pollen: 0.2435
+
+TOPIC 8
+Bottom 3 words:
+---------------
+rifabutin: -0.0017
+epinastine: -0.0016
+radiance: -0.0016
+
+TOPIC 9
+Top 3 words:
+---------------
+hydrochloride: 0.4938
+pollen: 0.2143
+north: 0.1948
+
+TOPIC 9
+Bottom 3 words:
+---------------
+bassora: -0.0018
+pyogenes: -0.0018
+probutate: -0.0017
+
+
+
+ITERATION 11
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 12
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 13
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 14
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 15
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 16
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 17
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 18
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 19
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 20
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+north: 0.3734
+new: 0.2941
+west: 0.2899
+
+TOPIC 0
+Bottom 3 words:
+---------------
+hydrochloride: -0.0533
+pollen: -0.0209
+sodium: -0.0162
+
+TOPIC 1
+Top 3 words:
+---------------
+hydrochloride: 0.7725
+pollen: 0.2880
+olanzapine: 0.2388
+
+TOPIC 1
+Bottom 3 words:
+---------------
+north: -0.0218
+west: -0.0175
+south: -0.0169
+
+TOPIC 2
+Top 3 words:
+---------------
+hydrochloride: 0.7651
+pollen: 0.2848
+olanzapine: 0.2365
+
+TOPIC 2
+Bottom 3 words:
+---------------
+north: -0.0209
+west: -0.0169
+south: -0.0162
+
+TOPIC 3
+Top 3 words:
+---------------
+hydrochloride: 0.3932
+north: 0.3107
+west: 0.2472
+
+TOPIC 3
+Bottom 3 words:
+---------------
+grapes: -0.0122
+tangerine: -0.0122
+coconut: -0.0116
+
+TOPIC 4
+Top 3 words:
+---------------
+banana: 0.3870
+coconut: 0.3870
+watermelon: 0.3870
+
+TOPIC 4
+Bottom 3 words:
+---------------
+north: -0.0154
+west: -0.0121
+new: -0.0119
+
+TOPIC 5
+Top 3 words:
+---------------
+beans: 0.1316
+00027724: 0.0735
+00027335: 0.0735
+
+TOPIC 5
+Bottom 3 words:
+---------------
+hydrochloride: -0.0231
+north: -0.0113
+pollen: -0.0091
+
+TOPIC 6
+Top 3 words:
+---------------
+beans: 0.4301
+green: 0.2152
+romaine: 0.2151
+
+TOPIC 6
+Bottom 3 words:
+---------------
+hydrochloride: -0.0163
+pollen: -0.0061
+olanzapine: -0.0050
+
+TOPIC 7
+Top 3 words:
+---------------
+north: 0.2839
+san: 0.2396
+west: 0.2288
+
+TOPIC 7
+Bottom 3 words:
+---------------
+hydrochloride: -0.0576
+pollen: -0.0223
+sodium: -0.0175
+
+TOPIC 8
+Top 3 words:
+---------------
+hydrochloride: 0.7756
+pollen: 0.2867
+olanzapine: 0.2412
+
+TOPIC 8
+Bottom 3 words:
+---------------
+north: -0.0209
+west: -0.0169
+south: -0.0162
+
+TOPIC 9
+Top 3 words:
+---------------
+hydrochloride: 0.4089
+north: 0.1992
+pollen: 0.1605
+
+TOPIC 9
+Bottom 3 words:
+---------------
+beans: -0.0136
+tangerine: -0.0132
+grapes: -0.0132
+
+
+
+ITERATION 21
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 22
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 23
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 24
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 25
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 26
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 27
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 28
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 29
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 30
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+north: 0.3853
+new: 0.3373
+south: 0.3025
+
+TOPIC 0
+Bottom 3 words:
+---------------
+hydrochloride: -0.0151
+suffolk: -0.0096
+saint: -0.0081
+
+TOPIC 1
+Top 3 words:
+---------------
+hydrochloride: 0.7757
+pollen: 0.2898
+olanzapine: 0.2392
+
+TOPIC 1
+Bottom 3 words:
+---------------
+san: -0.0091
+saint: -0.0065
+north: -0.0052
+
+TOPIC 2
+Top 3 words:
+---------------
+hydrochloride: 0.7756
+pollen: 0.2899
+olanzapine: 0.2390
+
+TOPIC 2
+Bottom 3 words:
+---------------
+san: -0.0091
+saint: -0.0065
+north: -0.0052
+
+TOPIC 3
+Top 3 words:
+---------------
+north: 0.4184
+west: 0.3310
+south: 0.3162
+
+TOPIC 3
+Bottom 3 words:
+---------------
+hydrochloride: -0.0165
+pollen: -0.0062
+olanzapine: -0.0050
+
+TOPIC 4
+Top 3 words:
+---------------
+banana: 0.3941
+watermelon: 0.3941
+coconut: 0.3941
+
+TOPIC 4
+Bottom 3 words:
+---------------
+north: -0.0034
+new: -0.0029
+south: -0.0026
+
+TOPIC 5
+Top 3 words:
+---------------
+00023004: 0.0770
+00021407: 0.0770
+00030894: 0.0770
+
+TOPIC 5
+Bottom 3 words:
+---------------
+hydrochloride: -0.0215
+san: -0.0098
+pollen: -0.0081
+
+TOPIC 6
+Top 3 words:
+---------------
+beans: 0.4364
+corn: 0.2182
+onion: 0.2182
+
+TOPIC 6
+Bottom 3 words:
+---------------
+00021433: -0.0004
+00025123: -0.0004
+00023233: -0.0004
+
+TOPIC 7
+Top 3 words:
+---------------
+san: 0.2947
+saint: 0.2085
+north: 0.1759
+
+TOPIC 7
+Bottom 3 words:
+---------------
+hydrochloride: -0.0313
+pollen: -0.0118
+olanzapine: -0.0095
+
+TOPIC 8
+Top 3 words:
+---------------
+hydrochloride: 0.7758
+pollen: 0.2897
+olanzapine: 0.2393
+
+TOPIC 8
+Bottom 3 words:
+---------------
+san: -0.0091
+saint: -0.0065
+north: -0.0052
+
+TOPIC 9
+Top 3 words:
+---------------
+hydrochloride: 0.4441
+san: 0.1916
+pollen: 0.1669
+
+TOPIC 9
+Bottom 3 words:
+---------------
+beans: -0.0001
+peas: -0.0001
+romaine: -0.0001
+
+
+
+ITERATION 31
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 32
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 33
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 34
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 35
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 36
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 37
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 38
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 39
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+
+ITERATION 40
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimizing parameter: vMu
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimizing parameter: alpha
+TOPIC 0
+Top 3 words:
+---------------
+north: 0.4006
+new: 0.3312
+south: 0.3108
+
+TOPIC 0
+Bottom 3 words:
+---------------
+hydrochloride: -0.0138
+suffolk: -0.0087
+saint: -0.0061
+
+TOPIC 1
+Top 3 words:
+---------------
+hydrochloride: 0.7756
+pollen: 0.2897
+olanzapine: 0.2392
+
+TOPIC 1
+Bottom 3 words:
+---------------
+san: -0.0109
+north: -0.0081
+saint: -0.0076
+
+TOPIC 2
+Top 3 words:
+---------------
+hydrochloride: 0.7756
+pollen: 0.2897
+olanzapine: 0.2392
+
+TOPIC 2
+Bottom 3 words:
+---------------
+san: -0.0109
+north: -0.0081
+saint: -0.0076
+
+TOPIC 3
+Top 3 words:
+---------------
+north: 0.4077
+west: 0.3203
+south: 0.3101
+
+TOPIC 3
+Bottom 3 words:
+---------------
+hydrochloride: -0.0205
+pollen: -0.0077
+olanzapine: -0.0063
+
+TOPIC 4
+Top 3 words:
+---------------
+tangerine: 0.3941
+grapes: 0.3941
+watermelon: 0.3941
+
+TOPIC 4
+Bottom 3 words:
+---------------
+hydrochloride: -0.0002
+pollen: -0.0001
+olanzapine: -0.0001
+
+TOPIC 5
+Top 3 words:
+---------------
+00023004: 0.0771
+00021407: 0.0771
+00030894: 0.0771
+
+TOPIC 5
+Bottom 3 words:
+---------------
+hydrochloride: -0.0179
+pollen: -0.0067
+olanzapine: -0.0055
+
+TOPIC 6
+Top 3 words:
+---------------
+beans: 0.4364
+radish: 0.2182
+pumpkin: 0.2182
+
+TOPIC 6
+Bottom 3 words:
+---------------
+hydrochloride: -0.0002
+pollen: -0.0001
+olanzapine: -0.0001
+
+TOPIC 7
+Top 3 words:
+---------------
+san: 0.3006
+saint: 0.2145
+alta: 0.1483
+
+TOPIC 7
+Bottom 3 words:
+---------------
+hydrochloride: -0.0334
+islands: -0.0158
+pollen: -0.0125
+
+TOPIC 8
+Top 3 words:
+---------------
+hydrochloride: 0.7756
+pollen: 0.2897
+olanzapine: 0.2392
+
+TOPIC 8
+Bottom 3 words:
+---------------
+san: -0.0109
+north: -0.0081
+saint: -0.0076
+
+TOPIC 9
+Top 3 words:
+---------------
+hydrochloride: 0.5777
+pollen: 0.2168
+olanzapine: 0.1773
+
+TOPIC 9
+Bottom 3 words:
+---------------
+w: 0.0001
+206mg: 0.0001
+flurandrenolide: 0.0001
+
+
+Saving model to ./data/models/toy_d_2018-03-10.pickle
