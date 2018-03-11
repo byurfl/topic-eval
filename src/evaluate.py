@@ -8,7 +8,7 @@ if os.environ["COMPUTERNAME"] == 'DALAILAMA':
     os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
     sys.path.append(path)
     os.chdir(path)
-    ITERATIONS = 1
+    ITERATIONS = 10
 
 class AlgorithmEvaluator:
     def __init__(self, algorithm, input_path, output_path, reference_path=None, filter_string=r'_sentences\.txt$'):

@@ -10,7 +10,7 @@ if False:
     nltk.download('punkt')
 
 class Reader:
-    def __init__(self, stopwords, corpus_encoding = 'utf-8'):
+    def __init__(self, stopwords, corpus_encoding = 'utf-8', use_vocab_dict = True):
         self.doc_tokens = {}
         self.term_idx = 0
         self.terms_to_indices = {}
@@ -18,6 +18,9 @@ class Reader:
         self.documents = None
         self.corpus_encoding = corpus_encoding
         self.stopwords = self.get_stopwords(stopwords if stopwords is not None else './data/english_stopwords.txt')
+        self.use_vocab_dict = use_vocab_dict
+        if self.use_vocab_dict:
+            self.vocab_dict = [word.decode() for word in list(np.load('./data/vocab20k.npy'))]
 
     def get_stopwords(self, stopwords_file):
         with open(stopwords_file, mode='r', encoding='utf-8') as sw_file:
@@ -27,9 +30,16 @@ class Reader:
     def get_tokens(self, text):
         tokenizer = pipeline.stopword_tokenizer(pipeline.default_tokenizer(), stopwords=self.stopwords)
         # return [t for t in tok.word_tokenize(text) if t not in self.stopwords]
-        return [t.token for t in tokenizer(text)]
+
+        # Don't add if not a valid word
+        if self.use_vocab_dict:
+            x = [t.token for t in tokenizer(text.lower()) if t.token in self.vocab_dict]
+            return x
+        else:
+            return [t.token for t in tokenizer(text)]
 
     def add_to_vocab(self, token):
+
         if token in self.vocabulary:
             self.vocabulary[token] += 1
         else:
@@ -76,6 +86,7 @@ class Reader:
 
     def convert_docs_to_matrix(self):
         self.documents = np.zeros(shape=[len(self.vocabulary), len(self.doc_tokens)])
+        print(self.documents.shape)
         doc_ids = sorted(self.doc_tokens.keys())
         doc_idx = 0
         for doc_id in doc_ids:

@@ -11,7 +11,7 @@ OUR_READER = False
 if os.environ["COMPUTERNAME"] == 'DALAILAMA':
     import sys
     OUR_READER = True
-    ITERATIONS = 40
+    ITERATIONS = 30
     path = r"D:\PyCharm Projects\py-sam-master\topic-eval"
     os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
     #print(os.getenv("HOME"))
@@ -26,7 +26,6 @@ import src.algorithms.sam.util as util
 import numpy as np
 from scipy.special import gammaln, psi, polygamma
 
-#"k":[],"k0":[],
 class SAM:
     def __init__(self, corpus, topics, stopwords=None, log_file=None, corpus_encoding = 'utf-8'):
         self.loss_updates = {"xi":[],"m":[],"alpha":[],"vMu":[],"vAlpha":[],"vM":[]}
