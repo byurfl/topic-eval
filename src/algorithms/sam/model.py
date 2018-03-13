@@ -82,6 +82,7 @@ class SAM:
 
             self.sorted_terms = np.array([line.strip() for line in open(self.reader.filename + '.wordlist')], str)
 
+        self.m_b = None
         # initialize model hyperparameters
         self.num_topics = topics
 
