@@ -9,12 +9,16 @@ if False:
     import nltk
     nltk.download('punkt')
 
+TFIDF = True
+
 class Reader:
     def __init__(self, stopwords, corpus_encoding = 'utf-8', use_vocab_dict = True):
         self.doc_tokens = {}
         self.term_idx = 0
         self.terms_to_indices = {}
+        self.indices_to_terms = []
         self.vocabulary = {}
+        self.vocab_size = 0
         self.documents = None
         self.corpus_encoding = corpus_encoding
         self.stopwords = self.get_stopwords(stopwords if stopwords is not None else './data/english_stopwords.txt')
@@ -45,7 +49,9 @@ class Reader:
         else:
             self.vocabulary[token] = 1
             self.terms_to_indices[token] = self.term_idx
+            self.indices_to_terms.append(token)
             self.term_idx += 1
+        self.vocab_size += 1
 
     def get_doc_tokens(self, corpus, recursive = True, encoding = 'utf-8'):
         #n = 0
@@ -84,7 +90,7 @@ class Reader:
             for t in tokens:
                 self.add_to_vocab(t)
 
-    def convert_docs_to_matrix(self):
+    def convert_docs_to_matrix(self, tfidf=False):
         self.documents = np.zeros(shape=[len(self.vocabulary), len(self.doc_tokens)])
         print(self.documents.shape)
         doc_ids = sorted(self.doc_tokens.keys())
@@ -94,13 +100,39 @@ class Reader:
                 self.documents[self.terms_to_indices[t]][doc_idx] += 1
             doc_idx += 1
 
+        # documents matrix now contains term frequency counts
+        if tfidf:
+            max_tfs = util.make_row_vector(np.max(self.documents, axis=0))
+            doc_freqs = util.make_col_vector(np.sum(self.documents, axis=1))
+
+            self.documents = self.documents / max_tfs
+            self.documents = self.documents / (doc_freqs + 1.0)
+
+            # keep top 5000 terms with maximum average tf-idf scores
+            if self.documents.shape[0] > 5000:
+                avg_tfidf_terms = np.sum(self.documents, axis=1) / self.documents.shape[1]
+                sorted_tfidfs = np.argsort(avg_tfidf_terms)
+                num_to_delete = len(sorted_tfidfs) - 5000
+                to_delete = sorted_tfidfs[:num_to_delete]
+                self.documents = np.delete(self.documents, to_delete, axis=0)
+                self.vocab_size = 5000
+                vocab = np.asarray(self.indices_to_terms)
+                pruned = np.delete(vocab, to_delete)
+                self.indices_to_terms = pruned.tolist()
+                new_terms_to_indices = {}
+                term_idx = 0
+                for i in range(len(self.indices_to_terms)):
+                    new_terms_to_indices[self.indices_to_terms[i]] = term_idx
+                    term_idx += 1
+                self.terms_to_indices = new_terms_to_indices
+
         for d in range(doc_idx):
             self.documents[:,d] = util.l2_normalize(self.documents[:,d])
 
     def read_corpus(self, corpus):
         self.get_doc_tokens(corpus)
         self.build_vocab()
-        self.convert_docs_to_matrix()
+        self.convert_docs_to_matrix(TFIDF)
 
     def get_codec(self, f):
         for codec in ["utf-8", "ansi"]:
