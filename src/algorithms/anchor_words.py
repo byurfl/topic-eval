@@ -74,7 +74,7 @@ class AnchorWords(Algorithm):
 
     def evaluate(self, method, score_file, iteration_counter=None):
         if method == 'coherence':
-            scores = validate.coherence(self.reference, topics.topic_summary(self.topics))
+            scores = validate.coherence(self.reference, np.asarray(topics.topic_summary(self.topics)))
 
             scores_file = os.path.join(self.output_path, 'coherence.txt') \
                 if iteration_counter == None \
