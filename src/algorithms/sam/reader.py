@@ -9,7 +9,7 @@ if False:
     import nltk
     nltk.download('punkt')
 
-TFIDF = True
+TFIDF = False
 
 class Reader:
     def __init__(self, stopwords, corpus_encoding = 'utf-8', use_vocab_dict = True):
@@ -105,12 +105,12 @@ class Reader:
             max_tfs = util.make_row_vector(np.max(self.documents, axis=0))
             doc_freqs = util.make_col_vector(np.sum(self.documents, axis=1))
 
-            self.documents = self.documents / max_tfs
-            self.documents = self.documents / (doc_freqs + 1.0)
+            tfidf_values = self.documents / max_tfs
+            tfidf_values = tfidf_values / (doc_freqs + 1.0)
 
             # keep top 5000 terms with maximum average tf-idf scores
-            if self.documents.shape[0] > 5000:
-                avg_tfidf_terms = np.sum(self.documents, axis=1) / self.documents.shape[1]
+            if tfidf_values.shape[0] > 5000:
+                avg_tfidf_terms = np.sum(tfidf_values, axis=1) / tfidf_values.shape[1]
                 sorted_tfidfs = np.argsort(avg_tfidf_terms)
                 num_to_delete = len(sorted_tfidfs) - 5000
                 to_delete = sorted_tfidfs[:num_to_delete]
@@ -125,6 +125,9 @@ class Reader:
                     new_terms_to_indices[self.indices_to_terms[i]] = term_idx
                     term_idx += 1
                 self.terms_to_indices = new_terms_to_indices
+
+        else:
+            self.vocab_size = len(self.vocabulary)
 
         for d in range(doc_idx):
             self.documents[:,d] = util.l2_normalize(self.documents[:,d])
