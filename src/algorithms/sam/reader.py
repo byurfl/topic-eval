@@ -9,8 +9,6 @@ if False:
     import nltk
     nltk.download('punkt')
 
-TFIDF = False
-
 class Reader:
     def __init__(self, stopwords, corpus_encoding = 'utf-8', use_vocab_dict = True, tfidf = False):
         self.tfidf = tfidf
