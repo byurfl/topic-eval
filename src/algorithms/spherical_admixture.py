@@ -34,13 +34,13 @@ class SphericalAdmixture(Algorithm):
                 output.write(']\n')
 
     def write_output(self, iteration_counter=None):
-        self.write_topics(iteration_counter=None)
+        self.write_topics(iteration_counter=iteration_counter   )
 
     def write_topics(self, iteration_counter=None, pivot_table = False):
         #print(self.topics)
         output_file = os.path.join(self.output_path, 'topics.csv') \
             if iteration_counter is None \
-            else os.path.join(self.output_path, 'topics_' + str(iteration_counter) + '.txt')
+            else os.path.join(self.output_path, 'topics_' + str(iteration_counter) + '.csv')
 
         with open(output_file, 'w', newline='') as out:
             csv_out = csv.writer(out)
