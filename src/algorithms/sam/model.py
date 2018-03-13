@@ -7,11 +7,19 @@ BOTTOM = 15
 VERBOSE = True
 ITERATIONS = 10
 OUR_READER = False
+LIMIT_VOCAB = True
+
+# Vocab pruning
+PRUNE_VOCAB = False
+PERC_VOCAB_TO_KEEP = .5
+START_PRUNE_ITERATION = 3
 
 if os.environ["COMPUTERNAME"] == 'DALAILAMA':
     import sys
+    PRUNE_VOCAB = True
     OUR_READER = True
     ITERATIONS = 30
+    LIMIT_VOCAB = False
     path = r"D:\PyCharm Projects\py-sam-master\topic-eval"
     os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
     #print(os.getenv("HOME"))
@@ -28,8 +36,6 @@ from scipy.special import gammaln, psi, polygamma
 
 class SAM:
     def __init__(self, corpus, topics, stopwords=None, log_file=None, corpus_encoding = 'utf-8'):
-        self.loss_updates = {"xi":[],"m":[],"alpha":[],"vMu":[],"vAlpha":[],"vM":[]}
-
         self.corpus = corpus
         if log_file == None:
             self.log_file = corpus + '_log.txt'
@@ -47,7 +53,7 @@ class SAM:
 
         if OUR_READER:
             from src.algorithms.sam.reader import Reader
-            self.reader = Reader(stopwords, corpus_encoding=corpus_encoding)
+            self.reader = Reader(stopwords, corpus_encoding=corpus_encoding, use_vocab_dict = LIMIT_VOCAB)
             self.reader.read_corpus(corpus)
 
             self.vocabulary = self.reader.vocabulary
@@ -86,6 +92,7 @@ class SAM:
 
         self.k0 = 10.0
         self.k = 5000.0
+
         # initialize variational parameters
         self.vMu = util.l2_normalize(np.random.rand(self.vocab_size, self.num_topics))
         self.vM = util.l2_normalize(np.random.rand(self.vocab_size))
@@ -96,10 +103,18 @@ class SAM:
             distances_from_topics = np.abs(util.cosine_similarity(self.documents[:, d], self.vMu)) + 0.01
             self.vAlpha[:, d] = distances_from_topics / sum(distances_from_topics) * 3.0
 
+        self.reset_loss_history()
+        # For pruning
+        if PRUNE_VOCAB:
+            self.backup_vocab()
+            self.deleted_words = []
+            pass
+
+    def reset_loss_history(self):
         # Record vectors
+        self.loss_updates = {"xi":[],"m":[],"alpha":[],"vMu":[],"vAlpha":[],"vM":[]}
         self.loss_updates["vM"].append(self.vM)
         self.loss_updates["m"].append(self.m)
-
 
     def __eq__(self, other):
         try:
@@ -134,6 +149,60 @@ class SAM:
             return True
         except:
             return False
+
+    def reset(self):
+        self.reset_vocab()
+        self.reset_loss_history()
+
+    def backup_vocab(self):
+        self.vocab_size_b = self.vocab_size
+        self.vMu_b =  self.vMu[:,:]
+        self.vM_b  =  self.vM[:]
+        self.m_b =  self.m[:]
+        self.documents_b = self.documents[:,:]
+
+    def reset_vocab(self):
+        self.vocab_size  = self.vocab_size_b
+        self.vMu =  self.vMu_b[:,:]
+        self.vM  =  self.vM_b[:]
+        self.m =  self.m_b[:]
+        self.documents = self.documents_b[:,:]
+
+    def delete_vocab_words(self, row_indices):
+        self.vocab_size -= len(row_indices)
+        #print(len(row_indices))
+        #print(self.vMu)
+        #print(row_indices)
+        self.vMu =  np.delete(self.vMu, row_indices, axis=0)
+        #print(self.vMu)
+        import time
+        #time.sleep(14)
+
+        self.vM  =  np.delete(self.vM, row_indices, axis=0)
+        self.m =  np.delete(self.m, row_indices, axis=0)
+        self.documents = np.delete(self.documents, row_indices, axis=0)
+
+    def prune_topics(self, limit_by = 10):
+        # n = number of topics to remove
+
+        self.vocab_size -= limit_by
+
+        #self.vMu = self.vMu[:self.vocab_size,:]
+        #self.vM = self.vM[:self.vocab_size]
+        #self.m = self.m[:self.vocab_size]
+        #self.documents = self.documents[:self.vocab_size,:]
+
+        # Delete words that are all ~0?
+
+
+        # Calculate topic variance
+        #mean_adj = self.vMu/self.vMu.mean(axis=1, keepdims = True)
+        #var = mean_adj.var(axis=1)
+
+        var = self.vMu.var(axis=1)
+        delete_list = var.argsort()[:limit_by][::-1]
+        self.delete_vocab_words(delete_list)
+        self.deleted_words.append(delete_list)
 
     def update_model_params(self):
         self.m = util.l2_normalize(np.sum(self.vMu, axis=1))
@@ -454,24 +523,33 @@ class SAM:
         self.loss_updates["vM"].append(self.vM)
 
     def do_EM(self, max_iterations=100, print_topics_every=10):
+        if not self.m_b is None:
+            self.reset()
         self.print_topics(top_words=TOP, bottom_words=BOTTOM)
         for i in range(1, max_iterations + 1):
             util.log_message("\nITERATION {}\n".format(i), self.log_file)
             self.do_E()
             self.do_M()
-
+            print(self.vMu.shape)
+            if PRUNE_VOCAB and i > START_PRUNE_ITERATION:
+                # Evenly distribute vocab to prune after 5 iterations
+                limit_by = int(self.vocab_size_b*PERC_VOCAB_TO_KEEP/(max_iterations-START_PRUNE_ITERATION))
+                self.prune_topics(limit_by=limit_by)
             if i % print_topics_every == 0:
                 self.print_topics(top_words=TOP, bottom_words=BOTTOM)
+
         # OUTPUT
         # Calculate euclidean distances for m and vM
         #self.loss_updates["vM_raw"] = self.loss_updates["vM"][:]
         #self.loss_updates["m_raw"] = self.loss_updates["m"][:]
+        self.calc_distance(self.loss_updates["vM"])
+        self.calc_distance(self.loss_updates["m"])
 
-        calc_distance(self.loss_updates["vM"])
-        calc_distance(self.loss_updates["m"])
-
+        # Write out losses
         util.write_dictionary(self.loss_updates, self.loss_file)
 
+        #if PRUNE_VOCAB:
+        #    self.reset_vocab()
 
     def do_E(self):
         util.log_message("\tDoing expectation step of EM process...\n", self.log_file)
@@ -484,16 +562,20 @@ class SAM:
         return 0
 
 
-def calc_distance(l, distance = "euclidean"):
-    for n in range(0, len(l)):
-        if n < len(l)-1:
-            if distance == "euclidean":
-                l[n] = np.linalg.norm(l[n]-l[n+1])
-            else:
-                l[n] = util.cosine_similarity(l[n], l[n+1])[0][0]
+    def calc_distance(self, l, distance = "euclidean"):
+        #print([len(x) for x in l])
+        for n in range(0, len(l)):
+            if PRUNE_VOCAB and n > START_PRUNE_ITERATION:
+                l[n] = np.delete(l[n], self.deleted_words[n-START_PRUNE_ITERATION-1])
 
-    # Delete the last item
-    del l[-1]
+            if n < len(l)-1:
+                if distance == "euclidean":
+                    l[n] = np.linalg.norm(l[n]-l[n+1])
+                else:
+                    l[n] = util.cosine_similarity(l[n], l[n+1])[0][0]
+
+        # Delete the last item
+        del l[-1]
 
 
 if __name__ == "__main__":
