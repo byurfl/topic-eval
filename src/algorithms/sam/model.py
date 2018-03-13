@@ -6,7 +6,7 @@ TOP = 15
 BOTTOM = 15
 VERBOSE = True
 ITERATIONS = 10
-OUR_READER = False
+OUR_READER = True
 LIMIT_VOCAB = True
 
 # Vocab pruning
@@ -57,7 +57,7 @@ class SAM:
             self.reader.read_corpus(corpus)
 
             self.vocabulary = self.reader.vocabulary
-            self.vocab_size = len(self.vocabulary)
+            self.vocab_size = self.reader.vocab_size
 
             self.sorted_terms = np.asarray(['' for _ in range(self.vocab_size)], dtype=object)
             for key, value in self.reader.terms_to_indices.items():
