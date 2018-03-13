@@ -15,7 +15,6 @@ postnntpibrcstubsde
 mr
 nntp
 inews
-entry
 organization
 technical
 university
@@ -45,10 +44,8 @@ created
 perfect
 nature
 yes
-define
 think
 playing
-usual
 game
 make
 sweeping
@@ -62,7 +59,6 @@ mean
 exactly
 says
 use
-terms
 leads
 contradictions
 im
@@ -107,13 +103,11 @@ away
 ability
 choose
 moral
-alternatives
 worship
 himself
 error
 free
 place
-allows
 evil
 thats
 opinion
@@ -148,8 +142,6 @@ choice
 left
 known
 course
-events
-fixed
 itself
 extend
 argument
@@ -165,7 +157,6 @@ evilsin
 knowing
 outcome
 advance
-knowledge
 unipolar
 possibility
 doing
@@ -178,7 +169,6 @@ restrains
 simply
 said
 truly
-defined
 loving
 obeying
 avoiding
@@ -191,7 +181,6 @@ imagine
 following
 harm
 easily
-implemented
 making
 appreciate
 object
@@ -202,7 +191,6 @@ case
 arguing
 conceivable
 want
-consistent
 pet
 idea
 deletion
@@ -219,7 +207,6 @@ reading
 science
 fiction
 fantasy
-disagree
 bible
 describes
 definitional
@@ -227,7 +214,6 @@ logic
 mind
 certain
 evidence
-indicates
 exists
 biblical
 description
@@ -238,7 +224,6 @@ credibility
 lot
 people
 interested
-unfortunately
 definitions
 cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomhowlandrestonansnetnocnearnetuunetoliveasgigatesgiblabadagiopanasoniccomnntpservercaltechedukeith
 keithccocaltechedu
@@ -853,7 +838,6 @@ heard
 mks
 esp
 emx
-toolkit
 doswindows
 suite
 standard
@@ -939,7 +923,6 @@ driveletters
 paths
 inside
 grouppifini
-files
 sudden
 things
 went
@@ -948,7 +931,6 @@ c
 e
 wanted
 copy
-application
 resetup
 normally
 previously
@@ -976,7 +958,6 @@ diskcache
 smartdrive
 tried
 lightning
-cache
 major
 headaches
 purpose
@@ -1324,7 +1305,6 @@ signals
 combine
 template
 rectangular
-window
 signal
 interior
 exterior
@@ -1441,1516 +1421,348 @@ machine
 ns
 60ns
 incompatibable
-compwindowsxintrinsics1089
-compwindowsx66322
-companswers381
-newsanswers7245
-cantaloupesrvcscmueducrabapplesrvcscmuedubb3andrewcmuedunewsseicmueducisohiostateedubouncebounce
-warecisohiostateedu
 peter
-ware
-compwindowsxintrinsicscompwindowsxcompanswersnewsanswers
-compwindowsxintrinsics
 frequently
 faq
 supersedes
-faqxt728840923oboecisohiostateedu
 followupto
-124201
 0500
 ohio
 dept
-1609
 approved
 newsanswersrequestmitedu
 14
-174153
-faqxt733772513oboecisohiostateedu
-oboecisohiostateedu
 summary
-answers
 x11
-widgets
-xt
-intrinsics
 library
 archivename
-xtfaq
-faqxtv
-128
-930402
-124112
-exp
-monthly
 posting
 contains
 compwindowsx
-submit
-preferably
 answer
 send
-faqs
 including
-archive
-rtfmmitedu
-directory
-pubusenetnewsanswers
-archived
 appears
 line
-fragments
 public
 domain
-contents
-0
-glossary
-versions
 related
-core
-signalsalarmscthreads
-visual
 default
-shell
-colormap
-shells
-inherit
-badmatch
 9
-widget
-destroyed
-xtdestroywidget
-exit
-execute
-destroycallbacks
-resize
-xtappaddinput
-handle
 books
-magazines
 15
 pass
-float
-xtsetvalues
 write
-resource
-converter
 18
 open
 multiple
 displays
-r3
-r4
 r5
-resources
-loaded
-callbacks
 23
-reparent
-xtreparentwidget
-xtmalloc
-xtfree
-debug
-xtaddinput
-xtaddtimeout
-xtaddworkproc
 27
-implement
-drag
 drop
 o
-oriented
 useful
-components
 included
 classes
 provide
 base
-functionality
-rectobj
-composite
-constraint
-overrideshell
-wmshell
-interchangeably
-precisely
 specific
-particular
 include
-athena
-motif
-olit
-refers
-abstraction
-precise
-subclass
 class
-loosely
 refer
-accurately
-windowless
-gadgets
 xlib
-protocol
-layer
-typically
-uses
-relatively
-provides
 understanding
 latest
-expected
 x11r4
-patch
 x11r5
-121892
-121
-992
-xtra
-61592
-xw
-xcu
-fwf
-11192
-493
 david
 b
-lewis
-uunetcraftfaq
-maintains
-located
-export
-contribfaq
-liam
-quin
-leesqsqcom
 posts
 jan
-newmarch
-janpandoniacanberraeduau
-compwindowsxmotif
-contribfaqxt
-brief
 sets
-mutual
-exclusion
-critical
-sections
-interrupt
-handler
 leave
 libraries
 inconsistent
 appropriate
-flags
-dangling
 middle
-traversal
-ansi
-points
 behavior
 undefined
 function
-posix
-specification
 mentions
-safely
-assumed
-safe
-flag
-needs
-checked
-procedure
-timeout
-callback
-incorrect
 dangerous
-finishes
-effectively
-preempts
 procedures
 option
-pipe
-event
-loop
 read
 end
 byte
-deadlock
-fills
-primarily
 supposed
-portable
 operating
 journal
 example
-oreilly
 volume
-complicated
 border
-pixmap
-borderpixmap
 deals
-copyfromparent
-evalulated
-defaultvisualofscreen
-defaultcolormapofscreen
 properly
-occurs
-depends
 parts
 start
 easier
 basic
 little
-harder
 youll
-initialize
-determine
 sample
 compile
-visualc
-lxaw
 lxmu
-lxt
-lxext
-lx11
-lm
-geometry
-300x300
-staticcolor
-fg
-bg
-yellow
-visuals
-x11intrinsich
-x11stringdefsh
-x11shellh
-typedef
-struct
-int
-optionsrec
-xtresource
-xtrvisual
-sizeof
-xtoffsetof
-xtrimmediate
-null
-xtrint
-xrmoptiondescrec
-desc
-xrmoptionseparg
-argc
-argv
-char
-xtappcontext
-app
 context
-toplevel
-dpy
-xargv
-vector
-xargc
-count
-xvisualinfo
-vinfo
-vinfolist
-returned
-matchs
-arg
-args10
-cardinal
-cnt
 test
-save
-command
 arguments
-bcopy
-creates
-dummy
-retrieve
-xtappinitialize
-xtnumber
-string
-args
-xtdisplay
-xtgetapplicationresources
-optionsvisual
-xtscreen
-xtsetarg
-argscnt
-xtnvisual
 examine
-property
-rootwindow
 right
 sorts
-xcreatecolormap
-rootwindowofscreen
-allocnone
-xtncolormap
-vinfovisualid
-xvisualidfromvisual
 xgetvisualinfo
-visualidmask
-xtndepth
-vinfolist0depth
 xfree
-xpointer
-xtnargv
-xtnargc
-xtappcreateshell
-applicationshellwidgetclass
-handling
-xtrealizewidget
-xtappmainloop
 return
 argued
-specified
-falls
-category
-expects
-truecolor
-overlayplane
-extension
 runs
-isolation
 depending
-server
-allocates
 mode
-mess
-upset
-chooses
-greyscale
-psuedocolor
-monochrome
 sun
-static
-332
-sgi
-iriss
 offer
-overlay
-plane
-strictly
 convention
-arbitrary
-ancestor
-obtaining
-realize
-xcreatewindow
 obtained
-xtgetvalues
 interpreted
-defaultdepthofscreen
-parent
 root
 tree
-copies
-converters
-improperly
-x11r3
 earlier
 section
 28
 eventually
 immediately
-destroy
-twophase
-children
 indicate
-pending
-cleaned
-freed
 phase
-performed
-handlers
 actions
-completed
-checking
-traversed
-caveatstrivia
-destruction
-nested
-loops
-placed
-entering
-inner
-returning
-outer
-entirely
 approach
-exiting
 calling
-chance
-clean
-external
-sockets
-temporary
-allocated
 simplicity
-assumes
-toplevelget
-gw
-xtparent
-void
-exitcallback
-closure
-calldata
-xtpointer
-xtunmapwidget
-disappear
-exits
-destroying
 ignorant
-implementation
 details
-someday
 require
 alternative
-modify
 global
 private
-frowned
-tends
-encourage
-sloppy
-difficult
-maintain
-practices
-extern
-needfunctionprototypes
-endif
-boolean
-exitworkproc
-xtappaddworkproc
-xtwidgettoapplicationcontext
-notreached
-adds
-idle
 happens
-processed
-realized
 proper
 currently
-managed
 child
-propagated
-asks
-manager
 request
-xtnallowshellresize
-grant
 position
-limits
 granted
-semantics
 io
 ready
 fit
 peoples
-intuitive
 model
-descriptor
-block
-ignoring
-setting
-optional
-terminals
-pipes
-eof
 result
 thinks
-culprit
-select
-sysv
-oss
-poll
-connect
-suitable
-bsd
-tail
 f
-filename
-rumored
 reliable
 ibm
-aix
 thousand
 stop
-woke
-race
 condition
 pyramid
 ultrix
-possibly
 wasnt
 writing
 512
-blocks
 received
-raound
-detecting
-ignore
-mseconds
 given
 descriptions
-terminology
-dependent
 area
-identical
-intrinsic
-designers
-felt
 common
-operation
 favorite
-definitive
 reference
 perspective
-offers
 introduction
 started
 concepts
-newcomers
 accurate
-1000
 pages
-asente
 paul
 j
-swick
-ralph
-programmers
 guide
 digital
 press
 1990
-isbn
-1555580513
-eye757edp
-prenticehall
-0139721916
 dec
 direct
-1800digital
 book
-commonly
-recomend
-novices
 young
 doug
-programming
-prentice
-1989
-0134970748
-0139721673
 manuals
-ordering
-8009989938
 page
-style
 3rd
-extensively
-overhauled
 mit
-finding
-permutted
 index
-chasing
-periodicals
-dealing
-published
-quarterly
 issues
-consortium
 conference
-proceedings
-advertising
-informative
-orders
-18009989938
-cathyroracom
 editorial
 matters
-adrianoracom
-table
-mathutahedu
-ftppubtexbib
 tex
 form
-ftpuunet
-ftppublishedoreillyxresource
-ascii
-bimonthly
 trade
-rag
 lots
-articles
-audience
-expectation
-learning
-represent
 fairly
-percentage
 collection
-advisory
-columnists
-908
-5639033
 popular
-provided
-sufficient
-purposes
-ugly
 3d
-exportlcsmiteducontribxaw3dtarz
-osf
 license
-fee
 shipped
-workstation
-platforms
-poorly
-implementing
-suns
 comment
-rumours
 addition
 sale
-3103289338
 includes
-graph
-stacked
-pie
-chart
-xy
-hypertext
-spreadsheet
-foundation
-attempting
-collect
-freely
 editor
-filedialog
 current
 anonymous
-acsuiucedu
-1281742521
-pubfwfsharz
-cornell
 gene
-dykes
 early
 nice
-appearance
-buttons
-mini
-language
-widely
-xs
 sony
-looked
-promise
-hp
-precursor
-originally
 written
-diffs
-xray
-x10r4
 apparently
 experience
-xo
 working
-primitive
-archivecisohiostateedupubxo
-specialized
-tbl
-implements
-tabular
-layout
-supports
-wcl
 plots
 contact
-gnbbbyozau
-joeathenamitedu
-vendor
-xview
-oi
-parcplace
-interviews
 stanford
-tcltk
-spriteberkeleyedu
-admire
-skill
-designing
 hopefully
-develop
 35
-eyes
 expect
-gaining
-acceptance
 wrong
 essentially
-typdef
-expands
-argname
-argvalue
-normal
-type
-conversions
-integer
-floating
-copied
-pattern
-wildly
-macro
 document
-recomending
 previous
 suggestions
-xtsetfloatargarg
 n
-sizeoffloat
-sizeofxtargval
-xtsetargarg
-xtargval
 ld
-courtesy
-thomson
-rthomsondsdescom
 discussion
-destructors
-converted
-types
 usually
-strings
 map
-enumerated
-names
-false
-compare
-readily
-accomplished
-quark
 mechanism
 turned
-unique
 fits
 word
 compared
-quarks
 representing
-enumeration
-initialization
-routine
-held
-invocation
 ii
 slightly
-sprintf
 wish
 convert
 internal
 valid
-snapshot
 restore
-database
-mechanisms
-effort
-ensure
-iii
-instance
 separate
-fields
 red
 green
-signature
-xttypeconverterdisplay
-xrmvalueptr
-numargs
-fromval
-toval
-converterdata
-invoked
 source
-destination
-opaque
-pointer
-converterspecific
-registered
-passed
-discussed
-lookup
 obtain
-corresponding
-care
 taken
-xrmvalue
 specifies
-location
-unsigned
-caddrt
-addr
-caller
-reinvoke
-assign
 variable
-containing
 group
-repeated
-convenient
-donevar
-tovaladdr
-tovalsize
-sizeoftype
-var
-donestrstr
-sizeofstring
-str
-perform
 safety
-register
-invokes
-fetching
-xtappsettypeconverter
-xtappsettypeconvertercontext
-destructor
-xttypeconverter
-xtconvertarglist
-xtcachetype
-xtdestructor
-contexts
-xtsettypeconverter
-xtsettypeconverterfrom
-routines
-xtappaddconverter
-xtaddconverter
-superseded
 newer
-cached
-xtcachenone
-xtcacheall
-xtcachebydisplay
-roundtrip
-decremented
-owning
-xtdestructorxtappcontext
-auxiliary
-storage
-associated
-pointed
-toaddr
-conversion
-mitlibxtconvertersc
-contriblibpextconvertersc
-contriblibpextconvertersh
-multiuser
-issue
 summer
 1992
-oliver
-jones
-coverage
 involved
-nutshell
-xtopendisplay
-xtclosedisplay
-shutdown
 remove
 close
 ways
-selects
-quit
-button
-wmdeletewindow
-disconnect
-killclient
-shutdowncrash
 network
 failure
 ill
 assume
-gracefully
 merely
-translating
-removing
-difficulty
-arises
 design
-presumed
-unrecoverable
-returns
-setjmplongjmp
-fragment
-demonstrates
-setjmph
-jmpbuf
-xiorecover
-xiohandler
-destroydisplay
-longjmp
-setjmp
-xsetioerrorhandler
-appcontext
-cleanup
-unfamiliar
-saves
-caveats
-adequate
-symptoms
-errors
-badcolor
-badatom
-badfont
-descriptors
-typical
-authorization
-november
-91
-scheifler
-basically
-addresses
 changes
 general
 release
 described
 certainly
-incomplete
-deprecated
 listed
-brevity
 goal
-retrieved
 chapter
-cacheing
-additional
-xtspecificationrelease
-wmshellpart
-toplevelshellpart
-transientshellpart
-incompatibly
-coreinitialize
-coresetvalues
-arglist
-parameters
-continuetodispatch
-parameter
-coresetvaluesalmost
-corecompressexposure
-coreclassinited
-constraintgetvalueshook
 record
-coreinitializehook
-shellrootgeometrymanager
-coresetvalueshook
-xtquerygeometry
-unrealizecallback
-xttranslatecoords
-psuedo
-basetranslation
 searching
-appdefault
-flexible
-customization
-perscreen
-permanently
-permanetly
-xtvaappinitialize
-xtdisplayinitialize
-xtinitialize
-improvements
-summarized
-gabe
-begeddov
-xrmstringtoquark
-augmented
-xrmpermstringtoquark
-indicated
-needing
-permanent
-array
 lists
-redesigned
-translation
-rewritten
 tables
-merges
 faster
-action
-bindings
-keycode
-keysyms
 sharing
-gcs
-modifiable
-malloc
-constraints
-reduction
-usage
-xtallocategc
-sharable
-gc
-xtgetactionlist
-xtscreendatabase
-xtsetlanguageproc
-locale
-xtappaddactionhook
-xtappreleasecacherefs
-decrement
-xtappsetfallbackresources
-specify
-xtcallcallbacklist
-xtcallconverter
-invoke
-xtcallbackreleasecacheref
-xtcallbackreleasecachereflist
-xtconvertandstore
-xtdirectconvert
-oldstyle
-xtdisplayofobject
-xtdisplaystringconversionwarning
-warning
-xtfindfile
-xtgetactionkeysym
-keysym
-modifies
-xtgetapplicationnameandclass
-xtgetconstraintresourcelist
-xtgetkeysymtable
-keycodetokeysym
 mapping
-xtgetmulticlicktime
-multiclick
-xtgetselectionrequest
-selectionrequest
-xtgetselectionvalueincremental
 selection
-incrementally
-xtgetselectionvaluesincremental
-xtinitializewidgetclass
-xtinserteventhanlder
-beforeafter
-xtinsertraweventhandler
-mask
-xtisobject
-xtisrectobj
-xtkeysymtokeycodelist
-keycodes
-xtlasttimestampprocessed
 recent
-xtmenupopdown
-popping
-xtmenupopup
-offsets
-xtownselectionincremental
-availabe
-xtpoupspringloaded
-springloaded
-popup
-xtregistergrabaction
-passive
-grab
-xtremoveactiohhook
-xtresolvepathname
-xtscreenofobject
-xtsetmulticlicktime
-xtsetwmcolormapwindows
-wmcolormapwindows
-custom
-colormaps
-xtungrabbutton
-cancel
-xtungrabkey
 key
-xtungrabkeybard
-active
-keyboard
-xtungrabpointer
-xtva
-varags
-interfaces
-bunch
-xtwindowofobject
-nearest
-replacement
-xtaddactions
-xtappaddactions
-xtappaddtimeout
-xtconvert
-xtcreateapplicationshell
-xtdestroygc
-xtreleasegc
-xterror
-xtapperror
-xtgeterrordatabase
-xtappgeterrordatabase
-xtgeterrordatabasetext
-xtappgeterrordatabasetext
-xtgetselectiontimeout
-xtappgetselectiontimeout
-xtmainloop
-menupopdownaction
-xtmenupopdownaction
-menupopupaction
-xtmenupopupaction
-xtnextevent
-xtappnextevent
-xtpeekevent
-xtapppeekevent
-xtpending
-xtapppending
-xtseterrorhandler
-xtappseterrorhandler
-xtseterrormsghandler
-xtappseterrormsghandler
-xtsetselectiontimeout
-xtappsetselectiontimeout
-xtsetwarninghandler
-xtappsetwarninghandler
-xtsetwarningmsghandler
-xtappsetwarningmsghandler
-xtwarning
-xtappwarning
-xtwarningmsg
-xtappwarningmsg
 filled
 places
-highest
-priority
-lowest
 creation
 users
 host
-defaults
-wide
 steps
 36
-queries
-customizations
-xenvironment
 environment
-homexdefaultshost
-resourcemanager
-homexdefaults
-xrdb
 kept
-client
-connects
-transfer
-13kbyte
-toolkits
 track
 effect
-usrlibx11appdefaults
-fallback
-ojpictelcom
-692
 control
-xtbased
-xfilesearchpath
-xuserfilesearchpath
-xapplresdir
-applicationdefaults
-initializing
 loads
-appdefaults
 appear
-hierarchies
-suppose
-usrlibx11
-usropenwinlib
-openwinhome
-setenv
-usrlibx11tnopenwinhomelibtn
-colonseparated
-pathnames
 contain
-characters
-literal
-suffix
 l
-codeset
-jajpeuc
-ja
 territory
 lets
 apart
-myterm
-usropenwin
 notice
-omits
-localespecific
-usrlibx11tn
-usrlibx11appdefaultsmyterm
-openwinhomelibtn
-usropenwinlibappdefaultsmyterm
-initializes
-tries
-shown
-soon
 finds
 reads
-stops
 consider
-mytermad
-nadhomeappdefaultsn
-homeappdefaultsmyterm
-debugging
-imake
-naming
 bizarre
-useless
-twist
-xrm
-pathname
 specifications
-usrlibx11appdefaultsnc
-expanded
-usrlibx11appdefaultsmytermcolor
-substitution
-character
-compiled
-usrlibx11ltnc
-usrlibx11tnc
-usrlibx11ltn
 sites
 replace
-projectroot
-batch
-rootlnc
-rootnc
-rootln
-rootn
-ignores
-altogether
 quick
-dirty
-machinery
-differently
-compatibilty
-followed
-slash
-donna
-converse
-converseexpolcsmitedu
-51092
-guarantee
-writer
-knows
-programmer
-rely
-independent
-xtaddcallback
-callbackname
-appended
-infer
-51492
 building
 field
-obscured
-iconified
-stays
-correctly
-deficiency
-reflecting
-capabilities
-inconvenient
-paragraphs
-7102
 carefully
 response
-iconification
-visibilitynotify
-viewable
-unviewable
-unmapped
-visibility
-meanings
-mwm
-translations
-mapnotify
-unmapnotify
-mapstate
-xgetwindowattributes
-realloc
-calloc
-handled
-ptr
-perror
-xyzzy
-xtcalloc
-xtnew
-xtnewstring
-xtrealloc
-xterrormsg
 initial
 generally
-conveniant
-anytime
-allocating
-potentially
-fully
-recover
-macros
-copying
-abc
-abcdef
-casting
-strict
-interpretation
-exchangable
 complain
-xmstringfree
-purify
-pure
 package
-tracing
-pricey
-2750
 excuse
-marketing
-blurb
-supportpurecom
-inserts
-instructions
 produced
-compilers
-detect
-unitialized
 past
-mallocd
-bounds
 party
-objectcode
-verifies
-tracks
-identifies
 individual
-leaks
-novel
-adaption
 garbage
-techniques
-purifys
-nearly
 comprehensive
-slows
 target
-395
-sentinel
-replaces
-checks
-cpcahilvirtechvticom
-synchronous
-xdebug
-debugger
 break
-trace
-actual
-occured
-buffered
-asynchronous
-undocumented
-xtidentifywindows
-xtdebug
 identified
-xload
-xtdebugtrue
-xwininfo
-click
-errant
-managers
-manages
-exportlcsmiteducontriblibxtgeotarz
-acts
-filter
-behaviour
 clever
-unfortunate
-pulldown
-menu
-locks
-debugged
 stopped
 waiting
-commands
-kind
 desk
-othermachine
-xhost
-thismachine
-othermachine0
-gdb
-codecenter
-interpretergraphical
-explicitely
-grabs
-breakpoints
-skills
-internals
-judicious
-conditional
 adding
-delicate
-registred
-handy
-testprogram
-xtapp
-obsoleted
-q19
-timeouts
 distributed
-xtappinitializeapp
 roger
-reynolds
-rogerrnetcomcom
-feb
-dragndrop
-buzzword
 moving
-clients
-fashion
-openlook
-supported
-dnd
-protocols
-compatable
-rdd
-designed
-operations
-intention
 tool
-contribute
-sell
-icccm
-conventions
-dozens
 neat
-constrained
-netcomcom
-pubrogerr
 older
-exportlcsmitedu
-contrib
-pete
 w
-614
-2927318
-228
-bolz
-2036
-neil
-ave
 h
-5380965
-columbus
 oh
-43210
 cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomemorywupostzaphodmpsohiostateeduuscelroyjplnasagovamesnsisrvnews1gsfcnasagovicestxcomandy
 andyicestxcom
 andy
@@ -4003,21 +2815,12 @@ rubber
 decreasing
 cohesiveness
 terry
-altsecurityripem212
-scicrypt14832
 compsecuritymisc3208
 altsecurity9770
-compmailmisc12145
-altanswers132
-companswers358
-newsanswers7097
-cantaloupesrvcscmuedudasnewsharvardeduogicseuwmeduux1csouiuceduusenetucsindianaedusilverucsindianaedumvanheyn
 mvanheyncsindianaedu
 marc
 vanheyningen
-altsecurityripemscicryptcompsecuritymiscaltsecuritycompmailmiscaltanswerscompanswersnewsanswers
 ripem
-vulnerabilities
 c4qoh8cheusenetucsindianaedu
 mar
 055555
@@ -4028,13 +2831,8 @@ newsusenetucsindianaedu
 altsecurityripem
 indiana
 163
-contenttype
-textxusenetfaq
-version10
-titleripem
 attacks
 originator
-mvanheynsilverucsindianaedu
 c3jvk9ey1usenetucsindianaedu
 silverucsindianaedu
 mimeversion
@@ -4047,13 +2845,10 @@ secure
 exhaustive
 obviously
 cryptographically
-secured
-pertain
 maintained
 variety
 groups
 followups
-pertaining
 cryptanalysis
 breaking
 rsa
@@ -4072,69 +2867,33 @@ factoring
 des
 claim
 56
-conceivably
 compromised
-brute
-agencies
-devote
 remain
 management
-stealing
-benefits
-safeguard
 derived
 passphrase
-keyfile
-snooping
-packets
-tapping
-scheme
-transferring
 untrusted
-trusted
-sitting
-ideally
 physical
-fooling
 accepting
 bogus
 opponent
-deceive
-secret
 recipient
-enemy
 intended
-reencrypt
 keys
 assuming
-routers
 daemons
 trust
 authentication
-exchange
 practical
-vouch
-signing
 automatically
-pgp
 generate
-md5
-fingerprints
-exchanged
 channel
 playback
 cryptography
 difficulties
 miconly
 pem
-disclosure
 protection
-alice
-ok
-intercepts
-resends
-authenticated
-telling
 interpret
 transmit
 figuring
@@ -4144,8 +2903,6 @@ indicating
 unknown
 defeat
 plaintext
-indication
-identifier
 frontend
 script
 imho
@@ -4157,7 +2914,6 @@ automating
 generating
 encapsulated
 headers
-utils
 encryption
 superuser
 planning
@@ -4167,53 +2923,21 @@ decrypt
 remote
 connected
 modem
-eavesdropper
 extreme
-examined
-viruses
-tradeoff
-convenience
-moderately
-cautious
 keeping
-dialing
 insecure
-download
-decryption
 somewhat
-illusory
-presumably
 cleartext
 password
 log
-traps
-steal
-quaint
-arrangement
 plan
-correspondents
 aware
-precautions
-ordinary
 longer
 treated
-correspondence
-partner
-ripems
-encrypt
 transformations
-wishes
-cryptographic
-barriers
-converting
-signed
-readable
 states
-forwarding
 recipients
 mentioned
-redistributed
-naturally
 cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomgatechudelwupostuunetpsinntpsuitecomusenet
 jimmillersuitecom
 scicrypt
@@ -4674,827 +3398,138 @@ psychogenic
 dyerursamajorspdcccom
 aka
 imaharvardrayssdlinusm2cspdccdyer
-sciastro33917
-scispace59872
-scianswers105
-newsanswers7207
-cantaloupesrvcscmuedudasnewsharvardeduhuscnewsharvardeduhsdndevncargatechconcertborgcsuncedunotformail
 sciastroscispacescianswersnewsanswers
-0215
-net733694066csuncedu
 leechcsuncedu
 leech
-195432
-195426
 diffs733693816csuncedu
 north
 carolina
 chapel
 hill
-net730956391csuncedu
 mahlercsuncedu
-241
-spacenet
 lastmodified
 930401
-143915
 overview
-amazing
 material
-categories
 bitnet
-networks
-servers
 astronomy
-composed
-transparent
-connections
 mailing
-central
-relays
 digest
-bulletin
-separates
-contributions
-hundreds
 topics
-scispacenews
 scispace
 scispaceshuttle
 sciastro
-talkpoliticsspace
-contributors
-submissions
 sends
-nearby
-locally
-forwarded
-reaches
-receiving
-redirect
-vice
-versa
-receive
-wider
 preferred
-decade
-spacerequestisuisunetedu
 body
 join
-moderated
-defunct
 present
-inception
-1981
-juliuscsqubacukpubspacedigestarchivereadme
 shuttle
-keplerian
 flights
-kelso
-jsc
-elementsrequesttelesoftcom
-gps
-positioning
 satellite
-navigation
-gpsrequestesseyesicom
-spaceinvestors
-investing
 spacerelated
 vincent
-cate
-vaccscmuedu
-spacetech
-esoteric
 propulsion
 asteroid
-capture
-starflight
 orbital
-debris
-removal
-spacetechrequestcscmuedu
-digests
-selected
 excerpts
-gs80spcscmuedu
-128220590
-usranonpublicspacetech
-spacetechrequest
-sedsl
 students
-exploration
-development
-parties
-listservtamvm1bitnet
 saying
-sedsnews
-releases
 status
 reports
-duplicates
-ron
-baalke
-baalkekelvinjplnasagov
-inappropriate
-periodically
-updated
-broad
-topical
-individuals
 performing
-frivolous
-requests
 acronyms
-garrett
-wollman
-wollmanuvmedu
-acronym
 month
-astroftp
-veikko
-makela
-veikkomakelahelsinkifi
-aviation
 henry
-spencer
-henryzootorontoedu
-summaries
 weekly
-buying
-telescopes
-ronnie
-kon
-ronnieciscocom
-asa
-don
-barry
-doncharagsuedu
 astronomical
-atlantic
 flight
-swaraj
-jeyasingh
-sjeyasinaxionbtcouk
-focuses
-nonus
 activities
-projects
-bunge
-rbungeaccessdigexcom
-describing
 telescope
-headline
-yee
-yeeamesarcnasagov
-schedule
-payload
-briefings
-manifests
-ksc
-updates
-frequent
 jpl
 ames
-centers
-ulysses
-gailileo
 pioneer
-magellan
-landsat
-missions
-element
-ts
-tkelsoblackbirdafitafmil
-prediction
-bulletins
-rose
-mrosestsciedu
-hubble
-jost
-jahn
-jjahnabbshansede
-ephemerides
 asteroids
 comets
-conjunctions
-encounters
-launches
-langunbca
-spacewarn
-launchorbital
 decay
-satellites
-nssdcagsfcnasagov
-anondir000000activespx
-manifest
-hollis
-gandalfproelectricctscom
-launch
 dates
-payloads
-landings
 solar
 activity
-cary
-oler
-olerhgulethca
-terrestrial
-issued
-enviroment
-boulder
-colorado
-intro
-solarstanfordedu
-361004
-pubunderstandingsolarterrestrialreports
-nicfunetfi
-1282146100
-pubmiscrecradioshortwavesolarreports
 europe
-56kb
-xiulethca
-14266329
-established
 actively
-soviet
-glenn
-chapman
-glennccssfuca
-activist
-sherzer
-awsitiorg
-step
-legislative
-affecting
 commercial
-calendar
-anniversaries
-conferences
 meteor
-showers
-eclipses
-magliacane
-kd2bdka2qhduucp
-spacenews
 covering
-amsats
-noaa
-weather
-ham
-recradioamateurmisc
-mcdowell
-mcdowellcfaharvardedu
-jonathans
-reentries
-2001
-bev
-freednssfidonetorg
-reprinted
-nonpublic
-suggestion
-eugene
 miya
-item
-unclassified
-boards
-personnel
-procurement
 regarded
-sensitivity
-contractors
-renegotiate
-contracts
-act
-kindly
-outsiders
-severe
-penalities
-unauthorized
-attempts
-andor
-accordance
 title
-usc
-1030
 learn
-fraud
-substantiated
 degree
-abuse
-mismanagement
-inspector
-24hours
-8004249183
 po
-23089
-lenfant
-plaza
-dc
-20024
-315
-offline
-sciastro33918
-scispace59873
-scianswers106
-newsanswers7208
-0315
-data733694135csuncedu
-195537
-195535
-data730956427csuncedu
-463
-spacedata
-143907
-catalogs
-dialup
-remainder
-providing
-operates
-ftpmaildecwrldeccom
-bitftppuccprincetonedu
-broadest
 national
-wants
-spend
-viewing
-combinations
 formats
-forebodingly
-cover
-gif
-pds
-vicar
-xv
-211
-1824012
-contribxv211tarz
-altbinariespictures
 discusses
-pitmanagermitedu
-1872158
-pubusenetaltbinariespictures
 extensive
-advisories
-mission
-official
 amesarcnasagov
-128102183
-pubspace
-pubspaceindex
-listing
-200k
 letter
-archiveserveramesarcnasagov
-amesarchiveserver
-shuttless012391
-capitalization
-subdirectory
-caps
 text
-venus
-voyager
-jupiter
-saturn
-uranus
 disks
-cdrom2
-directories
-rotated
-thousands
-collections
-capable
-imdisp
 media
-affairs
-officers
-miscmediaguide
-reported
-astrophysics
-ads
-retrieval
-uniform
-groundbased
-spacebased
 country
-140
-infrared
-optical
-uv
-queried
 catalog
-manipulate
-results
-beta
-abstracts
-query
-125000
 papers
-1975
-authors
-abstract
-adscuadscoloraduedu
-quickstart
-saoftpharvardedu
-pubadsadsuserguide
-postscript
-carolyn
-stern
-sterncfaharvardedu
 jet
-lab
-pubinfojplnasagov
-12814962
-operated
-sheets
-reached
-8183541333
-parity
-newsdeskjplpostjplnasagov
-8183547170
-techreportslarcnasagov
-offering
-cd
-pubtechreportslarc92
-readme
-abstracts92
-wais
-ipname
-tcpport
-210
-databasename
-nasalarcabs
 000
-costunit
-maintainer
-mlnelsonlarcnasagov
-tradmintechreportslarcnasagov
-spacelink
-marshall
-huntsville
-teachers
-arranged
-historical
 aeronautics
-classroom
-incorporate
-teach
-principles
-unlike
-interaction
-callers
-comments
-electronically
-acknowledge
-fulfilled
 turnaround
-closedloop
-downloadable
 shareware
-educators
-nasas
 planetary
-probes
-dial
-2058950028
-300120024009600v32
-baud
-telnet
-spacelinkmsfcnasagov
-12815813250
-xslmsfcnasagov
-capability
-nssdc
-clearinghouse
-1281833623
-nodis
-requestnssdcgsfcnasagov
-3012869000
-1200
-2400
 enter
-prompt
-carriage
-responds
-username
-menudriven
-393
-master
-nimbus7
-grid
-toms
 interplanetary
-medium
-geophysical
 models
-canopus
-ultraviolet
-explorer
-czcs
-browse
-adc
-standards
-cdroms
-datasets
-desired
 ordered
-observation
 star
-viewers
 macintosh
-postal
-goddard
-633
-greenbelt
-20771
-telephone
-301
-2866695
-requestnssdcagsfcnasagov
-stsciedu
-13016712
-newsletters
 hst
-observers
-proposers
-reppert
-reppertstsciedu
-odea
-odeastsciedu
-starcat
-european
-esogarching
-featuring
-satellitestelescopes
-iueirashstntt
-spectra
-iue
-catalogues
-sao
-hr
-ngc
 ppm
-iras
-veron
-gsc
-centerradiuskind
 objects
-node
-stesishqesoorg
-1341718100
-stesis
-decnet
-retreived
-benoit
-pirenne
-bpirenneesoorg
-49
-320
-433
-stecf
 40
-magnetic
-tape
-subset
-magnitude
 stars
-deep
 sky
-pubastro
-mainly
-overseas
-8436
-galaxies
 ra
 declination
-radial
 velocity
-miscgalaxydat
-supplied
-wayne
-hayes
-waynecsriutorontoca
-iris1ucisdalca
-12917318107
-pubgif
-spacegif
-5pm
-8am
-pomonaclaremontedu
 yale
 bright
-yalebsc
-dishaw
-jdishawhmcvaxclaremontedu
-4995
-st101
-pacific
-390
-ashton
-francisco
-94112
-415
-3372624
-pm
-3375205
-german
-distribute
 amateurs
-3040
-dm
-68disk
-expense
-neustaedter
-strasse
-w3123
-bodenteich
-frg58243197
-astronomyrelated
-1373919
-astonomicalspacerelated
-compsourcesunix
-phoon
-moon
-1213
-starchart
-moontool
-reduced
-compsourcesmisc
-n3emoorbit
 orbit
-starchart2
 update
-321
-jupmoons
-plotter
-jupiters
-moons
-perl
-lunisolar
-ephem421
 ephemeris
-v421
 planet
 generation
-simulator
-elwood
-edowneytashaccacrrockwellcom
-ephem
 offered
-xsat
 tracking
-contribxsat10tarz
-curry
-davyecnpurdueedu
-xsky
-computerized
-atlas
-arizonaedu
-softwareunixxsky
-xskytarz
-friedrichsen
-terryvenussunquestcom
-kaurivuwacnz
-130195113
-pubastrophys
-specialists
 outside
-confining
-astrophys
 pay
-youth
-encouraged
-administrator
-timothy
-banks
-bankstkaurivuwacnz
-idl
-idlastrogsfcnasagov
-1281835782
-repository
-processing
-landsman
-landsmanstarsgsfcnasagov
 celestial
-5134270674
-documentation
-accessed
-hoursday
-archiveafitafmil
-12992166
-nasatvroshuttle
-ftpfunetfi
-nasatvromolczancelbbs
-pubastropcsatel
-kilroyjplnasagov
-1281491165
-nasamolczan
-listservugabitnet
-filetype
-blackandwhite
-11m
-prints
-negatives
-positives
-respectively
-edc
-eros
-orbiting
-6055946511
-meter
-mss
-scanner
-135x180
-kilometers
-mm
 near
-ir
-digitial
 higher
 prices
-transparencies
 borrowed
-photo
-audiovisual
-918
-rengstorff
-94043
-4156046270
-maps
 usgs
-planets
 geological
 survey
-25286
-federal
-bldg
-41
-denver
-80225
-240
-310
-sheet
-mars
-viking
-115000000
 scale
-i1535
-relief
-albedo
-i1618
-i2030
-topographic
-contours
-i1802abc
 geology
-15000000
-photomosaic
-forms
-12000000
-photomosaics
-1500000
-mercury
-galilean
 phil
-stooke
-stookevaxrsscluwoca
-respond
-relating
 lunar
-cometary
 bureau
-telegrams
-minor
-announce
 catalogue
 orbits
-iau
-circular
-4935
-1292
-entries
-96
-nonsubscribers
-circulars
-1500
-subscribers
-750
-extract
-calculate
-msdos
-525inch
-2s2d
 diskette
-7500
-8087
-3750
 30000
-meantion
-expensive
-smithsonian
 astrophysical
 observatory
-02138
 calculations
 interpreting
 sciastro33955
@@ -5896,785 +3931,40 @@ pubspacefaqstarsdata
 starsdoc
 515
 areas
-sciastro34084
-scispace60103
-scispaceshuttle12639
-newsanswers7285
-cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomhowlandrestonansnetnocnearnetpadthaiaktiscompadthaiaktiscomnotformail
-bradfrd2ncarucaredu
-bradford
-sciastroscispacescispaceshuttlenewsanswers
-astrospace
-spaceacronyms731394007gzacom
-000016
-lifeforms
-unlimited
-cephalopods
-509
-faqservgzacom
-040004
-spaceacronyms733982404gzacom
-padthaiaktiscom
-astro
-tla
-xlastupdated
-19921207
-spaceacronyms
-aug
-forgot
-botched
-confuses
 figure
-emphatically
-encyclopedic
-incorporated
-saw
-intervals
-regarding
-welcome
-reachable
 tells
 exceeds
-specialpurpose
 explained
-theyre
-omitted
-referring
 everybody
-whos
-wollmangriffinuvmedu
 maintaining
-verbose
 daniel
-fischer
-dfispecklecmpifrbonnmpgde
-535
-fortunately
-1059
-revised
-transportation
-abbreviations
-mammoth
-tome
-tlas
-bonus
 larry
-scramble
-entertaining
-aa
-aao
-angloaustralian
-aas
 american
-astronautical
-aavso
-association
-ace
-advanced
-composition
-acrv
-assured
-crew
-vehicle
-astronaut
-rescue
-adfrf
-amesdryden
-dfrf
-agn
-nucleus
-agu
-union
-aiaa
-astronautics
-aips
-aj
-alexis
-imaging
-sensors
-alpo
-als
-aoa
-abort
-aocs
-apj
-apm
-attached
-pressurized
-module
-apu
-artemis
-relay
-asi
-agenzia
-spaziale
-italiano
-asrm
-rocket
-atdrs
-atmospheric
-atm
-maker
-ato
-au
-aura
-universities
-awst
-avleak
-axaf
-batse
-burst
-transient
-cgro
-bbxrt
-broadband
-bem
-bugeyed
-monster
-bh
-hole
-bima
-bnsc
-centre
-ct
-ccafs
-cape
-canaveral
-ccd
-chargecoupled
-ccds
-compact
-readonly
-cfa
-cfc
-chlorofluorocarbon
-cff
-flyer
-cfht
-canadafrancehawaii
-arthur
-holley
-compton
-gamma
 ray
-gro
-chara
-angular
-cirris
-cryogenic
-radiance
-instrument
-cit
-circumstellar
-apollo
-cmcc
-esa
-cnes
-detude
-spatiales
-cno
-carbonnitrogenoxygen
-cnsr
-cobe
-cosmic
-background
-comptel
-costar
-corrective
-optics
-axial
-craf
-rendezvous
-flyby
-crres
-combined
 radiation
-csm
-cstc
-consolidated
-usaf
-ctio
-cerro
-tololo
-interamerican
-dcx
-clipper
-experimental
-ddcu
-dctodc
-dryden
-dmsp
-meteorological
-doe
-dscs
-dsn
-usafnro
-eafb
-edwards
-ecs
 environmental
-edo
 extended
-duration
-orbiter
-egret
-energetic
-ejasa
-elv
-expendable
-emu
-extravehicular
-mobility
-eos
-observing
-ers
-ers1
-agency
-eso
-et
-tank
-etla
-etr
-eastern
-euv
-euve
-eva
-auroral
-fft
-fourier
-transform
-fgs
-guidance
-fhst
-trackers
-fir
-transport
-foc
-faint
-fos
-spectrograph
-frr
-flightreadiness
-review
-fts
-telerobotic
-servicer
-spectroscopic
-fwhm
-width
-maximum
-fyi
-gas
-getaway
-gbt
 bank
-gcvs
-gem
-giotto
-geo
-geosynchronous
-gds
-dark
-spot
-ghrs
-interchange
-glomr
-loworbiting
-gmc
-giant
-cloud
-gmrt
-meterwave
-greenwich
 ut
-geostationary
-gox
-gaseous
-oxygen
-gpc
-grs
-spectrometer
-observer
-gsfc
-gto
-hao
-altitude
-hd
-draper
-heao
-hera
-hermes
-robotic
-arm
-hf
-frequency
-hga
-gain
-antenna
-hlc
-heavy
-lift
-hlv
-hmc
-halley
-multicolor
-hertzsprungrussell
-diagram
-hri
-imager
-rosat
-hsp
-photometer
-hv
-voltage
-iappp
-amateurprofessional
-photoelectric
-photometry
-iauc
-ice
-ida
-darksky
-igm
-intergalactic
-igy
-humble
-iota
-infraredoptical
-occultation
-ips
-inertial
-pointing
-iraf
-isas
-japan
-ism
-interstellar
-iso
-ispm
-polar
-isy
-ius
-upper
-stage
-jem
-japanese
-ssf
-jgr
-jila
-joint
-kao
-kuiper
-airborne
-kpno
-kitt
-peak
-kennedy
-ktb
-cretaceoustertiary
-boundary
-lanl
-alamos
-larc
-ldef
-lem
-excursion
-leo
-lerc
-lest
-earthbased
-lfsa
-lga
-lgm
-men
-lh
-liquid
-hydrogen
-lh2
-lhx
-llnl
-lawrencelivermore
-lmc
-magellanic
-ln2
-n2
-nitrogen
-lox
-lrb
-booster
-lsr
-ltp
-phenomenon
-manned
-mcc
-meco
-engine
-cutoff
-mmh
-monomethyl
-hydrazine
-mmt
 mirror
-mmu
-maneuvering
-mnras
-notices
-royal
-moc
-mol
-mola
-laser
-altimeter
-momv
-motv
-mpc
-mrsr
-rover
-mrsrm
-msfc
-george
-mtc
-tended
-naca
-nasda
-nasm
-museum
-nasp
-aerospace
-nbs
-nist
-ndv
-nerva
-nicmos
-multi
-upgrade
-nims
-nearinfrared
-galileo
-nir
-nldp
-oceanic
-noao
-observatories
-nrao
-nro
-reconnaissance
 neutron
-nsa
-nsf
-nso
-ntr
-thermal
-rocketry
-ntt
-oao
-ocst
-omb
-budget
-oms
-opf
-orfeus
-retrievable
-osc
-oscar
-carrying
-ossa
-osse
-scintillation
-ota
-assembly
-othb
-horizon
-backscatter
-otv
-ov
-pam
-pamd
-deltaclass
-investigator
-plss
-pmc
-pmirr
-pressure
-modulated
-radiometer
-pmt
-photomultiplier
-tube
-psf
 spread
-psr
-pulsar
-pv
-photovoltaic
-pvo
-qso
-quasistellar
-rci
-rodent
-cage
-sls
-rcs
-reaction
-rem
-rat
-enclosure
-rfi
-interference
-riacs
-manipulator
-rngc
-roentgen
-rous
-rodents
-unusual
-rsn
-rtg
-radioisotope
-thermoelectric
-generator
-rtls
-saa
-anomaly
-saga
-augmentation
-sampex
-anomalous
-magnetospheric
-sar
-synthetic
-sara
-pour
-astronomie
-sarex
-exercise
-sas
-adaptation
-syndrome
-sat
-sc
-sca
-carrier
-aircraft
-sct
-schmidtcassegrain
-sdi
-strategic
-initiative
-sdio
-sei
-sest
-swedish
-submillimeter
-seti
-extraterrestrial
-sid
-ionospheric
-disturbance
-sir
-sirtf
-sl
-spacelab
-slar
-sidelooking
-slc
 complex
-smc
-sme
-mesosphere
-smex
-explorers
-smm
-sn
-supernova
-sn1987a
-snr
-remnant
-snu
-neutrino
-sofia
-stratospheric
-soho
-heliospheric
-span
-spdm
-dextrous
-systeme
-probatoire
-lobservation
-terre
-sps
-srb
-srm
-fred
-er
 freedom
-ssi
-solidstate
-institut
-ssme
-sspf
-ssrms
-sst
-supersonic
-ssto
-stis
-sts
-stsci
-swas
-swf
-shortwave
-fading
-transatlantic
-landing
-tau
-tcs
-tdrs
-tdrss
-tes
-emission
-tiros
-television
-ozone
-tps
-tss
-tethered
-uars
-atmosphere
-ubm
-unpressurized
-berthing
-udmh
-unsymmetrical
-dimethyl
-ufo
-unidentified
-flying
-ugc
-uppsala
-uhf
-uit
-ukst
-united
-kingdom
-schmidt
-usmp
-microgravity
-universal
-utc
-zulu
-coordinated
-uvs
-vab
-vafb
-vandenberg
-veega
-venusearthearth
-vhf
-vla
-vlba
-baseline
-vlbi
-interferometry
-vlf
-vlt
-vms
-voir
-vrm
-vpf
-mapper
-wd
-wfpc
-wfpcii
-wiyn
-wisconsin
-wsmr
-sands
-missile
-wtr
 western
-wuppe
-photopolarimter
-xmm
-xuv
-yso
-usrbinperl
-alt
-scrambling
-threshold
-srand
-azs
-acrokey
-splitw
-unshiftwordskey
-foreach
-az
-vecwword
-z
-egrep
-usrdictwords
-chop
-pushw
-acro
-sazazaz
-pick3
-sub
-localletter
-prefix
-oldword
-lengthprefix
-indexkeyprefix
-eq
-localw
-substrprefix01
-wrand
-ne
-prefixi
-sprefixprefixi
-elsif
-ulword
-trazaz
-substroldword01
-err
-moo
-bovine
-wind
-gathers
-moss
-recnude15823
-recradioamateurmisc36891
-recradiocb2645
-recradioshortwave23039
-sciaeronautics5970
-sciastro34123
-sciecon16226
-scimed58044
-scimisc8088
-scispace60152
-socbi22961
-rechamradiorecnuderecradioamateurmiscrecradiocbrecradioshortwavesciaeronauticsciaeronauticssciastroscieconscimedscimiscscispacesocbi
-cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomemorywupostuwmeducsutexaseduuunetorcamesarthomson
 bobwaldropf418n104z1fidonetorg
 waldrop
 celebrate
 1993apr520123515980dsdescom
-talkpoliticsmisc
-rthomsonmesa
-xsequence
-usenetdsdescom
-1301878521
-xusmail
 526175
 salt
 lake
 city
 84152
-xtelephone
 8015823318
 morning
 glory
 productions
-201235
 323
 announcing
 libertarian
@@ -6692,318 +3982,89 @@ hess
 breakfasts
 banquet
 room
-7900
-105
 tax
-8717
 rate
-occupancy
 beds
-reservations
-8015310800
-mgps
 payment
 plans
 mgp
-assistance
-matching
-roommates
 requested
 august
 sept
-elections
-intensive
 campaign
 training
-conducted
-sal
-guzzetta
-veteran
-200
 campaigns
-990
 strategy
-targeting
-opposition
-fundraising
 150
-purchased
 175
 platform
 bylaws
 credentials
 meetings
-shoot
 pledge
 versus
-partys
-membership
-compromise
-committees
-responsible
-recommendations
-concerning
 deletions
 rules
-amended
 vote
-attending
 begins
-opens
-delegates
-gala
-ceremony
 keynote
 russell
-lunch
-continues
 standing
 politics
-tandem
 dawns
 dragon
 inn
-evening
 joyful
-psychiatrist
 thomas
 szasz
-african
 leader
 frances
 kendall
-named
-famous
-sam
-crowd
-plotted
-pints
 ale
-music
-food
-drink
-comedy
-downtown
-concert
-friday
-drum
-circle
-comic
-slagle
-dancer
-reggae
 classic
-rocknroll
 publicized
 outreach
 opportunity
-vivaldi
-mozart
-dining
-elegant
-ballroom
-tie
-dancing
 exhibits
 admission
 draw
-workshops
 speakers
-roundtable
 discussions
 school
 age
 libertarians
 agenda
 considers
-1990s
 health
-21st
-economics
-drug
 amendment
 social
 foreign
 policy
-crime
-violence
-aids
-debate
 lp
-tactics
-initiatives
-feminist
 presidential
-elected
 officials
-grassroots
-1996
 nomination
-90s
 community
-abundance
-schooling
-campus
-organizing
-academia
-collar
-30sept
-400
 celebration
 late
 riser
 thrift
-125
 packet
-souvenirs
-student
-enrolled
-seven
 housing
 dollars
-sponsorships
-promotions
-visitors
-surrounding
-million
 presentation
-conducts
 drawing
-sooner
 roommate
-match
-antifederalist
 sponsored
-contest
-june
-submission
-deadline
-prospectus
-friendly
-competition
-marksmanship
-chess
-gay
-lesbian
-concerns
-lglc
-attention
-discounts
-casual
-opportunities
-poverty
-caucus
-meet
-discuss
-movement
-campuses
 march
-dean
-ahmad
-hudler
-sheldon
 richman
-karen
-allard
-hummel
-kathleen
-arnold
-alexander
-dan
-rosenthal
-ayittey
-mary
-ruwart
-alan
-boch
-martin
-luther
-dagny
-sharon
-boddie
-meme
-jane
 shaw
-gus
-dizerega
-lamb
-sandy
-dodge
-amy
-lassen
-ebeling
-lieberman
-eric
-sterling
-ernsberger
-nancy
-lord
-stroup
-evers
-bonnie
-flickenger
-vince
-tanner
-fund
-maury
-modine
-sojourner
-truth
-doris
-nolan
-yuri
-tuvim
-leon
-hadar
-randall
-otoole
-ostrowski
-terree
-wasley
-dirk
-pearson
-perry
-willis
 jr
-poole
-winger
-jacob
-honrberger
-carole
-rand
-jarret
-wollstein
-brigham
-upcoming
-developments
 packages
-exhibitsadvertising
-450
 350
 275
-tapes
-tickets
-adoption
-treasurers
-nonnominating
-nonpresidential
-nominating
-candidates
-vicepresident
 election
-atlarge
-resolutions
-grumbles
-grins
-criticism
-payable
-voted
-disclaimer
 speak
-copyright
-uunetdsdescomrthomson
-irc
-pext
 cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomhowlandrestonansnetgatechrutgersigorrutgerseduathosrutgerseduchristian
 by028clevelandfreenetedu
 cavano
@@ -7940,142 +5001,142 @@ tog
 TOPIC 0
 Top 3 words:
 ---------------
-compatible: 0.0192
-socculturegreek21390: 0.0192
-gained: 0.0192
+compsyshp: 0.0245
+intended: 0.0245
+apparently: 0.0245
 
 TOPIC 0
 Bottom 3 words:
 ---------------
-composmsdospcgeos3204: 0.0000
-x11intrinsich: 0.0000
-uncivilized: 0.0000
+mean: 0.0000
+disciple: 0.0000
+driving: 0.0000
 
 TOPIC 1
 Top 3 words:
 ---------------
-print: 0.0195
-4935: 0.0195
-1phnkoinnbkctronnewsctroncom: 0.0195
+scibio11831: 0.0243
+apr10053025199314322athosrutgersedu: 0.0243
+miracle: 0.0243
 
 TOPIC 1
 Bottom 3 words:
 ---------------
-talkpoliticsmiscscispace: 0.0000
-waving: 0.0000
-kludgegrissomlarcnasagov: 0.0000
+rmmcbnewsgcbattcom: 0.0000
+75: 0.0000
+68: 0.0000
 
 TOPIC 2
 Top 3 words:
 ---------------
-amsterdam: 0.0194
-particular: 0.0194
-waste: 0.0194
+sole: 0.0245
+marriott: 0.0245
+demand: 0.0245
 
 TOPIC 2
 Bottom 3 words:
 ---------------
-hartford: 0.0000
-brew: 0.0000
-formula: 0.0000
+harware: 0.0000
+crossposts: 0.0000
+portal: 0.0000
 
 TOPIC 3
 Top 3 words:
 ---------------
-rms: 0.0194
-enemy: 0.0194
-hidden: 0.0194
+compsysmachardware50424: 0.0244
+long: 0.0244
+later: 0.0244
 
 TOPIC 3
 Bottom 3 words:
 ---------------
-print: 0.0000
-operated: 0.0000
-suggests: 0.0000
+alvin: 0.0000
+sgoldstealudrauscedu: 0.0000
+liberalevangelical: 0.0000
 
 TOPIC 4
 Top 3 words:
 ---------------
-nasm: 0.0193
-quasistellar: 0.0193
-compatable: 0.0193
+snappycomebacktm: 0.0246
+volante: 0.0246
+drawing: 0.0246
 
 TOPIC 4
 Bottom 3 words:
 ---------------
-claim: 0.0000
-faint: 0.0000
-respectable: 0.0000
+34: 0.0000
+aa25933: 0.0000
+114136: 0.0000
 
 TOPIC 5
 Top 3 words:
 ---------------
-determine: 0.0194
-xtappgeterrordatabase: 0.0194
-conditional: 0.0194
+oneeigth: 0.0245
+spec: 0.0245
+began: 0.0245
 
 TOPIC 5
 Bottom 3 words:
 ---------------
-rose: 0.0000
-schmidling: 0.0000
-longitudes: 0.0000
+broken: 0.0000
+muslims: 0.0000
+related: 0.0000
 
 TOPIC 6
 Top 3 words:
 ---------------
-caching: 0.0195
-constant: 0.0195
-police: 0.0195
+son: 0.0247
+1453: 0.0247
+cj: 0.0247
 
 TOPIC 6
 Bottom 3 words:
 ---------------
-somebody: 0.0000
-cdroms: 0.0000
-check: 0.0000
+daily: 0.0000
+scsi1: 0.0000
+nonavailability: 0.0000
 
 TOPIC 7
 Top 3 words:
 ---------------
-compwindowsxmotif: 0.0195
-z: 0.0195
-deletions: 0.0195
+contact: 0.0244
+ppm: 0.0244
+makefiles: 0.0244
 
 TOPIC 7
 Bottom 3 words:
 ---------------
-winnipeg: 0.0000
-1pfq7p8vtransferstratuscom: 0.0000
-altitude: 0.0000
+developed: 0.0000
+emphasis: 0.0000
+remove: 0.0000
 
 TOPIC 8
 Top 3 words:
 ---------------
-xtgetconstraintresourcelist: 0.0194
-zilch: 0.0194
-encapsulated: 0.0194
+55: 0.0245
+section: 0.0245
+magazine: 0.0245
 
 TOPIC 8
 Bottom 3 words:
 ---------------
-compsysamigamarketplace14976: 0.0000
-unpressurized: 0.0000
-set: 0.0000
+cee: 0.0000
+divide: 0.0000
+ibm: 0.0000
 
 TOPIC 9
 Top 3 words:
 ---------------
-cdroms: 0.0195
-kd2bdka2qhduucp: 0.0195
-probes: 0.0195
+manual: 0.0245
+1pprtvinnctlaludrauscedu: 0.0244
+annual: 0.0244
 
 TOPIC 9
 Bottom 3 words:
 ---------------
-invitation: 0.0000
-psuedocolor: 0.0000
-sterling: 0.0000
+eisa: 0.0000
+conservative: 0.0000
+scaling: 0.0000
 
 
 
@@ -8152,960 +5213,6 @@ ITERATION 9
 		Optimizing parameter: alpha
 
 ITERATION 10
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-TOPIC 0
-Top 3 words:
----------------
-mgps: 0.0129
-mcc: 0.0128
-variety: 0.0128
-
-TOPIC 0
-Bottom 3 words:
----------------
-1453: -0.0033
-contact: -0.0026
-current: -0.0025
-
-TOPIC 1
-Top 3 words:
----------------
-pee: 0.0124
-2c2: 0.0124
-michael: 0.0124
-
-TOPIC 1
-Bottom 3 words:
----------------
-encouraged: -0.0028
-snyders: -0.0027
-coordinates: -0.0027
-
-TOPIC 2
-Top 3 words:
----------------
-summaries: 0.0131
-restrict: 0.0131
-steps: 0.0131
-
-TOPIC 2
-Bottom 3 words:
----------------
-faqservgzacom: -0.0030
-databases: -0.0027
-incomplete: -0.0027
-
-TOPIC 3
-Top 3 words:
----------------
-uv: 0.0140
-stsciedu: 0.0140
-recradioamateurmisc: 0.0140
-
-TOPIC 3
-Bottom 3 words:
----------------
-toplevel: -0.0027
-321: -0.0024
-mcdonaldariesscsuiucedu: -0.0023
-
-TOPIC 4
-Top 3 words:
----------------
-radius: 0.0130
-module: 0.0130
-interchangeably: 0.0130
-
-TOPIC 4
-Bottom 3 words:
----------------
-borrowed: -0.0025
-yale: -0.0025
-integer: -0.0024
-
-TOPIC 5
-Top 3 words:
----------------
-snr: 0.0135
-1c1: 0.0135
-930401: 0.0135
-
-TOPIC 5
-Bottom 3 words:
----------------
-eafb: -0.0027
-rendezvous: -0.0024
-near: -0.0023
-
-TOPIC 6
-Top 3 words:
----------------
-char: 0.0133
-traffic: 0.0133
-place: 0.0133
-
-TOPIC 6
-Bottom 3 words:
----------------
-develop: -0.0027
-crew: -0.0026
-se30: -0.0026
-
-TOPIC 7
-Top 3 words:
----------------
-iraf: 0.0133
-lesbian: 0.0133
-clearly: 0.0133
-
-TOPIC 7
-Bottom 3 words:
----------------
-missouri: -0.0025
-devices: -0.0025
-xtgetapplicationresources: -0.0025
-
-TOPIC 8
-Top 3 words:
----------------
-connect: 0.0142
-learned: 0.0142
-czech: 0.0142
-
-TOPIC 8
-Bottom 3 words:
----------------
-xo: -0.0025
-jeyasingh: -0.0025
-reduce: -0.0023
-
-TOPIC 9
-Top 3 words:
----------------
-cheers: 0.0133
-u: 0.0133
-2bc0c6df18865newsserviceuciedu: 0.0133
-
-TOPIC 9
-Bottom 3 words:
----------------
-limits: -0.0023
-contributions: -0.0022
-xrmvalueptr: -0.0022
-
-
-
-ITERATION 11
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 12
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 13
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 14
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 15
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 16
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 17
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 18
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 19
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 20
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-TOPIC 0
-Top 3 words:
----------------
-dig: 0.0088
-matter: 0.0088
-permanently: 0.0088
-
-TOPIC 0
-Bottom 3 words:
----------------
-gainesville: -0.0035
-parts: -0.0028
-preempts: -0.0027
-
-TOPIC 1
-Top 3 words:
----------------
-201100: 0.0081
-traversed: 0.0081
-landings: 0.0081
-
-TOPIC 1
-Bottom 3 words:
----------------
-converting: -0.0029
-thorson: -0.0029
-dil: -0.0028
-
-TOPIC 2
-Top 3 words:
----------------
-usrlibx11appdefaults: 0.0091
-jimmillersuitecom: 0.0091
-lemaycorpsuncom: 0.0091
-
-TOPIC 2
-Bottom 3 words:
----------------
-nicely: -0.0032
-living: -0.0029
-external: -0.0029
-
-TOPIC 3
-Top 3 words:
----------------
-usage: 0.0099
-genuious: 0.0099
-1pmfs43e7cctutfi: 0.0099
-
-TOPIC 3
-Bottom 3 words:
----------------
-hey: -0.0029
-download: -0.0026
-vaxvms: -0.0024
-
-TOPIC 4
-Top 3 words:
----------------
-media: 0.0086
-composmswindowsmisc: 0.0086
-capitals: 0.0086
-
-TOPIC 4
-Bottom 3 words:
----------------
-sick: -0.0026
-defeat: -0.0026
-bg: -0.0026
-
-TOPIC 5
-Top 3 words:
----------------
-care: 0.0092
-havent: 0.0092
-xwindows: 0.0092
-
-TOPIC 5
-Bottom 3 words:
----------------
-broad: -0.0028
-128220590: -0.0026
-c4u3a66b7csuiucedu: -0.0025
-
-TOPIC 6
-Top 3 words:
----------------
-psuedocolor: 0.0089
-nadhomeappdefaultsn: 0.0089
-uranus: 0.0089
-
-TOPIC 6
-Bottom 3 words:
----------------
-carolina: -0.0028
-broken: -0.0027
-93apr5133521edt1231smokecstorontoedu: -0.0027
-
-TOPIC 7
-Top 3 words:
----------------
-education: 0.0090
-compsysmacsystem29783: 0.0090
-offers: 0.0090
-
-TOPIC 7
-Bottom 3 words:
----------------
-daemonpyramidpyramidcom: -0.0027
-poster: -0.0027
-222824: -0.0027
-
-TOPIC 8
-Top 3 words:
----------------
-thing: 0.0099
-connect: 0.0099
-095339: 0.0099
-
-TOPIC 8
-Bottom 3 words:
----------------
-borderpixmap: -0.0027
-vs: -0.0027
-flag: -0.0025
-
-TOPIC 9
-Top 3 words:
----------------
-dcc: 0.0092
-black: 0.0092
-flangleyrhccsvaxsfasuedu: 0.0092
-
-TOPIC 9
-Bottom 3 words:
----------------
-default: -0.0025
-c515wwiu9news2cisumnedu: -0.0023
-xtgetapplicationresources: -0.0023
-
-
-
-ITERATION 21
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 22
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 23
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 24
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 25
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 26
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 27
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 28
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 29
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 30
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-TOPIC 0
-Top 3 words:
----------------
-springs: -0.0038
-braunschweig: 0.2208
-organization: 0.2109
-
-TOPIC 0
-Bottom 3 words:
----------------
-springs: -0.0038
-cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomgatechudelwupostuunethavenumdeduwamumdeduwarren: -0.0030
-shellrootgeometrymanager: -0.0029
-
-TOPIC 1
-Top 3 words:
----------------
-half: -0.0031
-braunschweig: 0.2341
-newsgroups: 0.2201
-
-TOPIC 1
-Bottom 3 words:
----------------
-half: -0.0031
-newsmagnusacsohiostateedu: -0.0031
-usropenwin: -0.0029
-
-TOPIC 2
-Top 3 words:
----------------
-grateful: -0.0035
-braunschweig: 0.2185
-altatheism: 0.2046
-
-TOPIC 2
-Bottom 3 words:
----------------
-grateful: -0.0035
-xtmenupopupaction: -0.0031
-technologies: -0.0031
-
-TOPIC 3
-Top 3 words:
----------------
-xtaddactions: -0.0027
-braunschweig: 0.1961
-newsgroups: 0.1947
-
-TOPIC 3
-Bottom 3 words:
----------------
-xtaddactions: -0.0027
-costs: -0.0025
-starbasespdlouisvilleedu: -0.0025
-
-TOPIC 4
-Top 3 words:
----------------
-xinternatom: -0.0028
-braunschweig: 0.2175
-i3150101dbstu1rztubsde: 0.2052
-
-TOPIC 4
-Bottom 3 words:
----------------
-xinternatom: -0.0028
-25mo: -0.0028
-lafscfasyste: -0.0027
-
-TOPIC 5
-Top 3 words:
----------------
-paraphrase: -0.0031
-braunschweig: 0.2107
-i3150101dbstu1rztubsde: 0.1971
-
-TOPIC 5
-Bottom 3 words:
----------------
-paraphrase: -0.0031
-aa02009: -0.0027
-linked: -0.0026
-
-TOPIC 6
-Top 3 words:
----------------
-wow: -0.0030
-braunschweig: 0.2051
-newsgroups: 0.2015
-
-TOPIC 6
-Bottom 3 words:
----------------
-wow: -0.0030
-install: -0.0030
-posted: -0.0029
-
-TOPIC 7
-Top 3 words:
----------------
-changes: -0.0029
-braunschweig: 0.2079
-altatheism: 0.2019
-
-TOPIC 7
-Bottom 3 words:
----------------
-changes: -0.0029
-cctutfi: -0.0029
-edencsberkeleyedu: -0.0029
-
-TOPIC 8
-Top 3 words:
----------------
-size: -0.0030
-braunschweig: 0.1979
-newsgroups: 0.1853
-
-TOPIC 8
-Bottom 3 words:
----------------
-size: -0.0030
-unmapped: -0.0029
-ass: -0.0027
-
-TOPIC 9
-Top 3 words:
----------------
-arrived: -0.0027
-braunschweig: 0.2024
-newsgroups: 0.2019
-
-TOPIC 9
-Bottom 3 words:
----------------
-arrived: -0.0027
-finds: -0.0025
-inreplyto: -0.0025
-
-
-Saving model to ./data/models/very__2018-03-12.pickle
-TOPIC 0
-Top 3 words:
----------------
-compatible: 0.0192
-socculturegreek21390: 0.0192
-gained: 0.0192
-
-TOPIC 0
-Bottom 3 words:
----------------
-composmsdospcgeos3204: 0.0000
-x11intrinsich: 0.0000
-uncivilized: 0.0000
-
-TOPIC 1
-Top 3 words:
----------------
-print: 0.0195
-4935: 0.0195
-1phnkoinnbkctronnewsctroncom: 0.0195
-
-TOPIC 1
-Bottom 3 words:
----------------
-talkpoliticsmiscscispace: 0.0000
-waving: 0.0000
-kludgegrissomlarcnasagov: 0.0000
-
-TOPIC 2
-Top 3 words:
----------------
-amsterdam: 0.0194
-particular: 0.0194
-waste: 0.0194
-
-TOPIC 2
-Bottom 3 words:
----------------
-hartford: 0.0000
-brew: 0.0000
-formula: 0.0000
-
-TOPIC 3
-Top 3 words:
----------------
-rms: 0.0194
-enemy: 0.0194
-hidden: 0.0194
-
-TOPIC 3
-Bottom 3 words:
----------------
-print: 0.0000
-operated: 0.0000
-suggests: 0.0000
-
-TOPIC 4
-Top 3 words:
----------------
-nasm: 0.0193
-quasistellar: 0.0193
-compatable: 0.0193
-
-TOPIC 4
-Bottom 3 words:
----------------
-claim: 0.0000
-faint: 0.0000
-respectable: 0.0000
-
-TOPIC 5
-Top 3 words:
----------------
-determine: 0.0194
-xtappgeterrordatabase: 0.0194
-conditional: 0.0194
-
-TOPIC 5
-Bottom 3 words:
----------------
-rose: 0.0000
-schmidling: 0.0000
-longitudes: 0.0000
-
-TOPIC 6
-Top 3 words:
----------------
-caching: 0.0195
-constant: 0.0195
-police: 0.0195
-
-TOPIC 6
-Bottom 3 words:
----------------
-somebody: 0.0000
-cdroms: 0.0000
-check: 0.0000
-
-TOPIC 7
-Top 3 words:
----------------
-compwindowsxmotif: 0.0195
-z: 0.0195
-deletions: 0.0195
-
-TOPIC 7
-Bottom 3 words:
----------------
-winnipeg: 0.0000
-1pfq7p8vtransferstratuscom: 0.0000
-altitude: 0.0000
-
-TOPIC 8
-Top 3 words:
----------------
-xtgetconstraintresourcelist: 0.0194
-zilch: 0.0194
-encapsulated: 0.0194
-
-TOPIC 8
-Bottom 3 words:
----------------
-compsysamigamarketplace14976: 0.0000
-unpressurized: 0.0000
-set: 0.0000
-
-TOPIC 9
-Top 3 words:
----------------
-cdroms: 0.0195
-kd2bdka2qhduucp: 0.0195
-probes: 0.0195
-
-TOPIC 9
-Bottom 3 words:
----------------
-invitation: 0.0000
-psuedocolor: 0.0000
-sterling: 0.0000
-
-
-
-ITERATION 1
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 2
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 3
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 4
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 5
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 6
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 7
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 8
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 9
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-
-ITERATION 10
-	Doing expectation step of EM process...
-		Optimizing parameter: vAlpha
-		Optimizing parameter: vMu
-	Doing maximization step of EM process...
-		Optimizing parameter: xi
-		Optimizing parameter: alpha
-TOPIC 0
-Top 3 words:
----------------
-simplest: 0.0121
-interplanetary: 0.0121
-yards: 0.0121
-
-TOPIC 0
-Bottom 3 words:
----------------
-formulas: -0.0032
-specialized: -0.0026
-xy: -0.0025
-
-TOPIC 1
-Top 3 words:
----------------
-instructive: 0.0112
-dark: 0.0112
-060: 0.0112
-
-TOPIC 1
-Bottom 3 words:
----------------
-friedrichsen: -0.0028
-exposition: -0.0027
-wiley: -0.0027
-
-TOPIC 2
-Top 3 words:
----------------
-gc: 0.0126
-xusmail: 0.0126
-thomson: 0.0126
-
-TOPIC 2
-Bottom 3 words:
----------------
-astrospace: -0.0028
-bionetneuroscience1150: -0.0026
-november: -0.0025
-
-TOPIC 3
-Top 3 words:
----------------
-truck: 0.0142
-132425632: 0.0142
-array: 0.0142
-
-TOPIC 3
-Bottom 3 words:
----------------
-sizeof: -0.0024
-phoon: -0.0021
-magazine: -0.0020
-
-TOPIC 4
-Top 3 words:
----------------
-photomosaics: 0.0122
-eos: 0.0122
-moving: 0.0122
-
-TOPIC 4
-Bottom 3 words:
----------------
-mss: -0.0024
-essentially: -0.0024
-nied: -0.0024
-
-TOPIC 5
-Top 3 words:
----------------
-neustaedter: 0.0132
-geometry: 0.0132
-compsysamigamarketplaceosuforsalemhforsalemiscforsale: 0.0132
-
-TOPIC 5
-Bottom 3 words:
----------------
-doe: -0.0025
-costar: -0.0023
-respectively: -0.0022
-
-TOPIC 6
-Top 3 words:
----------------
-evil: 0.0128
-warecisohiostateedu: 0.0128
-gandalfproelectricctscom: 0.0128
-
-TOPIC 6
-Bottom 3 words:
----------------
-interviews: -0.0025
-astronautical: -0.0024
-radiusware: -0.0024
-
-TOPIC 7
-Top 3 words:
----------------
-mm: 0.0129
-thismachine: 0.0129
-assembly: 0.0129
-
-TOPIC 7
-Bottom 3 words:
----------------
-maryland: -0.0024
-ftped: -0.0024
-test: -0.0024
-
-TOPIC 8
-Top 3 words:
----------------
-andromeda: 0.0145
-scifi: 0.0145
-sciimageprocessingcompgraphicscompgraphicsanimationcompgraphicsvisualization: 0.0145
-
-TOPIC 8
-Bottom 3 words:
----------------
-precursor: -0.0021
-barry: -0.0021
-news: -0.0020
-
-TOPIC 9
-Top 3 words:
----------------
-appears: 0.0129
-orfeus: 0.0129
-xtappcontext: 0.0129
-
-TOPIC 9
-Bottom 3 words:
----------------
-happens: -0.0022
-connections: -0.0021
-ensure: -0.0020
-
-
-
-ITERATION 11
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
 		Optimizing parameter: vMu

@@ -8,6 +8,7 @@ VERBOSE = True
 ITERATIONS = 10
 OUR_READER = True
 LIMIT_VOCAB = True
+TFIDF = True
 
 # Vocab pruning
 PRUNE_VOCAB = False
@@ -20,6 +21,7 @@ if os.environ["COMPUTERNAME"] == 'DALAILAMA':
     OUR_READER = True
     ITERATIONS = 30
     LIMIT_VOCAB = False
+    TFIDF = False
     path = r"D:\PyCharm Projects\py-sam-master\topic-eval"
     os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
     #print(os.getenv("HOME"))
@@ -53,7 +55,7 @@ class SAM:
 
         if OUR_READER:
             from src.algorithms.sam.reader import Reader
-            self.reader = Reader(stopwords, corpus_encoding=corpus_encoding, use_vocab_dict = LIMIT_VOCAB)
+            self.reader = Reader(stopwords, corpus_encoding=corpus_encoding, use_vocab_dict = LIMIT_VOCAB, tfidf=TFIDF)
             self.reader.read_corpus(corpus)
 
             self.vocabulary = self.reader.vocabulary
@@ -185,8 +187,8 @@ class SAM:
     def prune_topics(self, limit_by = 10):
         # n = number of topics to remove
 
-        self.vocab_size -= limit_by
-
+        self.vocab_size -= int(limit_by/2)*2
+        limit_by = int(limit_by/2)
         #self.vMu = self.vMu[:self.vocab_size,:]
         #self.vM = self.vM[:self.vocab_size]
         #self.m = self.m[:self.vocab_size]
@@ -196,11 +198,12 @@ class SAM:
 
 
         # Calculate topic variance
-        #mean_adj = self.vMu/self.vMu.mean(axis=1, keepdims = True)
-        #var = mean_adj.var(axis=1)
+        mean_adj = self.vMu/self.vMu.mean(axis=1, keepdims = True)
+        var_mean = mean_adj.var(axis=1)
 
         var = self.vMu.var(axis=1)
-        delete_list = var.argsort()[:limit_by][::-1]
+
+        delete_list = var.argsort()[:limit_by][::-1] + var_mean.argsort()[:limit_by][::-1]
         self.delete_vocab_words(delete_list)
         self.deleted_words.append(delete_list)
 

@@ -9,10 +9,9 @@ if False:
     import nltk
     nltk.download('punkt')
 
-TFIDF = True
-
 class Reader:
-    def __init__(self, stopwords, corpus_encoding = 'utf-8', use_vocab_dict = True):
+    def __init__(self, stopwords, corpus_encoding = 'utf-8', use_vocab_dict = True, tfidf = False):
+        self.tfidf = tfidf
         self.doc_tokens = {}
         self.term_idx = 0
         self.terms_to_indices = {}
@@ -132,7 +131,7 @@ class Reader:
     def read_corpus(self, corpus):
         self.get_doc_tokens(corpus)
         self.build_vocab()
-        self.convert_docs_to_matrix(TFIDF)
+        self.convert_docs_to_matrix(self.tfidf)
 
     def get_codec(self, f):
         for codec in ["utf-8", "ansi"]:
