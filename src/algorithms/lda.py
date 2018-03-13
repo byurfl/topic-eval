@@ -12,7 +12,7 @@ from src.algorithms.algorithm import Algorithm
 
 if os.environ["COMPUTERNAME"] == 'DALAILAMA':
     import sys
-    path = r"D:\PyCharm Projects\py-sam-master\topic-eval\src"
+    path = r"D:\PyCharm Projects\py-sam-master\topic-eval"
     os.chdir(path)
 
 
@@ -37,7 +37,7 @@ class LDA(Algorithm):
             print(message)
 
     def run(self):
-        self.model = lda(n_topics=100, learning_method='online')
+        self.model = lda(n_topics=10, learning_method='online')
         self.model.fit(self.doc_terms)
 
         feature_names = self.cv.get_feature_names()
@@ -81,6 +81,11 @@ class LDA(Algorithm):
                 words_to_index[word] = i
 
             topic_summary = np.array([[words_to_index[w] for w in topic] for topic in self.topics])
+
+            #print(topic_summary)
+            import time
+            time.sleep(50)
+
             scores = validate.coherence(aw.corpus, topic_summary)
 
             scores_file = os.path.join(self.output_path, 'coherence.txt') \

@@ -17,16 +17,19 @@ START_PRUNE_ITERATION = 3
 
 if os.environ["COMPUTERNAME"] == 'DALAILAMA':
     import sys
-    PRUNE_VOCAB = True
+
+    TOPICS_OVERRIDE = 10
+
+    PRUNE_VOCAB = False
     OUR_READER = True
-    ITERATIONS = 30
+    ITERATIONS = 10
     LIMIT_VOCAB = False
     TFIDF = False
     path = r"D:\PyCharm Projects\py-sam-master\topic-eval"
     os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
     #print(os.getenv("HOME"))
     if True:
-        VERBOSE = False
+        VERBOSE = True
         TOP = 3
         BOTTOM = 3
     sys.path.append(path)
@@ -84,6 +87,9 @@ class SAM:
 
         # initialize model hyperparameters
         self.num_topics = topics
+
+        if not TOPICS_OVERRIDE is None:
+            self.num_topics = TOPICS_OVERRIDE
 
         self.xi = 5000.0
         #self.m = util.l2_normalize(np.random.rand(self.vocab_size))
@@ -158,17 +164,17 @@ class SAM:
 
     def backup_vocab(self):
         self.vocab_size_b = self.vocab_size
-        self.vMu_b =  self.vMu[:,:]
-        self.vM_b  =  self.vM[:]
-        self.m_b =  self.m[:]
-        self.documents_b = self.documents[:,:]
+        self.vMu_b =  np.copy(self.vMu)
+        self.vM_b  =  np.copy(self.vM)
+        self.m_b =  np.copy(self.m)
+        self.documents_b = np.copy(self.documents)
 
     def reset_vocab(self):
         self.vocab_size  = self.vocab_size_b
-        self.vMu =  self.vMu_b[:,:]
-        self.vM  =  self.vM_b[:]
-        self.m =  self.m_b[:]
-        self.documents = self.documents_b[:,:]
+        self.vMu =  np.copy(self.vMu_b)
+        self.vM  =  np.copy(self.vM_b)
+        self.m =  np.copy(self.m_b)
+        self.documents = np.copy(self.documents_b)
 
     def delete_vocab_words(self, row_indices):
         self.vocab_size -= len(row_indices)
@@ -526,7 +532,7 @@ class SAM:
         self.loss_updates["vM"].append(self.vM)
 
     def do_EM(self, max_iterations=100, print_topics_every=10):
-        if not self.m_b is None:
+        if PRUNE_VOCAB:
             self.reset()
         self.print_topics(top_words=TOP, bottom_words=BOTTOM)
         for i in range(1, max_iterations + 1):

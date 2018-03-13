@@ -15,6 +15,7 @@ postnntpibrcstubsde
 mr
 nntp
 inews
+entry
 organization
 technical
 university
@@ -44,8 +45,10 @@ created
 perfect
 nature
 yes
+define
 think
 playing
+usual
 game
 make
 sweeping
@@ -59,6 +62,7 @@ mean
 exactly
 says
 use
+terms
 leads
 contradictions
 im
@@ -103,11 +107,13 @@ away
 ability
 choose
 moral
+alternatives
 worship
 himself
 error
 free
 place
+allows
 evil
 thats
 opinion
@@ -142,6 +148,8 @@ choice
 left
 known
 course
+events
+fixed
 itself
 extend
 argument
@@ -157,6 +165,7 @@ evilsin
 knowing
 outcome
 advance
+knowledge
 unipolar
 possibility
 doing
@@ -169,6 +178,7 @@ restrains
 simply
 said
 truly
+defined
 loving
 obeying
 avoiding
@@ -181,6 +191,7 @@ imagine
 following
 harm
 easily
+implemented
 making
 appreciate
 object
@@ -191,6 +202,7 @@ case
 arguing
 conceivable
 want
+consistent
 pet
 idea
 deletion
@@ -207,6 +219,7 @@ reading
 science
 fiction
 fantasy
+disagree
 bible
 describes
 definitional
@@ -214,6 +227,7 @@ logic
 mind
 certain
 evidence
+indicates
 exists
 biblical
 description
@@ -224,6 +238,7 @@ credibility
 lot
 people
 interested
+unfortunately
 definitions
 cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomhowlandrestonansnetnocnearnetuunetoliveasgigatesgiblabadagiopanasoniccomnntpservercaltechedukeith
 keithccocaltechedu
@@ -838,6 +853,7 @@ heard
 mks
 esp
 emx
+toolkit
 doswindows
 suite
 standard
@@ -923,6 +939,7 @@ driveletters
 paths
 inside
 grouppifini
+files
 sudden
 things
 went
@@ -931,6 +948,7 @@ c
 e
 wanted
 copy
+application
 resetup
 normally
 previously
@@ -958,6 +976,7 @@ diskcache
 smartdrive
 tried
 lightning
+cache
 major
 headaches
 purpose
@@ -1305,6 +1324,7 @@ signals
 combine
 template
 rectangular
+window
 signal
 interior
 exterior
@@ -1421,348 +1441,1516 @@ machine
 ns
 60ns
 incompatibable
+compwindowsxintrinsics1089
+compwindowsx66322
+companswers381
+newsanswers7245
+cantaloupesrvcscmueducrabapplesrvcscmuedubb3andrewcmuedunewsseicmueducisohiostateedubouncebounce
+warecisohiostateedu
 peter
+ware
+compwindowsxintrinsicscompwindowsxcompanswersnewsanswers
+compwindowsxintrinsics
 frequently
 faq
 supersedes
+faqxt728840923oboecisohiostateedu
 followupto
+124201
 0500
 ohio
 dept
+1609
 approved
 newsanswersrequestmitedu
 14
+174153
+faqxt733772513oboecisohiostateedu
+oboecisohiostateedu
 summary
+answers
 x11
+widgets
+xt
+intrinsics
 library
 archivename
+xtfaq
+faqxtv
+128
+930402
+124112
+exp
+monthly
 posting
 contains
 compwindowsx
+submit
+preferably
 answer
 send
+faqs
 including
+archive
+rtfmmitedu
+directory
+pubusenetnewsanswers
+archived
 appears
 line
+fragments
 public
 domain
+contents
+0
+glossary
+versions
 related
+core
+signalsalarmscthreads
+visual
 default
+shell
+colormap
+shells
+inherit
+badmatch
 9
+widget
+destroyed
+xtdestroywidget
+exit
+execute
+destroycallbacks
+resize
+xtappaddinput
+handle
 books
+magazines
 15
 pass
+float
+xtsetvalues
 write
+resource
+converter
 18
 open
 multiple
 displays
+r3
+r4
 r5
+resources
+loaded
+callbacks
 23
+reparent
+xtreparentwidget
+xtmalloc
+xtfree
+debug
+xtaddinput
+xtaddtimeout
+xtaddworkproc
 27
+implement
+drag
 drop
 o
+oriented
 useful
+components
 included
 classes
 provide
 base
+functionality
+rectobj
+composite
+constraint
+overrideshell
+wmshell
+interchangeably
+precisely
 specific
+particular
 include
+athena
+motif
+olit
+refers
+abstraction
+precise
+subclass
 class
+loosely
 refer
+accurately
+windowless
+gadgets
 xlib
+protocol
+layer
+typically
+uses
+relatively
+provides
 understanding
 latest
+expected
 x11r4
+patch
 x11r5
+121892
+121
+992
+xtra
+61592
+xw
+xcu
+fwf
+11192
+493
 david
 b
+lewis
+uunetcraftfaq
+maintains
+located
+export
+contribfaq
+liam
+quin
+leesqsqcom
 posts
 jan
+newmarch
+janpandoniacanberraeduau
+compwindowsxmotif
+contribfaqxt
+brief
 sets
+mutual
+exclusion
+critical
+sections
+interrupt
+handler
 leave
 libraries
 inconsistent
 appropriate
+flags
+dangling
 middle
+traversal
+ansi
+points
 behavior
 undefined
 function
+posix
+specification
 mentions
+safely
+assumed
+safe
+flag
+needs
+checked
+procedure
+timeout
+callback
+incorrect
 dangerous
+finishes
+effectively
+preempts
 procedures
 option
+pipe
+event
+loop
 read
 end
 byte
+deadlock
+fills
+primarily
 supposed
+portable
 operating
 journal
 example
+oreilly
 volume
+complicated
 border
+pixmap
+borderpixmap
 deals
+copyfromparent
+evalulated
+defaultvisualofscreen
+defaultcolormapofscreen
 properly
+occurs
+depends
 parts
 start
 easier
 basic
 little
+harder
 youll
+initialize
+determine
 sample
 compile
+visualc
+lxaw
 lxmu
+lxt
+lxext
+lx11
+lm
+geometry
+300x300
+staticcolor
+fg
+bg
+yellow
+visuals
+x11intrinsich
+x11stringdefsh
+x11shellh
+typedef
+struct
+int
+optionsrec
+xtresource
+xtrvisual
+sizeof
+xtoffsetof
+xtrimmediate
+null
+xtrint
+xrmoptiondescrec
+desc
+xrmoptionseparg
+argc
+argv
+char
+xtappcontext
+app
 context
+toplevel
+dpy
+xargv
+vector
+xargc
+count
+xvisualinfo
+vinfo
+vinfolist
+returned
+matchs
+arg
+args10
+cardinal
+cnt
 test
+save
+command
 arguments
+bcopy
+creates
+dummy
+retrieve
+xtappinitialize
+xtnumber
+string
+args
+xtdisplay
+xtgetapplicationresources
+optionsvisual
+xtscreen
+xtsetarg
+argscnt
+xtnvisual
 examine
+property
+rootwindow
 right
 sorts
+xcreatecolormap
+rootwindowofscreen
+allocnone
+xtncolormap
+vinfovisualid
+xvisualidfromvisual
 xgetvisualinfo
+visualidmask
+xtndepth
+vinfolist0depth
 xfree
+xpointer
+xtnargv
+xtnargc
+xtappcreateshell
+applicationshellwidgetclass
+handling
+xtrealizewidget
+xtappmainloop
 return
 argued
+specified
+falls
+category
+expects
+truecolor
+overlayplane
+extension
 runs
+isolation
 depending
+server
+allocates
 mode
+mess
+upset
+chooses
+greyscale
+psuedocolor
+monochrome
 sun
+static
+332
+sgi
+iriss
 offer
+overlay
+plane
+strictly
 convention
+arbitrary
+ancestor
+obtaining
+realize
+xcreatewindow
 obtained
+xtgetvalues
 interpreted
+defaultdepthofscreen
+parent
 root
 tree
+copies
+converters
+improperly
+x11r3
 earlier
 section
 28
 eventually
 immediately
+destroy
+twophase
+children
 indicate
+pending
+cleaned
+freed
 phase
+performed
+handlers
 actions
+completed
+checking
+traversed
+caveatstrivia
+destruction
+nested
+loops
+placed
+entering
+inner
+returning
+outer
+entirely
 approach
+exiting
 calling
+chance
+clean
+external
+sockets
+temporary
+allocated
 simplicity
+assumes
+toplevelget
+gw
+xtparent
+void
+exitcallback
+closure
+calldata
+xtpointer
+xtunmapwidget
+disappear
+exits
+destroying
 ignorant
+implementation
 details
+someday
 require
 alternative
+modify
 global
 private
+frowned
+tends
+encourage
+sloppy
+difficult
+maintain
+practices
+extern
+needfunctionprototypes
+endif
+boolean
+exitworkproc
+xtappaddworkproc
+xtwidgettoapplicationcontext
+notreached
+adds
+idle
 happens
+processed
+realized
 proper
 currently
+managed
 child
+propagated
+asks
+manager
 request
+xtnallowshellresize
+grant
 position
+limits
 granted
+semantics
 io
 ready
 fit
 peoples
+intuitive
 model
+descriptor
+block
+ignoring
+setting
+optional
+terminals
+pipes
+eof
 result
 thinks
+culprit
+select
+sysv
+oss
+poll
+connect
+suitable
+bsd
+tail
 f
+filename
+rumored
 reliable
 ibm
+aix
 thousand
 stop
+woke
+race
 condition
 pyramid
 ultrix
+possibly
 wasnt
 writing
 512
+blocks
 received
+raound
+detecting
+ignore
+mseconds
 given
 descriptions
+terminology
+dependent
 area
+identical
+intrinsic
+designers
+felt
 common
+operation
 favorite
+definitive
 reference
 perspective
+offers
 introduction
 started
 concepts
+newcomers
 accurate
+1000
 pages
+asente
 paul
 j
+swick
+ralph
+programmers
 guide
 digital
 press
 1990
+isbn
+1555580513
+eye757edp
+prenticehall
+0139721916
 dec
 direct
+1800digital
 book
+commonly
+recomend
+novices
 young
 doug
+programming
+prentice
+1989
+0134970748
+0139721673
 manuals
+ordering
+8009989938
 page
+style
 3rd
+extensively
+overhauled
 mit
+finding
+permutted
 index
+chasing
+periodicals
+dealing
+published
+quarterly
 issues
+consortium
 conference
+proceedings
+advertising
+informative
+orders
+18009989938
+cathyroracom
 editorial
 matters
+adrianoracom
+table
+mathutahedu
+ftppubtexbib
 tex
 form
+ftpuunet
+ftppublishedoreillyxresource
+ascii
+bimonthly
 trade
+rag
 lots
+articles
+audience
+expectation
+learning
+represent
 fairly
+percentage
 collection
+advisory
+columnists
+908
+5639033
 popular
+provided
+sufficient
+purposes
+ugly
 3d
+exportlcsmiteducontribxaw3dtarz
+osf
 license
+fee
 shipped
+workstation
+platforms
+poorly
+implementing
+suns
 comment
+rumours
 addition
 sale
+3103289338
 includes
+graph
+stacked
+pie
+chart
+xy
+hypertext
+spreadsheet
+foundation
+attempting
+collect
+freely
 editor
+filedialog
 current
 anonymous
+acsuiucedu
+1281742521
+pubfwfsharz
+cornell
 gene
+dykes
 early
 nice
+appearance
+buttons
+mini
+language
+widely
+xs
 sony
+looked
+promise
+hp
+precursor
+originally
 written
+diffs
+xray
+x10r4
 apparently
 experience
+xo
 working
+primitive
+archivecisohiostateedupubxo
+specialized
+tbl
+implements
+tabular
+layout
+supports
+wcl
 plots
 contact
+gnbbbyozau
+joeathenamitedu
+vendor
+xview
+oi
+parcplace
+interviews
 stanford
+tcltk
+spriteberkeleyedu
+admire
+skill
+designing
 hopefully
+develop
 35
+eyes
 expect
+gaining
+acceptance
 wrong
 essentially
+typdef
+expands
+argname
+argvalue
+normal
+type
+conversions
+integer
+floating
+copied
+pattern
+wildly
+macro
 document
+recomending
 previous
 suggestions
+xtsetfloatargarg
 n
+sizeoffloat
+sizeofxtargval
+xtsetargarg
+xtargval
 ld
+courtesy
+thomson
+rthomsondsdescom
 discussion
+destructors
+converted
+types
 usually
+strings
 map
+enumerated
+names
+false
+compare
+readily
+accomplished
+quark
 mechanism
 turned
+unique
 fits
 word
 compared
+quarks
 representing
+enumeration
+initialization
+routine
+held
+invocation
 ii
 slightly
+sprintf
 wish
 convert
 internal
 valid
+snapshot
 restore
+database
+mechanisms
+effort
+ensure
+iii
+instance
 separate
+fields
 red
 green
+signature
+xttypeconverterdisplay
+xrmvalueptr
+numargs
+fromval
+toval
+converterdata
+invoked
 source
+destination
+opaque
+pointer
+converterspecific
+registered
+passed
+discussed
+lookup
 obtain
+corresponding
+care
 taken
+xrmvalue
 specifies
+location
+unsigned
+caddrt
+addr
+caller
+reinvoke
+assign
 variable
+containing
 group
+repeated
+convenient
+donevar
+tovaladdr
+tovalsize
+sizeoftype
+var
+donestrstr
+sizeofstring
+str
+perform
 safety
+register
+invokes
+fetching
+xtappsettypeconverter
+xtappsettypeconvertercontext
+destructor
+xttypeconverter
+xtconvertarglist
+xtcachetype
+xtdestructor
+contexts
+xtsettypeconverter
+xtsettypeconverterfrom
+routines
+xtappaddconverter
+xtaddconverter
+superseded
 newer
+cached
+xtcachenone
+xtcacheall
+xtcachebydisplay
+roundtrip
+decremented
+owning
+xtdestructorxtappcontext
+auxiliary
+storage
+associated
+pointed
+toaddr
+conversion
+mitlibxtconvertersc
+contriblibpextconvertersc
+contriblibpextconvertersh
+multiuser
+issue
 summer
 1992
+oliver
+jones
+coverage
 involved
+nutshell
+xtopendisplay
+xtclosedisplay
+shutdown
 remove
 close
 ways
+selects
+quit
+button
+wmdeletewindow
+disconnect
+killclient
+shutdowncrash
 network
 failure
 ill
 assume
+gracefully
 merely
+translating
+removing
+difficulty
+arises
 design
+presumed
+unrecoverable
+returns
+setjmplongjmp
+fragment
+demonstrates
+setjmph
+jmpbuf
+xiorecover
+xiohandler
+destroydisplay
+longjmp
+setjmp
+xsetioerrorhandler
+appcontext
+cleanup
+unfamiliar
+saves
+caveats
+adequate
+symptoms
+errors
+badcolor
+badatom
+badfont
+descriptors
+typical
+authorization
+november
+91
+scheifler
+basically
+addresses
 changes
 general
 release
 described
 certainly
+incomplete
+deprecated
 listed
+brevity
 goal
+retrieved
 chapter
+cacheing
+additional
+xtspecificationrelease
+wmshellpart
+toplevelshellpart
+transientshellpart
+incompatibly
+coreinitialize
+coresetvalues
+arglist
+parameters
+continuetodispatch
+parameter
+coresetvaluesalmost
+corecompressexposure
+coreclassinited
+constraintgetvalueshook
 record
+coreinitializehook
+shellrootgeometrymanager
+coresetvalueshook
+xtquerygeometry
+unrealizecallback
+xttranslatecoords
+psuedo
+basetranslation
 searching
+appdefault
+flexible
+customization
+perscreen
+permanently
+permanetly
+xtvaappinitialize
+xtdisplayinitialize
+xtinitialize
+improvements
+summarized
+gabe
+begeddov
+xrmstringtoquark
+augmented
+xrmpermstringtoquark
+indicated
+needing
+permanent
+array
 lists
+redesigned
+translation
+rewritten
 tables
+merges
 faster
+action
+bindings
+keycode
+keysyms
 sharing
+gcs
+modifiable
+malloc
+constraints
+reduction
+usage
+xtallocategc
+sharable
+gc
+xtgetactionlist
+xtscreendatabase
+xtsetlanguageproc
+locale
+xtappaddactionhook
+xtappreleasecacherefs
+decrement
+xtappsetfallbackresources
+specify
+xtcallcallbacklist
+xtcallconverter
+invoke
+xtcallbackreleasecacheref
+xtcallbackreleasecachereflist
+xtconvertandstore
+xtdirectconvert
+oldstyle
+xtdisplayofobject
+xtdisplaystringconversionwarning
+warning
+xtfindfile
+xtgetactionkeysym
+keysym
+modifies
+xtgetapplicationnameandclass
+xtgetconstraintresourcelist
+xtgetkeysymtable
+keycodetokeysym
 mapping
+xtgetmulticlicktime
+multiclick
+xtgetselectionrequest
+selectionrequest
+xtgetselectionvalueincremental
 selection
+incrementally
+xtgetselectionvaluesincremental
+xtinitializewidgetclass
+xtinserteventhanlder
+beforeafter
+xtinsertraweventhandler
+mask
+xtisobject
+xtisrectobj
+xtkeysymtokeycodelist
+keycodes
+xtlasttimestampprocessed
 recent
+xtmenupopdown
+popping
+xtmenupopup
+offsets
+xtownselectionincremental
+availabe
+xtpoupspringloaded
+springloaded
+popup
+xtregistergrabaction
+passive
+grab
+xtremoveactiohhook
+xtresolvepathname
+xtscreenofobject
+xtsetmulticlicktime
+xtsetwmcolormapwindows
+wmcolormapwindows
+custom
+colormaps
+xtungrabbutton
+cancel
+xtungrabkey
 key
+xtungrabkeybard
+active
+keyboard
+xtungrabpointer
+xtva
+varags
+interfaces
+bunch
+xtwindowofobject
+nearest
+replacement
+xtaddactions
+xtappaddactions
+xtappaddtimeout
+xtconvert
+xtcreateapplicationshell
+xtdestroygc
+xtreleasegc
+xterror
+xtapperror
+xtgeterrordatabase
+xtappgeterrordatabase
+xtgeterrordatabasetext
+xtappgeterrordatabasetext
+xtgetselectiontimeout
+xtappgetselectiontimeout
+xtmainloop
+menupopdownaction
+xtmenupopdownaction
+menupopupaction
+xtmenupopupaction
+xtnextevent
+xtappnextevent
+xtpeekevent
+xtapppeekevent
+xtpending
+xtapppending
+xtseterrorhandler
+xtappseterrorhandler
+xtseterrormsghandler
+xtappseterrormsghandler
+xtsetselectiontimeout
+xtappsetselectiontimeout
+xtsetwarninghandler
+xtappsetwarninghandler
+xtsetwarningmsghandler
+xtappsetwarningmsghandler
+xtwarning
+xtappwarning
+xtwarningmsg
+xtappwarningmsg
 filled
 places
+highest
+priority
+lowest
 creation
 users
 host
+defaults
+wide
 steps
 36
+queries
+customizations
+xenvironment
 environment
+homexdefaultshost
+resourcemanager
+homexdefaults
+xrdb
 kept
+client
+connects
+transfer
+13kbyte
+toolkits
 track
 effect
+usrlibx11appdefaults
+fallback
+ojpictelcom
+692
 control
+xtbased
+xfilesearchpath
+xuserfilesearchpath
+xapplresdir
+applicationdefaults
+initializing
 loads
+appdefaults
 appear
+hierarchies
+suppose
+usrlibx11
+usropenwinlib
+openwinhome
+setenv
+usrlibx11tnopenwinhomelibtn
+colonseparated
+pathnames
 contain
+characters
+literal
+suffix
 l
+codeset
+jajpeuc
+ja
 territory
 lets
 apart
+myterm
+usropenwin
 notice
+omits
+localespecific
+usrlibx11tn
+usrlibx11appdefaultsmyterm
+openwinhomelibtn
+usropenwinlibappdefaultsmyterm
+initializes
+tries
+shown
+soon
 finds
 reads
+stops
 consider
+mytermad
+nadhomeappdefaultsn
+homeappdefaultsmyterm
+debugging
+imake
+naming
 bizarre
+useless
+twist
+xrm
+pathname
 specifications
+usrlibx11appdefaultsnc
+expanded
+usrlibx11appdefaultsmytermcolor
+substitution
+character
+compiled
+usrlibx11ltnc
+usrlibx11tnc
+usrlibx11ltn
 sites
 replace
+projectroot
+batch
+rootlnc
+rootnc
+rootln
+rootn
+ignores
+altogether
 quick
+dirty
+machinery
+differently
+compatibilty
+followed
+slash
+donna
+converse
+converseexpolcsmitedu
+51092
+guarantee
+writer
+knows
+programmer
+rely
+independent
+xtaddcallback
+callbackname
+appended
+infer
+51492
 building
 field
+obscured
+iconified
+stays
+correctly
+deficiency
+reflecting
+capabilities
+inconvenient
+paragraphs
+7102
 carefully
 response
+iconification
+visibilitynotify
+viewable
+unviewable
+unmapped
+visibility
+meanings
+mwm
+translations
+mapnotify
+unmapnotify
+mapstate
+xgetwindowattributes
+realloc
+calloc
+handled
+ptr
+perror
+xyzzy
+xtcalloc
+xtnew
+xtnewstring
+xtrealloc
+xterrormsg
 initial
 generally
+conveniant
+anytime
+allocating
+potentially
+fully
+recover
+macros
+copying
+abc
+abcdef
+casting
+strict
+interpretation
+exchangable
 complain
+xmstringfree
+purify
+pure
 package
+tracing
+pricey
+2750
 excuse
+marketing
+blurb
+supportpurecom
+inserts
+instructions
 produced
+compilers
+detect
+unitialized
 past
+mallocd
+bounds
 party
+objectcode
+verifies
+tracks
+identifies
 individual
+leaks
+novel
+adaption
 garbage
+techniques
+purifys
+nearly
 comprehensive
+slows
 target
+395
+sentinel
+replaces
+checks
+cpcahilvirtechvticom
+synchronous
+xdebug
+debugger
 break
+trace
+actual
+occured
+buffered
+asynchronous
+undocumented
+xtidentifywindows
+xtdebug
 identified
+xload
+xtdebugtrue
+xwininfo
+click
+errant
+managers
+manages
+exportlcsmiteducontriblibxtgeotarz
+acts
+filter
+behaviour
 clever
+unfortunate
+pulldown
+menu
+locks
+debugged
 stopped
 waiting
+commands
+kind
 desk
+othermachine
+xhost
+thismachine
+othermachine0
+gdb
+codecenter
+interpretergraphical
+explicitely
+grabs
+breakpoints
+skills
+internals
+judicious
+conditional
 adding
+delicate
+registred
+handy
+testprogram
+xtapp
+obsoleted
+q19
+timeouts
 distributed
+xtappinitializeapp
 roger
+reynolds
+rogerrnetcomcom
+feb
+dragndrop
+buzzword
 moving
+clients
+fashion
+openlook
+supported
+dnd
+protocols
+compatable
+rdd
+designed
+operations
+intention
 tool
+contribute
+sell
+icccm
+conventions
+dozens
 neat
+constrained
+netcomcom
+pubrogerr
 older
+exportlcsmitedu
+contrib
+pete
 w
+614
+2927318
+228
+bolz
+2036
+neil
+ave
 h
+5380965
+columbus
 oh
+43210
 cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomemorywupostzaphodmpsohiostateeduuscelroyjplnasagovamesnsisrvnews1gsfcnasagovicestxcomandy
 andyicestxcom
 andy
@@ -2815,12 +4003,21 @@ rubber
 decreasing
 cohesiveness
 terry
+altsecurityripem212
+scicrypt14832
 compsecuritymisc3208
 altsecurity9770
+compmailmisc12145
+altanswers132
+companswers358
+newsanswers7097
+cantaloupesrvcscmuedudasnewsharvardeduogicseuwmeduux1csouiuceduusenetucsindianaedusilverucsindianaedumvanheyn
 mvanheyncsindianaedu
 marc
 vanheyningen
+altsecurityripemscicryptcompsecuritymiscaltsecuritycompmailmiscaltanswerscompanswersnewsanswers
 ripem
+vulnerabilities
 c4qoh8cheusenetucsindianaedu
 mar
 055555
@@ -2831,8 +4028,13 @@ newsusenetucsindianaedu
 altsecurityripem
 indiana
 163
+contenttype
+textxusenetfaq
+version10
+titleripem
 attacks
 originator
+mvanheynsilverucsindianaedu
 c3jvk9ey1usenetucsindianaedu
 silverucsindianaedu
 mimeversion
@@ -2845,10 +4047,13 @@ secure
 exhaustive
 obviously
 cryptographically
+secured
+pertain
 maintained
 variety
 groups
 followups
+pertaining
 cryptanalysis
 breaking
 rsa
@@ -2867,33 +4072,69 @@ factoring
 des
 claim
 56
+conceivably
 compromised
+brute
+agencies
+devote
 remain
 management
+stealing
+benefits
+safeguard
 derived
 passphrase
+keyfile
+snooping
+packets
+tapping
+scheme
+transferring
 untrusted
+trusted
+sitting
+ideally
 physical
+fooling
 accepting
 bogus
 opponent
+deceive
+secret
 recipient
+enemy
 intended
+reencrypt
 keys
 assuming
+routers
 daemons
 trust
 authentication
+exchange
 practical
+vouch
+signing
 automatically
+pgp
 generate
+md5
+fingerprints
+exchanged
 channel
 playback
 cryptography
 difficulties
 miconly
 pem
+disclosure
 protection
+alice
+ok
+intercepts
+resends
+authenticated
+telling
 interpret
 transmit
 figuring
@@ -2903,6 +4144,8 @@ indicating
 unknown
 defeat
 plaintext
+indication
+identifier
 frontend
 script
 imho
@@ -2914,6 +4157,7 @@ automating
 generating
 encapsulated
 headers
+utils
 encryption
 superuser
 planning
@@ -2923,21 +4167,53 @@ decrypt
 remote
 connected
 modem
+eavesdropper
 extreme
+examined
+viruses
+tradeoff
+convenience
+moderately
+cautious
 keeping
+dialing
 insecure
+download
+decryption
 somewhat
+illusory
+presumably
 cleartext
 password
 log
+traps
+steal
+quaint
+arrangement
 plan
+correspondents
 aware
+precautions
+ordinary
 longer
 treated
+correspondence
+partner
+ripems
+encrypt
 transformations
+wishes
+cryptographic
+barriers
+converting
+signed
+readable
 states
+forwarding
 recipients
 mentioned
+redistributed
+naturally
 cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomgatechudelwupostuunetpsinntpsuitecomusenet
 jimmillersuitecom
 scicrypt
@@ -3398,138 +4674,827 @@ psychogenic
 dyerursamajorspdcccom
 aka
 imaharvardrayssdlinusm2cspdccdyer
+sciastro33917
+scispace59872
+scianswers105
+newsanswers7207
+cantaloupesrvcscmuedudasnewsharvardeduhuscnewsharvardeduhsdndevncargatechconcertborgcsuncedunotformail
 sciastroscispacescianswersnewsanswers
+0215
+net733694066csuncedu
 leechcsuncedu
 leech
+195432
+195426
 diffs733693816csuncedu
 north
 carolina
 chapel
 hill
+net730956391csuncedu
 mahlercsuncedu
+241
+spacenet
 lastmodified
 930401
+143915
 overview
+amazing
 material
+categories
 bitnet
+networks
+servers
 astronomy
+composed
+transparent
+connections
 mailing
+central
+relays
 digest
+bulletin
+separates
+contributions
+hundreds
 topics
+scispacenews
 scispace
 scispaceshuttle
 sciastro
+talkpoliticsspace
+contributors
+submissions
 sends
+nearby
+locally
+forwarded
+reaches
+receiving
+redirect
+vice
+versa
+receive
+wider
 preferred
+decade
+spacerequestisuisunetedu
 body
 join
+moderated
+defunct
 present
+inception
+1981
+juliuscsqubacukpubspacedigestarchivereadme
 shuttle
+keplerian
 flights
+kelso
+jsc
+elementsrequesttelesoftcom
+gps
+positioning
 satellite
+navigation
+gpsrequestesseyesicom
+spaceinvestors
+investing
 spacerelated
 vincent
+cate
+vaccscmuedu
+spacetech
+esoteric
 propulsion
 asteroid
+capture
+starflight
 orbital
+debris
+removal
+spacetechrequestcscmuedu
+digests
+selected
 excerpts
+gs80spcscmuedu
+128220590
+usranonpublicspacetech
+spacetechrequest
+sedsl
 students
+exploration
+development
+parties
+listservtamvm1bitnet
 saying
+sedsnews
+releases
 status
 reports
+duplicates
+ron
+baalke
+baalkekelvinjplnasagov
+inappropriate
+periodically
+updated
+broad
+topical
+individuals
 performing
+frivolous
+requests
 acronyms
+garrett
+wollman
+wollmanuvmedu
+acronym
 month
+astroftp
+veikko
+makela
+veikkomakelahelsinkifi
+aviation
 henry
+spencer
+henryzootorontoedu
+summaries
 weekly
+buying
+telescopes
+ronnie
+kon
+ronnieciscocom
+asa
+don
+barry
+doncharagsuedu
 astronomical
+atlantic
 flight
+swaraj
+jeyasingh
+sjeyasinaxionbtcouk
+focuses
+nonus
 activities
+projects
+bunge
+rbungeaccessdigexcom
+describing
 telescope
+headline
+yee
+yeeamesarcnasagov
+schedule
+payload
+briefings
+manifests
+ksc
+updates
+frequent
 jpl
 ames
+centers
+ulysses
+gailileo
 pioneer
+magellan
+landsat
+missions
+element
+ts
+tkelsoblackbirdafitafmil
+prediction
+bulletins
+rose
+mrosestsciedu
+hubble
+jost
+jahn
+jjahnabbshansede
+ephemerides
 asteroids
 comets
+conjunctions
+encounters
+launches
+langunbca
+spacewarn
+launchorbital
 decay
+satellites
+nssdcagsfcnasagov
+anondir000000activespx
+manifest
+hollis
+gandalfproelectricctscom
+launch
 dates
+payloads
+landings
 solar
 activity
+cary
+oler
+olerhgulethca
+terrestrial
+issued
+enviroment
+boulder
+colorado
+intro
+solarstanfordedu
+361004
+pubunderstandingsolarterrestrialreports
+nicfunetfi
+1282146100
+pubmiscrecradioshortwavesolarreports
 europe
+56kb
+xiulethca
+14266329
+established
 actively
+soviet
+glenn
+chapman
+glennccssfuca
+activist
+sherzer
+awsitiorg
+step
+legislative
+affecting
 commercial
+calendar
+anniversaries
+conferences
 meteor
+showers
+eclipses
+magliacane
+kd2bdka2qhduucp
+spacenews
 covering
+amsats
+noaa
+weather
+ham
+recradioamateurmisc
+mcdowell
+mcdowellcfaharvardedu
+jonathans
+reentries
+2001
+bev
+freednssfidonetorg
+reprinted
+nonpublic
+suggestion
+eugene
 miya
+item
+unclassified
+boards
+personnel
+procurement
 regarded
+sensitivity
+contractors
+renegotiate
+contracts
+act
+kindly
+outsiders
+severe
+penalities
+unauthorized
+attempts
+andor
+accordance
 title
+usc
+1030
 learn
+fraud
+substantiated
 degree
+abuse
+mismanagement
+inspector
+24hours
+8004249183
 po
+23089
+lenfant
+plaza
+dc
+20024
+315
+offline
+sciastro33918
+scispace59873
+scianswers106
+newsanswers7208
+0315
+data733694135csuncedu
+195537
+195535
+data730956427csuncedu
+463
+spacedata
+143907
+catalogs
+dialup
+remainder
+providing
+operates
+ftpmaildecwrldeccom
+bitftppuccprincetonedu
+broadest
 national
+wants
+spend
+viewing
+combinations
 formats
+forebodingly
+cover
+gif
+pds
+vicar
+xv
+211
+1824012
+contribxv211tarz
+altbinariespictures
 discusses
+pitmanagermitedu
+1872158
+pubusenetaltbinariespictures
 extensive
+advisories
+mission
+official
 amesarcnasagov
+128102183
+pubspace
+pubspaceindex
+listing
+200k
 letter
+archiveserveramesarcnasagov
+amesarchiveserver
+shuttless012391
+capitalization
+subdirectory
+caps
 text
+venus
+voyager
+jupiter
+saturn
+uranus
 disks
+cdrom2
+directories
+rotated
+thousands
+collections
+capable
+imdisp
 media
+affairs
+officers
+miscmediaguide
+reported
+astrophysics
+ads
+retrieval
+uniform
+groundbased
+spacebased
 country
+140
+infrared
+optical
+uv
+queried
 catalog
+manipulate
+results
+beta
+abstracts
+query
+125000
 papers
+1975
+authors
+abstract
+adscuadscoloraduedu
+quickstart
+saoftpharvardedu
+pubadsadsuserguide
+postscript
+carolyn
+stern
+sterncfaharvardedu
 jet
+lab
+pubinfojplnasagov
+12814962
+operated
+sheets
+reached
+8183541333
+parity
+newsdeskjplpostjplnasagov
+8183547170
+techreportslarcnasagov
+offering
+cd
+pubtechreportslarc92
+readme
+abstracts92
+wais
+ipname
+tcpport
+210
+databasename
+nasalarcabs
 000
+costunit
+maintainer
+mlnelsonlarcnasagov
+tradmintechreportslarcnasagov
+spacelink
+marshall
+huntsville
+teachers
+arranged
+historical
 aeronautics
+classroom
+incorporate
+teach
+principles
+unlike
+interaction
+callers
+comments
+electronically
+acknowledge
+fulfilled
 turnaround
+closedloop
+downloadable
 shareware
+educators
+nasas
 planetary
+probes
+dial
+2058950028
+300120024009600v32
+baud
+telnet
+spacelinkmsfcnasagov
+12815813250
+xslmsfcnasagov
+capability
+nssdc
+clearinghouse
+1281833623
+nodis
+requestnssdcgsfcnasagov
+3012869000
+1200
+2400
 enter
+prompt
+carriage
+responds
+username
+menudriven
+393
+master
+nimbus7
+grid
+toms
 interplanetary
+medium
+geophysical
 models
+canopus
+ultraviolet
+explorer
+czcs
+browse
+adc
+standards
+cdroms
+datasets
+desired
 ordered
+observation
 star
+viewers
 macintosh
+postal
+goddard
+633
+greenbelt
+20771
+telephone
+301
+2866695
+requestnssdcagsfcnasagov
+stsciedu
+13016712
+newsletters
 hst
+observers
+proposers
+reppert
+reppertstsciedu
+odea
+odeastsciedu
+starcat
+european
+esogarching
+featuring
+satellitestelescopes
+iueirashstntt
+spectra
+iue
+catalogues
+sao
+hr
+ngc
 ppm
+iras
+veron
+gsc
+centerradiuskind
 objects
+node
+stesishqesoorg
+1341718100
+stesis
+decnet
+retreived
+benoit
+pirenne
+bpirenneesoorg
+49
+320
+433
+stecf
 40
+magnetic
+tape
+subset
+magnitude
 stars
+deep
 sky
+pubastro
+mainly
+overseas
+8436
+galaxies
 ra
 declination
+radial
 velocity
+miscgalaxydat
+supplied
+wayne
+hayes
+waynecsriutorontoca
+iris1ucisdalca
+12917318107
+pubgif
+spacegif
+5pm
+8am
+pomonaclaremontedu
 yale
 bright
+yalebsc
+dishaw
+jdishawhmcvaxclaremontedu
+4995
+st101
+pacific
+390
+ashton
+francisco
+94112
+415
+3372624
+pm
+3375205
+german
+distribute
 amateurs
+3040
+dm
+68disk
+expense
+neustaedter
+strasse
+w3123
+bodenteich
+frg58243197
+astronomyrelated
+1373919
+astonomicalspacerelated
+compsourcesunix
+phoon
+moon
+1213
+starchart
+moontool
+reduced
+compsourcesmisc
+n3emoorbit
 orbit
+starchart2
 update
+321
+jupmoons
+plotter
+jupiters
+moons
+perl
+lunisolar
+ephem421
 ephemeris
+v421
 planet
 generation
+simulator
+elwood
+edowneytashaccacrrockwellcom
+ephem
 offered
+xsat
 tracking
+contribxsat10tarz
+curry
+davyecnpurdueedu
+xsky
+computerized
+atlas
+arizonaedu
+softwareunixxsky
+xskytarz
+friedrichsen
+terryvenussunquestcom
+kaurivuwacnz
+130195113
+pubastrophys
+specialists
 outside
+confining
+astrophys
 pay
+youth
+encouraged
+administrator
+timothy
+banks
+bankstkaurivuwacnz
+idl
+idlastrogsfcnasagov
+1281835782
+repository
+processing
+landsman
+landsmanstarsgsfcnasagov
 celestial
+5134270674
+documentation
+accessed
+hoursday
+archiveafitafmil
+12992166
+nasatvroshuttle
+ftpfunetfi
+nasatvromolczancelbbs
+pubastropcsatel
+kilroyjplnasagov
+1281491165
+nasamolczan
+listservugabitnet
+filetype
+blackandwhite
+11m
+prints
+negatives
+positives
+respectively
+edc
+eros
+orbiting
+6055946511
+meter
+mss
+scanner
+135x180
+kilometers
+mm
 near
+ir
+digitial
 higher
 prices
+transparencies
 borrowed
+photo
+audiovisual
+918
+rengstorff
+94043
+4156046270
+maps
 usgs
+planets
 geological
 survey
+25286
+federal
+bldg
+41
+denver
+80225
+240
+310
+sheet
+mars
+viking
+115000000
 scale
+i1535
+relief
+albedo
+i1618
+i2030
+topographic
+contours
+i1802abc
 geology
+15000000
+photomosaic
+forms
+12000000
+photomosaics
+1500000
+mercury
+galilean
 phil
+stooke
+stookevaxrsscluwoca
+respond
+relating
 lunar
+cometary
 bureau
+telegrams
+minor
+announce
 catalogue
 orbits
+iau
+circular
+4935
+1292
+entries
+96
+nonsubscribers
+circulars
+1500
+subscribers
+750
+extract
+calculate
+msdos
+525inch
+2s2d
 diskette
+7500
+8087
+3750
 30000
+meantion
+expensive
+smithsonian
 astrophysical
 observatory
+02138
 calculations
 interpreting
 sciastro33955
@@ -3931,40 +5896,785 @@ pubspacefaqstarsdata
 starsdoc
 515
 areas
+sciastro34084
+scispace60103
+scispaceshuttle12639
+newsanswers7285
+cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomhowlandrestonansnetnocnearnetpadthaiaktiscompadthaiaktiscomnotformail
+bradfrd2ncarucaredu
+bradford
+sciastroscispacescispaceshuttlenewsanswers
+astrospace
+spaceacronyms731394007gzacom
+000016
+lifeforms
+unlimited
+cephalopods
+509
+faqservgzacom
+040004
+spaceacronyms733982404gzacom
+padthaiaktiscom
+astro
+tla
+xlastupdated
+19921207
+spaceacronyms
+aug
+forgot
+botched
+confuses
 figure
+emphatically
+encyclopedic
+incorporated
+saw
+intervals
+regarding
+welcome
+reachable
 tells
 exceeds
+specialpurpose
 explained
+theyre
+omitted
+referring
 everybody
+whos
+wollmangriffinuvmedu
 maintaining
+verbose
 daniel
+fischer
+dfispecklecmpifrbonnmpgde
+535
+fortunately
+1059
+revised
+transportation
+abbreviations
+mammoth
+tome
+tlas
+bonus
 larry
+scramble
+entertaining
+aa
+aao
+angloaustralian
+aas
 american
+astronautical
+aavso
+association
+ace
+advanced
+composition
+acrv
+assured
+crew
+vehicle
+astronaut
+rescue
+adfrf
+amesdryden
+dfrf
+agn
+nucleus
+agu
+union
+aiaa
+astronautics
+aips
+aj
+alexis
+imaging
+sensors
+alpo
+als
+aoa
+abort
+aocs
+apj
+apm
+attached
+pressurized
+module
+apu
+artemis
+relay
+asi
+agenzia
+spaziale
+italiano
+asrm
+rocket
+atdrs
+atmospheric
+atm
+maker
+ato
+au
+aura
+universities
+awst
+avleak
+axaf
+batse
+burst
+transient
+cgro
+bbxrt
+broadband
+bem
+bugeyed
+monster
+bh
+hole
+bima
+bnsc
+centre
+ct
+ccafs
+cape
+canaveral
+ccd
+chargecoupled
+ccds
+compact
+readonly
+cfa
+cfc
+chlorofluorocarbon
+cff
+flyer
+cfht
+canadafrancehawaii
+arthur
+holley
+compton
+gamma
 ray
+gro
+chara
+angular
+cirris
+cryogenic
+radiance
+instrument
+cit
+circumstellar
+apollo
+cmcc
+esa
+cnes
+detude
+spatiales
+cno
+carbonnitrogenoxygen
+cnsr
+cobe
+cosmic
+background
+comptel
+costar
+corrective
+optics
+axial
+craf
+rendezvous
+flyby
+crres
+combined
 radiation
+csm
+cstc
+consolidated
+usaf
+ctio
+cerro
+tololo
+interamerican
+dcx
+clipper
+experimental
+ddcu
+dctodc
+dryden
+dmsp
+meteorological
+doe
+dscs
+dsn
+usafnro
+eafb
+edwards
+ecs
 environmental
+edo
 extended
+duration
+orbiter
+egret
+energetic
+ejasa
+elv
+expendable
+emu
+extravehicular
+mobility
+eos
+observing
+ers
+ers1
+agency
+eso
+et
+tank
+etla
+etr
+eastern
+euv
+euve
+eva
+auroral
+fft
+fourier
+transform
+fgs
+guidance
+fhst
+trackers
+fir
+transport
+foc
+faint
+fos
+spectrograph
+frr
+flightreadiness
+review
+fts
+telerobotic
+servicer
+spectroscopic
+fwhm
+width
+maximum
+fyi
+gas
+getaway
+gbt
 bank
+gcvs
+gem
+giotto
+geo
+geosynchronous
+gds
+dark
+spot
+ghrs
+interchange
+glomr
+loworbiting
+gmc
+giant
+cloud
+gmrt
+meterwave
+greenwich
 ut
+geostationary
+gox
+gaseous
+oxygen
+gpc
+grs
+spectrometer
+observer
+gsfc
+gto
+hao
+altitude
+hd
+draper
+heao
+hera
+hermes
+robotic
+arm
+hf
+frequency
+hga
+gain
+antenna
+hlc
+heavy
+lift
+hlv
+hmc
+halley
+multicolor
+hertzsprungrussell
+diagram
+hri
+imager
+rosat
+hsp
+photometer
+hv
+voltage
+iappp
+amateurprofessional
+photoelectric
+photometry
+iauc
+ice
+ida
+darksky
+igm
+intergalactic
+igy
+humble
+iota
+infraredoptical
+occultation
+ips
+inertial
+pointing
+iraf
+isas
+japan
+ism
+interstellar
+iso
+ispm
+polar
+isy
+ius
+upper
+stage
+jem
+japanese
+ssf
+jgr
+jila
+joint
+kao
+kuiper
+airborne
+kpno
+kitt
+peak
+kennedy
+ktb
+cretaceoustertiary
+boundary
+lanl
+alamos
+larc
+ldef
+lem
+excursion
+leo
+lerc
+lest
+earthbased
+lfsa
+lga
+lgm
+men
+lh
+liquid
+hydrogen
+lh2
+lhx
+llnl
+lawrencelivermore
+lmc
+magellanic
+ln2
+n2
+nitrogen
+lox
+lrb
+booster
+lsr
+ltp
+phenomenon
+manned
+mcc
+meco
+engine
+cutoff
+mmh
+monomethyl
+hydrazine
+mmt
 mirror
+mmu
+maneuvering
+mnras
+notices
+royal
+moc
+mol
+mola
+laser
+altimeter
+momv
+motv
+mpc
+mrsr
+rover
+mrsrm
+msfc
+george
+mtc
+tended
+naca
+nasda
+nasm
+museum
+nasp
+aerospace
+nbs
+nist
+ndv
+nerva
+nicmos
+multi
+upgrade
+nims
+nearinfrared
+galileo
+nir
+nldp
+oceanic
+noao
+observatories
+nrao
+nro
+reconnaissance
 neutron
+nsa
+nsf
+nso
+ntr
+thermal
+rocketry
+ntt
+oao
+ocst
+omb
+budget
+oms
+opf
+orfeus
+retrievable
+osc
+oscar
+carrying
+ossa
+osse
+scintillation
+ota
+assembly
+othb
+horizon
+backscatter
+otv
+ov
+pam
+pamd
+deltaclass
+investigator
+plss
+pmc
+pmirr
+pressure
+modulated
+radiometer
+pmt
+photomultiplier
+tube
+psf
 spread
+psr
+pulsar
+pv
+photovoltaic
+pvo
+qso
+quasistellar
+rci
+rodent
+cage
+sls
+rcs
+reaction
+rem
+rat
+enclosure
+rfi
+interference
+riacs
+manipulator
+rngc
+roentgen
+rous
+rodents
+unusual
+rsn
+rtg
+radioisotope
+thermoelectric
+generator
+rtls
+saa
+anomaly
+saga
+augmentation
+sampex
+anomalous
+magnetospheric
+sar
+synthetic
+sara
+pour
+astronomie
+sarex
+exercise
+sas
+adaptation
+syndrome
+sat
+sc
+sca
+carrier
+aircraft
+sct
+schmidtcassegrain
+sdi
+strategic
+initiative
+sdio
+sei
+sest
+swedish
+submillimeter
+seti
+extraterrestrial
+sid
+ionospheric
+disturbance
+sir
+sirtf
+sl
+spacelab
+slar
+sidelooking
+slc
 complex
+smc
+sme
+mesosphere
+smex
+explorers
+smm
+sn
+supernova
+sn1987a
+snr
+remnant
+snu
+neutrino
+sofia
+stratospheric
+soho
+heliospheric
+span
+spdm
+dextrous
+systeme
+probatoire
+lobservation
+terre
+sps
+srb
+srm
+fred
+er
 freedom
+ssi
+solidstate
+institut
+ssme
+sspf
+ssrms
+sst
+supersonic
+ssto
+stis
+sts
+stsci
+swas
+swf
+shortwave
+fading
+transatlantic
+landing
+tau
+tcs
+tdrs
+tdrss
+tes
+emission
+tiros
+television
+ozone
+tps
+tss
+tethered
+uars
+atmosphere
+ubm
+unpressurized
+berthing
+udmh
+unsymmetrical
+dimethyl
+ufo
+unidentified
+flying
+ugc
+uppsala
+uhf
+uit
+ukst
+united
+kingdom
+schmidt
+usmp
+microgravity
+universal
+utc
+zulu
+coordinated
+uvs
+vab
+vafb
+vandenberg
+veega
+venusearthearth
+vhf
+vla
+vlba
+baseline
+vlbi
+interferometry
+vlf
+vlt
+vms
+voir
+vrm
+vpf
+mapper
+wd
+wfpc
+wfpcii
+wiyn
+wisconsin
+wsmr
+sands
+missile
+wtr
 western
+wuppe
+photopolarimter
+xmm
+xuv
+yso
+usrbinperl
+alt
+scrambling
+threshold
+srand
+azs
+acrokey
+splitw
+unshiftwordskey
+foreach
+az
+vecwword
+z
+egrep
+usrdictwords
+chop
+pushw
+acro
+sazazaz
+pick3
+sub
+localletter
+prefix
+oldword
+lengthprefix
+indexkeyprefix
+eq
+localw
+substrprefix01
+wrand
+ne
+prefixi
+sprefixprefixi
+elsif
+ulword
+trazaz
+substroldword01
+err
+moo
+bovine
+wind
+gathers
+moss
+recnude15823
+recradioamateurmisc36891
+recradiocb2645
+recradioshortwave23039
+sciaeronautics5970
+sciastro34123
+sciecon16226
+scimed58044
+scimisc8088
+scispace60152
+socbi22961
+rechamradiorecnuderecradioamateurmiscrecradiocbrecradioshortwavesciaeronauticsciaeronauticssciastroscieconscimedscimiscscispacesocbi
+cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomemorywupostuwmeducsutexaseduuunetorcamesarthomson
 bobwaldropf418n104z1fidonetorg
 waldrop
 celebrate
 1993apr520123515980dsdescom
+talkpoliticsmisc
+rthomsonmesa
+xsequence
+usenetdsdescom
+1301878521
+xusmail
 526175
 salt
 lake
 city
 84152
+xtelephone
 8015823318
 morning
 glory
 productions
+201235
 323
 announcing
 libertarian
@@ -3982,89 +6692,318 @@ hess
 breakfasts
 banquet
 room
+7900
+105
 tax
+8717
 rate
+occupancy
 beds
+reservations
+8015310800
+mgps
 payment
 plans
 mgp
+assistance
+matching
+roommates
 requested
 august
 sept
+elections
+intensive
 campaign
 training
+conducted
+sal
+guzzetta
+veteran
+200
 campaigns
+990
 strategy
+targeting
+opposition
+fundraising
 150
+purchased
 175
 platform
 bylaws
 credentials
 meetings
+shoot
 pledge
 versus
+partys
+membership
+compromise
+committees
+responsible
+recommendations
+concerning
 deletions
 rules
+amended
 vote
+attending
 begins
+opens
+delegates
+gala
+ceremony
 keynote
 russell
+lunch
+continues
 standing
 politics
+tandem
 dawns
 dragon
 inn
+evening
 joyful
+psychiatrist
 thomas
 szasz
+african
 leader
 frances
 kendall
+named
+famous
+sam
+crowd
+plotted
+pints
 ale
+music
+food
+drink
+comedy
+downtown
+concert
+friday
+drum
+circle
+comic
+slagle
+dancer
+reggae
 classic
+rocknroll
 publicized
 outreach
 opportunity
+vivaldi
+mozart
+dining
+elegant
+ballroom
+tie
+dancing
 exhibits
 admission
 draw
+workshops
 speakers
+roundtable
 discussions
 school
 age
 libertarians
 agenda
 considers
+1990s
 health
+21st
+economics
+drug
 amendment
 social
 foreign
 policy
+crime
+violence
+aids
+debate
 lp
+tactics
+initiatives
+feminist
 presidential
+elected
 officials
+grassroots
+1996
 nomination
+90s
 community
+abundance
+schooling
+campus
+organizing
+academia
+collar
+30sept
+400
 celebration
 late
 riser
 thrift
+125
 packet
+souvenirs
+student
+enrolled
+seven
 housing
 dollars
+sponsorships
+promotions
+visitors
+surrounding
+million
 presentation
+conducts
 drawing
+sooner
 roommate
+match
+antifederalist
 sponsored
+contest
+june
+submission
+deadline
+prospectus
+friendly
+competition
+marksmanship
+chess
+gay
+lesbian
+concerns
+lglc
+attention
+discounts
+casual
+opportunities
+poverty
+caucus
+meet
+discuss
+movement
+campuses
 march
+dean
+ahmad
+hudler
+sheldon
 richman
+karen
+allard
+hummel
+kathleen
+arnold
+alexander
+dan
+rosenthal
+ayittey
+mary
+ruwart
+alan
+boch
+martin
+luther
+dagny
+sharon
+boddie
+meme
+jane
 shaw
+gus
+dizerega
+lamb
+sandy
+dodge
+amy
+lassen
+ebeling
+lieberman
+eric
+sterling
+ernsberger
+nancy
+lord
+stroup
+evers
+bonnie
+flickenger
+vince
+tanner
+fund
+maury
+modine
+sojourner
+truth
+doris
+nolan
+yuri
+tuvim
+leon
+hadar
+randall
+otoole
+ostrowski
+terree
+wasley
+dirk
+pearson
+perry
+willis
 jr
+poole
+winger
+jacob
+honrberger
+carole
+rand
+jarret
+wollstein
+brigham
+upcoming
+developments
 packages
+exhibitsadvertising
+450
 350
 275
+tapes
+tickets
+adoption
+treasurers
+nonnominating
+nonpresidential
+nominating
+candidates
+vicepresident
 election
+atlarge
+resolutions
+grumbles
+grins
+criticism
+payable
+voted
+disclaimer
 speak
+copyright
+uunetdsdescomrthomson
+irc
+pext
 cantaloupesrvcscmueducrabapplesrvcscmuedufs7ececmuedueuropaenggtefsdcomhowlandrestonansnetgatechrutgersigorrutgerseduathosrutgerseduchristian
 by028clevelandfreenetedu
 cavano
@@ -5001,218 +7940,2410 @@ tog
 TOPIC 0
 Top 3 words:
 ---------------
-compsyshp: 0.0245
-intended: 0.0245
-apparently: 0.0245
+prefix: 0.0193
+backonvmshujiacil: 0.0193
+overland: 0.0193
 
 TOPIC 0
 Bottom 3 words:
 ---------------
-mean: 0.0000
-disciple: 0.0000
-driving: 0.0000
+replace: 0.0000
+amazing: 0.0000
+x11r3: 0.0000
 
 TOPIC 1
 Top 3 words:
 ---------------
-scibio11831: 0.0243
-apr10053025199314322athosrutgersedu: 0.0243
-miracle: 0.0243
+threedimensional: 0.0194
+convert: 0.0194
+beat: 0.0194
 
 TOPIC 1
 Bottom 3 words:
 ---------------
-rmmcbnewsgcbattcom: 0.0000
-75: 0.0000
-68: 0.0000
+scispace59872: 0.0000
+watched: 0.0000
+direct: 0.0000
 
 TOPIC 2
 Top 3 words:
 ---------------
-sole: 0.0245
-marriott: 0.0245
-demand: 0.0245
+egreeneastsuncom: 0.0194
+liked: 0.0194
+1248163264128: 0.0194
 
 TOPIC 2
 Bottom 3 words:
 ---------------
-harware: 0.0000
-crossposts: 0.0000
-portal: 0.0000
+dutch: 0.0000
+1why: 0.0000
+guzzetta: 0.0000
 
 TOPIC 3
 Top 3 words:
 ---------------
-compsysmachardware50424: 0.0244
-long: 0.0244
-later: 0.0244
+w3123: 0.0193
+focus: 0.0193
+game: 0.0193
 
 TOPIC 3
 Bottom 3 words:
 ---------------
-alvin: 0.0000
-sgoldstealudrauscedu: 0.0000
-liberalevangelical: 0.0000
+composed: 0.0000
+felony: 0.0000
+uars: 0.0000
 
 TOPIC 4
 Top 3 words:
 ---------------
-snappycomebacktm: 0.0246
-volante: 0.0246
-drawing: 0.0246
+rootwindowofscreen: 0.0194
+157s: 0.0194
+abort: 0.0194
 
 TOPIC 4
 Bottom 3 words:
 ---------------
-34: 0.0000
-aa25933: 0.0000
-114136: 0.0000
+truth: 0.0000
+primitive: 0.0000
+rhodes: 0.0000
 
 TOPIC 5
 Top 3 words:
 ---------------
-oneeigth: 0.0245
-spec: 0.0245
-began: 0.0245
+pittsburgh: 0.0195
+talk: 0.0195
+flight: 0.0195
 
 TOPIC 5
 Bottom 3 words:
 ---------------
-broken: 0.0000
-muslims: 0.0000
-related: 0.0000
+link: 0.0000
+yuri: 0.0000
+bulletin: 0.0000
 
 TOPIC 6
 Top 3 words:
 ---------------
-son: 0.0247
-1453: 0.0247
-cj: 0.0247
+motorcyclists: 0.0193
+recmotorcyclesracing1931: 0.0193
+zionism: 0.0193
 
 TOPIC 6
 Bottom 3 words:
 ---------------
-daily: 0.0000
-scsi1: 0.0000
-nonavailability: 0.0000
+importantly: 0.0000
+greatest: 0.0000
+incomplete: 0.0000
 
 TOPIC 7
 Top 3 words:
 ---------------
-contact: 0.0244
-ppm: 0.0244
-makefiles: 0.0244
+gain: 0.0194
+mark: 0.0194
+cctutfi: 0.0194
 
 TOPIC 7
 Bottom 3 words:
 ---------------
-developed: 0.0000
-emphasis: 0.0000
-remove: 0.0000
+rumors: 0.0000
+electronic: 0.0000
+pullinen: 0.0000
 
 TOPIC 8
 Top 3 words:
 ---------------
-55: 0.0245
-section: 0.0245
-magazine: 0.0245
+sei: 0.0194
+host: 0.0194
+chlorofluorocarbon: 0.0194
 
 TOPIC 8
 Bottom 3 words:
 ---------------
-cee: 0.0000
-divide: 0.0000
-ibm: 0.0000
+usrlibx11tnc: 0.0000
+past: 0.0000
+listservugabitnet: 0.0000
 
 TOPIC 9
 Top 3 words:
 ---------------
-manual: 0.0245
-1pprtvinnctlaludrauscedu: 0.0244
-annual: 0.0244
+spacecraft: 0.0195
+regardless: 0.0195
+specifies: 0.0195
 
 TOPIC 9
 Bottom 3 words:
 ---------------
-eisa: 0.0000
-conservative: 0.0000
-scaling: 0.0000
+henry: 0.0000
+x10r4: 0.0000
+release: 0.0000
 
 
 
 ITERATION 1
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1067.2341083815481
+		Minimizer returned code 1 after 121 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 16582.544410012393
+		Minimizer returned code 4 after 69 iterations
+		(Message: Linear search failed)
+
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 4888.277147546258
+		Minimizer returned code 1 after 10 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 330.60337957021375
+		Minimizer returned code 1 after 28 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 
 ITERATION 2
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 370.5589489808481
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
 		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 7793.7300574953115
+		Minimizer returned code 4 after 68 iterations
+		(Message: Linear search failed)
+
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 601.3377366118366
+		Minimizer returned code 1 after 9 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 179.156494706207
+		Minimizer returned code 1 after 24 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 
 ITERATION 3
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 113.25472565747623
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
 		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 3431.0731508352474
+		Minimizer returned code 4 after 118 iterations
+		(Message: Linear search failed)
+
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 173.13861942553194
+		Minimizer returned code 1 after 12 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 69.14730620260525
+		Minimizer returned code 1 after 42 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 
 ITERATION 4
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 45.407379464944825
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
 		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 3970.001514325064
+		Minimizer returned code 4 after 88 iterations
+		(Message: Linear search failed)
+
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 41.25361456934479
+		Minimizer returned code 0 after 7 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
+
 		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 32.54862495471025
+		Minimizer returned code 1 after 27 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 
 ITERATION 5
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 21.974001184338704
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
 		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 3454.8137550483953
+		Minimizer returned code 4 after 65 iterations
+		(Message: Linear search failed)
+
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 8.420345396792982
+		Minimizer returned code 1 after 7 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 17.44405490360805
+		Minimizer returned code 1 after 24 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 
 ITERATION 6
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 14.470927456277423
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
 		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 2429.671744124804
+		Minimizer returned code 4 after 69 iterations
+		(Message: Linear search failed)
+
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 1.1674410401610658
+		Minimizer returned code 1 after 13 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 11.984282942197751
+		Minimizer returned code 1 after 46 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 
 ITERATION 7
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 12.563876186381094
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
 		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 403.87994612249895
+		Minimizer returned code 4 after 80 iterations
+		(Message: Linear search failed)
+
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.012919042186695151
+		Minimizer returned code 1 after 5 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 10.52254543278832
+		Minimizer returned code 1 after 27 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 
 ITERATION 8
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 14.956743784598075
+		Minimizer returned code 1 after 61 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 641.6784842929337
+		Minimizer returned code 4 after 73 iterations
+		(Message: Linear search failed)
+
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.4122633335791761
+		Minimizer returned code 1 after 13 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 12.45341852598358
+		Minimizer returned code 1 after 42 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 
 ITERATION 9
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 13.738806714303792
+		Minimizer returned code 1 after 71 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 357.12507717640256
+		Minimizer returned code 4 after 69 iterations
+		(Message: Linear search failed)
+
 	Doing maximization step of EM process...
 		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.564822193569853
+		Minimizer returned code 1 after 13 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 11.675674846279435
+		Minimizer returned code 1 after 47 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 
 ITERATION 10
 	Doing expectation step of EM process...
 		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 11.65449418220669
+		Minimizer returned code 4 after 113 iterations
+		(Message: Linear search failed)
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 218.9319686469098
+		Minimizer returned code 4 after 90 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.4492768446361879
+		Minimizer returned code 1 after 16 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 10.01042869174853
+		Minimizer returned code 1 after 37 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+TOPIC 0
+Top 3 words:
+---------------
+apr: 0.2610
+newsgroups: 0.2437
+date: 0.2425
+
+TOPIC 0
+Bottom 3 words:
+---------------
+nasas: -0.0025
+marketing: -0.0023
+reynolds: -0.0023
+
+TOPIC 1
+Top 3 words:
+---------------
+apr: 0.2700
+newsgroups: 0.2500
+date: 0.2496
+
+TOPIC 1
+Bottom 3 words:
+---------------
+12992166: -0.0024
+xenvironment: -0.0024
+interviews: -0.0024
+
+TOPIC 2
+Top 3 words:
+---------------
+apr: 0.2662
+newsgroups: 0.2501
+organization: 0.2483
+
+TOPIC 2
+Bottom 3 words:
+---------------
+monster: -0.0025
+badcolor: -0.0024
+xtcallconverter: -0.0024
+
+TOPIC 3
+Top 3 words:
+---------------
+apr: 0.2707
+newsgroups: 0.2479
+date: 0.2471
+
+TOPIC 3
+Bottom 3 words:
+---------------
+allocating: -0.0028
+xenvironment: -0.0027
+mutual: -0.0026
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.2651
+organization: 0.2452
+newsgroups: 0.2444
+
+TOPIC 4
+Bottom 3 words:
+---------------
+xtappsetwarninghandler: -0.0024
+canopus: -0.0024
+horizon: -0.0023
+
+TOPIC 5
+Top 3 words:
+---------------
+apr: 0.2727
+newsgroups: 0.2550
+organization: 0.2518
+
+TOPIC 5
+Bottom 3 words:
+---------------
+1000: -0.0026
+constrained: -0.0025
+1341718100: -0.0025
+
+TOPIC 6
+Top 3 words:
+---------------
+apr: 0.2653
+newsgroups: 0.2501
+date: 0.2480
+
+TOPIC 6
+Bottom 3 words:
+---------------
+exchangable: -0.0028
+strictly: -0.0027
+corrective: -0.0026
+
+TOPIC 7
+Top 3 words:
+---------------
+apr: 0.2739
+newsgroups: 0.2526
+date: 0.2509
+
+TOPIC 7
+Bottom 3 words:
+---------------
+enumeration: -0.0026
+query: -0.0025
+followed: -0.0024
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.2563
+newsgroups: 0.2424
+date: 0.2401
+
+TOPIC 8
+Bottom 3 words:
+---------------
+usrlibx11tnc: -0.0024
+companswers381: -0.0024
+greyscale: -0.0024
+
+TOPIC 9
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2509
+date: 0.2482
+
+TOPIC 9
+Bottom 3 words:
+---------------
+unidentified: -0.0027
+badatom: -0.0022
+xw: -0.0022
+
+
+Saving model to ./data/models/very__2018-03-13.pickle
+TOPIC 0
+Top 3 words:
+---------------
+apr: 0.2610
+newsgroups: 0.2437
+date: 0.2425
+
+TOPIC 0
+Bottom 3 words:
+---------------
+nasas: -0.0025
+marketing: -0.0023
+reynolds: -0.0023
+
+TOPIC 1
+Top 3 words:
+---------------
+apr: 0.2700
+newsgroups: 0.2500
+date: 0.2496
+
+TOPIC 1
+Bottom 3 words:
+---------------
+12992166: -0.0024
+xenvironment: -0.0024
+interviews: -0.0024
+
+TOPIC 2
+Top 3 words:
+---------------
+apr: 0.2662
+newsgroups: 0.2501
+organization: 0.2483
+
+TOPIC 2
+Bottom 3 words:
+---------------
+monster: -0.0025
+badcolor: -0.0024
+xtcallconverter: -0.0024
+
+TOPIC 3
+Top 3 words:
+---------------
+apr: 0.2707
+newsgroups: 0.2479
+date: 0.2471
+
+TOPIC 3
+Bottom 3 words:
+---------------
+allocating: -0.0028
+xenvironment: -0.0027
+mutual: -0.0026
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.2651
+organization: 0.2452
+newsgroups: 0.2444
+
+TOPIC 4
+Bottom 3 words:
+---------------
+xtappsetwarninghandler: -0.0024
+canopus: -0.0024
+horizon: -0.0023
+
+TOPIC 5
+Top 3 words:
+---------------
+apr: 0.2727
+newsgroups: 0.2550
+organization: 0.2518
+
+TOPIC 5
+Bottom 3 words:
+---------------
+1000: -0.0026
+constrained: -0.0025
+1341718100: -0.0025
+
+TOPIC 6
+Top 3 words:
+---------------
+apr: 0.2653
+newsgroups: 0.2501
+date: 0.2480
+
+TOPIC 6
+Bottom 3 words:
+---------------
+exchangable: -0.0028
+strictly: -0.0027
+corrective: -0.0026
+
+TOPIC 7
+Top 3 words:
+---------------
+apr: 0.2739
+newsgroups: 0.2526
+date: 0.2509
+
+TOPIC 7
+Bottom 3 words:
+---------------
+enumeration: -0.0026
+query: -0.0025
+followed: -0.0024
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.2563
+newsgroups: 0.2424
+date: 0.2401
+
+TOPIC 8
+Bottom 3 words:
+---------------
+usrlibx11tnc: -0.0024
+companswers381: -0.0024
+greyscale: -0.0024
+
+TOPIC 9
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2509
+date: 0.2482
+
+TOPIC 9
+Bottom 3 words:
+---------------
+unidentified: -0.0027
+badatom: -0.0022
+xw: -0.0022
+
+
+
+ITERATION 1
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 9.409386755898595
+		Minimizer returned code 1 after 74 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 135.04706288340094
+		Minimizer returned code 4 after 71 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.14222456014249474
+		Minimizer returned code 1 after 19 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 8.074867127230391
+		Minimizer returned code 1 after 24 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 2
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 7.192553016822785
+		Minimizer returned code 1 after 70 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 72.8051034067903
+		Minimizer returned code 4 after 67 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.041739643886103295
+		Minimizer returned code 0 after 5 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 6.267156774876639
+		Minimizer returned code 1 after 23 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 3
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 5.633635591715574
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 25.59209819448006
+		Minimizer returned code 1 after 69 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.005283295075059868
+		Minimizer returned code 1 after 5 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 4.931350011378527
+		Minimizer returned code 1 after 53 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 4
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 4.318636087002233
+		Minimizer returned code 1 after 84 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 9.627291483964655
+		Minimizer returned code 4 after 67 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0009583440405549482
+		Minimizer returned code 1 after 5 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.8947804383933544
+		Minimizer returned code 1 after 21 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 5
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 3.492712585721165
+		Minimizer returned code 1 after 144 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 1.0868404020293383
+		Minimizer returned code 1 after 75 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.00021400889090728015
+		Minimizer returned code 1 after 7 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 3.1142290253192186
+		Minimizer returned code 1 after 19 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 6
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.7145133395679295
+		Minimizer returned code 1 after 132 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.5732676011975855
+		Minimizer returned code 1 after 75 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 0.0002052064228337258
+		Minimizer returned code 1 after 8 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.5409191944636405
+		Minimizer returned code 1 after 23 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 2.239703619387001
+		Minimizer returned code 1 after 118 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.30846668541198596
+		Minimizer returned code 4 after 57 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 9.493202378507704e-05
+		Minimizer returned code 1 after 10 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 2.1088543962687254
+		Minimizer returned code 1 after 20 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1.8751919995993376
+		Minimizer returned code 1 after 74 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 2.0431059951952193
+		Minimizer returned code 1 after 73 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 5.366752156987786e-05
+		Minimizer returned code 1 after 7 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1.774000879842788
+		Minimizer returned code 1 after 21 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 9
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1.5909415585920215
+		Minimizer returned code 1 after 52 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 24 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 5.05003408761695e-05
+		Minimizer returned code 1 after 7 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1.5107593932189047
+		Minimizer returned code 1 after 27 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 10
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1.3641587076708674
+		Minimizer returned code 1 after 39 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 6.857538526397548
+		Minimizer returned code 4 after 103 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 3.7688587326556444e-05
+		Minimizer returned code 1 after 8 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1.300168544985354
+		Minimizer returned code 1 after 44 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+TOPIC 0
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 0
+Bottom 3 words:
+---------------
+deadlock: 0.0001
+constrained: 0.0001
+mseconds: 0.0001
+
+TOPIC 1
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 1
+Bottom 3 words:
+---------------
+defaultdepthofscreen: 0.0001
+donestrstr: 0.0001
+yellow: 0.0001
+
+TOPIC 2
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 2
+Bottom 3 words:
+---------------
+poll: 0.0001
+yellow: 0.0001
+fills: 0.0001
+
+TOPIC 3
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 3
+Bottom 3 words:
+---------------
+mutual: 0.0001
+janpandoniacanberraeduau: 0.0001
+defaultdepthofscreen: 0.0001
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 4
+Bottom 3 words:
+---------------
+janpandoniacanberraeduau: 0.0001
+xtappsetwarninghandler: 0.0001
+mseconds: 0.0001
+
+TOPIC 5
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 5
+Bottom 3 words:
+---------------
+constrained: 0.0001
+deadlock: 0.0001
+arises: 0.0001
+
+TOPIC 6
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 6
+Bottom 3 words:
+---------------
+donestrstr: 0.0001
+constrained: 0.0001
+sloppy: 0.0001
+
+TOPIC 7
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 7
+Bottom 3 words:
+---------------
+enumeration: 0.0001
+mseconds: 0.0001
+fills: 0.0001
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 8
+Bottom 3 words:
+---------------
+constrained: 0.0001
+defaultdepthofscreen: 0.0001
+arises: 0.0001
+
+TOPIC 9
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 9
+Bottom 3 words:
+---------------
+1000: 0.0001
+internals: 0.0001
+x11shellh: 0.0001
+
+
+Saving model to ./data/models/very__2018-03-13.pickle
+TOPIC 0
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 0
+Bottom 3 words:
+---------------
+deadlock: 0.0001
+constrained: 0.0001
+mseconds: 0.0001
+
+TOPIC 1
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 1
+Bottom 3 words:
+---------------
+defaultdepthofscreen: 0.0001
+donestrstr: 0.0001
+yellow: 0.0001
+
+TOPIC 2
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 2
+Bottom 3 words:
+---------------
+poll: 0.0001
+yellow: 0.0001
+fills: 0.0001
+
+TOPIC 3
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 3
+Bottom 3 words:
+---------------
+mutual: 0.0001
+janpandoniacanberraeduau: 0.0001
+defaultdepthofscreen: 0.0001
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 4
+Bottom 3 words:
+---------------
+janpandoniacanberraeduau: 0.0001
+xtappsetwarninghandler: 0.0001
+mseconds: 0.0001
+
+TOPIC 5
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 5
+Bottom 3 words:
+---------------
+constrained: 0.0001
+deadlock: 0.0001
+arises: 0.0001
+
+TOPIC 6
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 6
+Bottom 3 words:
+---------------
+donestrstr: 0.0001
+constrained: 0.0001
+sloppy: 0.0001
+
+TOPIC 7
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 7
+Bottom 3 words:
+---------------
+enumeration: 0.0001
+mseconds: 0.0001
+fills: 0.0001
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 8
+Bottom 3 words:
+---------------
+constrained: 0.0001
+defaultdepthofscreen: 0.0001
+arises: 0.0001
+
+TOPIC 9
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 9
+Bottom 3 words:
+---------------
+1000: 0.0001
+internals: 0.0001
+x11shellh: 0.0001
+
+
+
+ITERATION 1
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1.183152771089226
+		Minimizer returned code 1 after 39 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.013272642900119536
+		Minimizer returned code 4 after 73 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 2.8078778996132314e-05
+		Minimizer returned code 1 after 11 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 1.1300678253173828
+		Minimizer returned code 1 after 20 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 2
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 1.033108337316662
+		Minimizer returned code 1 after 37 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.029859114554710686
+		Minimizer returned code 4 after 52 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 2.1342842956073582e-05
+		Minimizer returned code 1 after 10 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.9897170965559781
+		Minimizer returned code 1 after 19 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 3
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.9094889387488365
+		Minimizer returned code 1 after 37 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.00548169833200518
+		Minimizer returned code 4 after 48 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 1.667598553467542e-05
+		Minimizer returned code 1 after 10 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.8733435492031276
+		Minimizer returned code 1 after 19 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 4
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.8062279252335429
+		Minimizer returned code 1 after 50 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.06345767698076088
+		Minimizer returned code 1 after 149 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 1.6224017599597573e-05
+		Minimizer returned code 1 after 10 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.7758154333569109
+		Minimizer returned code 1 after 19 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 5
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.7228040592744946
+		Minimizer returned code 1 after 39 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.95960366044892
+		Minimizer returned code 4 after 60 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 7.754832040518522e-06
+		Minimizer returned code 1 after 14 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.694173482246697
+		Minimizer returned code 1 after 19 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 6
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.6457973318174481
+		Minimizer returned code 1 after 59 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.04407081211684272
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 8.732546120882034e-06
+		Minimizer returned code 1 after 10 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.623555326834321
+		Minimizer returned code 1 after 19 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.5825724499300122
+		Minimizer returned code 1 after 69 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.00247225932253059
+		Minimizer returned code 1 after 55 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 6.970600225031376e-06
+		Minimizer returned code 1 after 14 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.5627216501161456
+		Minimizer returned code 1 after 28 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.5269220257177949
+		Minimizer returned code 1 after 65 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.011288017383776605
+		Minimizer returned code 4 after 78 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 5.6868011597543955e-06
+		Minimizer returned code 1 after 14 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.5104563804343343
+		Minimizer returned code 1 after 19 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 9
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.47936865128576756
+		Minimizer returned code 1 after 119 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.011176809828612022
+		Minimizer returned code 1 after 49 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 4.67285281047225e-06
+		Minimizer returned code 1 after 11 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.46498633828014135
+		Minimizer returned code 1 after 19 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 10
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.43784033972769976
+		Minimizer returned code 1 after 147 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.00039699694025330245
+		Minimizer returned code 4 after 41 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 3.938126610592008e-06
+		Minimizer returned code 1 after 38 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.4252343252301216
+		Minimizer returned code 1 after 19 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+TOPIC 0
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 0
+Bottom 3 words:
+---------------
+deadlock: 0.0001
+constrained: 0.0001
+mseconds: 0.0001
+
+TOPIC 1
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 1
+Bottom 3 words:
+---------------
+defaultdepthofscreen: 0.0001
+donestrstr: 0.0001
+yellow: 0.0001
+
+TOPIC 2
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 2
+Bottom 3 words:
+---------------
+poll: 0.0001
+yellow: 0.0001
+janpandoniacanberraeduau: 0.0001
+
+TOPIC 3
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 3
+Bottom 3 words:
+---------------
+constrained: 0.0001
+defaultdepthofscreen: 0.0001
+janpandoniacanberraeduau: 0.0001
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 4
+Bottom 3 words:
+---------------
+janpandoniacanberraeduau: 0.0001
+mseconds: 0.0001
+exiting: 0.0001
+
+TOPIC 5
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 5
+Bottom 3 words:
+---------------
+constrained: 0.0001
+deadlock: 0.0001
+defaultdepthofscreen: 0.0001
+
+TOPIC 6
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 6
+Bottom 3 words:
+---------------
+constrained: 0.0001
+donestrstr: 0.0001
+sloppy: 0.0001
+
+TOPIC 7
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 7
+Bottom 3 words:
+---------------
+constrained: 0.0001
+janpandoniacanberraeduau: 0.0001
+mseconds: 0.0001
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 8
+Bottom 3 words:
+---------------
+constrained: 0.0001
+defaultdepthofscreen: 0.0001
+arises: 0.0001
+
+TOPIC 9
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 9
+Bottom 3 words:
+---------------
+1000: 0.0001
+51492: 0.0001
+internals: 0.0001
+
+
+Saving model to ./data/models/very__2018-03-13.pickle
+TOPIC 0
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 0
+Bottom 3 words:
+---------------
+deadlock: 0.0001
+constrained: 0.0001
+mseconds: 0.0001
+
+TOPIC 1
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 1
+Bottom 3 words:
+---------------
+defaultdepthofscreen: 0.0001
+donestrstr: 0.0001
+yellow: 0.0001
+
+TOPIC 2
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 2
+Bottom 3 words:
+---------------
+poll: 0.0001
+yellow: 0.0001
+janpandoniacanberraeduau: 0.0001
+
+TOPIC 3
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 3
+Bottom 3 words:
+---------------
+constrained: 0.0001
+defaultdepthofscreen: 0.0001
+janpandoniacanberraeduau: 0.0001
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 4
+Bottom 3 words:
+---------------
+janpandoniacanberraeduau: 0.0001
+mseconds: 0.0001
+exiting: 0.0001
+
+TOPIC 5
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 5
+Bottom 3 words:
+---------------
+constrained: 0.0001
+deadlock: 0.0001
+defaultdepthofscreen: 0.0001
+
+TOPIC 6
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 6
+Bottom 3 words:
+---------------
+constrained: 0.0001
+donestrstr: 0.0001
+sloppy: 0.0001
+
+TOPIC 7
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 7
+Bottom 3 words:
+---------------
+constrained: 0.0001
+janpandoniacanberraeduau: 0.0001
+mseconds: 0.0001
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 8
+Bottom 3 words:
+---------------
+constrained: 0.0001
+defaultdepthofscreen: 0.0001
+arises: 0.0001
+
+TOPIC 9
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 9
+Bottom 3 words:
+---------------
+1000: 0.0001
+51492: 0.0001
+internals: 0.0001
+
+
+
+ITERATION 1
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.4013747153803706
+		Minimizer returned code 1 after 124 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.00014120044943410903
+		Minimizer returned code 4 after 43 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 3.294742782600224e-06
+		Minimizer returned code 1 after 14 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.39022728614509106
+		Minimizer returned code 1 after 27 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 2
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.3691975502297282
+		Minimizer returned code 1 after 125 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 6.539426976814866e-06
+		Minimizer returned code 4 after 62 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 2.797518391162157e-06
+		Minimizer returned code 1 after 14 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.3592813294380903
+		Minimizer returned code 1 after 46 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 3
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.34063416440039873
+		Minimizer returned code 1 after 120 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 37 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 2.385539119131863e-06
+		Minimizer returned code 1 after 14 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.3318817801773548
+		Minimizer returned code 1 after 30 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 4
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.31523915380239487
+		Minimizer returned code 1 after 100 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 4.200264811515808e-07
+		Minimizer returned code 4 after 63 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 2.043569111265242e-06
+		Minimizer returned code 1 after 14 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.30741897225379944
+		Minimizer returned code 1 after 30 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 5
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.2925107544288039
+		Minimizer returned code 4 after 124 iterations
+		(Message: Linear search failed)
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 24 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 1.7661222955211997e-06
+		Minimizer returned code 1 after 13 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.28549808636307716
+		Minimizer returned code 1 after 30 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 6
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.272110503166914
+		Minimizer returned code 1 after 105 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.4900049258285435
+		Minimizer returned code 1 after 102 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 6.623085937462747e-06
+		Minimizer returned code 1 after 11 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.26579705718904734
+		Minimizer returned code 1 after 37 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.3611415633931756
+		Minimizer returned code 1 after 45 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 2.248635579366237
+		Minimizer returned code 4 after 62 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 1.2083255569450557e-05
+		Minimizer returned code 1 after 14 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.24195145349949598
+		Minimizer returned code 1 after 42 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.25268222764134407
+		Minimizer returned code 3 after 150 iterations
+		(Message: Max. number of function evaluations reached)
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.6591278371633962
+		Minimizer returned code 1 after 59 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 4.0979793993756175e-06
+		Minimizer returned code 1 after 11 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.22986510675400496
+		Minimizer returned code 1 after 32 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 9
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.2277235770598054
+		Minimizer returned code 1 after 127 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.24729140107228886
+		Minimizer returned code 4 after 59 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 2.0228471839800477e-06
+		Minimizer returned code 1 after 14 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.2165835229679942
+		Minimizer returned code 1 after 33 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 10
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.21171361301094294
+		Minimizer returned code 1 after 133 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.04185409481578972
+		Minimizer returned code 4 after 53 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 9.802461136132479e-07
+		Minimizer returned code 1 after 14 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.20400631800293922
+		Minimizer returned code 1 after 29 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+TOPIC 0
+Top 3 words:
+---------------
+apr: 0.2694
+newsgroups: 0.2508
+date: 0.2485
+
+TOPIC 0
+Bottom 3 words:
+---------------
+iriss: 0.0001
+eye757edp: 0.0001
+xtdisplay: 0.0001
+
+TOPIC 1
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2505
+date: 0.2484
+
+TOPIC 1
+Bottom 3 words:
+---------------
+admire: 0.0001
+continuetodispatch: 0.0001
+preempts: 0.0001
+
+TOPIC 2
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 2
+Bottom 3 words:
+---------------
+buffered: 0.0001
+xo: 0.0001
+preempts: 0.0001
+
+TOPIC 3
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 3
+Bottom 3 words:
+---------------
+newmarch: 0.0001
+shown: 0.0001
+popup: 0.0001
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 4
+Bottom 3 words:
+---------------
+newmarch: 0.0001
+iriss: 0.0001
+usrlibx11tnc: 0.0001
+
+TOPIC 5
+Top 3 words:
+---------------
+apr: 0.2689
+newsgroups: 0.2504
+date: 0.2483
+
+TOPIC 5
+Bottom 3 words:
+---------------
+tracing: 0.0001
+dnd: 0.0001
+exportlcsmiteducontribxaw3dtarz: 0.0001
+
+TOPIC 6
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 6
+Bottom 3 words:
+---------------
+124201: 0.0001
+encourage: 0.0001
+compwindowsx66322: 0.0001
+
+TOPIC 7
+Top 3 words:
+---------------
+apr: 0.2689
+newsgroups: 0.2504
+date: 0.2483
+
+TOPIC 7
+Bottom 3 words:
+---------------
+cantaloupesrvcscmueducrabapplesrvcscmuedubb3andrewcmuedunewsseicmueducisohiostateedubouncebounce: 0.0001
+overlayplane: 0.0001
+quin: 0.0001
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.2696
+newsgroups: 0.2510
+date: 0.2487
+
+TOPIC 8
+Bottom 3 words:
+---------------
+continuetodispatch: 0.0001
+iriss: 0.0001
+xtapperror: 0.0001
+
+TOPIC 9
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 9
+Bottom 3 words:
+---------------
+overlayplane: 0.0001
+collect: 0.0001
+wmcolormapwindows: 0.0001
+
+
+Saving model to ./data/models/very__2018-03-13.pickle
+TOPIC 0
+Top 3 words:
+---------------
+apr: 0.2694
+newsgroups: 0.2508
+date: 0.2485
+
+TOPIC 0
+Bottom 3 words:
+---------------
+iriss: 0.0001
+eye757edp: 0.0001
+xtdisplay: 0.0001
+
+TOPIC 1
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2505
+date: 0.2484
+
+TOPIC 1
+Bottom 3 words:
+---------------
+admire: 0.0001
+continuetodispatch: 0.0001
+preempts: 0.0001
+
+TOPIC 2
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 2
+Bottom 3 words:
+---------------
+buffered: 0.0001
+xo: 0.0001
+preempts: 0.0001
+
+TOPIC 3
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 3
+Bottom 3 words:
+---------------
+newmarch: 0.0001
+shown: 0.0001
+popup: 0.0001
+
+TOPIC 4
+Top 3 words:
+---------------
+apr: 0.2692
+newsgroups: 0.2507
+date: 0.2485
+
+TOPIC 4
+Bottom 3 words:
+---------------
+newmarch: 0.0001
+iriss: 0.0001
+usrlibx11tnc: 0.0001
+
+TOPIC 5
+Top 3 words:
+---------------
+apr: 0.2689
+newsgroups: 0.2504
+date: 0.2483
+
+TOPIC 5
+Bottom 3 words:
+---------------
+tracing: 0.0001
+dnd: 0.0001
+exportlcsmiteducontribxaw3dtarz: 0.0001
+
+TOPIC 6
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 6
+Bottom 3 words:
+---------------
+124201: 0.0001
+encourage: 0.0001
+compwindowsx66322: 0.0001
+
+TOPIC 7
+Top 3 words:
+---------------
+apr: 0.2689
+newsgroups: 0.2504
+date: 0.2483
+
+TOPIC 7
+Bottom 3 words:
+---------------
+cantaloupesrvcscmueducrabapplesrvcscmuedubb3andrewcmuedunewsseicmueducisohiostateedubouncebounce: 0.0001
+overlayplane: 0.0001
+quin: 0.0001
+
+TOPIC 8
+Top 3 words:
+---------------
+apr: 0.2696
+newsgroups: 0.2510
+date: 0.2487
+
+TOPIC 8
+Bottom 3 words:
+---------------
+continuetodispatch: 0.0001
+iriss: 0.0001
+xtapperror: 0.0001
+
+TOPIC 9
+Top 3 words:
+---------------
+apr: 0.2691
+newsgroups: 0.2506
+date: 0.2484
+
+TOPIC 9
+Bottom 3 words:
+---------------
+overlayplane: 0.0001
+collect: 0.0001
+wmcolormapwindows: 0.0001
+
+
+
+ITERATION 1
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.1960866115987301
+		Minimizer returned code 1 after 100 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.03264510438020807
+		Minimizer returned code 4 after 55 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 9.4209099188447e-07
+		Minimizer returned code 1 after 18 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.19200479984283447
+		Minimizer returned code 1 after 34 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 2
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.185631163418293
+		Minimizer returned code 1 after 103 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.003881429074681364
+		Minimizer returned code 1 after 52 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 7.09245796315372e-07
+		Minimizer returned code 1 after 14 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.1811041347682476
+		Minimizer returned code 1 after 36 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 3
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.17431019991636276
+		Minimizer returned code 1 after 92 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.002465408426360227
+		Minimizer returned code 4 after 74 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 6.330083124339581e-07
+		Minimizer returned code 4 after 38 iterations
+		(Message: Linear search failed)
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.1709577776491642
+		Minimizer returned code 1 after 32 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 4
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.1646369118243456
+		Minimizer returned code 1 after 124 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.0
+		Minimizer returned code 4 after 39 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 5.597685230895877e-07
+		Minimizer returned code 1 after 17 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.1616013403981924
+		Minimizer returned code 1 after 28 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 5
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.15401647798717022
+		Minimizer returned code 1 after 100 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.00010404195927549154
+		Minimizer returned code 4 after 66 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 4.997127689421177e-07
+		Minimizer returned code 1 after 17 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.1530374251306057
+		Minimizer returned code 1 after 32 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 6
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.1476693209260702
+		Minimizer returned code 1 after 104 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.012082417888450436
+		Minimizer returned code 4 after 120 iterations
+		(Message: Linear search failed)
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 5.214678822085261e-07
+		Minimizer returned code 1 after 17 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.145083824172616
+		Minimizer returned code 1 after 30 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 7
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.1401607096195221
+		Minimizer returned code 4 after 122 iterations
+		(Message: Linear search failed)
+
+		Optimizing parameter: vMu
+		Optimized parameter: vMu with improvement of 0.10787621505733114
+		Minimizer returned code 1 after 55 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+	Doing maximization step of EM process...
+		Optimizing parameter: xi
+		Optimized parameter: xi with improvement of 3.492605173960328e-07
+		Minimizer returned code 0 after 3 iterations
+		(Message: Local minimum reached( | pg | ~ = 0))
+
+		Optimizing parameter: alpha
+		Optimized parameter: alpha with improvement of 0.13769221492111683
+		Minimizer returned code 1 after 36 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
+
+ITERATION 8
+	Doing expectation step of EM process...
+		Optimizing parameter: vAlpha
+		Optimized parameter: vAlpha with improvement of 0.1330907866358757
+		Minimizer returned code 1 after 91 iterations
+		(Message: Converged (|f_n-f_(n-1)| ~= 0))
+
 		Optimizing parameter: vMu

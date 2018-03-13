@@ -64,7 +64,7 @@ class SphericalAdmixture(Algorithm):
     def eval_methods(self):
         return ['coherence', 'accuracy']
 
-    def evaluate(self, method, score_file, iteration_counter=None):
+    def evaluate(self, method, score_file, iteration_counter=None, top_topic_words_ct = 10):
         if method == 'coherence':
             # coherence method stolen from ankura, just to make sure
             # the results are comparable to the topic modeling we did with ankura
@@ -77,7 +77,7 @@ class SphericalAdmixture(Algorithm):
                 words_to_index[word] = i
 
             topic_summary = np.array([[words_to_index[w] for w,v in topic] for topic in self.topics])
-            topic_summary = topic_summary[:,:50]
+            topic_summary = topic_summary[:,:top_topic_words_ct]
             scores = validate.coherence(aw.corpus, topic_summary)
 
             scores_file = os.path.join(self.output_path, 'coherence.txt') \
