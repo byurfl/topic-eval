@@ -1,0 +1,7 @@
+How do you go about orienting all normals in the same direction, given a set of points, edges and faces?
+Say that you had a cube with all faces that have their normals facing outwards, except for one face.
+What's the best way to realize that face is "flipped", and should have it's points re-ordered?
+I thought I had a good way of telling this, but then realized that the algorithm I had would only tell you if you had points in clockwise order for a 2d polygon.
+I'd like something for 3d data.
+Any hints, tips, references would be appreciated.
+Steve -- Where humor is concerned there are no standards -- no one can say what is good or bad, although you can be sure that everyone will.

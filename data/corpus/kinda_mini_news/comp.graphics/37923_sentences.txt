@@ -1,0 +1,3 @@
+Why didn't you create 8 grey-level images, and display them for 1,2,4,8,16,32,64,128... time slices?
+This requires the same total exposure time, and the same precision in timing, but drastically reduces the image-preparation time, no?
+-- Kenneth Sloan Computer and Information Sciences sloan@cis.uab.edu University of Alabama at Birmingham (205) 934-2213 115A Campbell Hall, UAB Station (205) 934-5473 FAX Birmingham, AL 35294-1170

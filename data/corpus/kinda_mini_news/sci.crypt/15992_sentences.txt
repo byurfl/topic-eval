@@ -1,0 +1,4 @@
+Why don't we move down even further toward the masses by setting this up on an IBM PC clone(probably needs to be a 386 or a 486) with a sound blaster and a V.32bis modem.
+Those components are very widely available.
+I don't know if the PC has enough horsepower to encrypt the data at realtime, but the sound blaster has 4 to 1 hardware compression and will work at any sampling rate from 4KHz to 23 KHz.
+Doug Holland -- | Doug Holland | Anyone who tries to take away my freedom | | holland@cs.colostate.edu | of speech will have to pry it from my | | PGP key available by E-mail | cold, dead lips!!

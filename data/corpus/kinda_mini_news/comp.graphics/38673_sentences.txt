@@ -1,0 +1,4 @@
+Wrong...the major improvements for 2.01 and 2.01a are in the use of IPAS routines for 3d studio.
+They have increased in speed anywhere from 30-200% depending on which ones you use.
+All the Yost group IPAS routines that you can buy separate from the 3d studio package require the use of 2.01 or 2.01a.
+They are too slow with 2.00.

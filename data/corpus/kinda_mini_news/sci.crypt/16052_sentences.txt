@@ -1,0 +1,6 @@
+There's a better way.
+Doesn't Qualcom have a secure design that it decided not to market?
+Since they aren't going to use it, wouldn't the patriotic thing be to put the design in the public domain?
+How about selling a "Cryptography Educational Kit" with the critical parts?
+Something that could end up as a PC option board with two phone jacks?
+Cheers, Marc --- Marc Thibault | marc@tanda.isis.org Automation Architect | R.R.1, Oxford Mills, Ontario, Canada | NC FreeNet: aa185

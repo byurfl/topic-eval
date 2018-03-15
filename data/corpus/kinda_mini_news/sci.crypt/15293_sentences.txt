@@ -1,0 +1,3 @@
+Ljunggren,W., On the Irreducibility of Certain Trinomials and Quadrinomials.
+Tverberg,H., On the Irreducibility of the Trinomials x$+n$-$mpm$$x$+m$-$mpm$$1.
+Tverberg,H., On Cubic Factors of Certain Trinomials.

@@ -1,0 +1,2 @@
+Computer Graphics Resource Listing : WEEKLY POSTING [ PART 2/3 ] ==================================================Last Change : 27 April 1993 14.
+Plotting packages ==================== Gnuplot 3.2

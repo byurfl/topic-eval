@@ -1,0 +1,1 @@
+Since you're worrying about the third decimal place, I assume you're using 1% tolerance resistors and capacitors?

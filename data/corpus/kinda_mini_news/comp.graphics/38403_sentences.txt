@@ -1,0 +1,25 @@
+This FAQ article discusses JPEG image compression.
+Suggestions for additions and clarifications are welcome.
+New since version of 3 April 1993: * New versions of Image Archiver and PMJPEG for OS/2.
+This article includes the following sections: [1] What is JPEG?
+[2] Why use JPEG?
+[3] When should I use JPEG, and when should I stick with GIF?
+[4] How well does JPEG compress images?
+[5] What are good "quality" settings for JPEG?
+[6] Where can I get JPEG software?
+[6A] "canned" software, viewers, etc.
+[6B] source code [7] What's all this hoopla about color quantization?
+[8] How does JPEG work?
+[9] What about lossless JPEG?
+[10] Why all the argument about file formats?
+[11] How do I recognize which file format I have, and what do I do about it?
+[12] What about arithmetic coding?
+[13] Does loss accumulate with repeated compression/decompression?
+[14] What are some rules of thumb for converting GIF images to JPEG?
+Sections 1-6 are basic info that every JPEG user needs to know; sections 7-14 are advanced info for the curious.
+This article is posted every 2 weeks.
+You can always find the latest version in the news.answers archive at rtfm.mit.edu (18.172.1.27).
+By FTP, fetch /pub/usenet/news.answers/jpeg-faq; or if you don't have FTP, send e-mail to mail-server@rtfm.mit.edu with body "send usenet/news.answers/jpeg-faq".
+Many other FAQ articles are also stored in this archive.
+For more instructions on use of the archive, send e-mail to the same address with the words "help" and "index" (no quotes) on separate lines.
+If you don't get a reply, the server may be misreading your return address; add a line such as "path myname@mysite" to specify your correct e-mail address to reply to.

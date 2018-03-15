@@ -1,0 +1,1 @@
+International, makers of the Watchdog(tm) PC security package offers a hardware implementation of DES as an add-on to that package.

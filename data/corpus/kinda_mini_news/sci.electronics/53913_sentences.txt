@@ -1,0 +1,5 @@
+The point is that the original poster was talking about connecting ground and neutral in the *outlet* box (big NO NO), and you are talking about them being connected in the breaker box (as things should be).
+If this is not obvious, the point is that there should be current flow in the white, i.e.
+neutral/return wires when things in the house are operating.
+There should not be any flow in the ground wires unless there is a fault condition.
+Notice also that in the breaker box there is a wire leading from the above-mentioned junction to earth ground, usually a pipe or spike driven into the ground.

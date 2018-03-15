@@ -1,0 +1,4 @@
+So in a few years there could be millions of these chips in the USA, all networked together?
+Sounds like a good science fiction story - the government wants to crack foreign DES (or whatever) messages, so they con the public into individually buying all of the components and installing them.
+Soon the US could be covered by the largest parallel computer in the world, built on top of our current phone net.
+-- | "Those who suppress freedom always Rob Quinn | | do so in the name of law rjq@phys.ksu.edu | | and order."

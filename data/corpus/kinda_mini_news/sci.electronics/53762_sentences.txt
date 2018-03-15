@@ -1,0 +1,5 @@
+The rule for the designations is that if it says MC, that means it works *exactly* the way the datasheet/book specifies.
+If it says XC, that means there is at least one known bug.
+Often these bugs are small and obscure; you might never run into them in practice.
+At least Motorola admits it, unlike certain other companies... -- All work is one man's work.
+| Henry Spencer @ U of Toronto Zoology - Kipling | henry@zoo.toronto.edu utzoo!henry

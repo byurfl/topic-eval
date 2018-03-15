@@ -1,0 +1,7 @@
+Though some may argue about the nose of the camel, it's worth noting that the government proposal is limited to scrambled telephony.
+If it is only used for that purpose, and does not extend to electronic mail or file encryption, then it IS an improvement over the current mass-produced standard civilian technology which, with a few exceptions, is limited to easy-to-break inverters.
+Note that the big issue for the feds is the continued ability to wiretap.
+Before we go off the deep end with long discusions about secure crypto for e-mail and files, let's focus on this.
+One question that was not asked in the release is whether this proposal is limited to telephony, or if the government intends to expand it.
+Though I share many of the concerns expressed by some, I find the proposal less threatening than many others, since right now most Americans have no secure telephony, and any jerk with a pair of clip leads and a "goat" can eavesdrop.
+This would also plug up the security hole in cellular and cordless phones.

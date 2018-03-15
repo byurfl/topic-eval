@@ -1,0 +1,12 @@
+in 
+a 
+word 
+yes 
+prices 
+avg 
+retail 
+sedan 
+le 
+sedan 
+se 
+sedan 

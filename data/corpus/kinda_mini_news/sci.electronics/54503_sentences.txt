@@ -1,0 +1,4 @@
+Sorry about following up my own article, but I wanted to continue that what might be being missed here is that the important thing might not be temperature differences per se, but the action of heat sinking the battery.
+Perhap someone could conduct an experiment, taking two identical lead acid batteries, placing both on wooden shelves, but putting one of them in a water bath designed to act as a heat sink.
+This would eliminate the 'concrete floor effect', and keep both batteries at the same ambient temperature.
+I think the argument over temperatures is not pertinent, but the one over heat conductance and removing the exothermic heat may have some validity.

@@ -1,0 +1,3 @@
+Lets see if I have this right... HSV == HSB == HSL ... and none of those are the same as HLS.
+Hopefully, HVS is just a transposition of HSV, and not yet another color model...
+The following code should do the HSV (HSL) coding (I haven't tried it yet) (Thanks to bultman@dgw.rws.nl) Another possibility is /mirrors/msdos/graphics/graphgem.zip on wuarchive.wustl.edu.

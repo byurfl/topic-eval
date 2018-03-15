@@ -1,0 +1,6 @@
+Steiner) writes: are LCD displays vulnerable to tempest?
+I can see high-voltage type display devices being vulnerable (CRTs, plasma displays, etc.)
+But Jason beat me to this question.
+What about EM radiation from low-voltage items like LCD displays?
+Perhaps the critical element is the driver circuitry?
+What about a portable PC/Mac/etc., where all the "noise" is bunched into one tiny area?

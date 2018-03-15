@@ -1,0 +1,3 @@
+To draw polygons of course.
+Its a VGA mode 13h (320x200) game, done in C and ASM.
+I need a faster way to draw concave polygons that the method I have right now, which is very slow.

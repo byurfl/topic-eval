@@ -1,0 +1,4 @@
+How hard would it be to somehow interface them to some of the popular Motorola microcontrollers.
+I am a novice at microcontrollers, but I am starting to get into them for some of my projects.
+I have several 256k SIMMs laying around from upgraded Macs and if I could use them as "free" memory in one or two of my projects that would be great.
+One project that comes to mind is a Caller ID device that would require quite a bit of RAM to store several hundered CID records etc... - Dan -- Daniel Joseph Rubin rubin@cis.ohio-state.edu GO BENGALS!

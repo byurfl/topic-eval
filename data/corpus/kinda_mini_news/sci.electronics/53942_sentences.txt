@@ -1,0 +1,8 @@
+I would suggest Draw for Windows (by Micrografx).
+I have this on my home box.
+Its quite impressive and only cost UKL100.
+It has a rather nice clip-art library facility which you can expand with your own drawings.
+There is no circuit component clip-art included, but you could add your own quite easily.
+It works with any Windows printer driver of course, and can also export embedded postscript and PCX files.
+Note: I am not connected with Micrografx in any way.
+| Tel: +44 245 73331 ext 3245

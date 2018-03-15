@@ -1,0 +1,6 @@
+The reason for the colour of the boards depends on the solder mask that is used.
+Older boards (bakelite and phenolic) rarely used a solder mask (these boards are not suited well to automatic stuffing and soldering techniques) and hence are the colour of the compound used to make them.
+These days boards are made of fibreglass for most general purpose uses and have a solder mask applied to them to prevent close traces shorting to one another during soldering (and also to prevent the decomposition of traces under harsh environments).
+The light and dark green boards ofter seen have a "dry film" mask applied to them (usually applied as a complete film photographically produced).
+The blue (and red or orange) boards are a two-part epoxy or a liquid-imageable resist formulation and are applied in a different manner.
+There's a lot of info about the pro's and con's of each, but that's another story... Sla/n go fo/ill, Risky B.

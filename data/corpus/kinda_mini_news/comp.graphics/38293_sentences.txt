@@ -1,0 +1,16 @@
+: Hi Netters, : : I'm building a CAD package and need a 3D graphics library that can handle : some rudimentry tasks, such as hidden line removal, shading, animation, etc.
+: : Can you please offer some recommendations?
+: : I'll also need contact info (name, address, email...) if you can find it.
+: : Thanks : : (Please Post Your Responses, in case others have same need) : : Bob Carpenter : The following is extracted from sumex-aim.stanford.edu.
+It should also be on the mirrors.
+I think there is source for some applications that may have some bearing on your project.
+Poke around the source directory.
+I've never used this package, nor do I know anyone who did, but the price is right :-) Hope this helps.
+Cheinan Abstracts of files as of Thu Apr 1 03:11:39 PST 1993 Directory: info-mac/source #### BINHEX 3d-grafsys-121.hqx **** Date: Fri, 5 Mar 93 14:13:07 +0100 From: Christian Steffen Ove Franz To: questions@mac.archive.umich.edu Subject: 3d GrafSys 1.21 in incoming directory A 3d GrafSys short description follows: Programmers 3D GrafSys Vers 1.21 now available.
+Version 1.21 is mainly a bugfix for THINK C users.
+THIS VERSION NOW RUNS WITH THINK C, I PROMISE!
+The Docs now contain a chapter for C programmers on how to use the GrafSys.
+If you have problems, feel free to contact me.
+The other change is that I removed the FastPerfTrig calls from the FPU version to make it run faster.
+Those of you who don't know what all this is about, read on.
+******** Programmers 3D GrafSys -- What it is:

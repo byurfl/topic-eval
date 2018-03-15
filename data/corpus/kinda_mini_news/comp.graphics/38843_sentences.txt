@@ -1,0 +1,4 @@
+There are many methods of rendering, raytracing is one of them.
+You didn't say what you mean by rendering, so I won't guess.
+Methods of rendering include: o Pencil and graph paper, doing the math by hand o Wireframe rendering of the 2D projection o Hidden line rendering o Scanline rendering using: - Painter's algorithm.
+- Z buffer - Other o Raytracing o Radiosity o Holographic projection to film o Combination of any of the above ______________________________________________________________________________ Steve Hollasch Kubota Pacific Computer, Inc. hollasch@kpc.com Santa Clara, California

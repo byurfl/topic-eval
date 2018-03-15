@@ -1,0 +1,5 @@
+Now, if you were merely to *claim* that you have written random junk over the XOR key, no-one would be able to tell whether or not you were telling the truth.
+This is (a) perjury, and (b) vunerable to rubber-hose cryptography, but otherwise effective.
+__ _____ \/ o\ Paul Crowley pdc@dcs.ed.ac.uk \\ // /\__/ Trust me.
+I know what I'm doing.
+\X/ Fold a fish for Jesus!

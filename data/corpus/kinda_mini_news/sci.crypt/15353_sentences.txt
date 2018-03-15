@@ -1,0 +1,3 @@
+I don't know about classified, but I do seem to remember that unless you're authorized by the Govt, it's illegal to TEMPEST-shield your equipment.
+Besides, effective TEMPEST-shielding is much more difficult than you might think (hi Jim!).
+RA rogue@cs.neu.edu (Rogue Agent/SoD!)

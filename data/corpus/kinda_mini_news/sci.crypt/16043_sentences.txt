@@ -1,0 +1,2 @@
+In article jhart@agora.rain.com (Jim Hart) writes: "The security of the system should depend only on the secrecy of the keys and not on the secrecy of the algorithms" -- Dorothy Denning Cite source, please.
+"Cryptography and Data Security", page 8, perhaps.

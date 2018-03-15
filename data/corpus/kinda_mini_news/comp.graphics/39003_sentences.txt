@@ -1,0 +1,13 @@
+In article , jk87377@lehtori.cc.tut.fi (Kouhia Juhana) writes: In article C.C.Lilley@mcc.ac.uk writes: In article , jk87377@lehtori.cc.tut.fi (Kouhia Juhana) writes: I wrote something about making color modifications quickly with 8bit quantized images and only at the saving the image to file process we have to make the modifications to the 24bit image.
+This makes sense, because the main use of XV is only viewing images.
+Doing many changes to image, we should keep all modifications in a buffer; and then before making the operations to 24bit image, we should simplify the operation list for unnecessary operations.
+Think about what you are saying here.
+The 24 bit image is quantised down to 8 bits so many 'similar' colours are mapped onto a single palette colour.
+This colour gets modified in fairly arbitrary ways.
+You then want to apply these modifications back to the 24 bit file, so you have to find which colours mapped to this one palette colour.
+I suppose you don't know what about we have discussed.
+We discussed about error(s) in XV 2.21 which shows images only as 8bit, and my suggestion above works perfectly with it.
+First you post something that seems to suggest that you see xv being an 8 bit program as some sort of error.
+So I post and asy it is not a bug, it is meant to be like that.
+So you post and say it is not a bug, you never said it was, I have misunderstood etc.
+Now you are saying: We discussed about error(s) in XV 2.21 which shows images only as 8bit, If you would make up your mind what you are claiming it would make the discussion a *lot* easier.

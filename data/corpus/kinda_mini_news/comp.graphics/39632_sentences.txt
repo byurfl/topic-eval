@@ -1,0 +1,4 @@
+I get regular questions about gamma correction since I go to great pains to deal with it properly in xli (the image loader program I maintain).
+Here is an explanation I often use to answer these questions.
+This might be suitable for inclusion in the FAQ.
+########################################################################### "A note on gamma correction and images" Author: Graeme W. Gill graeme@labtam.oz.au Date: 93/5/16 "What is all this gamma stuff anyway ?"

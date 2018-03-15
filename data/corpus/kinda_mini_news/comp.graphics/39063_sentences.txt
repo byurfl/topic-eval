@@ -1,0 +1,3 @@
+Thanks in advance for any information you can give me.
+(I know there is a Unix command, "ftp," that will allow me to do this, but first I need to know where to go to find the file I want download via ftp, etc.
+Thomas Helke egret@wet.UUCP // ::wq!

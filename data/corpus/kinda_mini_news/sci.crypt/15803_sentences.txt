@@ -1,0 +1,9 @@
+There's an out for him.
+The announcement talked about strong cryptography I believe.
+Specifically: nor is the U.S. saying that "every American, as a matter of right, is entitled to an unbreakable commercial encryption product."
+Every vendor claims his product is unbreakable -- so this was sloppy wording.
+I am not claiming that we private citizens should have access to the NSA's best, secret algorithms.
+I don't want any NSA algorithms, actually.
+I'll let them break my pitiful amateur algorithms -- and RSA's.
+All I want is what I have already -- the ability and right to invent and use my own algorithms, share them with my friends and sell them.
+-- - - Carl Ellison cme@sw.stratus.com - Stratus Computer Inc. M3-2-BKW TEL: (508)460-2783 - 55 Fairbanks Boulevard ; Marlborough MA 01752-1298 FAX: (508)624-7488

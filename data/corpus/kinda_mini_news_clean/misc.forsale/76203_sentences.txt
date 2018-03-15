@@ -1,0 +1,9 @@
+fred 
+psychology 
+department 
+university 
+of 
+delaware 
+newark 
+de 
+usa 

@@ -1,0 +1,3 @@
+True, all you need to define is one statement that defined one polarity, and all the other states are considered the other polarity.
+Then again what is the meaning of nil, false or true :-) ?
+ALink: KSAND -- Private activities on the net.

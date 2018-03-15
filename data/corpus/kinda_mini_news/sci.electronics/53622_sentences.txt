@@ -1,0 +1,4 @@
+How thick do I need to make a PCB trace for 15 Amps of current?
+and Does anybody have any other thoughts on the process (what kind of PCB to use, materials, thickness of copper, any advice graciously accepted)?
+In four replies, I've seen no hard numbers, so here goes: For traces on the outside (not inner layers), expect, in 1 oz copper, at 15 amps, the following temperature rises versus width.
+This is from Sams' "Reference Data for Engineers," seventh edition, Pg 5-30, which claims in turn to be from MIL-STD-275C... width Temp rise inches degrees C

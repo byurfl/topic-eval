@@ -1,0 +1,4 @@
+If you put another computer on the port instead of the key, you can hack them by reading what happens.
+So I've been told, I've never seen this done but I think it's possible.
+You'd need some hardware knowledge and some software to read the port!
+vamilliron@othello.ucd.edu -my apologies if I rambled, but vi inhibits my communication skills greatly.

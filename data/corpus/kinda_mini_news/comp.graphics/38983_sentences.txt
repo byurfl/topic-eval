@@ -1,0 +1,3 @@
+When I tried to run it, it just said "Couldn't run go32.exe" and halts.
+What's the matter with this?
+Are there some files missing in the .zip?

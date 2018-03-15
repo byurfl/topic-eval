@@ -1,0 +1,4 @@
+It depends on your monitor and your timing.
+If you don't have enough vertical front porch and you use XOR composite sync you can get even/odd tearing at the top of the screen, which is very sensitive to the HHOLD control.
+It looks like what you would expect if you scanned the even fields (say) onto a sheet of mylar and had pinched the upper left corner with your fingers and started to tear it off the tube.
+With proper composite sync (equalizing pulses) the interlace is rock solid.

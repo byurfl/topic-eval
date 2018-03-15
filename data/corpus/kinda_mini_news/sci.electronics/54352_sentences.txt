@@ -1,0 +1,3 @@
+It's possible to make boards in other colors, and I have an ad for laser light-show equipment which offers the circuit boards in your choice of Day-Glo (tm) colors.
+The usual light green color is just the natural color of Fiberglas.
+The dark green or blue is the solder mask layer, and I suspect that color is a dye.

@@ -1,0 +1,4 @@
+Try a differential amplifier.
+Put back-to-back diodes between the collectors restrict the voltage swing.
+Have 10 mA flow, with 500 ohm collector Rs, and keep the stray C below 10 pF.
+Run collector to your logic.

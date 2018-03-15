@@ -1,0 +1,24 @@
+It helps to have some idea of the source of the distortion - or at least a reasonable model of the class of distortion.
+Below is a very short description of the process which we use; if you have further questions, feel free to poke me via e-mail.
+===============================================================*ASSUME: locally smooth distortion 0) Compute the Delaunay Triangulation of your (x,y) points.
+This defines the set of neighbors for each point.
+If your data are not naturally convex, you may have very long edges on the convex hull.
+Consider deleting these edges.
+1) Now, there are two goals: a) move the DistortedData(x,y) to the Reference(x,y) b) keep the Length(e) (as measured from the current (x,y)'s) as close as possible to the DigitizedLength(e) (as measured using the digitized (x,y)'s).
+2) For every point, compute a displacement based on a) and b).
+For example: a) For (x,y) points for which you know the Reference(x,y), you can move alpha0*(Reference(x,y) - Current(x,y)).
+This will slowly move the DistortedReference(x,y) towards the Reference(x,y).
+b) For all other points, examine the current length of each edge.
+For each edge, compute a displacement which would make that edge the correct length (where "correct" is the DigitizedLength).
+Take the vector sum of these edge displacements, and move the point alpha1*SumOfEdgeDisplacements.
+This will keep the triangulated mesh consistent with your Digitized mesh.
+3) Iterate 2) until you are happy (for example, no point moves very much).
+alpha0 and alpha1 need to be determined by experimentation.
+Consider how much you believe the Reference(x,y) - i.e., do you absolutely insist on the final points exactly matching the References, or do you want to balance some error in matching the Reference against changes in length of the edges.
+WARNING: there are a couple of geometric invariants which must be observed (essentially, you can't allow the convex hull to change, and you can't allow triangles to "fold over" neighboring triangles.
+Both of these can be handled either by special case checks on the motion of individual points, or by periodically re-triangulating the points (using the current positions - but still calculating DigitizedLength from the original positions.
+When we first did this, the triangulation time was prohibitive, so we only did it once.
+If I were motivated to try and change code that has been working in production mode for 5 years, I *might* go back and re-triangulate on every iteration.
+If you have more compute power than you know what to do with, you might consider having every point interact with every other point....but first read up on linear solutions to the n-body problem.
+There are lots of papers in the last 10 years of SIGGRAPH proceedings on springs, constraints, and energy calculations which are relevant.
+The above method is described, in more or less detail in: @inproceedings{Sloan86, author="Sloan, Jr., Kenneth R. and David Meyers and Christine A.~Curcio", title="Reconstruction and Display of the Retina", booktitle="Proceedings: Graphics Interface '86 Vision Interface '86", address="Vancouver, Canada", pages="385--389", month="May", year86 } @techreport{Curcio87b, author="Christine A.~Curcio and Kenneth R.~Sloan and David Meyers", title="Computer Methods for Sampling, Reconstruction, Display, and Analysis of Retinal Whole Mounts", number="TR 87-12-03", institution="Department of Computer Science, University of Washington", address="Seattle, WA", month="December", year87 } @article{Curcio89, author="Christine A.~Curcio and Kenneth R.~Sloan and David Meyers", title="Computer Methods for Sampling, Reconstruction, Display, and Analysis of Retinal Whole Mounts", journal="Vision Research", volume, number=5, pages="529--540", year89 } -- Kenneth Sloan Computer and Information Sciences sloan@cis.uab.edu University of Alabama at Birmingham (205) 934-2213 115A Campbell Hall, UAB Station (205) 934-5473 FAX Birmingham, AL 35294-1170

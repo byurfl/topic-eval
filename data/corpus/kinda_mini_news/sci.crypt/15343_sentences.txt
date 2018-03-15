@@ -1,0 +1,5 @@
+The system as described here can't possibly work.
+What happens when someone plugs the above ciphertext into a receiving chip?
+To get M the receiving chip needs K_P; to get K_P the receiving chip needs U_C.
+The only information it can work with is C. If U_C can be computed from C then the system is cryptographically useless and the ``key escrow'' is bullshit.
+Otherwise how is a message decrypted?

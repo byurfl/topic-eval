@@ -1,0 +1,6 @@
+HP64220C (for HP 64100 development station).
+Does not include board that plugs into the 64100.
+Applied Microsystems 80C186/188 pod, LCC head.
+If you have an interest in either, let me know.
+They look to be in excellent condition.
+He doesn't know what to do with them, which may mean that they'll be cheap.

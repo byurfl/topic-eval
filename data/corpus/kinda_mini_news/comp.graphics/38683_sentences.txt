@@ -1,0 +1,4 @@
+A very good modeling package I found is `irit' (look for irit.tar.Z).
+However there is no converter from it's format to POV format.
+I postet a request for such a converter in this group but got no response, so I'm considering to write such a program myself.
+-- Sebastian Schmidt TU Ilmenau Institut f. praktische Informatik

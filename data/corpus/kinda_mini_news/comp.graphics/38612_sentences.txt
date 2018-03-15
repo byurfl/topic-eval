@@ -1,0 +1,5 @@
+I've talked with Mark and he faxed some literature, though it wasn't very helpful- just a list of routine names: _BSplineSurface, _DrawString3D... 241 names.
+There was a Product Info sheet that explained some of the package capabilities.
+I also found a review in April/May '92 MacTutor.
+It does look like a good package.
+The current price is $295 US.

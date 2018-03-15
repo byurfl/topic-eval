@@ -1,0 +1,6 @@
+53 seconds to hash 20M of core (I bet I know who the source of your information is!).
+No, it's not acceptable if it's part of your login process.
+But if you are going to use network traffic as the source of pseudo-random information, do the right thing and pass it through a cryptographic hash function, not a compressor.
+Aside from the fact that it will run faster, it will give better results (think of a cryptographic hash as a function that "distills" randomness).
+Something along the lines of etherfind -t -x -n | dd bs=1k count 2 /dev/null | md5 should do the trick.
+-t gives you timestamps, and the lack of -u makes sure that dd does not get ten lines as opposed to ten K. The above takes a couple of seconds on a lightly-loaded ethernet.

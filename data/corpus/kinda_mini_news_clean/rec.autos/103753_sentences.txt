@@ -1,0 +1,6 @@
+smoke 
+hard 
+smoke 
+fast 
+lincoln 
+continental 

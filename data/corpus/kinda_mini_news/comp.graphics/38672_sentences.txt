@@ -1,0 +1,3 @@
+I don't know about that...I've used Photoshop 2.5 on both a 486dx-50 and a Quadra 950...I'd say they are roughly equal.
+If anything the 486 was faster.
+Both systems were running in 24 bit color and had the same amount of RAM (16 megs) I also believe the quadra had one of those photoshop accelerators.

@@ -1,0 +1,14 @@
+Q: Who was consulted?
+A: We have on-going discussions with Congress and industry on encryption issues, and expect those discussions to intensify as we carry out our review of encryption policy.
+We have briefed members of Congress and industry leaders on the decisions related to this initiative.
+So we're playing politics before we talk to CPSR, academia, the public, internet users?
+I`ve heard of top-down design, but top-down democracy??
+[Just whose state/district are the chip manufacturers in?]
+Q: If the Administration were unable to find a technological solution like the one proposed, would the Administration be willing to use legal remedies to restrict access to more powerful encryption devices?
+A: This is a fundamental policy question which will be considered during the broad policy review.
+[...bs about the wonderfulness of the key escrow system...] The Administration is not saying, "since encryption threatens the public safety and effective law enforcement, we will prohibit it outright" (as some countries have effectively done); They'll just provide an easily-compromised version to JQ Public.
+nor is the U.S. saying that "every American, as a matter of right, is entitled to an unbreakable commercial encryption product."
+Maybe we need a CRA -- Cryptographic Rights Amendment.
+There is a false "tension" created in the assessment that this issue is an "either-or" proposition.
+Rather, both concerns can be, and in fact are, harmoniously balanced through a reasoned, balanced approach such as is proposed with the "Clipper Chip" and similar encryption techniques.
+But why am I not soothed?

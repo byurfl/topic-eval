@@ -1,0 +1,5 @@
+newsgroups 
+distribution 
+na 
+subject 
+sony 

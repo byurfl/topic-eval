@@ -1,0 +1,7 @@
+I can buy a DES keysearch machine off the shelf now for approx $500K, but it is not sold by that name.
+Go buy a circuit emulation machine (eg.
+Quickturn) containing a bunch of FPGAs, (say 500 to 1000 3090's), and program each to be a DES search engine.
+Lets say 500 chips, running at 10Mhz = 5G tests/sec.
+Time is 14e6 sec max = 23 weeks, 12 weeks average.
+Can't wait that long?
+Buy a bigger machine.

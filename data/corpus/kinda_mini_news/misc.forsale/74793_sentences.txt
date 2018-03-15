@@ -1,0 +1,5 @@
+IMHO, it seems to be worth the $40 to upgrade.
+DoubleSpace seems a bit saner than Stacker 2.0 (which I've replaced).
+MemMaker is nowhere near as aggressive as QEMM, but it doesn't hose my system like QEMM did (at least it hasn't yet).
+Microsoft AntiVirus is just the latest version (or a reasonably recent one) of CPAV - mine was very aged, so this was quite welcome.
+MS-DOS 6.0 ain't the end all, be all of operating systems - but it's better than a sharp stick in the eye, unless you happen to be into that sort of thing.

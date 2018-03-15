@@ -1,0 +1,8 @@
+I can not help you directly width you problem, but there may be intermediate roads to take to get to the IFF.
+I am using a converter that can take IGES, IIF, DXF - IGES, MILESPEC I IGES, MILESPEC II IGES, IIF, MILESPEC I IIF, MILESPEC II IIF and DXF.
+IIF is IBM IGES FORMAT.
+There may be converters out there that can handle IGES to IFF.
+Hope this was to any help.
+By the way the converter is part of the IGES Processor/6000 package from IBM and it runs on RS/6000 AIX.
+Best regard Finn Chr.
+Lundbo IBM Bergen Environmental Sciences & Solutions Centre.

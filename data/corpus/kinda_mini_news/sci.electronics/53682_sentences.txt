@@ -1,0 +1,1 @@
+2SC1096 Maximum Ratings: VCBO = 40V VCEO = 30V IC = 3A PC = 10W (TC) ICBO max = 1uA VCB = 30V COB = 55pF at Q-point VCE=5, IC -- hfe = 100 2SA634 Maximum Ratings: VCBO = -40V VCEO = -30V IC = -3A PC = 10W (TC) ICBO max = -1uA VCB = -30V COB = 75pF at Q-point VCE = -5V, IC = -1A -- hfe = 100 That's all i can get from my data book, hope that helps.

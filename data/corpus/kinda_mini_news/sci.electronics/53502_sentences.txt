@@ -1,0 +1,5 @@
+My impression -- it's not an area I've played with much -- is that the much-beloved NE567 is basically obsolete.
+If you want to detect a 1kHz tone, set a switched-capacitor filter chip to that frequency, feed your input to it, and see if anything comes out the other end.
+The NE567 was what you used when good clean bandpass filters were hard to do; nowadays they're easy, and the results are better.
+-- All work is one man's work.
+| Henry Spencer @ U of Toronto Zoology - Kipling | henry@zoo.toronto.edu utzoo!henry

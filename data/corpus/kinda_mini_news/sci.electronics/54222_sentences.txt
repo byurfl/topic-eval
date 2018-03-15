@@ -1,0 +1,1 @@
+Well, if you're willing to spend a little money, you could buy one of those IDE caching controllers (assuming you have an IDE of course) and put the 256K SIMMs on them.

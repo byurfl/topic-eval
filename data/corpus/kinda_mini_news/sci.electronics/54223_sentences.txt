@@ -1,0 +1,1 @@
+The lead-acid secondary cell releases energy (electricity) with the following chemical reaction: Pb + PbO2 + 2H2SO4 -- 2PbSO4 + 2H20 Lead and Lead (IV) Oxide and Sulfuric Acid produce Lead Sulfate and Water The standard heats of formation at 25 C (77 F) of the various compounds are: Heat of formation Compound at 25 C, kcal/mole

@@ -1,0 +1,6 @@
+If you have the GRASP animation system, then yes, it's quite easy.
+You simply use GLIB to extract the image (each "frame" in a .GL is actually a complete .PCX or .CLP file), then use one of MANY available utilities to convert it.
+If you don't have the GRASP package, I'm afraid I can't help you.
+By the way, before you ask, GRASP (GRaphics Animation System for Professionals) is a commercial product that sells for just over US$300 from most mail-order companies I've seen.
+And no, I don't have it.
+:) Corey Webb ____________________________________________________________________ | Corey Webb | "For in much wisdom is much grief, and | | cbw790s@vma.smsu.edu | he that increaseth knowledge increaseth | | Bitnet: CBW790S@SMSVMA | sorrow."
