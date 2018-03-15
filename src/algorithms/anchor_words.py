@@ -1,21 +1,26 @@
-import algorithms.ankura.ankura.pipeline as pipeline
-import algorithms.ankura.ankura.anchor as anchor
-import algorithms.ankura.ankura.corpus as corpus
-import algorithms.ankura.ankura.validate as validate
-import algorithms.ankura.ankura.topic as topics
+import src.algorithms.ankura.pipeline as pipeline
+import src.algorithms.ankura.anchor as anchor
+import src.algorithms.ankura.corpus as corpus
+import src.algorithms.ankura.validate as validate
+import src.algorithms.ankura.topic as topics
 
 from sklearn.linear_model import LogisticRegression as lr
 import os,regex,gensim,random, operator
 import numpy as np
 
-from algorithms.algorithm import Algorithm
+from src.algorithms.algorithm import Algorithm
+
+#r'C:\Users\leer1\Documents\aaPERSONAL\School\CS698R (F2017)\data\corpora\ohsumed-all\ohsumed.pickle', docs_path=r'C:\Users\leer1\Documents\aaPERSONAL\School\CS698R (F2017)\data\corpora\ohsumed-all\ohsumed.str'
+
+stop_word_path = r"./data/english_stopwords.txt"
+pickle_path = ""
 
 class AnchorWords(Algorithm):
     def load_input(self):
         pipe = None
         input = self.get_files(self.input_path)
 
-        stopwords = [w.strip() for w in open(r'C:\Users\leer1\Documents\aaPERSONAL\School\CS698R (F2017)\data\english_stopwords.txt', 'r', encoding='utf-8')]
+        stopwords = [w.strip() for w in open(stop_word_path, 'r', encoding='utf-8')]
 
         inputter = pipeline.file_inputer(*input)
         extractor = pipeline.whole_extractor() if os.path.isdir(self.input_path) else pipeline.line_extractor(delim='\t')
@@ -50,7 +55,7 @@ class AnchorWords(Algorithm):
                 pipeline.noop_labeler(),
                 pipeline.keep_filterer()
             )
-            self.reference = p2.run(pickle_path=r'C:\Users\leer1\Documents\aaPERSONAL\School\CS698R (F2017)\data\corpora\ohsumed-all\ohsumed.pickle', docs_path=r'C:\Users\leer1\Documents\aaPERSONAL\School\CS698R (F2017)\data\corpora\ohsumed-all\ohsumed.str')
+            self.reference = p2.run(pickle_path=pickle_path)
 
     def run(self):
         self.topics = anchor.anchor_algorithm(self.corpus, 100, doc_threshold=10)
@@ -69,7 +74,7 @@ class AnchorWords(Algorithm):
 
     def evaluate(self, method, score_file, iteration_counter=None):
         if method == 'coherence':
-            scores = validate.coherence(self.reference, topics.topic_summary(self.topics))
+            scores = validate.coherence(self.reference, np.asarray(topics.topic_summary(self.topics)))
 
             scores_file = os.path.join(self.output_path, 'coherence.txt') \
                 if iteration_counter == None \

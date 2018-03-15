@@ -1,5 +1,15 @@
 import argparse, os
 
+ITERATIONS = 2
+
+if os.environ["COMPUTERNAME"] == 'DALAILAMA':
+    import sys
+    path = r"D:\PyCharm Projects\py-sam-master\topic-eval"
+    os.environ["HOME"] = r"D:\PyCharm Projects\py-sam-master\topic-eval\data\corpus;"
+    sys.path.append(path)
+    os.chdir(path)
+    ITERATIONS = 2
+
 class AlgorithmEvaluator:
     def __init__(self, algorithm, input_path, output_path, reference_path=None, filter_string=r'_sentences\.txt$'):
         self.input_path = input_path
@@ -10,24 +20,24 @@ class AlgorithmEvaluator:
 
     def select_algorithm(self, alg):
         if alg == 'lda':
-            from algorithms.lda import LDA
+            from src.algorithms.lda import LDA
             self.algorithm = LDA(self.input_path, self.output_path, reference_path=self.reference_path)
 
         elif alg == 'lda_sup':
-            from algorithms.sup_lda import SupervisedLDA
+            from src.algorithms.sup_lda import SupervisedLDA
             self.algorithm = SupervisedLDA(self.input_path, self.output_path)
 
         elif alg == 'anchors':
-            from algorithms.anchor_words import AnchorWords
-            self.algorithm = AnchorWords(self.input_path, self.output_path, self.reference_path, self.filter_string)
+            from src.algorithms.anchor_words import AnchorWords
+            self.algorithm = AnchorWords(self.input_path, self.output_path, reference_path=self.reference_path, filter_string=self.filter_string)
 
         elif alg == 'anchors_sup':
-            from algorithms.anchor_words import SupervisedAnchorWords
+            from src.algorithms.anchor_words import SupervisedAnchorWords
             self.algorithm = SupervisedAnchorWords(self.input_path, self.output_path)
 
         elif alg == 'sam':
-            from algorithms.spherical_admixture import SAM
-            self.algorithm = SAM(self.input_path, self.output_path)
+            from src.algorithms.spherical_admixture import SphericalAdmixture
+            self.algorithm = SphericalAdmixture(self.input_path, self.output_path, reference_path=self.reference_path)
 
     def run_algorithm(self):
         self.algorithm.run()
@@ -55,10 +65,11 @@ if __name__ == '__main__':
     #####
     parser.add_argument('--algorithm', required=True, choices=['lda', 'lda_sup', 'anchors', 'anchors_sup', 'sam'], help='Algorithm to use. Options are lda, lda_sup, anchors, anchors_sup, sam. **Note that SAM is still unimplemented.')
     parser.add_argument('--input', required=True, help='Path to folder containing input documents, or to a single document containing an entire corpus.')
-    parser.add_argument('--filter', required=False, default=r'_sentences\.txt', help=r'Regular expression to filter input files with. Defaults to "_sentences\.txt$".')
+    parser.add_argument('--filter', required=False, help=r'Regular expression to filter input files with. By default, no filter is used.')
     parser.add_argument('--output', required=True, help='Path to a folder to receive output documents')
     parser.add_argument('--reference', required=False, help='Path to a folder containing reference documents, or to a single document containing an entire reference corpus.')
     parser.add_argument('--evaluation', required=True, choices=['accuracy', 'fmeasure', 'coherence'], help='Method for evaluating results. Options are accuracy, fmeasure, coherence. Accuracy and F-measure are for supervised approches, coherence is for unsupervised approaches.')
+    #parser.add_argument('--corpus_codec', required=False, help='Codec for corpus.')
     args = parser.parse_args()
 
     eval = AlgorithmEvaluator(args.algorithm, args.input, args.output, args.reference, args.filter)
@@ -66,8 +77,12 @@ if __name__ == '__main__':
     eval.load_inputs()
     print('done.')
 
+    # Create output if needed
+    if not os.path.isdir(args.output):
+        os.mkdir(args.output)
+
     with open(os.path.join(args.output, 'avg_coherences.txt'), 'w', encoding='utf-8') as score_file:
-        for i in range(30):
+        for i in range(ITERATIONS):
             print('Iteration ' + str(i) + ': Recovering topics...', end='')
             eval.run_algorithm()
             print('done.')
